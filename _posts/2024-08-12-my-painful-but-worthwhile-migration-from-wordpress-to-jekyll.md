@@ -206,10 +206,10 @@ Just add the following to the Front Data of your post, replacing the URL
 and description, of course.
 
 ```yaml
-description: 'This in an example description'
+description: This in an example description
 image:
-  path: 'https://example.com/asets/featured.png'
-  alt: `An optional description/caption'
+  path: https://example.com/asets/featured.png
+  alt: An optional description/caption
 ```
 
 > If it has one, copy the description form the source HTML
