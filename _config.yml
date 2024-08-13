@@ -120,6 +120,8 @@ comments:
     repo: seanthegeek/seanthegeek.github.io
     repo_id: R_kgDOMiMHdg
     category: giscus
+    category_id: DIC_kwDOMiMHds4Chllj
+    theme: dark
     mapping: # optional, default to 'pathname'
     strict: 1 # optional, default to '0'
     input_position: # optional, default to 'bottom'
