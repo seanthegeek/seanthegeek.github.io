@@ -1,0 +1,151 @@
+---
+layout: post
+status: publish
+published: true
+title: 'PSA: The latest Google Chrome release trips EMET''s EAF+ mitigation'
+permalink: /140/google-chrome-trips-emets-eaf-mitigation/
+description: 'Microsoft EMET can sometimes conflict with legitimate software. Learn how to fix EMET so EAF+ does not crash the new Google Chrome release.'
+image:
+  path: /assets/images/EMET_Chrome.png
+wordpress_id: 140
+wordpress_url: https://seanthegeek.net/?p=140
+date: '2016-09-09 13:32:36 +0000'
+date_gmt: '2016-09-09 13:32:36 +0000'
+categories:
+- Information Security
+tags:
+- EMET
+- Google Chrome
+comments:
+- id: 30
+  author: Hao Ban
+  author_url: ''
+  date: '2017-01-05 23:05:15 +0000'
+  date_gmt: '2017-01-05 23:05:15 +0000'
+  content: Hi Sean, I follow your Command line steps, but the annoy crash still happened.
+    So what can I do? My chrome version is 55.0.2883.87 m (64-bit) and EMET 5.5. Btw,
+    I set the GPO, "Default Protections for Popular Software" is enabled.
+- id: 79
+  author: Sean Whalen
+  author_url: ''
+  date: '2017-05-19 12:30:52 +0000'
+  date_gmt: '2017-05-19 12:30:52 +0000'
+  content: Sorry, I just noticed this comment. The GPO is overriding the local settings
+    that you are trying to apply via command line. You will need to change the follow
+    the GPO instructions in this article instead.
+---
+When Google Chrome updated to 53.0.2785.101 on my Windows systems, I
+encountered an onslaught of alerts from EMET, which was killing chrome.exe
+processes for EAF+ violations as fast as Chrome kept trying to spawn them
+(each tab in Chrome is a separate process). Luckily, this problem is easily
+fixable.
+
+## Event log flood
+
+Here is one of many similar errors that were recorded in the Windows
+Application log in Event Viewer:
+
+> EMET version 5.51.6024.23768  
+> EMET detected EAF+ (GuardPage) mitigation and will close the application:
+> chrome.exe
+>
+> EAF+ (guard page) check failed:  
+> Application     : C:\Program Files
+> (x86)\Google\Chrome\Application\chrome.exe  
+> User Name     : sean  
+> Session ID     : 1  
+> PID         : 0x1FE4 (8164)  
+> TID         : 0x9C8 (2504)  
+> Module     : chrome_child.dll  
+> Mod Base     : 0x00007FFE3CE90000  
+> Mod Address     : 0x00007FFE3D66BDA5  
+> Mem Address     : 0x00007FFE3CE901C8
+
+## What is EAF+?
+
+Export Address Table Access Filtering Plus (EAF+) is described in the EMET
+[User Guide](https://www.microsoft.com/en-us/download/details.aspx?id=53355)
+as:
+
+> ...an extension of EAF that can be used independently or in combination with
+> EAF itself. Following is the list of actions that this mitigation performs:
+>
+> * Detects if the stack register is out of the allowed boundaries
+> * Detects mismatch of stack and frame pointer registers;
+> * Detects memory read access to export table pointers of KERNEL32, NTDLL
+> and KERNELBASE originated from specific modules (typically used during the
+> exploitation of memory corruption vulnerabilities);
+> * Detects memory read accesses to the MZ/PE header of specific modules
+> (typically used during the exploitation of memory corruption
+> vulnerabilities).
+>
+>
+>
+> The actions described in the last two bullet points require users to specify
+> a set of modules that will be used for validation; if no modules are
+> specified, these two actions will be ignored.
+
+TL;DR? It Prevents processes from corrupting memory in ways that could be used
+to exploit vulnerabilities.
+
+## Why is this happening now?
+
+EAF+ has been enabled for Chrome by default ever since the feature was added
+to EMET, and it has not caused issues until now. Most likely, a change was
+made to  chrome_child.dll in the new version of the browser that causes the
+DLL to access memory in an abnormal way.
+
+## What's the fix?
+
+Disable EAF+ for chrome.exe in EMET's configuration until Chrome and/or EMET
+gets an update that will fix this. There are different ways of doing this,
+depending on how you deployed EMET.
+
+### Using the EMET GUI
+
+Open the EMET GUI and click on Apps. Search for chrome, uncheck the EAF+
+mitigation, and click OK.
+
+[![A scrreenshot of the EMET app config for
+chrome.exe](/assets/images/emet_app_configuration.png)](/assets/images/emet_app_configuration.png)
+
+### Group Policy
+
+Edit the Application Configuration option in the EMET Group Policy settings.
+
+In the left column, enter:
+
+    *\Google\Chrome\Application\chrome.exe
+
+In the right column, enter:
+
+    -EAF+
+
+### Command line
+
+Create a copy of C:\Program Files (x86)\EMET 5.5\Deployment\Protection
+Profiles\Popular Software.xml and edit it.
+
+Locate the following:
+
+         chrome_child.dll
+
+Change
+
+to
+
+Save the file, distribute it to your systems, and run a command like this on
+each of them (write a script!):
+
+    C:\Program Files (x86)\EMET 5.5\EMET_Conf.exe --import Popular Software.xml
+
+My [EMET deployment
+scripts](https://github.com/seanthegeek/powertools/tree/master/EMET) take care
+of this for you.
+
+## A little work for strong protection
+
+EMET will occasionally break software. As a result, some don't want to bother
+with it. But such problems are so rare, and so easily fixable that the
+benefits greatly outweigh a little extra work. Hopefully Google will release
+an update soon that will not require this EMET configuration change.
