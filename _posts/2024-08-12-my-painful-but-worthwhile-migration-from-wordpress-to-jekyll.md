@@ -64,12 +64,11 @@ feature set that looked like exactly what I needed, mainly:
 - Automatically converting posts from HTML to Markdown
 - Automatically downloading post images and other content
 
-However, `exitwp` isn't a viable option anymore  only supports Python 2, and all
-modern Linux distributions and macOS releases only support Python 3. The owner
-also archived the project on Jun 3, 2020.
+However, `exitwp` isn't a viable option anymore. It only supports Python 2, and all modern Linux distributions and macOS releases only support Python 3. The
+owner of the project also archived it on Jun 3, 2020.
 
 With those two options gone, I turned to the official Jekyll
-[importer](https://import.jekyllrb.com/). I tried the WordPress and
+[importers](https://import.jekyllrb.com/). I tried the WordPress and
 WordPress.com importers, with mixed results.
 
 ### The Jekyll Importer for WordPress
