@@ -68,7 +68,7 @@ modern Linux distributions and macOS releases only support Python 3. The owner
 also archived the project on Jun 3, 2020.
 
 With those two options gone, I turned to the official Jekyll
-[importer](https://import.jekyllrb.com/). I tried thw WordPress and
+[importer](https://import.jekyllrb.com/). I tried the WordPress and
 WordPress.com importers, with mixed results.
 
 ### The Jekyll Importer for WordPress
