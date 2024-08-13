@@ -596,8 +596,7 @@ sudo snap install certbot
 sudo snap set certbot trust-plugin-with-root=ok  
 ```
 
-Install the certbot [DNS plugin](https://eff-
-certbot.readthedocs.io/en/stable/using.html#dns-plugins) for your nameserver
+Install the certbot [DNS plugin](https://eff-certbot.readthedocs.io/en/stable/using.html#dns-plugins) for your nameserver
 hosting provider. For example, for GCP DNS run the following command.
 
 ```bash

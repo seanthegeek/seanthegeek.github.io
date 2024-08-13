@@ -179,7 +179,7 @@ on the enable macros button by claiming that they are needed decode, decrypt,
 or view the document.
 
 [![A screenshot of a simple macro lure that would drop ransomware if
-enabled](/assets/images//simple_macro_lure.png)](/ssets/images/simple_macro_lure.png)
+enabled](/assets/images//simple_macro_lure.png)](/assets/images/simple_macro_lure.png)
 
 Some of these documents are much more detailed, and can be very official
 looking. The one in the screenshot below is designed to look like a QuickBooks
@@ -280,8 +280,7 @@ Focus your patching efforts on:
 
 kiosks, etc.
 
-[![A screenshot of the EMET GUI](/assets/images/EMET-GUI-
-Screenshot.png)](/assets/images/EMET-GUI-Screenshot.png)
+[![A screenshot of the EMET GUI](/assets/images/EMET-GUI-Screenshot.png)](/assets/images/EMET-GUI-Screenshot.png)
 
 The [Microsoft Enhanced Mitigation Experience Toolkit
 (EMET)](https://technet.microsoft.com/en-us/security/jj653751) is a free and

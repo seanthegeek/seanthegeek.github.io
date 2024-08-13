@@ -125,8 +125,7 @@ in the future. Disabling obsolete, weak cipher suites prevents easy exploits
 such as [POODLE](https://www.us-cert.gov/ncas/alerts/TA14-290A) from working.
 SPF and DMARC are standards that work in tandem to prevent email spoofing.
 This blog post will focus on these standards. However, all of the best
-practices are key parts of [defense in depth](/78/prevent-ransomware-
-strategic-defense/).
+practices are key parts of [defense in depth](/78/prevent-ransomware-strategic-defense/).
 
 ## What is email spoofing?
 
@@ -412,8 +411,7 @@ have a `p=none` DMARC policy had passed.
 Unfortunately, due to the bug fixes I've made in between tests, the results
 are not comparable, but these results are more accurate.
 
-The generated files can be [downloaded here](/assets/data/USG-
-DMARC-2018-01-28.zip).
+The generated files can be [downloaded here](/assets/data/USG-DMARC-2018-01-28.zip).
 
 [![A pie chart of SPF deployment on .gov domains as of
 2018-01-28](/assets/images/dotgov-spf-2018-01-28.png)](/assets/images/dotgov-spf-2018-01-28.png)

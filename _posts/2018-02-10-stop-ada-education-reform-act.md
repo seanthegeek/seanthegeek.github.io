@@ -81,7 +81,7 @@ disabilities their right to obtain a court order to enforce compliance with a
 ## How would this affect disabled people?
 
 [![Image of Senator Tammy Duckworth](/assets/images/tammy-duckworth.jpg)  
-](/assets/images/tammy-duckworth-.jpg) Senator Tammy Duckworth
+](/assets/images/tammy-duckworth.jpg) Senator Tammy Duckworth
 
 > This offensive legislation would segregate the disability community, making
 > it the only protected class under civil rights law that must rely on
@@ -122,7 +122,7 @@ typos that I made in my haste to get the information out there. These have
 been corrected.  
 **
 
-[Download as a PDF](/assets/images/H.R.-620-flyer.pdf)
+[Download as a PDF](/assets/docs/H.R.-620-flyer.pdf)
 
 [![An image of a bright red stop sign with a hand in the middle STOP the ADA
 Education and Reform Act Congress is going to vote soon on the ADA Education

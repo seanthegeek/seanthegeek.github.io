@@ -155,8 +155,7 @@ on 2017-05-18](/assets/images/windows-smb-shodan-2017-05-18.png)](/assets/images
   2. Monitor and restrict services open to the internet
   3. Create regular out-of-band backups, and test restoration
 
-Also check out my ransomware defense-in-depth [guide](78/prevent-ransomware-
-strategic-defense/).
+Also check out my ransomware defense-in-depth [guide](78/prevent-ransomware-strategic-defense/).
 
 _Note: A previous version of this article referenced 1,202,995 Shodan results
 for Windows systems with exposed SMB. I have since learned that number

@@ -892,8 +892,7 @@ its-domains-authentication-requirements-warning/) and Gmail.
 [![A screenshot of ProtonMal showing a DMARC failure
 warning](/assets/images/DMARC_failure_ProtonMail.png)](/assets/images/DMARC_failure_ProtonMail.png)
 
-[![A creenshot of a DMARC failure warning in Gmail](/assets/images/Gmail-
-DMARC-warning.png)](/assets/images/Gmail-DMARC-warning.png)
+[![A screenshot of a DMARC failure warning in Gmail](/assets/images/Gmail-DMARC-warning.png)](/assets/images/Gmail-DMARC-warning.png)
 
 ### Authentication-Results headers
 
@@ -1069,8 +1068,7 @@ On Outlook for macOS, calendar events must be forwarded by clicking on
 Message> Forward as Attachment in the Menu Bar.
 
 [![A screenshot of the Forward as attachment menu item in Outlook for
-macOS](/assets/images/macos-outlook-forward-as-
-attachment.png)](/assets/images/macos-outlook-forward-as-attachment.png)
+macOS](/assets/images/macos-outlook-forward-as-attachment.png)](/assets/images/macos-outlook-forward-as-attachment.png)
 
 ### FAQs
 
@@ -1305,7 +1303,7 @@ Some additional steps are needed for Linux hosts.
 + [DMARC guide for G Suite](https://www.youtube.com/watch?v=WB-aUZMDnU8)
 + [DMARC guide for Office 365](https://technet.microsoft.com/en-us/library/mt734386\(v=exchg.150\).aspx)
   + Note: [**Office 365 does not currently send any DMARC reports**](https://office365.uservoice.com/forums/264636-general/suggestions/11094318-dmarc-aggregate-reports-from-o365-domains), but you can analyze DMARC data from Office 365 using the free[Valimail Monitor for Office 365](https://www.microsoft.com/security/blog/2019/06/03/secure-cloud-free-dmarc-monitoring-office-365/) service
-+ [Complete DKIM and DMARC deployment guide for Cisco AsyncOS](/assets/images/AsyncOS-DKIM-DMARC-Guide.pdf)
++ [Complete DKIM and DMARC deployment guide for Cisco AsyncOS](/assets/docs/AsyncOS-DKIM-DMARC-Guide.pdf)
 + [Generic DMARC Deployment guide - Dmarcian](https://space.dmarcian.com/deployment/)
 + [List of DMARC Support Status of SaaS Services - Dmarcian](https://dmarc.io/sources/)
 + [DMARC Guide for 3rd Party Senders - Dmarcian](https://space.dmarcian.com/how-to-send-dmarc-compliant-email-on-behalf-of-others/)
