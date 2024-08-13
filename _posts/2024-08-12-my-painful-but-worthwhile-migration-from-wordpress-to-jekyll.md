@@ -68,7 +68,7 @@ However, `exitwp` isn't a viable option anymore. It only supports Python 2, and 
 owner of the project also archived it on Jun 3, 2020.
 
 With those two options gone, I turned to the official Jekyll
-[importers](https://import.jekyllrb.com/). I tried the WordPress and
+[importer](https://import.jekyllrb.com/). I tried the WordPress and
 WordPress.com importers, with mixed results.
 
 ### The Jekyll Importer for WordPress
