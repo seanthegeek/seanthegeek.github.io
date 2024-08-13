@@ -253,7 +253,7 @@ comments:
     errors in SPF configuration?'
 - id: 5221
   author: Asher Oto
-  author_url: http://asheroto.com
+  author_url: https://asheroto.com
   date: '2021-03-05 09:48:56 +0000'
   date_gmt: '2021-03-05 09:48:56 +0000'
   content: Wow, fantastic job. I love your stuff Sean. If you aren't posting on Medium,
@@ -838,7 +838,7 @@ still spoofing the from address to the user.
 ## Domain-based Message Authentication, Reporting, and Conformance (DMARC)
 
 Domain-based Message Authentication, Reporting, and Conformance (DMARC) is
-defined in [RFC 7489](http://Domain-
+defined in [RFC 7489](https://Domain-
 based%20Message%20Authentication,%20Reporting,%20and%20Conformance%20\(DMARC\)).
 DMARC ensures that the SPF and DKIM authentication mechanisms actually
 authenticate against the same base domain that the end user sees.
@@ -1310,11 +1310,11 @@ Some additional steps are needed for Linux hosts.
   + Note: [**Office 365 does not currently send any DMARC reports**](https://office365.uservoice.com/forums/264636-general/suggestions/11094318-dmarc-aggregate-reports-from-o365-domains), but you can analyze DMARC data from Office 365 using the free[Valimail Monitor for Office 365](https://www.microsoft.com/security/blog/2019/06/03/secure-cloud-free-dmarc-monitoring-office-365/) service
 + [Complete DKIM and DMARC deployment guide for Cisco AsyncOS](/assets/images/AsyncOS-DKIM-DMARC-Guide.pdf)
 + [Generic DMARC Deployment guide - Dmarcian](https://space.dmarcian.com/deployment/)
-+ [List of DMARC Support Status of SaaS Services - Dmarcian](http://dmarc.io/sources/)
++ [List of DMARC Support Status of SaaS Services - Dmarcian](https://dmarc.io/sources/)
 + [DMARC Guide for 3rd Party Senders - Dmarcian](https://space.dmarcian.com/how-to-send-dmarc-compliant-email-on-behalf-of-others/)
 + [Solutions to common problems - Dmarcian](https://dmarcian.com/category/deployment/)
 + [Reference library by OnDMARC](https://knowledge.ondmarc.com/)
-+ [SPF Deployment Guide - MSDN](http://blogs.msdn.com/b/tzink/archive/2013/04/24/how-to-set-up-your-spf-records-if-you-are-outsourcing-some-or-all-of-your-email.aspx)
++ [SPF Deployment Guide - MSDN](https://blogs.msdn.com/b/tzink/archive/2013/04/24/how-to-set-up-your-spf-records-if-you-are-outsourcing-some-or-all-of-your-email.aspx)
 + [RFC 7489](https://tools.ietf.org/html/rfc7489)
 
 ## SPF and DMARC record validators
@@ -1334,7 +1334,7 @@ Some additional steps are needed for Linux hosts.
 
 ## DMARC adoption
 
-+ [Email Authentication Policy and Deployment Strategy for Financial Services Firms](http://www.fsroundtable.org/wp-content/uploads/2015/05/BITSEmailAuthenticationFeb2013.pdf) (BITS/The Financial Services Roundtable - Feb. 2013)
++ [Email Authentication Policy and Deployment Strategy for Financial Services Firms](https://www.fsroundtable.org/wp-content/uploads/2015/05/BITSEmailAuthenticationFeb2013.pdf) (BITS/The Financial Services Roundtable - Feb. 2013)
 + [DHS Binding Operational Directive (BOD) 18-01](https://cyber.dhs.gov/bod/18-01/) (Oct. 2017)
 + [Fifty-Seven Percent of Email "From" Healthcare Industry is Fraudulent](https://nhisac.org/announcements/fifty-seven-percent-email-healthcare-industry-fraudulent/) (H-ISAC - Nov. 2017)
 
@@ -1437,7 +1437,7 @@ Extremely cheap bulk marketing email; extremely expensive transactional email.
 A MailChimp add-on service for transitional email
 
 + <https://kb.mailchimp.com/mandrill/mailchimp-vs-mandrill>
-+ <http://mandrill.com/pricing/>
++ <https://mandrill.com/pricing/>
 + <https://mandrill.zendesk.com/hc/en-us/articles/205582267-What-are-SPF-and-DKIM-and-do-I-need-to-set-them-up>
 + Set SMTP envelope sender for SPF alignment in the Mandrill dashboard
 Settings -> Domains -> Tracking and Return Path Domain
@@ -1459,7 +1459,7 @@ Email and SMS marketing**.**
 Marketing automation
 
 + <https://www.net-results.com/pricing/>
-+ <http://support.net-results.com/index.php/Domain_Branding>
++ <https://support.net-results.com/index.php/Domain_Branding>
 
 ### OnSolve Mir3
 

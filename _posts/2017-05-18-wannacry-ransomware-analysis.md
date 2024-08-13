@@ -105,7 +105,7 @@ At the time of this writing, these wallets combined have received a total of
 exchange rate of 1 BTC ≈ $1,867.01 USD. The ransom amounts range from
 $300-$600 per system.
 
-Reports indicate that [North Korea](http://www.npr.org/sections/thetwo-
+Reports indicate that [North Korea](https://www.npr.org/sections/thetwo-
 way/2017/05/16/528587064/north-korea-may-be-linked-to-wannacry-ransomware-
 researchers-say) may be using WannaCry to fund its weapons programs as it
 faces tightening international sanctions and isolation.
@@ -147,8 +147,7 @@ access to a network. From there, it would be trivial to pivot to other systems
 on the LAN.
 
 [![A screenshot of Shodan search results for Windows systems with exposed SMB
-on 2017-05-18](/assets/images/windows-smb-
-shodan-2017-05-18.png)](/assets/images/windows-smb-shodan-2017-05-18.png)
+on 2017-05-18](/assets/images/windows-smb-shodan-2017-05-18.png)](/assets/images/windows-smb-shodan-2017-05-18.png)
 
 ## Lessons from WannaCry
 

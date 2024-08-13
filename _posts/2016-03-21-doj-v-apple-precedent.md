@@ -27,7 +27,7 @@ Apple and the Department of Justice. "DoJ v. Apple" coverage has been
 abundant, on blogs and TV news shows alike, but in case you haven't here's a
 quick recap. The FBI obtained the work iPhone of Syed Rizwan Farook, who,
 along with his wife Tashfeen Malik, murdered 14 people in a [shooting
-rampage](http://www.cnn.com/2015/12/03/us/syed-farook-tashfeen-malik-mass-
+rampage](https://www.cnn.com/2015/12/03/us/syed-farook-tashfeen-malik-mass-
 shooting-profile/) at a holiday party in San Bernardino, California. The
 government suspects that iPhone may hold critical information about the
 couple's contacts in the weeks leading up to the attacks - contacts that may
@@ -61,7 +61,7 @@ The DoJ contends that the software could be allowed to remain on Apple's
 campus, and would only be used for this one phone in this case. However, there
 are many, many more cases where an encrypted iPhone is suspected to contain
 information relevant to a violent crime, including [175
-devices](http://abcnews.go.com/Technology/york-da-access-175-iphones-criminal-
+devices](https://abcnews.go.com/Technology/york-da-access-175-iphones-criminal-
 cases-due/story?id=37029693) in NYC alone.  If the order were allowed to
 stand, Apple would surely receive similar orders from law enforcement agencies
 around the country and beyond, including countries with [dismal human rights
@@ -103,7 +103,7 @@ communications.
 > government and the tech communities together…"  
 >
 > * Hillary Clinton, [ABC News Democratic
-> Debate](http://www.cbsnews.com/news/democratic-debate-transcript-clinton-
+> Debate](https://www.cbsnews.com/news/democratic-debate-transcript-clinton-
 > sanders-omalley-in-new-hampshire/) \- December 19th, 2015
 
 Does a former Secretary of State really not know [how
@@ -117,7 +117,7 @@ history/Events/1942-1945/espionage.htm) Manhattan Project secrets were leaked?
 > to allow a means of communications where it simply is not possible to do
 > that? My answer to that question is: no, we must not."  
 >
-> * [David Cameron](http://www.theguardian.com/technology/2015/jan/15/david-
+> * [David Cameron](https://www.theguardian.com/technology/2015/jan/15/david-
 > cameron-encryption-anti-terror-laws)
 
 Strong encryption cannot be outlawed, because math cannot be outlawed. The
@@ -175,14 +175,14 @@ first, but it has the same flaws.
 > possible, it is accessible by the smallest number of people possible for a
 > subset of issues that we agree are important."  
 >
-> * President Obama at [SXSW 2016](http://www.businessinsider.com/obama-
+> * President Obama at [SXSW 2016](https://www.businessinsider.com/obama-
 > comments-on-encryption-at-sxsw-2016-3)
 
 That's not going to work. Why?
 
 * How valuable would such a key be? Priceless
 * Who would want to steal such a key? Every hacker ever. Especially the same kinds of people who stole the HR and security records of every federal employee and job applicant, a breach that many consider to be [more damaging](https://www.washingtonpost.com/opinions/hitting-an-agency-where-it-hurts/2015/06/17/ffca6c6a-1512-11e5-9ddc-e3353542100c_story.html) than the Snoden leaks, especially when combined with other [stolen data](https://www.washingtonpost.com/world/national-security/in-a-series-of-hacks-china-appears-to-building-a-database-on-americans/2015/06/05/d2af51fa-0ba3-11e5-95fd-d580f1c5d44e_story.html).
-* Would there be temptation for abuse? [Definitely.](http://arstechnica.com/tech-policy/2014/06/legal-experts-cops-lying-about-cell-tracking-is-a-stupid-thing-to-do/)
+* Would there be temptation for abuse? [Definitely.](https://arstechnica.com/tech-policy/2014/06/legal-experts-cops-lying-about-cell-tracking-is-a-stupid-thing-to-do/)
 
 ### Outlawing strong encryption only hurts the good guys
 
@@ -191,7 +191,7 @@ That's not going to work. Why?
 > way back to Silicon Valley."  
 >
 > * [Donald
-> Trump](http://www.bloomberg.com/politics/articles/2016-02-19/trump-calls-
+> Trump](https://www.bloomberg.com/politics/articles/2016-02-19/trump-calls-
 > for-apple-boycott-until-company-unlocks-terrorist-s-iphone)
 
 It can be tempting to try and simplify a complex issue to "You're either with
@@ -209,5 +209,5 @@ choice is obvious.
 
 Some are living in a world of make believe, but not Tim Cook. It would be nice
 if more politicians [actually learned about a
-topic](http://www.popsci.com/senator-graham-likes-encryption-now-that-he-
+topic](https://www.popsci.com/senator-graham-likes-encryption-now-that-he-
 understands-it) before making broad statements about it.

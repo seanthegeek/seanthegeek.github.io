@@ -207,7 +207,7 @@ comments:
     step-by-each guides aren't necessary (yet). Appreciated greatly.
 - id: 1043
   author: Newcomers/History
-  author_url: http://www.intherooms.com
+  author_url: https://www.intherooms.com
   date: '2019-02-04 18:52:13 +0000'
   date_gmt: '2019-02-04 18:52:13 +0000'
   content: All went fine...now to see what we can do!
@@ -300,7 +300,7 @@ comments:
     DISPLAY is not set"
 - id: 2560
   author: Marcel Merchat
-  author_url: http://www.marcel-merchat.com
+  author_url: https://www.marcel-merchat.com
   date: '2019-10-05 06:06:42 +0000'
   date_gmt: '2019-10-05 06:06:42 +0000'
   content: "Dear Ed\r\n\r\nThe 'xterm' command does not work unless it is preceded
@@ -331,7 +331,7 @@ comments:
     file to apply."
 - id: 2924
   author: NoxFly
-  author_url: http://dorian.thivolle.net
+  author_url: https://dorian.thivolle.net
   date: '2019-11-29 17:38:01 +0000'
   date_gmt: '2019-11-29 17:38:01 +0000'
   content: "Hello,\r\nThanks for your tuto it's the only one which is working for

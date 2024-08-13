@@ -81,7 +81,7 @@ phones](/assets/images/android-7.1.1-settings-576x1024.png)](/assets/images/andr
 to see it included.~~   Hopefully ~~more~~ features from the Pixel phones like
 the [Google Assistant](https://assistant.google.com/) will make their way to
 Nexus devices over the next few months. That would go a long way towards
-soothing the [outrage](http://www.androidpolice.com/2016/10/06/its-time-to-
+soothing the [outrage](https://www.androidpolice.com/2016/10/06/its-time-to-
 talk-about-google-the-pixel-phones-and-feelings-of-abandonment/) of many Nexus
 owners who feel left behind. It would certainly be in Google's long-term
 interest to put the assistant in the hands of as many Android users as

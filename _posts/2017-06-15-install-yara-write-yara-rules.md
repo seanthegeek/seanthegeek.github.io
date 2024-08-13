@@ -302,7 +302,7 @@ In early 2019, the NSA released an open source Software Reverse Engineering
 decomplier, and a very simillar feel to IDA.
 
 The open source Radare Framework provides [many of the same
-features](http://www.radare.org/r/cmp.html) of IDA (and a few more) for free,
+features](https://www.radare.org/r/cmp.html) of IDA (and a few more) for free,
 under a GNU GPL license. Radare does not currently have a decomplier though.
 
 If you're new to assembly, check out this [Crash Course in x86 Assembly for
@@ -364,7 +364,7 @@ complete details on writing rules, and using the command-line program, the
 Python API, and the C API.
 
 Once you feel comfortable working with YARA, consider joining the YARA
-[Exchange](http://www.deependresearch.org/2012/08/yara-signature-exchange-
+[Exchange](https://www.deependresearch.org/2012/08/yara-signature-exchange-
 google-group.html). The Exchange is a very active and helpful group of
 information security professionals that share rules and tips for writing them.
 You can even get access to VirusTotal Intelligence for free through the
@@ -389,7 +389,7 @@ and YARA by Wyatt Roersma at GrrCon 2016:
 ### Books
 
 * [Practical Malware Analysis](https://www.nostarch.com/malware)
-* [Malware Analyst's Cookbook](http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470613033.html)
+* [Malware Analyst's Cookbook](https://www.wiley.com/WileyCDA/WileyTitle/productCd-0470613033.html)
 
 ### Other resources
 

@@ -494,7 +494,7 @@ value.
 Set `http_publish_url` to the HTTPS URL that will be used to access Graylog. For
 example, https://graylog.example.com/
 
-Set `elasticsearch_hosts` to `http://127.0.0.1:9200`. The configuration file
+Set `elasticsearch_hosts` to `https://127.0.0.1:9200`. The configuration file
 says this is the default value, but I have found that it must be explicitly
 set or Graylog will not find any data nodes.
 
@@ -556,7 +556,7 @@ server
       proxy_set_header X-Forwarded-Server $host;
       proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
       proxy_set_header X-Graylog-Server-URL https://$server_name/;
-      proxy_pass http://127.0.0.1:9000;
+      proxy_pass https://127.0.0.1:9000;
     }
 }
 ```

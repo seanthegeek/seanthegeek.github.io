@@ -20,13 +20,13 @@ comments: []
 ---
 Ransomware has become the weapon of choice for financially motivated
 cybercriminals. Individuals,
-[hospitals](http://www.nbcnews.com/tech/security/big-paydays-force-hospitals-
+[hospitals](https://www.nbcnews.com/tech/security/big-paydays-force-hospitals-
 prepare-ransomware-attacks-n557176), businesses,
-[schools](http://wdtn.com/2016/03/08/sc-school-district-pays-nearly-10k-to-
-ransomware-hackers/), [police departments](http://www.darkreading.com/), and
+[schools](https://wdtn.com/2016/03/08/sc-school-district-pays-nearly-10k-to-
+ransomware-hackers/), [police departments](https://www.darkreading.com/), and
 government agencies have all been victims of highly disruptive ransomware,
 resulting in ransom payments totaling at least $24 million in 2015, [according
-to the DoJ and DHS](http://www.businessinsider.com/doj-and-dhs-ransomware-
+to the DoJ and DHS](https://www.businessinsider.com/doj-and-dhs-ransomware-
 attacks-government-2016-4). It doesn't take much to start a ransomware
 campaign, and the returns can be extremely high. Fortunately, the steps to
 prevent ransomware from succeeding are equally simple and low cost.
@@ -310,11 +310,11 @@ benchmark](https://benchmarks.cisecurity.org/tools2/windows/CIS_Microsoft_Window
 Recommendation 18.9.22). CIS' recommended EMET settings are stronger than and
 generally preferred over Microsoft's recommended configuration. EMET is also
 required by the [DISA STIGs for
-Windows](http://iase.disa.mil/stigs/os/windows/Pages/index.aspx), which means
+Windows](https://iase.disa.mil/stigs/os/windows/Pages/index.aspx), which means
 that is required on every Windows system in the US Department of Defense
 (DoD), military, and National Security Agency (NSA). That makes up some of the
 largest enterprise networks on the planet! They are also [rapidly
-migrating](http://iasecontent.disa.mil/stigs/pdf/U_Windows_10_STIG_V1_Release_Memo.pdf)
+migrating](https://iasecontent.disa.mil/stigs/pdf/U_Windows_10_STIG_V1_Release_Memo.pdf)
 to a standard Windows 10 image.
 
 I've created [some

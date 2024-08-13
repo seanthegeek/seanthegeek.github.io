@@ -35,7 +35,7 @@ comments: []
 <p>By the time of Ohio's delayed primary election, every Democratic presidential candidate except Joe Biden had dropped out of the race. Every other downballot primary candidate was running completely unopposed. Still, I wanted to be sure to vote for the local school district tax levy. I filled out the <a rel="noreferrer noopener" href="https://www.boe.ohio.gov/comoh/Absentee_Request_11-A.pdf" target="_blank">absentee ballot application</a> on my computer, printed it, signed it, and mailed it. A few days later, I received a ballot, instructions, and an inner envelope to seal the completed ballot in.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":952,"sizeSlug":"large"} --></p>
-<figure class="wp-block-image size-large"><img src="/assets/images/ohio_2020_absentee_envelope-1024x575.jpg" alt="A Picture of a 2020 Ohio absentee ballot envelope. Scribbles and crossed out numbers show my failed attempts to write in the required proof of identity information on the envelope." class="wp-image-952"/><br />
+<figure class="wp-block-image size-large"><img src="/assets/images/ohio_2020_absentee_envelope.jpg" alt="A Picture of a 2020 Ohio absentee ballot envelope. Scribbles and crossed out numbers show my failed attempts to write in the required proof of identity information on the envelope." class="wp-image-952"/><br />
 <figcaption>My failed attempts at filling out the ballot envelope</figcaption>
 </figure>
 <p><!-- /wp:image --></p>
@@ -70,7 +70,7 @@ comments: []
 <p>The state of Oregon does not have polling places, ballot applications, or voter ID requirements. Instead, ballots are mailed to every registered voter &mdash; no request required. Oregon has voting this way for over twenty years now. Democratic and Republican state officials both support the system because <a rel="noreferrer noopener" href="https://www.nbcnews.com/politics/elections/you-can-t-hack-paper-how-oregon-fights-election-meddling-n930481" target="_blank">it improves election security and turnout</a>. Visually impaired voters (or anyone else) can use a web browser and screen reader to visit a state website, and enter their name and date of birth to <a rel="noreferrer noopener" href="https://sos.oregon.gov/voting/Pages/instructions-disabilities.aspx" target="_blank">mark and print</a> their paper ballot. </p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Let's adopt the Oregon voting model, Ohio! Contact your <a rel="noreferrer noopener" href="http://www.ohiohouse.gov/members/district-map" target="_blank">Ohio House representative</a>, <a href="https://www.ohiosenate.gov/senators/district-map" target="_blank" rel="noreferrer noopener">Ohio senator</a>, and <a href="https://governor.ohio.gov/wps/portal/gov/governor/">Governor DeWine</a>.  Let's encourage other states adopt it nationwide!</p>
+<p>Let's adopt the Oregon voting model, Ohio! Contact your <a rel="noreferrer noopener" href="https://www.ohiohouse.gov/members/district-map" target="_blank">Ohio House representative</a>, <a href="https://www.ohiosenate.gov/senators/district-map" target="_blank" rel="noreferrer noopener">Ohio senator</a>, and <a href="https://governor.ohio.gov/wps/portal/gov/governor/">Governor DeWine</a>.  Let's encourage other states adopt it nationwide!</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Ohio voters can track the status of their ballot at the <a href="https://www.ohiosos.gov/elections/voters/toolkit/ballot-tracking/" target="_blank" rel="noreferrer noopener">Ohio secretary of State</a> website.</p>

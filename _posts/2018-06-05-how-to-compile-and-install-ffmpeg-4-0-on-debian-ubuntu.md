@@ -62,7 +62,7 @@ comments:
   author_url: ''
   date: '2018-10-12 10:44:38 +0000'
   date_gmt: '2018-10-12 10:44:38 +0000'
-  content: 'This commit solves the problem: http://git.videolan.org/?p=ffmpeg.git;a=commitdiff;h=b69ea742ab23ad74b2ae2772764743642212a139'
+  content: 'This commit solves the problem: https://git.videolan.org/?p=ffmpeg.git;a=commitdiff;h=b69ea742ab23ad74b2ae2772764743642212a139'
 - id: 825
   author: IanB
   author_url: ''
@@ -201,14 +201,14 @@ comments:
     open shared object file: No such file or directory"
 - id: 2030
   author: ricardo
-  author_url: http://www.ricardosabino.com
+  author_url: https://www.ricardosabino.com
   date: '2019-07-11 04:39:34 +0000'
   date_gmt: '2019-07-11 04:39:34 +0000'
   content: "Hi,\r\n\r\nI have the exact same problem mentioned above regarding not
     being able to open libavdevice.so.58\r\n\r\nAny suggestions?\r\nThank you."
 - id: 2031
   author: ricardo
-  author_url: http://www.ricardosabino.com
+  author_url: https://www.ricardosabino.com
   date: '2019-07-11 04:48:36 +0000'
   date_gmt: '2019-07-11 04:48:36 +0000'
   content: Nevermind, I think "make install" did the trick.
@@ -240,8 +240,8 @@ comments:
     a bunch of headaches, here are my notes from my install on MX linux 19 \r\n----------------------------------------------------------------------------------------------------------------------\r\n1.
     Before you start, you have to have to add MX Linux's AHS repository:\r\n\r\nLaunch
     synaptic package manager > settings > Repositories > New, then enter \r\nBinary:
-    deb\r\nURI: http://mxrepo.com/mx/repo/\r\nDistribution: buster ahs\r\nClick OK\r\nCheck
-    the Enabled box next to the new http://mxrepo.com/mx/repo/ entry\r\n\r\nor you
+    deb\r\nURI: https://mxrepo.com/mx/repo/\r\nDistribution: buster ahs\r\nClick OK\r\nCheck
+    the Enabled box next to the new https://mxrepo.com/mx/repo/ entry\r\n\r\nor you
     run into a bunch of dependency errors when you try to install libsdl2-dev.\r\n----------------------------------------------------------------------------------------------------------------------\r\n2.
     Before you get to the installing libmysofa you have to install yasm by running:\r\n\r\nsudo
     apt get yasm\r\n\r\nor you'll get an error\r\n----------------------------------------------------------------------------------------------------------------------\r\n3.

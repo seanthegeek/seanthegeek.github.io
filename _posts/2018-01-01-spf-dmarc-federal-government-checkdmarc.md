@@ -30,7 +30,7 @@ comments:
     like to discuss this further with you. Thanks!
 - id: 921
   author: Verlin
-  author_url: http://verlindeb.org
+  author_url: https://verlindeb.org
   date: '2019-01-04 19:04:11 +0000'
   date_gmt: '2019-01-04 19:04:11 +0000'
   content: Informative. I'm trying to setup my own policies and learned from it. Thank
@@ -156,7 +156,7 @@ specially formatted `TXT` record in the DNS zone containing a list of
 authorized servers.
 
 Details about the exact record format [can be found
-here](http://www.openspf.org/SPF_Record_Syntax).
+here](https://www.openspf.org/SPF_Record_Syntax).
 
 When a receiver mail server receives an email, it checks to see if the domain
 in the `MAIL FROM` part of the SMTP envelope has published a SPF record. If a
