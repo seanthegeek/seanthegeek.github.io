@@ -35,7 +35,7 @@ one big table and be fine.
 
 I looked for a while for automated ways to export the content. My goals were:
 
-- Retain existing permalinks so don't break incoming links
+- Retain existing permalinks so I don't break incoming links
 - Convert post content from HTML to Markdown
   - Yes, technically Jekyll can serve HTML, but
     - HTML posts are difficult to edit/maintain
