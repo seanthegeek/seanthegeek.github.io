@@ -114,7 +114,7 @@ location](https://www.google.com/maps/place/38%C2%B042'00.7%22N+75%C2%B010'11.3%
 inside the General Store in Marshtown, Delaware.
 
 ![A screenshot of Google Maps pinpointing GPS
-coordinates](/assets/images/gooole-maps-38-42-0.72N_75-10-11.28W.png)
+coordinates](/assets/images/google-maps-38-42-0.72N_75-10-11.28W.png)
 
 Retrieving this information is not illegal. In a textbook case of [security
 through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity),
