@@ -26,7 +26,7 @@ blogs:
 - A modern open source [theme](https://github.com/cotes2020/jekyll-theme-chirpy) (with a dark mode!) designed for my use case
 
 At first glance, the only downside I knew of was that Markdown does not support
-nest tables like the one I use in my [DMARC guide](459/demystifying-dmarc), but I knew
+nest tables like the one I use in my [DMARC guide](/459/demystifying-dmarc), but I knew
 that I could just use an HTML table instead table in the Markdown file for that
 one big table and be fine.
 

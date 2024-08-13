@@ -137,7 +137,7 @@ Network already provides ADA training and education; setting up an additional
 education program at the Department of Justice is unnecessary and wasteful
 Contact your local congress members at: www.callmycongress.com
 www.democracy.io An image of an ADA
-logo](/assets/images/H.R.-620-Flyer.png)](/assets/docs/H.R.-620-Flyer.png)
+logo](/assets/images/H.R.-620-Flyer.png)](/assets/dociimages/H.R.-620-Flyer.png)
 
 Transcription of the infographic:
 

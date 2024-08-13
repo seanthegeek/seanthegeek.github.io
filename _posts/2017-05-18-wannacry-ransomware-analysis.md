@@ -39,8 +39,7 @@ version. The sample was compiled on February 9th, and uploaded to VirusTotal
 on February 10th. While compile timestamps can be faked, the closeness to the
 upload date suggests that the compilation timestamp is legitimate.
 
-[![Screenshot of the build timestamp on VirusTotal](/assets/images/wannacry-timestamp.png)](/assets/images/wannacry-
-timestamp.png)
+[![Screenshot of the build timestamp on VirusTotal](/assets/images/wannacry-timestamp.png)](/assets/images/wannacry-timestamp.png)
 
 Malware authors will often upload their builds to VirusTotal as a lazy way of
 testing against current versions of almost all anti-malware products, before
