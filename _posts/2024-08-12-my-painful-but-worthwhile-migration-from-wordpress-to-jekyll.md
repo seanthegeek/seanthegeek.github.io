@@ -236,12 +236,12 @@ I could imported the comments from my WordPress blog into Disqus, and then
 configured the Disqus integration built into the Chirpy them for Jekyll.
 Disqus would have matched the existing comment threads based on the page URL.
 
-Pros:
+The good:
 
 - Retain old comments
 - Social media logins for commenters make commenting easy
 
-Cons:
+The bad:
 
 - Supported by content ads or the website owner paying a monthly fee
 
@@ -249,18 +249,18 @@ Cons:
 
 utterances uses the GitHub issues system to store comments.
 
-Pros:
+The good:
 
 - No tracking
 - Open source
 - No cost
 
-Pro/con:
+the good/bad:
 
 - A GitHub account is needed to comment, which might discourage a casual, non-technical person from commenting
 - If the blog is a technical blog like mine, the comments are likely to be high quality
 
-Cons:
+The bad:
 
 - No way to import existing WordPress comments
 
