@@ -264,7 +264,7 @@ The bad:
 
 - No way to import existing WordPress comments
 
-## giscus
+### giscus
 
 [giscus](https://giscus.app/) is heavily inspired by utterances and shares
 all of the same pros and cons. However, it uses the GitHub discussions feature
