@@ -25,6 +25,7 @@ blogs:
 - No more server to maintain
 - No more managing a ton of plugins (often commercial) just to do basic things like SEO
 - A modern open source [theme](https://github.com/cotes2020/jekyll-theme-chirpy) (with a dark mode!) designed for my use case
+- The entire site is under version control — not just the posts
 
 At first glance, the only downside I knew of was that Markdown does not support
 nest tables like the one I use in my [DMARC guide](/459/demystifying-dmarc), but I knew
@@ -255,7 +256,7 @@ The good:
 - Open source
 - No cost
 
-the good/bad:
+The good/bad:
 
 - A GitHub account is needed to comment, which might discourage a casual, non-technical person from commenting
 - If the blog is a technical blog like mine, the comments are likely to be high quality
