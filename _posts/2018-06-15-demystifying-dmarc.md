@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Demystifying DMARC - A guide to preventing email spoofing
+description: A guide that explains what DMARC is, how to deploy DMARC properly, and how to respond to DMARC reports - all with open source software.
 permalink: /459/demystifying-dmarc/
 image:
   path: /assets/images/DMARC-Summary-dashboard.png
