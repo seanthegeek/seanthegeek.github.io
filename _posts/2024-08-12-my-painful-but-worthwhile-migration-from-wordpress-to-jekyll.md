@@ -21,6 +21,7 @@ There are lots of advantages to Jekyll over WordPress, especially for small
 blogs:
 
 - Free hosting on GitHub Pages
+  - Compared about $26/month for a `g1-small` GCP VM in the `us-east-c1` zone
 - No more server to maintain
 - No more managing a ton of plugins (often commercial) just to do basic things like SEO
 - A modern open source [theme](https://github.com/cotes2020/jekyll-theme-chirpy) (with a dark mode!) designed for my use case
