@@ -99,8 +99,7 @@ harvesting page operates](https://seanthegeek.net/1069/how-to-examine-a-
 credential-harvesting-page-using-microsoft-edge/).
 
 ![A screenshot of fake Microsoft login form used for credential harvesting, a
-common first step of Business Email Compromise \(BEC\)](/assets/images/fake-
-login-page.webp)  
+common first step of Business Email Compromise \(BEC\)](/assets/images/fake-login-page.webp)  
 Screenshot by [Raymond Tec](https://raymondtec.com/2020/06/german-task-force-
 for-covid-19-medical-equipment-targeted-in-ongoing-phishing-campaign/)
 
@@ -190,7 +189,7 @@ bypassed by tricking the user into tapping an allow button in an app, visiting
 a lookalike website, or giving the attacker a one-time code.
 
 ![An image of the Yubikey 5 NFC hardware security key. Hardware security keys
-are the most secure form of MFA.](/assets/images/yubikey-5-nfc-300x300.png)
+are the most secure form of MFA.](/assets/images/yubikey-5-nfc.png)
 
 To authenticate with a hardware key, the user plugs the key into a USB port
 (or taps the key against the back of their phone), and presses the button on

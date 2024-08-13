@@ -838,8 +838,7 @@ still spoofing the from address to the user.
 ## Domain-based Message Authentication, Reporting, and Conformance (DMARC)
 
 Domain-based Message Authentication, Reporting, and Conformance (DMARC) is
-defined in [RFC 7489](https://Domain-
-based%20Message%20Authentication,%20Reporting,%20and%20Conformance%20\(DMARC\)).
+defined in [RFC 7489](https://www.rfc-editor.org/rfc/rfc7489).
 DMARC ensures that the SPF and DKIM authentication mechanisms actually
 authenticate against the same base domain that the end user sees.
 
@@ -1048,8 +1047,7 @@ address of the person who did the forwarding is placed in the Sender header,
 which DMARC does not use.
 
 [![A screenshot of a draft forward of a calendar event in Microsoft
-Outlook](/assets/images/outlook-calendar-event-
-forwarding.png)](/assets/images/outlook-calendar-event-forwarding.png)
+Outlook](/assets/images/outlook-calendar-event-forwarding.png)](/assets/images/outlook-calendar-event-forwarding.png)
 
 If the domain of the meeting organizer has an enforced DMARC policy (i.e.,
 p=quarantine, or p=reject), and the recipient mail server honors DMARC, the
@@ -1065,8 +1063,7 @@ events to do so by clicking on the three dots, and clicking Forward as
 Attachment, instead of clicking on the usual Forward button.
 
 [![A screenshot showing how to forward a calendar invite as an attachment in
-Outlook](/assets/images/forward-calendar-invite-as-
-attachment.png)](/assets/images/forward-calendar-invite-as-attachment.png)
+Outlook](/assets/images/forward-calendar-invite-as-attachment.png)](/assets/images/forward-calendar-invite-as-attachment.png)
 
 On Outlook for macOS, calendar events must be forwarded by clicking on
 Message> Forward as Attachment in the Menu Bar.

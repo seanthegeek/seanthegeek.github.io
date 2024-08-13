@@ -169,9 +169,7 @@ simulate-spoof-e-mail-attack-and-bypass-spf-sender-verification-part2-of-2/)
 that explains exactly how to bypass SPF:
 
 [![An illustration of email spoofing that bypasses SPF
-checks](/assets/images/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-
-verification-check-03-B.jpg)](/assets/images/Simulating-Spoof-E-mail-attack-
-and-bypassing-the-SPF-verification-check-03-B.jpg)
+checks](/assets/images/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)](/assets/images/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)
 An illustration of email spoofing that bypasses SPF checks
 Credit: o365info.com
 Used under fair use for educational purposes
@@ -418,20 +416,17 @@ The generated files can be [downloaded here](/assets/data/USG-
 DMARC-2018-01-28.zip).
 
 [![A pie chart of SPF deployment on .gov domains as of
-2018-01-28](/assets/images/dotgov-spf-2018-01-28.png)](/assets/images/dotgov-
-spf-2018-01-28.png)
+2018-01-28](/assets/images/dotgov-spf-2018-01-28.png)](/assets/images/dotgov-spf-2018-01-28.png)
 A pie chart of SPF deployment on .gov domains as of 2018-01-28
 
 [![A pie chart of DMARC deployment on .gov domains as of
-2018-01-28](/assets/images/dotgov-
-dmarc-2018-01-28.png)](/assets/images/dotgov-dmarc-2018-01-28.png)
+2018-01-28](/assets/images/dotgov-dmarc-2018-01-28.png)](/assets/images/dotgov-dmarc-2018-01-28.png)
 A pie chart of DMARC deployment on .gov domains as of 2018-01-28
 
 [![A column chart of DMARC deployment by policy on .gov domains as of
 2018-01-28; Note: “none” is a valid DMARC policy – the “\(empty\)” chart value
 represents domains that have missing or invalid DMARC
-records](/assets/images/dotgov-dmarc-
-policy-2018-01-28.png)](/assets/images/dotgov-dmarc-policy-2018-01-28.png)
+records](/assets/images/dotgov-dmarc-policy-2018-01-28.png)](/assets/images/dotgov-dmarc-policy-2018-01-28.png)
 A column chart of DMARC deployment by policy on .gov domains as of 2018-01-28;
 Note: "none" is a valid DMARC policy - the "(empty)" chart value represents
 domains that have missing or invalid DMARC record

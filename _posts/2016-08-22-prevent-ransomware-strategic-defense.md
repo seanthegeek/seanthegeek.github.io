@@ -201,8 +201,7 @@ Microsoft has a handy guide to macro security settings
 office-2016-can-block-macros-and-help-prevent-infection/).
 
 [![A screenshot of the new Office 2016 GPO setting to disable macros from
-office files that were downloaded from the internet.](/assets/images/Macro-
-GPO-Settings.png)](/assets/images/Macro-GPO-Settings.png)  
+office files that were downloaded from the internet.](/assets/images/Macro-GPO-Settings.png)](/assets/images/Macro-GPO-Settings.png)  
 Microsoft
 
 ### Block OLE packages

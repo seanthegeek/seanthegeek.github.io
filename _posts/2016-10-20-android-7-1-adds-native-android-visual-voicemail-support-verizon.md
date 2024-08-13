@@ -68,14 +68,13 @@ list](https://www.reddit.com/r/Android/comments/561wpq/google_pixel_preloaded_ap
 of installed Verizon apps. Now we know.
 
 [![A screenshot of the Verizon Wireless Premium Visual Voicemail welcome
-message in the Android 7.1 Dialer on a Nexus 6P](/assets/images/vzw-vvm-
-android-576x1024.png)](/assets/images/vzw-vvm-android.png)
+message in the Android 7.1 Dialer on a Nexus 6P](/assets/images/vzw-vvm-android.png)](/assets/images/vzw-vvm-android.png)
 
 Also, the Support tab in Settings is there, as seen on the Pixel phones.
 
 [![A screenshot of the settings app in Android 7.1 on a Nexus 6P, showing the
 support tab first seen on the Google Pixel
-phones](/assets/images/android-7.1.1-settings-576x1024.png)](/assets/images/android-7.1.1-settings.png)
+phones](/assets/images/android-7.1.1-settings.png)](/assets/images/android-7.1.1-settings.png)
 
 ~~This was one of the features that I thought was Pixel exclusive. It's nice
 to see it included.~~   Hopefully ~~more~~ features from the Pixel phones like
@@ -94,7 +93,7 @@ that remove the phones and chat support buttons for Nexus devices :(
 
 [![A screenshot of the support tab in settings as seen on a Nexus 5X after the
 Google Support Services
-update](/assets/images/nexus-5X-support-576x1024.png)](/assets/images/nexus-5X-support.png)
+update](/assets/images/nexus-5X-support.png)](/assets/images/nexus-5X-support.png)
 
 You can get Android 7.1.1 on a Nexus device right now by signing up for the
 [Android Beta](https://www.google.com/android/beta). It's actually very

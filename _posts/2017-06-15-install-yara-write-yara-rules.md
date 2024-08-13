@@ -288,8 +288,7 @@ code, such as a unique method of unpacking. Writing signatures based on bytes
 requires some knowledge of assembly, APIs provided by the OS, and specialized
 software.
 
-IDA Pro is the [industry standard platform](https://www.hex-
-rays.com/products/ida/) for software reverse engineering. It is also [very
+IDA Pro is the [industry standard platform](https://www.hex-rays.com/products/ida/) for software reverse engineering. It is also [very
 expensive](https://www.hex-rays.com/products/ida/order.shtml). Currently, a
 the Starter Edition of IDA (which can only process 32 bit files) for one named
 user, along with the X86 Hex-Rays decompiler costs about $2,700. If you want

@@ -52,8 +52,7 @@ lure potential victims. It was sent from someone's compromised Virgin Media
 email account.
 
 ![A screenshot of Received email headers showing the originating mail servers
-that were abused to send the phish ](/assets/images/02-email-headers-
-received-1.png)
+that were abused to send the phish ](/assets/images/02-email-headers-received-1.png)
 
 ![A screenshot of Authentication-Results email headers](/assets/images/03-email-headers-auth-results-original.png)
 
@@ -149,8 +148,7 @@ If the credential harvesting page had been hosted at a URL instead, it is
 useful to toggle the Preserve log and Disable cache on **before** visiting a
 link in a fishing email, that way any redirects are captured.
 
-![A screenshot of the Network tab](/assets/images/08-edge-
-network.png)
+![A screenshot of the Network tab](/assets/images/08-edge-network.png)
 
 Each request is listed in the left sidebar. Right-clicking on any of the
 requests provides an option to copy the request headers, response headers, and

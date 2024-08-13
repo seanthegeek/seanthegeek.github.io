@@ -87,12 +87,11 @@ disabilities their right to obtain a court order to enforce compliance with a
 > it the only protected class under civil rights law that must rely on
 > "education" -- rather than strong enforcement -- to guarantee access to
 > public spaces. As the Consortium for Citizens with Disabilities Rights Task
-> Force and other civil rights organizations [wrote](https://disabilityrights-
-> law.org/sites/default/files/documents/Letter-Opposition-ADA-Education-
-> Reform-Act-2017.pdf) in opposing this bill, "We know of no other law that
-> outlaws discrimination but permits entities to discriminate with impunity
-> until victims experience that discrimination and educate the entities
-> perpetrating it about their obligations not to discriminate."
+> Force and other civil rights organizations [wrote][1] in opposing this bill,
+> "We know of no other law that outlaws discrimination but permits entities to
+> discriminate with impunity until victims experience that discrimination and
+> educate the entities  perpetrating it about their obligations not to
+> discriminate."
 
 [Sen. Tammy Duckworth](https://www.washingtonpost.com/opinions/congress-is-on-
 the-offensive-against-americans-with-
@@ -171,3 +170,5 @@ Transcription of the infographic:
 >
 >
 > _An image of an ADA logo_
+
+[1]: https://disabilityrightslaw.org/sites/default/files/documents/Letter-Opposition-ADA-Education-Reform-Act-2017.pdf
