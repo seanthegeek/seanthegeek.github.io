@@ -3,7 +3,7 @@ layout: post
 title: My painful but worthwhile migration from WordPress to Jekyll
 description: 'A journey from a bloated dynamic blog to a svelte static blog'
 image:
-  path: /assets/images/wp-to-jekyll.png
+  path: /assets/images/wp-to-jekyll.webp
 categories:
   - How-to Guides
 tags:
