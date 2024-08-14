@@ -291,3 +291,8 @@ and set the `Browser Cache TTL` setting to `Respect Existing Headers`.
 
 Once that was fixed, I noticed a nice modern feature of the Chirpy theme that
 notifies the user when content changes while they have the site open.
+
+![Screenshot of the content update message](/assets/images/chirpy-updated-content-message.png)
+
+I still use CloudFlare so I can get basic analytics without adding additional
+JavaScript or invasive trackers.
