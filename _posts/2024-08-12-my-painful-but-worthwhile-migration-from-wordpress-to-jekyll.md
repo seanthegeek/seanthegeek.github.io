@@ -14,13 +14,13 @@ tags:
 When I was thinking about the best way to share my findings to a wide audience
 when I reverse engineer malware Jekyll was an obvious choice, because I already
 write my notes in Markdown. However, I already have a successful WordPress blog
-that I have hosted in GCP since 2016. I didn't want to maintain two blogs,
+that I had hosted in GCP since 2016. I didn't want to maintain two blogs,
 so I set out to migrate my existing 30 posts and 117 media files to Jekyll.
 
 There are lots of advantages to Jekyll over WordPress, especially for small
 blogs:
 
-- Free hosting on GitHub Pages
+- Free hosting on [GitHub Pages](https://pages.github.com/)
   - Compared about $26/month for a `g1-small` GCP VM in the `us-east-c1` zone
 - No more server to maintain
 - No more managing a ton of plugins (often commercial) just to do basic things like SEO
@@ -274,3 +274,20 @@ customizable, so I chose it over utterances.
 
 The old WordPress comments can still be found in the Front Data in the Markdown
 files, they are just not visible in the HTML pages.
+
+## Caching settings
+
+After I deployed Jekyll to GetHub pages, I noticed that changes that I made to
+to the pages were being cached in my browser for a long time. My blog is proxied
+through CloudFlare. In turns out my CloudFlare instance was configured to set
+the browser cache TTL to 4 hours. When I was using WordPress, that would help
+manage caching.
+
+Because my new Jekyll site is completely static, the site was being cached for
+4 hours. To fix this in Cloudflare, I Navigated to `Caching> Configuration`,
+and set the `Browser Cache TTL` setting to `Respect Existing Headers`.
+
+![A screenshot of the Cloudflare Browser Cache TTL setting](/assets/images/cloudflare-browser-cache-ttl-setting-screenshot.png)
+
+Once that was fixed, I noticed a nice modern feature of the Chirpy theme that
+notifies the user when content changes while they have the site open.
