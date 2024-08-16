@@ -122,8 +122,8 @@ that explains exactly how to bypass SPF:
 [![An illustration of email spoofing that bypasses SPF
 checks](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)
 An illustration of email spoofing that bypasses SPF checks
-__Credit: o365info.com__
-__Used under fair use__ for educational purposes
+_Credit: o365info.com_
+_Used under fair use__ for educational purposes
 
 Also, It is up the receiving mail server to decide what to do with an email if
 the SPF check fails. SPF does not specify an action for the recipient mail

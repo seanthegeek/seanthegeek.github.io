@@ -83,7 +83,7 @@ disabilities their right to obtain a court order to enforce compliance with a
 
 [![Image of Senator Tammy Duckworth](/assets/wp-content/uploads/2018/02/tammy-duckworth.jpg)  
 ](/assets/wp-content/uploads/2018/02/tammy-duckworth.jpg)
-__Senator Tammy Duckworth__
+_Senator Tammy Duckworth_
 
 > This offensive legislation would segregate the disability community, making
 > it the only protected class under civil rights law that must rely on

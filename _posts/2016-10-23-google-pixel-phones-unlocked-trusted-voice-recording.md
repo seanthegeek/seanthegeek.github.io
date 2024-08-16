@@ -59,7 +59,7 @@ Launcher, then tap it again in the search bar. Tap on the menu icon in the
 upper-left, the tap Settings, Voice "Ok Google" Detection, and turn off the
 Trusted Voice switch.
 
-[![A screenshot of ok google detection settings](/assets/wp-content/uploads/2016/10/ok-google-detection-settings-e1477328370884.png)](/assets/wp-content/uploads/2016/10/ok-google-detection-settings-e1477328370884.png)
+[![A screenshot of ok google detection settings](/assets/wp-content/uploads/2016/10/ok-google-detection-settings.png)](/assets/wp-content/uploads/2016/10/ok-google-detection-settings.png)
 
 ## Trade-offs
 

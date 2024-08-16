@@ -91,7 +91,7 @@ Open the EMET GUI and click on Apps. Search for chrome, uncheck the EAF+
 mitigation, and click OK.
 
 [![A scrreenshot of the EMET app config for
-chrome.exe](/assets/images/emet_app_configuration.png)](/assets/images/emet_app_configuration.png)
+chrome.exe](/assets/images/wp-content/uploads/2016/09/emet_app_configuration.png)](assets/images/wp-content/uploads/2016/09/emet_app_configuration.png)
 
 ### Group Policy
 
