@@ -81,8 +81,8 @@ disabilities their right to obtain a court order to enforce compliance with a
 
 ## How would this affect disabled people?
 
-[![Image of Senator Tammy Duckworth](/assets/wp-content/uploads/2017/06/tammy-duckworth.jpg)  
-](/assets/wp-content/uploads/2017/06/tammy-duckworth.jpg)
+[![Image of Senator Tammy Duckworth](/assets/wp-content/uploads/2018/02/tammy-duckworth.jpg)  
+](/assets/wp-content/uploads/2018/02/tammy-duckworth.jpg)
 __Senator Tammy Duckworth__
 
 > This offensive legislation would segregate the disability community, making
@@ -124,7 +124,7 @@ typos that I made in my haste to get the information out there. These have
 been corrected.  
 **
 
-[Download as a PDF](/assets/wp-content/uploads/2017/06/H.R.-620-flyer.pdf)
+[Download as a PDF](/assets/wp-content/uploads/2018/02/H.R.-620-flyer.pdf)
 
 [![An image of a bright red stop sign with a hand in the middle STOP the ADA
 Education and Reform Act Congress is going to vote soon on the ADA Education
@@ -139,7 +139,7 @@ Network already provides ADA training and education; setting up an additional
 education program at the Department of Justice is unnecessary and wasteful
 Contact your local congress members at: www.callmycongress.com
 www.democracy.io An image of an ADA
-logo](/assets/wp-content/uploads/2017/06/H.R.-620-Flyer.png)](/assets/wp-content/uploads/2017/06/H.R.-620-Flyer.png)
+logo](/assets/wp-content/uploads/2018/02/H.R.-620-Flyer.png)](/assets/wp-content/uploads/2018/02/H.R.-620-Flyer.png)
 
 Transcription of the infographic:
 
