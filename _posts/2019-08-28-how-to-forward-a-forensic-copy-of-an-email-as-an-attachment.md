@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: /862/how-to-forward-a-forensic-copy-of-an-email-as-an-attachment
 title: How to forward a forensic copy of an email as an attachment
 description: Step-by-step instructions on how to many popular mail and webmail clients
   to properly forward emails as attachments with forensic headers intact
 date: 2019-08-28 00:36:19 -0000
 publish: true
 pin: false
-permalink: /862/how-to-forward-a-forensic-copy-of-an-email-as-an-attachment
 image:
   path: /assets/wp-content/uploads/2019/08/stack-of-mail.jpg
 categories:

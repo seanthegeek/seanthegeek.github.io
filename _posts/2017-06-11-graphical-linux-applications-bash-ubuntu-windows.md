@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /234/graphical-linux-applications-bash-ubuntu-windows
 title: How to run graphical Linux applications on Windows 10 using the Windows Subsystem
   for Linux (WSL) 1.0
 description: A step-by-step guide on installing Bash on Ubuntu on Windows, with additional
@@ -7,7 +8,6 @@ description: A step-by-step guide on installing Bash on Ubuntu on Windows, with 
 date: 2017-06-11 20:01:53 -0000
 publish: true
 pin: false
-permalink: /234/graphical-linux-applications-bash-ubuntu-windows
 image:
   path: /assets/wp-content/uploads/2017/06/xeyes-bash-ubuntu-windows-10.png
   alt: A screenshot of xeyes running on Bash on Ubuntu on Windows 10 WSL

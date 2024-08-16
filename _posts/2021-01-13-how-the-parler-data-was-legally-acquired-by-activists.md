@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: /1009/how-the-parler-data-was-legally-acquired-by-activists
 title: How the Parler data was legally acquired by activists
 description: The Parler data dumps you've heard about were obtained legally by taking
   advantage of Parler's shoddy architecture. Here's how they did it.
 date: 2021-01-13 06:31:15 -0000
 publish: true
 pin: false
-permalink: /1009/how-the-parler-data-was-legally-acquired-by-activists
 image:
   path: /assets/wp-content/uploads/2021/01/parler-logo.jpg
   alt: The logo of Parler

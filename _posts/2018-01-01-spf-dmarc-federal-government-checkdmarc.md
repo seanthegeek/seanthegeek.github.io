@@ -1,14 +1,15 @@
 ---
 layout: post
+permalink: /310/spf-dmarc-federal-government-checkdmarc
 title: Lessons Learned from the US Federal Government's Ongoing Deployment of SPF
   and DMARC
+  seo_title: Lessons Learned as Feds Deploy SPF and DMARC - seanthegeek.net
 description: An explanation of SPF and DMARC best practices, using results from checkdmarc
   scans of US Government domains as a case study, as federal agencies work towards
   fully implementing the cyber hygiene actions prescribed in DHS BOD 18-01
 date: 2018-01-01 18:07:42 -0000
 publish: true
 pin: false
-permalink: /310/spf-dmarc-federal-government-checkdmarc
 image:
   path: /assets/wp-content/uploads/2018/01/army-mail.jpg
   alt: Two soldiers process mail in a US Army Forward Operating Base Mailroom

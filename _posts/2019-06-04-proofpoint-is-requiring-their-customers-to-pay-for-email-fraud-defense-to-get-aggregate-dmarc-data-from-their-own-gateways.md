@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /806/proofpoint-is-requiring-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways
 title: Proofpoint is requiring their customers to pay for Email Fraud Defense to get
   aggregate DMARC data from their gateways
 description: In order to get aggregate DMARC data on mail flowing through their own
@@ -7,7 +8,6 @@ description: In order to get aggregate DMARC data on mail flowing through their 
 date: 2019-06-04 04:31:21 -0000
 publish: true
 pin: false
-permalink: /806/proofpoint-is-requiring-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways
 image:
   path: /assets/wp-content/uploads/2019/06/Proofpoint-DMARC-dashboard.jpg
   alt: A redacted screenshot of the Proofpoint Email Fraud Defense dashboard

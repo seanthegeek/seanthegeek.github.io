@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: /78/prevent-ransomware-strategic-defense
 title: Prevent ransomware from succeeding with strategic defense-in-depth
 description: Schools, hospitals, businesses and others can take simple, low cost steps
   to prevent ransomware and mitigate its potentially devastating effects.
 date: 2016-08-22 03:56:33 -0000
 publish: true
 pin: false
-permalink: /78/prevent-ransomware-strategic-defense
 image:
   path: /assets/wp-content/uploads/2016/08/petya_ransomware.jpeg
   alt: Thoughtfully placed countermeasures can prevent ransomware like Petya, shown in this screenshot

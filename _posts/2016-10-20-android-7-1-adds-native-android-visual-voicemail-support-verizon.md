@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: /174/android-7-1-adds-native-android-visual-voicemail-support-verizon
 title: Android 7.1 adds native android visual voicemail support for Verizon
 description: No more cryptic text messages when getting Verizon voicemails on Nexus
   devices. Android 7.1 adds support for Verizon visual voicemail in the native dialer.
 date: 2016-10-20 16:37:38 -0000
 publish: true
 pin: false
-permalink: /174/android-7-1-adds-native-android-visual-voicemail-support-verizon
 image:
   path: /assets/wp-content/uploads/2016/10/mailboxes.jpg
 categories:

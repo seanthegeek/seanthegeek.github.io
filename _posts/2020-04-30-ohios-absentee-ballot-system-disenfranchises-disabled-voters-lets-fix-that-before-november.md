@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /950/ohios-absentee-ballot-system-disenfranchises-disabled-voters-lets-fix-that-before-november
 title: Ohio's absentee ballot system disenfranchises disabled voters. Let's fix that
   before November.
 description: Ohio is disenfranchising many disabled voters by requiring the same voter
@@ -7,7 +8,6 @@ description: Ohio is disenfranchising many disabled voters by requiring the same
 date: 2020-04-30 09:11:24 -0000
 publish: true
 pin: false
-permalink: /950/ohios-absentee-ballot-system-disenfranchises-disabled-voters-lets-fix-that-before-november
 image:
   path: /assets/wp-content/uploads/2020/04/polling_place_sign.jpg
   alt: A sign reading "POLLING PLACE" in English and Spanish, with a handicapped symbol

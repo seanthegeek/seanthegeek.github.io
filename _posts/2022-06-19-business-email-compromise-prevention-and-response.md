@@ -1,11 +1,12 @@
 ---
+layout: post
+permalink: /1234/business-email-compromise-prevention-and-response
 title: Business Email Compromise prevention and response
 description: A practical guide to preventing Business Email Compromise by using defense-in-depth
   techniques, multi-factor authentication, and training
 date: 2022-06-19 22:27:21 -0000
 publish: true
 pin: false
-permalink: 1234/business-email-compromise-prevention-and-response/
 image:
   path: /assets/wp-content/uploads/2022/06/istock-phishing-laptop.png
   alt: An illustration of a phishing attack

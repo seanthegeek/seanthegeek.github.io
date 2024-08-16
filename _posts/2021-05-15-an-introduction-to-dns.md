@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: /1117/an-introduction-to-dns
 title: An introduction to DNS
-description: An overview of what DNS is, how it works, and the purposes of the varions
+description: An overview of what DNS is, how it works, and the purposes of the various
   DNS resource record types
 date: 2021-05-15 02:09:42 -0000
 publish: true
 pin: false
-permalink: /1117/an-introduction-to-dns
 categories:
 - Information Security
 tags:

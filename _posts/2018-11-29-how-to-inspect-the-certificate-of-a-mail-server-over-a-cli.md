@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: /562/how-to-inspect-the-certificate-of-a-mail-server-over-a-cli
 title: How to inspect the certificate of a mail server over a CLI
 description: A tiny guide to using the openssl CLI tool to inspect and/or save the
   SSL.TLS certificates used by mail servers
 date: 2018-11-29 23:17:15 -0000
 publish: true
 pin: false
-permalink: /562/how-to-inspect-the-certificate-of-a-mail-server-over-a-cli
 categories:
 - How-To Guides
 tags: []

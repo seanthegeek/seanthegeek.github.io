@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /208/wannacry-ransomware-analysis
 title: 'WannaCry ransomware analysis: Samples date back to at least early February
   2017'
 description: Information on the spread, mitigation, and patch details of WannaCry,
@@ -7,7 +8,6 @@ description: Information on the spread, mitigation, and patch details of WannaCr
 date: 2017-05-18 19:49:29 -0000
 publish: true
 pin: false
-permalink: /208/wannacry-ransomware-analysis
 image:
   path: /assets/wp-content/uploads/2017/05/VT-wannacry.png
   alt: VirusTotal results showing the earliest observed sample of Wannacry ransomware

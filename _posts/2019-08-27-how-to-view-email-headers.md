@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: /861/how-to-view-email-headers
 title: How to view email headers
 description: Step by step instructions for viewing email message headers using popular
-  mail clients and webmail servicess, including Outlook, Gmail, and more.
+  mail clients and webmail services, including Outlook, Gmail, and more.
 date: 2019-08-27 21:41:51 -0000
 publish: true
 pin: false
-permalink: /861/how-to-view-email-headers
 image:
   path: /assets/wp-content/uploads/2019/08/email-headers-screenshot.png
   alt: A screenshot of email headers

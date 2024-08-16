@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /190/google-pixel-phones-unlocked-trusted-voice-recording
 title: Google Pixel phones can be unlocked with a recording of a trusted voice by
   default
 description: Trusted Voice is enabled on Google Pixel phones by default, allowing
@@ -7,7 +8,6 @@ description: Trusted Voice is enabled on Google Pixel phones by default, allowin
 date: 2016-10-23 21:04:41 -0000
 publish: true
 pin: false
-permalink: /190/google-pixel-phones-unlocked-trusted-voice-recording
 image:
   path: /assets/wp-content/uploads/2016/10/Trusted-Voice-Warning.png
   alt: user manually enables "Ok Google" Trusted Voice

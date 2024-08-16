@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: /459/demystifying-dmarc
 title: 'Demystifying DMARC: A guide to preventing email spoofing'
 description: A 614Con 2018 talk that explains what DMARC is, how to deploy DMARC properly,
   and how to respond to DMARC reports - all with open source software.
 date: 2018-06-15 20:00:30 -0000
 publish: true
 pin: false
-permalink: /459/demystifying-dmarc
 image:
   path: /assets/wp-content/uploads/2018/06/DMARC-Summary-dashboard.png
   alt: A screenshot of a pre-made aggregate/summary DMARC dashboard in ELK using data

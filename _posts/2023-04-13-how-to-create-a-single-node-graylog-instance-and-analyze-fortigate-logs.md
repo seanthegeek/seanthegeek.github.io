@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: 1270/how-to-create-a-single-node-graylog-instance-and-analyze-fortigate-logs/
 title: How to create a single-node Graylog instance and analyze FortiGate logs
 description: A complete guide to creating a single-node Graylog instance, sending
   FortiGate firewall logs to it, and analyzing the data
 date: 2023-04-13 19:51:33 -0000
 publish: true
 pin: false
-permalink: 1270/how-to-create-a-single-node-graylog-instance-and-analyze-fortigate-logs/
 image:
   path: /assets/wp-content/uploads/2023/04/graylog-fortigate-dashboard-application-control.png
   alt: The Application Control dashboard included in the FortiGate

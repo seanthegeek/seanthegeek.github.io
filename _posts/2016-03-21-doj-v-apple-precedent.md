@@ -1,12 +1,12 @@
 ---
 layout: post
+permalink: /15/doj-v-apple-precedent
 title: 'DoJ v. Apple: It''s all about the precedent'
 description: Apple is fighting a court order forcing it to write software for breaking
   into iPhones. The privacy implications are huge. DoJ v. Apple is critical.
 date: 2016-03-21 01:23:52 -0000
 publish: true
 pin: false
-permalink: /15/doj-v-apple-precedent
 image:
   path: /assets/wp-content/uploads/2016/03/secret-stamp.jpg
   alt: A battle for encryption privacy and secrecy has been highlighted in a series of DoJ v. Apple court filings

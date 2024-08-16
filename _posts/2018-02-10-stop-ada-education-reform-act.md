@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /392/stop-ada-education-reform-act
 title: Stop the ADA Education and Reform Act
 description: The ADA Education and Reform Act of 2017 allows business to ignore ADA
   requirements until a notification is sent by a disabled person, and denies persons
@@ -8,7 +9,6 @@ description: The ADA Education and Reform Act of 2017 allows business to ignore 
 date: 2018-02-10 22:16:01 -0000
 publish: true
 pin: false
-permalink: /392/stop-ada-education-reform-act
 image:
   path: /assets/wp-content/uploads/2018/02/handicapped-parking.jpg
   alt: An image of handicapped parking by Shawn Campbell
