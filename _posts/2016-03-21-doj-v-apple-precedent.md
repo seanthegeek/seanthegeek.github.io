@@ -5,6 +5,7 @@ title: 'DoJ v. Apple: It''s all about the precedent'
 description: Apple is fighting a court order forcing it to write software for breaking
   into iPhones. The privacy implications are huge. DoJ v. Apple is critical.
 date: 2016-03-21 01:23:52 -0000
+last_modified_at: 2016-08-06 20:28:13 -0000
 publish: true
 pin: false
 image:
