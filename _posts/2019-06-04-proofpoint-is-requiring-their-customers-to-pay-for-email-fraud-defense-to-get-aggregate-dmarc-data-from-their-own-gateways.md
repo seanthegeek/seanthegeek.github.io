@@ -65,7 +65,7 @@ samples of the emails that failed DMARC, even though they won't show up in
 third party analytics.
 
 **Update** : I have written a complete Proofpoint email authentication
-[guide](/assets/docs/Proofpoint-Email-Authentication-Guide.pdf) that
+[guide](/assets/wp-content/uploads/2018/06/Proofpoint-Email-Authentication-Guide.pdf) that
 describes how to implement this workaround in detail.
 
 This has impacts beyond Proofpoint SEG and EFD. Even if a Proofpoint customer

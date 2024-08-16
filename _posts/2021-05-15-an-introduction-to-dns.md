@@ -118,4 +118,4 @@ the records of contractor.example.com and below, the administrator would add a
 NS resource record named contractor.example.com, and set the value/rdata to
 the nameservers of the contractor.
 
-![A diagram of the structure of DNS](/assets/wp-vontent/uploads/2021/05/domain_name_space.png)
+![A diagram of the structure of DNS](/assets/wp-content/uploads/2021/05/domain_name_space.png)
