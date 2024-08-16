@@ -1,19 +1,17 @@
 ---
 layout: post
-status: publish
-published: true
 title: An introduction to DNS
-permalink: /1117/an-introduction-to-dns/
-wordpress_id: 1117
-wordpress_url: https://seanthegeek.net/?p=1117
-date: '2021-05-15 02:09:42 +0000'
-date_gmt: '2021-05-15 02:09:42 +0000'
+description: An overview of what DNS is, how it works, and the purposes of the varions
+  DNS resource record types
+date: 2021-05-15 02:09:42 -0000
+publish: true
+pin: false
+permalink: /1117/an-introduction-to-dns
 categories:
 - Information Security
 tags:
 - DNS
 - networking
-comments: []
 ---
 The Domain Name System (DNS) is best known as the way domain names are
 converted into IP addresses that clients connect to, but there are many other
@@ -120,4 +118,4 @@ the records of contractor.example.com and below, the administrator would add a
 NS resource record named contractor.example.com, and set the value/rdata to
 the nameservers of the contractor.
 
-![A diagram of the structure of DNS](/assets/images/domain_name_space.png)
+![A diagram of the structure of DNS](/assets/images/wp-uploads/2021/05/domain_name_space.png)

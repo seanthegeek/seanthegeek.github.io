@@ -1,26 +1,26 @@
 ---
 layout: post
-status: publish
-published: true
 title: Google Pixel phones can be unlocked with a recording of a trusted voice by
   default
+description: Trusted Voice is enabled on Google Pixel phones by default, allowing
+  anyone with a recording of you saying "Ok Google" to unlock your phone.
+date: 2016-10-23 21:04:41 -0000
+publish: true
+pin: false
 permalink: /190/google-pixel-phones-unlocked-trusted-voice-recording
-description: 'When Trusted Voice is enabled on Google Pixel phones by default, allowing anyone with a recording of you saying "Ok Google" to unlock your phone.'
 image:
-  path: /assets/images/Trusted-Voice-Warning.png
-wordpress_id: 190
-wordpress_url: https://seanthegeek.net/?p=190
-date: '2016-10-23 21:04:41 +0000'
-date_gmt: '2016-10-23 21:04:41 +0000'
+  path: /assets/wp-content/uploads/2016/10/Trusted-Voice-Warning.png
+  alt: user manually enables "Ok Google" Trusted Voice
 categories:
 - Information Security
+- Journal
 tags:
-- Privacy
-- Google Assistant
 - Android
+- Google Assistant
 - Google Pixel
+- privacy
+- Security
 - Trusted Voice
-comments: []
 ---
 The headline feature of the new Google Pixel phones is deep integration
 between the operating system and the [Google
@@ -59,7 +59,7 @@ Launcher, then tap it again in the search bar. Tap on the menu icon in the
 upper-left, the tap Settings, Voice "Ok Google" Detection, and turn off the
 Trusted Voice switch.
 
-[![A screenshot of ok google detection settings](/assets/images/ok-google-detection-settings-e1477328370884.png)](/assets/images/ok-google-detection-settings-e1477328370884.png)
+[![A screenshot of ok google detection settings](/assets/wp-content/uploads/2016/10/ok-google-detection-settings-e1477328370884.png)](/assets/wp-content/uploads/2016/10/ok-google-detection-settings-e1477328370884.png)
 
 ## Trade-offs
 

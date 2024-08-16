@@ -1,25 +1,21 @@
 ---
-layout: post
-status: publish
-published: true
 title: Business Email Compromise prevention and response
-permalink: '/1234/business-email-compromise-prevention-and-response'
-description: 'A practical guide to preventing Business Email Compromise by using defense-in-depth techniques, multi-factor authentication, and training'
+description: A practical guide to preventing Business Email Compromise by using defense-in-depth
+  techniques, multi-factor authentication, and training
+date: 2022-06-19 22:27:21 -0000
+publish: true
+pin: false
+permalink: 1234/business-email-compromise-prevention-and-response/
 image:
-  path: '/assets/images/istock-phishing-laptop.png'
-wordpress_id: 1234
-wordpress_url: https://seanthegeek.net/?p=1234
-date: '2022-06-19 22:27:21 +0000'
-date_gmt: '2022-06-19 22:27:21 +0000'
+  path: /assets/wp-content/uploads/2022/06/istock-phishing-laptop.png
+  alt: An illustration of a phishing attack
 categories:
 - Information Security
-- How-To Guides
 tags:
+- BEC
 - email
 - phishing
 - social engineering
-- BEC
-comments: []
 ---
 Business Email Compromise (BEC) attacks are easy, cheap, and often very
 effective. This high Return on Investment makes BEC an extremely popular with
@@ -99,7 +95,7 @@ harvesting page operates](https://seanthegeek.net/1069/how-to-examine-a-
 credential-harvesting-page-using-microsoft-edge/).
 
 ![A screenshot of fake Microsoft login form used for credential harvesting, a
-common first step of Business Email Compromise \(BEC\)](/assets/images/fake-login-page.webp)  
+common first step of Business Email Compromise \(BEC\)](/assets/wp-content/uploads/2022/06/fake-login-page.webp)  
 Screenshot by [Raymond Tec](https://raymondtec.com/2020/06/german-task-force-
 for-covid-19-medical-equipment-targeted-in-ongoing-phishing-campaign/)
 
@@ -163,7 +159,7 @@ technology/2022/03/lapsus-and-solar-winds-hackers-both-use-the-same-old-trick-
 to-bypass-mfa/).
 
 ![A screenshot of a push notification for multi-factor
-authentication](/assets/images/push-notification-mfa.png)
+authentication](/assets/wp-content/uploads/2022/06/push-notification-mfa.png)
 
 Time-Based One Time Passwords (TOTP) are six digit numbers that change every
 minute. To set up TOTP with a service, a user scans a QR code provided by the
@@ -189,7 +185,7 @@ bypassed by tricking the user into tapping an allow button in an app, visiting
 a lookalike website, or giving the attacker a one-time code.
 
 ![An image of the Yubikey 5 NFC hardware security key. Hardware security keys
-are the most secure form of MFA.](/assets/images/yubikey-5-nfc.png)
+are the most secure form of MFA.](/assets/wp-content/uploads/2022/06/yubikey-5-nfc.png)
 
 To authenticate with a hardware key, the user plugs the key into a USB port
 (or taps the key against the back of their phone), and presses the button on

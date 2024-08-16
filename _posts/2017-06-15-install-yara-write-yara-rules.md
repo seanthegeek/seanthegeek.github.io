@@ -1,52 +1,21 @@
 ---
 layout: post
-status: publish
-published: true
 title: How to install YARA and write basic YARA rules to identify malware
+description: A complete YARA guide, covering installation, practical examples for
+  writing YARA rules, and using YARA to identify, sort, and collect malware samples
+date: 2017-06-15 14:58:36 -0000
+publish: true
+pin: false
 permalink: /257/install-yara-write-yara-rules
-description: 'A complete YARA guide, covering installation, practical examples for writing YARA rules, and using YARA to identify, sort, and collect malware samples.'
 image:
-  path: /assets/images/sample-yara-rule.png
-  alt: A screenshot of a YARA rule
-wordpress_id: 257
-wordpress_url: https://seanthegeek.net/?p=257
-date: '2017-06-15 14:58:36 +0000'
-date_gmt: '2017-06-15 14:58:36 +0000'
+  path: /assets/wp-content/uploads/2017/06/sample-yara-rule.png
+  alt: A screenshot of a YARA rule with syntax highlighting
 categories:
-- Information Security
 - How-to Guides
+- Information Security
 tags:
+- forensics
 - YARA
-- signatures
-- DFIR
-comments:
-- id: 248
-  author: Patrick Hermann
-  author_url: ''
-  date: '2017-12-18 18:05:38 +0000'
-  date_gmt: '2017-12-18 18:05:38 +0000'
-  content: "Hi Sean,\r\n\r\ncan you send me a quick mail, i have question regarding
-    chuckoo sandbox.\r\n\r\nthx\r\npatrick"
-- id: 772
-  author: cryptoparty
-  author_url: ''
-  date: '2018-10-02 13:36:02 +0000'
-  date_gmt: '2018-10-02 13:36:02 +0000'
-  content: "Hey man!\r\n\r\nI need your help with ur cuckoo introduction.\r\n\r\nPlz
-    contact  me"
-- id: 1417
-  author: vikas
-  author_url: ''
-  date: '2019-04-02 13:15:35 +0000'
-  date_gmt: '2019-04-02 13:15:35 +0000'
-  content: "i have folder containing different yara signatures files. \r\ncould you
-    tell me how can use yara tool on given samples and apply all signatures on it?"
-- id: 2959
-  author: kim
-  author_url: ''
-  date: '2019-12-05 06:38:48 +0000'
-  date_gmt: '2019-12-05 06:38:48 +0000'
-  content: you have to use yara  yarafile.yara  -r /root/foldername
 ---
 YARA is described as "The pattern matching Swiss knife for malware researchers
 (and everyone else)". Think of it as like `grep`, but instead of matching

@@ -1,26 +1,24 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'DoJ v. Apple: It''s all about the precedent'
-wordpress_id: 15
-wordpress_url: https://seanthegeek.net/?p=15
-date: '2016-03-21 01:23:52 +0000'
-date_gmt: '2016-03-21 01:23:52 +0000'
-permalink: /15/doj-v-apple-precedent/
+description: Apple is fighting a court order forcing it to write software for breaking
+  into iPhones. The privacy implications are huge. DoJ v. Apple is critical.
+date: 2016-03-21 01:23:52 -0000
+publish: true
+pin: false
+permalink: /15/doj-v-apple-precedent
 image:
-  path: /assets/images/secret-stamp.jpg
-description: 'Apple is fighting a court order forcing it to write software for breaking into iPhones. The privacy implications are huge. DoJ v. Apple is critical.'
+  path: /assets/wp-content/uploads/2016/03/secret-stamp.jpg
+  alt: A battle for encryption privacy and secrecy has been highlighted in a series of DoJ v. Apple court filings
 categories:
 - Information Security
 - Politics
 tags:
-- law
-- encryption
 - Apple
 - DOJ
+- encryption
+- law
 - privacy
-comments: []
 ---
 By now, you've probably heard something about the ongoing legal battle between
 Apple and the Department of Justice. "DoJ v. Apple" coverage has been

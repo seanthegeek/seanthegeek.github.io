@@ -1,40 +1,21 @@
 ---
 layout: post
-status: publish
-published: true
 title: Android 7.1 adds native android visual voicemail support for Verizon
+description: No more cryptic text messages when getting Verizon voicemails on Nexus
+  devices. Android 7.1 adds support for Verizon visual voicemail in the native dialer.
+date: 2016-10-20 16:37:38 -0000
+publish: true
+pin: false
 permalink: /174/android-7-1-adds-native-android-visual-voicemail-support-verizon
-description: No more cryptic text messages when getting Verizon voicemails on Nexus devices. Android 7.1 adds support for Verizon visual voicemail in the native dialer.
 image:
-  path: /assets/images/mailboxes.jpg
-wordpress_id: 174
-wordpress_url: https://seanthegeek.net/?p=174
-date: '2016-10-20 16:37:38 +0000'
-date_gmt: '2016-10-20 16:37:38 +0000'
+  path: /assets/wp-content/uploads/2016/10/mailboxes.jpg
 categories:
 - Consumer devices
 tags:
-- Visual Voicemail
 - Android 7.1
 - Nexus
 - Verizon
-comments:
-- id: 23
-  author: DaveH
-  author_url: ''
-  date: '2016-12-07 17:31:03 +0000'
-  date_gmt: '2016-12-07 17:31:03 +0000'
-  content: Yes - Basic Voicemail feature on Nexus 6P running 7.1.1 will not work.
-    Dialing *86 and the phone will hang up. You have to switch your VZW account to
-    the free Basic Visual Voice Mail or the Premium Visual Voice Mail with TEXT.  You
-    might want to add this bit of info to your article.
-- id: 26
-  author: Sean Whalen
-
-  author_url: ''
-  date: '2016-12-11 18:35:03 +0000'
-  date_gmt: '2016-12-11 18:35:03 +0000'
-  content: Done. Thanks!
+- Visual Voicemail!
 ---
 After upgrading my Nexus 6P on Verizon to the Android 7.1.1 beta, I discovered
 that Visual Voicemail in the native Android dialer works! You just need to
@@ -68,13 +49,13 @@ list](https://www.reddit.com/r/Android/comments/561wpq/google_pixel_preloaded_ap
 of installed Verizon apps. Now we know.
 
 [![A screenshot of the Verizon Wireless Premium Visual Voicemail welcome
-message in the Android 7.1 Dialer on a Nexus 6P](/assets/images/vzw-vvm-android.png)](/assets/images/vzw-vvm-android.png)
+message in the Android 7.1 Dialer on a Nexus 6P](/assets/wp-content/uploads/2016/10/vzw-vvm-android.png)](/assets/wp-content/uploads/2016/10/vzw-vvm-android.png)
 
 Also, the Support tab in Settings is there, as seen on the Pixel phones.
 
 [![A screenshot of the settings app in Android 7.1 on a Nexus 6P, showing the
 support tab first seen on the Google Pixel
-phones](/assets/images/android-7.1.1-settings.png)](/assets/images/android-7.1.1-settings.png)
+phones](/assets/wp-content/uploads/2016/10/android-7.1.1-settings.png)](/assets/wp-content/uploads/2016/10/android-7.1.1-settings.png)
 
 ~~This was one of the features that I thought was Pixel exclusive. It's nice
 to see it included.~~   Hopefully ~~more~~ features from the Pixel phones like
@@ -93,7 +74,7 @@ that remove the phones and chat support buttons for Nexus devices :(
 
 [![A screenshot of the support tab in settings as seen on a Nexus 5X after the
 Google Support Services
-update](/assets/images/nexus-5X-support.png)](/assets/images/nexus-5X-support.png)
+update](/assets/wp-content/uploads/2016/10/nexus-5X-support.png)](/assets/wp-content/uploads/2016/10/nexus-5X-support.png)
 
 You can get Android 7.1.1 on a Nexus device right now by signing up for the
 [Android Beta](https://www.google.com/android/beta). It's actually very

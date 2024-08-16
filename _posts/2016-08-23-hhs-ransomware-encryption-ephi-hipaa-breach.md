@@ -1,29 +1,28 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'HHS: Ransomware encryption of ePHI is a HIPAA breach'
+description: The US Department of Health and Human Services (HHS) ransomware fact
+  sheet states that any unauthorized affect on ePHI is presumed to be a breach.
+date: 2016-08-23 13:34:42 -0000
+publish: true
+pin: false
 permalink: /126/hhs-ransomware-encryption-ephi-hipaa-breach
 image:
-  path: /assets/images/Medical-Records.jpg
-description: 'The US Department of Health and Human Services (HHS) ransomware fact sheet states that any unauthorized affect on ePHI is presumed to be a breach.'
-wordpress_id: 126
-wordpress_url: https://seanthegeek.net/?p=126
-date: '2016-08-23 13:34:42 +0000'
-date_gmt: '2016-08-23 13:34:42 +0000'
+  path: /assets/wp-content/uploads/2016/08/Medical-Records.jpg
+  alt: 'Colorful shelves of paper medical records at a dental clinic - Credit: Tom Magliery License:
+    CC BY-NC-SA 2.0'
 categories:
-- Information Security
 - Healthcare
+- Information Security
 tags:
-- privacy
-- ransomware
+- breach-notification
+- ePHI
 - HHS
 - HIPAA
 - PHI
-- ePHI
-- breach-notification
+- privacy
+- ransomware
 - regulation
-comments: []
 ---
 As a growing number of medical facilities are struck by ransomware, the US
 Department of Health and Human Services (HHS) has published a [fact

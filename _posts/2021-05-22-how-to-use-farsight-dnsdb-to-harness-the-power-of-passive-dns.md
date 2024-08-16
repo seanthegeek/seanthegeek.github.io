@@ -1,23 +1,20 @@
 ---
 layout: post
-status: publish
-published: true
 title: How to use Farsight Security's DNSDB to harness the power of passive DNS
-permalink: /1122/how-to-use-farsight-dnsdb-to-harness-the-power-of-passive-dns/
-description: "A guide to using the dsbdb-python Python module to perform forward and inverse queries on passive DNS data in Farsight Security's DNSDB"
-wordpress_id: 1122
-wordpress_url: https://seanthegeek.net/?p=1122
-date: '2021-05-22 21:30:16 +0000'
-date_gmt: '2021-05-22 21:30:16 +0000'
+description: A guide to using the dsbdb-python Python module to perform forward and
+  inverse queries on passive DNS data in Farsight Security's DNSDB
+date: 2021-05-22 21:30:16 -0000
+publish: true
+pin: false
+permalink: /1122/how-to-use-farsight-dnsdb-to-harness-the-power-of-passive-dns
 categories:
 - Information Security
 - How-to Guides
 tags:
 - DNS
 - OSINT
-- recon
 - pentesting
-comments: []
+- recon
 ---
 DNS describes the [structure](https://seanthegeek.net/1117/an-introduction-to-
 dns/) of resources on the internet. It can provide lots of valuable
@@ -211,8 +208,7 @@ testament to the near real-time nature of the data provided by DNSDB.
     
      186
 
-Based on a[ whois
-lookup](https://www.virustotal.com/gui/domain/justinstalledpanel.com/details),
+Based on a[whois lookup](https://www.virustotal.com/gui/domain/justinstalledpanel.com/details),
 It turns out justinstalledpanel.com is used as part of the domain parking
 infrastructure for publicdomainregistry.com, which explains why there are so
 many record changes so frequently.

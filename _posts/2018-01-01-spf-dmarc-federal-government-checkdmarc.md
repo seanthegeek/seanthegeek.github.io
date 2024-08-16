@@ -1,73 +1,25 @@
 ---
 layout: post
-status: publish
-published: true
 title: Lessons Learned from the US Federal Government's Ongoing Deployment of SPF
   and DMARC
+description: An explanation of SPF and DMARC best practices, using results from checkdmarc
+  scans of US Government domains as a case study, as federal agencies work towards
+  fully implementing the cyber hygiene actions prescribed in DHS BOD 18-01
+date: 2018-01-01 18:07:42 -0000
+publish: true
+pin: false
 permalink: /310/spf-dmarc-federal-government-checkdmarc
 image:
-  path: /assets/images/army-mail.jpg
-wordpress_id: 310
-wordpress_url: https://seanthegeek.net/?p=310
-date: '2018-01-01 18:07:42 +0000'
-date_gmt: '2018-01-01 18:07:42 +0000'
+  path: /assets/wp-content/uploads/2018/01/army-mail.jpg
+  alt: Two soldiers process mail in a US Army Forward Operating Base Mailroom
 categories:
 - Information Security
 tags:
-- SPF
-- DMARC
-- DHS
 - BOD 18-01
 - checkdmarc
-comments:
-- id: 267
-  author: WBS
-  author_url: ''
-  date: '2018-01-25 15:23:46 +0000'
-  date_gmt: '2018-01-25 15:23:46 +0000'
-  content: Great post! Very interested in seeing update since Jan 15 BOD 18-01 deadline
-    for DMARC records &amp; aggregate  reporting. Could you shoot me an email....would
-    like to discuss this further with you. Thanks!
-- id: 921
-  author: Verlin
-  author_url: https://verlindeb.org
-  date: '2019-01-04 19:04:11 +0000'
-  date_gmt: '2019-01-04 19:04:11 +0000'
-  content: Informative. I'm trying to setup my own policies and learned from it. Thank
-    you.
-- id: 926
-  author: Arthur Carp
-  author_url: ''
-  date: '2019-01-06 01:54:37 +0000'
-  date_gmt: '2019-01-06 01:54:37 +0000'
-  content: "Would you please post an update page to your blog so we can see the results
-    to date. It is almost a year later, and it would be useful to see how the effort
-    to implement DHS Binding Operational Directive 18-01 (BOD 18-01) is going.\r\n\r\nThank
-    you."
-- id: 1687
-  author: Mishal
-  author_url: ''
-  date: '2019-05-13 13:40:22 +0000'
-  date_gmt: '2019-05-13 13:40:22 +0000'
-  content: "very helpful post !! but how the directive force US agencies to implement
-    SPF and DMARC( with p= reject) with DKIM instructions, as you mention that \"DMARC
-    without DKIM will break (some of) your email delivery\", could you explain for
-    us this misunderstanding.\r\nThanks a lots"
-- id: 1691
-  author: Mishal
-  author_url: ''
-  date: '2019-05-14 11:44:25 +0000'
-  date_gmt: '2019-05-14 11:44:25 +0000'
-  content: "updated comment:\r\n\r\nvery helpful post !! but how the directive force
-    US agencies to implement SPF and DMARC( with p= reject) without DKIM instructions,
-    as you mention that \"DMARC without DKIM will break (some of) your email delivery\",
-    could you explain for us this misunderstanding.\r\nThanks a lots"
-- id: 1692
-  author: Mishal
-  author_url: ''
-  date: '2019-05-14 11:46:28 +0000'
-  date_gmt: '2019-05-14 11:46:28 +0000'
-  content: sorry i meant "without DKIM instructions"
+- DHS
+- DMARC
+- SPF
 ---
 SPF and DMARC are standards that describe how the origins of email messages
 should be verified, to prevent email spoofing. I spent some free time over the
@@ -168,10 +120,10 @@ simulate-spoof-e-mail-attack-and-bypass-spf-sender-verification-part2-of-2/)
 that explains exactly how to bypass SPF:
 
 [![An illustration of email spoofing that bypasses SPF
-checks](/assets/images/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)](/assets/images/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)
+checks](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)
 An illustration of email spoofing that bypasses SPF checks
-Credit: o365info.com
-Used under fair use for educational purposes
+__Credit: o365info.com__
+__Used under fair use__ for educational purposes
 
 Also, It is up the receiving mail server to decide what to do with an email if
 the SPF check fails. SPF does not specify an action for the recipient mail
@@ -411,20 +363,20 @@ have a `p=none` DMARC policy had passed.
 Unfortunately, due to the bug fixes I've made in between tests, the results
 are not comparable, but these results are more accurate.
 
-The generated files can be [downloaded here](/assets/data/USG-DMARC-2018-01-28.zip).
+The generated files can be [downloaded here](/assets/wp-content/uploads/2018/01/USG-DMARC-2018-01-28.zip).
 
 [![A pie chart of SPF deployment on .gov domains as of
-2018-01-28](/assets/images/dotgov-spf-2018-01-28.png)](/assets/images/dotgov-spf-2018-01-28.png)
+2018-01-28](/assets/wp-content/uploads/2018/01/dotgov-spf-2018-01-28.png)](/assets/wp-content/uploads/2018/01/dotgov-spf-2018-01-28.png)
 A pie chart of SPF deployment on .gov domains as of 2018-01-28
 
 [![A pie chart of DMARC deployment on .gov domains as of
-2018-01-28](/assets/images/dotgov-dmarc-2018-01-28.png)](/assets/images/dotgov-dmarc-2018-01-28.png)
+2018-01-28](/assets/wp-content/uploads/2018/01/dotgov-dmarc-2018-01-28.png)](/assets/wp-content/uploads/2018/01/dotgov-dmarc-2018-01-28.png)
 A pie chart of DMARC deployment on .gov domains as of 2018-01-28
 
 [![A column chart of DMARC deployment by policy on .gov domains as of
 2018-01-28; Note: “none” is a valid DMARC policy – the “\(empty\)” chart value
 represents domains that have missing or invalid DMARC
-records](/assets/images/dotgov-dmarc-policy-2018-01-28.png)](/assets/images/dotgov-dmarc-policy-2018-01-28.png)
+records](/assets/wp-content/uploads/2018/01/dotgov-dmarc-policy-2018-01-28.png)](/assets/wp-content/uploads/2018/01/dotgov-dmarc-policy-2018-01-28.png)
 A column chart of DMARC deployment by policy on .gov domains as of 2018-01-28;
 Note: "none" is a valid DMARC policy - the "(empty)" chart value represents
 domains that have missing or invalid DMARC record

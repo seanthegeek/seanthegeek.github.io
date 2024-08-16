@@ -1,25 +1,21 @@
 ---
 layout: post
-status: publish
-published: true
 title: How to view email headers
-description: Step by step instructions for viewing email message headers using popular mail clients and webmail services, including Outlook, Gmail, and more.
-permalink: /861/how-to-view-email-headers/
+description: Step by step instructions for viewing email message headers using popular
+  mail clients and webmail servicess, including Outlook, Gmail, and more.
+date: 2019-08-27 21:41:51 -0000
+publish: true
+pin: false
+permalink: /861/how-to-view-email-headers
 image:
-  path: /assets/images/email-headers-screenshot.png
+  path: /assets/wp-content/uploads/2019/08/email-headers-screenshot.png
   alt: A screenshot of email headers
-wordpress_id: 861
-wordpress_url: https://seanthegeek.net/?p=861
-date: '2019-08-27 21:41:51 +0000'
-date_gmt: '2019-08-27 21:41:51 +0000'
 categories:
 - Information Security
 - How-to Guides
 tags:
 - email
 - forensics
-- DFIR
-comments: []
 ---
 Email headers contain very useful information for tracing a message's origin
 and troubleshooting its delivery. Email headers are written with the oldest

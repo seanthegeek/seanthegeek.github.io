@@ -1,76 +1,23 @@
 ---
 layout: post
-status: publish
-published: true
 title: Proofpoint is requiring their customers to pay for Email Fraud Defense to get
   aggregate DMARC data from their gateways
-description: In order to get aggregate DMARC data on mail flowing through their own gateways, Proofpoint customers must purchase Proofpoint Email Fraud Defense
+description: In order to get aggregate DMARC data on mail flowing through their own
+  gateways, Proofpoint customers must purchase Proofpoint Email Fraud Defense
+date: 2019-06-04 04:31:21 -0000
+publish: true
+pin: false
 permalink: /806/proofpoint-is-requiring-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways
 image:
-  path: /assets/images/Proofpoint-DMARC-dashboard.jpg
-wordpress_id: 806
-wordpress_url: https://seanthegeek.net/?p=806
-date: '2019-06-04 04:31:21 +0000'
-date_gmt: '2019-06-04 04:31:21 +0000'
+  path: /assets/wp-content/uploads/2019/06/Proofpoint-DMARC-dashboard.jpg
+  alt: A redacted screenshot of the Proofpoint Email Fraud Defense dashboard
 categories:
 - Information Security
 - Reviews
 tags:
 - DMARC
-- Proofpoint
 - email
-comments:
-- id: 2262
-  author: Steve Mitchell
-  author_url: ''
-  date: '2019-08-14 20:47:22 +0000'
-  date_gmt: '2019-08-14 20:47:22 +0000'
-  content: Testify, brother. Open those RFE's folks!
-- id: 2433
-  author: Jason Anthony
-  author_url: ''
-  date: '2019-09-18 19:48:48 +0000'
-  date_gmt: '2019-09-18 19:48:48 +0000'
-  content: "Steve Mitchell, Can you clarify your comment (\"Testify, brother. Open
-    those RFE&rsquo;s folks!\")?\r\n\"Testify\" to what?\r\nWhat's \"RFE\" in this
-    case? Is it any of the ones listed in \"https://en.wikipedia.org/wiki/RFE\"?\r\nThank
-    you!"
-- id: 2490
-  author: Sean Whalen
-  author_url: ''
-  date: '2019-10-01 18:04:20 +0000'
-  date_gmt: '2019-10-01 18:04:20 +0000'
-  content: I believe he means Proofpoint customers should open a "Request For Enhancement"
-    with Proofpoint.
-- id: 3571
-  author: Todd Shubert
-  author_url: ''
-  date: '2020-03-02 19:54:40 +0000'
-  date_gmt: '2020-03-02 19:54:40 +0000'
-  content: "In your \"ProofPoint Email Authentication Guide,\" would it work to set
-    up a single Policy Route with:\r\n\r\nCondition: Message Header From (address
-    Only)\r\nOperator: Is in domain set\r\nValue: default_inbound\r\n\r\nThis just
-    seems more simple than setting up a route for every domain, but maybe I'm not
-    seeing some very obvious pitfall."
-- id: 7533
-  author: Michael Schwartz
-  author_url: ''
-  date: '2022-06-28 20:05:51 +0000'
-  date_gmt: '2022-06-28 20:05:51 +0000'
-  content: "Sean,\r\nIm looking for a DMARC consultant.  Ive got my DMARC and doing
-    pretty good, all pass/pass except every once in a while get a failure.  Are you
-    able to help me figure out why?  Its only a couple of DMARC reports with fail
-    and Ive been doing it a month, probably got 90 reports over my 2 domains.  Please
-    email me and then I can give you my phone # and we can talk.  Or if you know someone
-    who can help me.  Im looking for hourly consulting"
-- id: 7800
-  author: Barry Jones
-  author_url: ''
-  date: '2022-07-26 13:42:29 +0000'
-  date_gmt: '2022-07-26 13:42:29 +0000'
-  content: "I wanted to let you know I just finished writing a 3 part DMARC guide
-    and cited you and this article in the Enterprise section, under Invisible Email
-    Servers. Thanks for writing it!\r\n\r\nhttps://www.brightball.com/articles/enterprise-challenges-with-dmarc-deployment"
+- Proofpoint
 ---
 I have written extensively about the DMARC email security standard, including
 publishing a [comprehensive guide](https://seanthegeek.net/459/demystifying-

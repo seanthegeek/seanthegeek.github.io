@@ -1,317 +1,26 @@
 ---
 layout: post
-status: publish
-published: true
-title: Demystifying DMARC - A guide to preventing email spoofing
-description: A guide that explains what DMARC is, how to deploy DMARC properly, and how to respond to DMARC reports - all with open source software.
-permalink: /459/demystifying-dmarc/
+title: 'Demystifying DMARC: A guide to preventing email spoofing'
+description: A 614Con 2018 talk that explains what DMARC is, how to deploy DMARC properly,
+  and how to respond to DMARC reports - all with open source software.
+date: 2018-06-15 20:00:30 -0000
+publish: true
+pin: false
+permalink: /459/demystifying-dmarc
 image:
-  path: /assets/images/DMARC-Summary-dashboard.png
-wordpress_id: 459
-wordpress_url: https://seanthegeek.net/?p=459
-date: '2018-06-15 20:00:30 +0000'
-date_gmt: '2018-06-15 20:00:30 +0000'
+  path: /assets/wp-content/uploads/2018/06/DMARC-Summary-dashboard.png
+  alt: A screenshot of a pre-made aggregate/summary DMARC dashboard in ELK using data
+    from ParseDMARC
 categories:
-- Information Security
 - How-to Guides
+- Information Security
 tags:
-- SPF
-- DMARC
-- checkdmarc
-- open source
-- parsedmarc
-- talks
+- phishing
 - DKIM
-- 614Con
-comments:
-- id: 737
-  author: Mehran
-  author_url: ''
-  date: '2018-09-07 02:06:15 +0000'
-  date_gmt: '2018-09-07 02:06:15 +0000'
-  content: "Great article.\r\n\r\nUnder DKIM required tags I think you meant bh not
-    hb."
-- id: 750
-  author: Sean Whalen
-  author_url: ''
-  date: '2018-09-11 17:33:56 +0000'
-  date_gmt: '2018-09-11 17:33:56 +0000'
-  content: Good catch. Fixed. Thanks!
-- id: 849
-  author: Sebastiano
-  author_url: ''
-  date: '2018-11-27 11:40:52 +0000'
-  date_gmt: '2018-11-27 11:40:52 +0000'
-  content: Hello Sean, first of all I'd like to thank you for your parsedmarc implementation,
-    which is what brought me here. Is there a palce where I could ask for some help
-    about it? I'm trying to test it at my working place, but I can't send properly
-    the results to Elasticsearch/Kibana. I don't want to bother you with trivial questions,
-    because I feel I'm a bit incompetent on this topic. Maybe a community help would
-    be more appropriate.
-- id: 852
-  author: Sebastiano
-  author_url: ''
-  date: '2018-11-29 10:37:47 +0000'
-  date_gmt: '2018-11-29 10:37:47 +0000'
-  content: Ok, I've installed everything from scratch using pypy3 3.5 virtualenv (which
-    is currently compatible with Python 3.5.3) on my Ubuntu 18.04.1 server... and
-    everything works just fine. I thinks it's possible that Python 3.6.7 (which comes
-    with Ubuntu 18.04.1) it's not fully compatible with parsedmarc package. Again,
-    thank you very much for this useful tool.
-- id: 958
-  author: Rick Koch
-  author_url: ''
-  date: '2019-01-14 15:08:20 +0000'
-  date_gmt: '2019-01-14 15:08:20 +0000'
-  content: "As I browse material touting DMARC, it's often mentioned that DMARC allows
-    vendors to send mail without getting flagged as spam. Based on what I've read
-    there and what is hinted at above, is then a requirement for DMARC compliance
-    that a vendor must have DKIM keys from my domain and/or be included in my SPF
-    records, PLUS he must use my domain as his FROM addresses?\r\n\r\nTrying to figure
-    out what distinguishes a DMARC-compliant vendor from a non-compliant one. I have
-    a vendor who is on the dmarc.io list, but they say they do not support DMARC.
-    Their mail process ultimately puts their own domain in the FROM header, and I'm
-    not sure they can modify this. But as I read it, that will be a non-starter for
-    DMARC regardless of SPF or DKIM."
-- id: 1479
-  author: elemzy
-  author_url: ''
-  date: '2019-04-10 16:04:15 +0000'
-  date_gmt: '2019-04-10 16:04:15 +0000'
-  content: "Whao....This is the most extensive explanation of email authentication
-    in one single article. Good work. \r\nQuestion: Which is what lead me here. Can
-    I set my Dmarc policy to reject/quarantine, if I only have SPF and no DKIM (I
-    use GFI which doesn't support DKIM at this time). \r\nIf yes will this Dmarc record
-    cause my mails to have issues?\r\n v=DMARC1; p=none; rua=mailto:DMARCReports@abc.com;
-    ruf=mailto:DMARCReports@abc.com; fo=1:s; aspf=r"
-- id: 1490
-  author: Sean Whalen
-  author_url: ''
-  date: '2019-04-12 15:26:27 +0000'
-  date_gmt: '2019-04-12 15:26:27 +0000'
-  content: As long as the vendor can DKIM sign as your domain, their email will work
-    fine with DMARC, even if the vendor does not know that. :)
-- id: 1491
-  author: Sean Whalen
-  author_url: ''
-  date: '2019-04-12 15:34:53 +0000'
-  date_gmt: '2019-04-12 15:34:53 +0000'
-  content: |-
-    Without DKIM, messages that are forwarded will fail DMARC
-
-    /assets/images/smtp_forward_spf_dmarc_process.png
-
-    That said, the DMARC record you describe is monitor only (p=none), so it won't impact delivery at all.
-- id: 1539
-  author: elemzy
-  author_url: ''
-  date: '2019-04-18 16:15:06 +0000'
-  date_gmt: '2019-04-18 16:15:06 +0000'
-  content: Thanks Sean. Was planning to change to p=quarantine but not anymore. Will
-    turn off DMARC totally for now and  just rely on SPF only, since i do not have
-    DKIM.
-- id: 1540
-  author: JAG
-  author_url: ''
-  date: '2019-04-18 18:32:13 +0000'
-  date_gmt: '2019-04-18 18:32:13 +0000'
-  content: "When reading about the mailing lists I wondered if the suggested \r\n\"do:
-    Retain headers from the original message\"\r\nalso referred to the envelope from
-    (\"Return-Path\"). Looking at the article you linked (https://begriffs.com/posts/2018-09-18-dmarc-mailing-list.html)
-    it is not the case. The list is recommended to represent itself as the new return-path.\r\n\r\nReading
-    the original article the recommendation was also to \"add a Sender header to indicate
-    their relay role\". Did you leave this out for a reason or are the suggested setup
-    actually doing so?  Even if RFC5322 seems to allow multiple Sender addresses it
-    didn't seem to be valid usage. Adding Sender headers might be bad practice if
-    there is one already (e.g. if an email is sent through multiple layers of lists)
-    and I don't see it as a very useful thing for the recipient either. Would you
-    agree?\r\n\r\nWhile commenting I would also mention that \"Sean Whalen April 12,
-    2019 at 3:26 \" reply to \"Rick Koch\" seems a bit simplified.\r\n\"As long as
-    the vendor can DKIM sign as your domain, their email will work fine with DMARC,\"
-    relies on the fact that DMARC is ok with either SPF or DKIM passing. The alignment
-    requirement for DKIM is however the header FROM field. \r\n\r\n\"Their mail process
-    ultimately puts their own domain in the FROM header,\" says Rick and I would say
-    that changes the answer quite a bit. They are in that case not sending emails
-    from Rick's domain at all and they should not sign with his key. Right? It should
-    require them to handle their spam reputation themselves."
-- id: 1654
-  author: Mario
-  author_url: ''
-  date: '2019-05-08 21:49:38 +0000'
-  date_gmt: '2019-05-08 21:49:38 +0000'
-  content: "Hi, this guide was really helpful!\r\nI was wondering, I have set this
-    up accordingly on my office 365 instance. I have noticed though that mails send
-    from shared mailbox (so basically using send-as) do not get dkim-signed. \r\nIs
-    that a to be expected behavior?\r\nThanks"
-- id: 1658
-  author: Mario
-  author_url: ''
-  date: '2019-05-09 12:14:30 +0000'
-  date_gmt: '2019-05-09 12:14:30 +0000'
-  content: Turns out, that effective dkim activation on office365 might be delayed
-    differently from one domain to another, even if activated at the same time. That's
-    why, mails from a shared mailbox (with a different domain) were not signed.
-- id: 1701
-  author: Brad Bulger
-  author_url: ''
-  date: '2019-05-15 19:41:25 +0000'
-  date_gmt: '2019-05-15 19:41:25 +0000'
-  content: We're finding that with the Mailman 2 settings as recommended here, mail
-    going to people with forwarded accounts (their uni address is in the list and
-    forwards to their gmail address) is being rejected.
-- id: 1833
-  author: ShaneDT
-  author_url: ''
-  date: '2019-06-11 05:15:02 +0000'
-  date_gmt: '2019-06-11 05:15:02 +0000'
-  content: "Firstly thanks for a great guide very well explained.\r\n\r\nI have a
-    question about SPF records and enabling DMARC with the p=none policy.\r\n\r\nIf
-    I only have SPF enabled, the receiving server can lookup my SPF record and determine
-    the list of authorised servers, and if receiving an email from a server not on
-    my list, will reject or quarantine that email (I understand the limitation of
-    Domain matching on the mailfrom field of course). \r\n\r\nIf I then enable DMARC
-    (after enabling DKIM on my servers of course, or in this case Office 365) and
-    set the policy to p=none initially, will the receiving server then record a fail
-    on the SPF record if not sent from an authorised server, but deliver the email
-    anyway as the DMARC policy is set to none?"
-- id: 1848
-  author: Sean Whalen
-  author_url: ''
-  date: '2019-06-12 15:26:08 +0000'
-  date_gmt: '2019-06-12 15:26:08 +0000'
-  content: That's correct. DMARC will record a failure, but will not impact delivery
-    when p=none.
-- id: 2356
-  author: Anonymous
-  author_url: ''
-  date: '2019-09-02 16:28:46 +0000'
-  date_gmt: '2019-09-02 16:28:46 +0000'
-  content: "In the Authorization records example this line:\r\n\r\nexample.net._report._dmarc_example.com
-    TXT \"v=DMARC1\"\r\n\r\nshould have the last underscore be a period.\r\n\r\nexample.net._report._dmarc.example.com
-    TXT \"v=DMARC1\""
-- id: 2452
-  author: Mr shah
-  author_url: https://www.nowebsite.com
-  date: '2019-09-23 16:27:17 +0000'
-  date_gmt: '2019-09-23 16:27:17 +0000'
-  content: "Hi sean \r\n\r\nMy third party sender is trying to charge alot of money
-    for this using sub domains. and sending my emails through their platform\r\n\r\nIs
-    there an alternative way of doing this?\r\n\r\nthanks"
-- id: 2491
-  author: Sean Whalen
-  author_url: ''
-  date: '2019-10-01 18:14:52 +0000'
-  date_gmt: '2019-10-01 18:14:52 +0000'
-  content: Fixed. Thanks!
-- id: 2492
-  author: Sean Whalen
-  author_url: ''
-  date: '2019-10-01 18:16:33 +0000'
-  date_gmt: '2019-10-01 18:16:33 +0000'
-  content: Depends on if the vendor offers DKIM signing.
-- id: 2714
-  author: Scott D. Lockhart
-  author_url: ''
-  date: '2019-10-24 15:22:28 +0000'
-  date_gmt: '2019-10-24 15:22:28 +0000'
-  content: "This is the best article on email DMARC I have found so far.  Your article
-    has answered almost all of my questions except for one.  I have a question about
-    email delivery based on two scenarios:\r\n\r\nScenario 1:  A company does not
-    have any SPF/DKIM/DMARC records published.\r\nScenario 2:  A company has an SPF
-    record published and a DMARC record with p=none but does not have DKIM configured.\r\n\r\nIf
-    a company moves from scenario 1 to scenario 2 there will be some legit emails
-    that do not match the SPF record.  Are those legit emails at any addition risk
-    of not being delivered than when there were no SPF/DKIM/DMARC records published?"
-- id: 2951
-  author: Sean Whalen
-  author_url: ''
-  date: '2019-12-04 14:29:29 +0000'
-  date_gmt: '2019-12-04 14:29:29 +0000'
-  content: A DMARC policy record of p=none does not add any additional risk to delivery
-- id: 2968
-  author: Sandeep
-  author_url: https://postboxservices.com
-  date: '2019-12-06 09:40:30 +0000'
-  date_gmt: '2019-12-06 09:40:30 +0000'
-  content: "I have deployed ParseDMARC but not receiving any emails. Its listed in
-    the features :\r\n\r\n\"Optionally email the results\"\r\n\r\nIs there any configurations
-    to switch on the reporting on emails. \r\n\r\nI have all required SMTP settings
-    in the configuration file."
-- id: 4764
-  author: Sergio Costas
-  author_url: https://www.rastersoft.com
-  date: '2020-12-03 10:26:41 +0000'
-  date_gmt: '2020-12-03 10:26:41 +0000'
-  content: Thanks for this great article, and also for the PPTX presentation. I wonder
-    if it is under a free license that allows it to be translated.
-- id: 4765
-  author: Sergio Costas
-  author_url: https://www.rastersoft.com
-  date: '2020-12-03 10:31:31 +0000'
-  date_gmt: '2020-12-03 10:31:31 +0000'
-  content: 'BTW: You recommend to disable DMARC when having only SPF. But what about
-    setting it to "none" and adding an address for reports, for, at least, detect
-    errors in SPF configuration?'
-- id: 5221
-  author: Asher Oto
-  author_url: https://asheroto.com
-  date: '2021-03-05 09:48:56 +0000'
-  date_gmt: '2021-03-05 09:48:56 +0000'
-  content: Wow, fantastic job. I love your stuff Sean. If you aren't posting on Medium,
-    you should. I bet you'd get a lot of traffic that way! :-)
-- id: 5224
-  author: Sean Whalen
-  author_url: ''
-  date: '2021-03-05 13:26:41 +0000'
-  date_gmt: '2021-03-05 13:26:41 +0000'
-  content: Thanks! I'm honestly not very familiar with Medium, other than reading
-    a few posts. What would be the advantage of posting there instead of here? At
-    least here I get a tiny bit of ad revenue. ?
-- id: 5226
-  author: Sean Whalen
-  author_url: ''
-  date: '2021-03-05 13:30:45 +0000'
-  date_gmt: '2021-03-05 13:30:45 +0000'
-  content: I'll add a Creative Commons Attribution share-alike license.
-- id: 5835
-  author: Data
-  author_url: ''
-  date: '2021-06-29 15:37:49 +0000'
-  date_gmt: '2021-06-29 15:37:49 +0000'
-  content: "Hi Sean,\r\n\r\nThis is by far the most well-articulated, robust but concise
-    documentation I can find ANYWHERE on the internet for SPF, DKIM, and DMARC. I
-    have bookmarked this.\r\n\r\nHowever, I still can't fully figure out DKIM alignment
-    with CNAME record implementation.\r\n\r\nWe have a vendor that uses mailgun and
-    sends emails as our domain with noreply@ourdomain.com.  I tried having them put
-    \"d=ourdomain.com\" in their TXT DKIM record, but it still signs emails as \"place.mg.theirdomain.com\"
-    and not \"ourdomain.com\"\r\n\r\nTheir record has this name: \"smtp._domainkey.ourdomain.com\"
-    and this value \" k=rsa; d=ourdomain.com; p=blahblahblah\"\r\n\r\nI tried putting
-    this matching txt record in our DNS, but as \"smtp._domainkey\" instead. Still
-    no dice. \r\n\r\nDo I instead need to create a CNAME record called \"smtp._domainkey\"
-    and point it at \r\nthe current signer \"place.mg.theirdomain.com\"?\r\n\r\nThank
-    you!"
-- id: 6060
-  author: dmarc
-  author_url: https://blog.godmarc.com/how-to-select-the-best-dmarc-software-solution-to-protect-your-business-from-email-spoofing/
-  date: '2021-08-21 13:20:39 +0000'
-  date_gmt: '2021-08-21 13:20:39 +0000'
-  content: Really Nice and well Explained
-- id: 8196
-  author: Alan Sill
-  author_url: https://nsfcac.org
-  date: '2023-01-07 18:03:33 +0000'
-  date_gmt: '2023-01-07 18:03:33 +0000'
-  content: "As many others have commented, this article remains a great service to
-    the community. Thanks.\r\n\r\nFinding services to analyze the reports seems a
-    minefield, though. Even wiht a few domains to monitor, getting a zipped xml file
-    regularly for each domain is an incredible nuisance. What recommendations do you
-    have to tame this automatic self-spamming behavior of getting DMARC reports?"
-- id: 9974
-  author: Bryan P Schappel
-  author_url: https://www.crystalcomputer.com
-  date: '2024-06-06 17:00:55 +0000'
-  date_gmt: '2024-06-06 17:00:55 +0000'
-  content: Search github for parsedmarc.
+- DMARC
+- open source
+- CheckDMARC
+- ParseDMARC
 ---
 DMARC can stop spoofed spam and phishing from reaching you and your customers,
 protecting your information security and your brand. However, complexity and
@@ -522,7 +231,7 @@ controls (i.e. infosecspeakeasy.org), while spoofing the target's own domain
 address that the target user will see.
 
 [![A screenshot showing how SPF can be bypassed by spoofing the SMTP mail from
-header](/assets/images/SPF-bypass.png)](/assets/images/SPF-bypass.png)
+header](/assets/wp-content/uploads/2018/06/SPF-bypass.png)](/assets/wp-content/uploads/2018/06/SPF-bypass.png)
 A screenshot showing how SPF can be bypassed by spoofing the SMTP mail from
 header
 
@@ -532,7 +241,7 @@ the SMTP mail from header will contain the domain of the forwarding mail
 server.
 
 [![A process graphic that shows how forwarded email fails SPF
-alignment](/assets/images/smtp_forward_spf_dmarc_process.png)](/assets/images/smtp_forward_spf_dmarc_process.png)DKIM
+alignment](/assets/wp-content/uploads/2018/06/smtp_forward_spf_dmarc_process.png)](/assets/wp-content/uploads/2018/06/smtp_forward_spf_dmarc_process.png)DKIM
 signatures, on the other hand, are part of the message headers, and survive
 message forwarding. **Therefore DKIM alignment is much more critical than SPF
 alignment.**
@@ -891,9 +600,9 @@ this screenshot of a valid email from a retail credit service, displayed in
 its-domains-authentication-requirements-warning/) and Gmail.
 
 [![A screenshot of ProtonMal showing a DMARC failure
-warning](/assets/images/DMARC_failure_ProtonMail.png)](/assets/images/DMARC_failure_ProtonMail.png)
+warning](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.png)](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.png)
 
-[![A screenshot of a DMARC failure warning in Gmail](/assets/images/Gmail-DMARC-warning.png)](/assets/images/Gmail-DMARC-warning.png)
+[![A screenshot of a DMARC failure warning in Gmail](/assets/wp-content/uploads/2018/06/Gmail-DMARC-warning.png)](/assets/wp-content/uploads/2018/06/Gmail-DMARC-warning.png)
 
 ### Authentication-Results headers
 
@@ -1047,7 +756,7 @@ address of the person who did the forwarding is placed in the Sender header,
 which DMARC does not use.
 
 [![A screenshot of a draft forward of a calendar event in Microsoft
-Outlook](/assets/images/outlook-calendar-event-forwarding.png)](/assets/images/outlook-calendar-event-forwarding.png)
+Outlook](/assets/wp-content/uploads/2018/06/outlook-calendar-event-forwarding.png)](/assets/wp-content/uploads/2018/06/outlook-calendar-event-forwarding.png)
 
 If the domain of the meeting organizer has an enforced DMARC policy (i.e.,
 p=quarantine, or p=reject), and the recipient mail server honors DMARC, the
@@ -1063,13 +772,13 @@ events to do so by clicking on the three dots, and clicking Forward as
 Attachment, instead of clicking on the usual Forward button.
 
 [![A screenshot showing how to forward a calendar invite as an attachment in
-Outlook](/assets/images/forward-calendar-invite-as-attachment.png)](/assets/images/forward-calendar-invite-as-attachment.png)
+Outlook](/assets/wp-content/uploads/2018/06/forward-calendar-invite-as-attachment.png)](/assets/wp-content/uploads/2018/06/forward-calendar-invite-as-attachment.png)
 
 On Outlook for macOS, calendar events must be forwarded by clicking on
 Message> Forward as Attachment in the Menu Bar.
 
 [![A screenshot of the Forward as attachment menu item in Outlook for
-macOS](/assets/images/macos-outlook-forward-as-attachment.png)](/assets/images/macos-outlook-forward-as-attachment.png)
+macOS](/assets/wp-content/uploads/2018/06/macos-outlook-forward-as-attachment.png)](/assets/wp-content/uploads/2018/06/macos-outlook-forward-as-attachment.png)
 
 ### FAQs
 
@@ -1079,7 +788,7 @@ Send an email to a Gmail account. They have a nice UI that shows the DKIM
 status of a message.
 
 [![A screenshot showing how DKIM signature alignment can be verified using
-Gmail's UI](/assets/images/DKIM-Gmail.png)](/assets/images/DKIM-Gmail.png)
+Gmail's UI](/assets/wp-content/uploads/2018/06/DKIM-Gmail.png)](/assets/wp-content/uploads/2018/06/DKIM-Gmail.png)
 A screenshot showing how DKIM signature alignment can be verified using
 Gmail's UI
 
@@ -1297,14 +1006,14 @@ Some additional steps are needed for Linux hosts.
 
 + [NIST Special Publication 800-177 - Trustworthy Email](https://doi.org/10.6028/NIST.SP.800-177r1)
 + [DMARC Overview](https://dmarc.org/overview/)
-+ [Proofpoint Email Authentication Guide](/assets/docs/Proofpoint-Email-Authentication-Guide.pdf)
++ [Proofpoint Email Authentication Guide](/assets/wp-content/uploads/2018/06/Proofpoint-Email-Authentication-Guide.pdf)
   + **[Proofpoint does not currently send any DMARC reports](https://seanthegeek.net/806/proofpoint-is-forcing-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways/)
 **
 
 + [DMARC guide for G Suite](https://www.youtube.com/watch?v=WB-aUZMDnU8)
 + [DMARC guide for Office 365](https://technet.microsoft.com/en-us/library/mt734386\(v=exchg.150\).aspx)
   + Note: [**Office 365 does not currently send any DMARC reports**](https://office365.uservoice.com/forums/264636-general/suggestions/11094318-dmarc-aggregate-reports-from-o365-domains), but you can analyze DMARC data from Office 365 using the free[Valimail Monitor for Office 365](https://www.microsoft.com/security/blog/2019/06/03/secure-cloud-free-dmarc-monitoring-office-365/) service
-+ [Complete DKIM and DMARC deployment guide for Cisco AsyncOS](/assets/docs/AsyncOS-DKIM-DMARC-Guide.pdf)
++ [Complete DKIM and DMARC deployment guide for Cisco AsyncOS](/assets/wp-content/uploads/2018/06/AsyncOS-DKIM-DMARC-Guide.pdf)
 + [Generic DMARC Deployment guide - Dmarcian](https://space.dmarcian.com/deployment/)
 + [List of DMARC Support Status of SaaS Services - Dmarcian](https://dmarc.io/sources/)
 + [DMARC Guide for 3rd Party Senders - Dmarcian](https://space.dmarcian.com/how-to-send-dmarc-compliant-email-on-behalf-of-others/)

@@ -1,26 +1,27 @@
 ---
 layout: post
-status: publish
-published: true
 title: Stop the ADA Education and Reform Act
-permalink: /stop-ada-education-reform-act
+description: The ADA Education and Reform Act of 2017 allows business to ignore ADA
+  requirements until a notification is sent by a disabled person, and denies persons
+  with disabilities their right to due process through the courts, shifting the burden
+  of compliance from businesses to the disabled
+date: 2018-02-10 22:16:01 -0000
+publish: true
+pin: false
+permalink: /392/stop-ada-education-reform-act
 image:
-  path: /assets/images/handicapped-parking.jpg
-wordpress_id: 392
-wordpress_url: https://seanthegeek.net/?p=392
-date: '2018-02-10 22:16:01 +0000'
-date_gmt: '2018-02-10 22:16:01 +0000'
+  path: /assets/wp-content/uploads/2018/02/handicapped-parking.jpg
+  alt: An image of handicapped parking by Shawn Campbell
 categories:
-- Politics
 - Healthcare
+- Politics
 tags:
-- disability rights
 - ADA
-- government
 - congress
-- legal
+- disability rights
+- government
 - human rights
-comments: []
+- legal
 ---
 The Americans with Disabilities Act (ADA) of 1990 (amended in 2008) is a
 bipartisan law that sets accessibility standards that businesses open to the
@@ -80,8 +81,9 @@ disabilities their right to obtain a court order to enforce compliance with a
 
 ## How would this affect disabled people?
 
-[![Image of Senator Tammy Duckworth](/assets/images/tammy-duckworth.jpg)  
-](/assets/images/tammy-duckworth.jpg) Senator Tammy Duckworth
+[![Image of Senator Tammy Duckworth](/assets/wp-content/uploads/2017/06/tammy-duckworth.jpg)  
+](/assets/wp-content/uploads/2017/06/tammy-duckworth.jpg)
+__Senator Tammy Duckworth__
 
 > This offensive legislation would segregate the disability community, making
 > it the only protected class under civil rights law that must rely on
@@ -122,7 +124,7 @@ typos that I made in my haste to get the information out there. These have
 been corrected.  
 **
 
-[Download as a PDF](/assets/docs/H.R.-620-flyer.pdf)
+[Download as a PDF](/assets/wp-content/uploads/2017/06/H.R.-620-flyer.pdf)
 
 [![An image of a bright red stop sign with a hand in the middle STOP the ADA
 Education and Reform Act Congress is going to vote soon on the ADA Education
@@ -137,7 +139,7 @@ Network already provides ADA training and education; setting up an additional
 education program at the Department of Justice is unnecessary and wasteful
 Contact your local congress members at: www.callmycongress.com
 www.democracy.io An image of an ADA
-logo](/assets/images/H.R.-620-Flyer.png)](/assets/images/H.R.-620-Flyer.png)
+logo](/assets/wp-content/uploads/2017/06/H.R.-620-Flyer.png)](/assets/wp-content/uploads/2017/06/H.R.-620-Flyer.png)
 
 Transcription of the infographic:
 

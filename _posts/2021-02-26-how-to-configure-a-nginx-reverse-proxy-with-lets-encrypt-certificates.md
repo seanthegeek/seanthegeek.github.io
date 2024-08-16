@@ -1,25 +1,24 @@
 ---
 layout: post
-status: publish
-published: true
 title: How to configure a nginx reverse proxy with Let's Encrypt certificates
-permalink: 1035/how-to-configure-a-nginx-reverse-proxy-with-lets-encrypt-certificates
 description: Let's Encrypt allows nginx reverse proxy servers to have a real, trusted
   SSL certificate, even for internal sites.
+date: 2021-02-26 20:07:37 -0000
+publish: true
+pin: false
+permalink: /1035/how-to-configure-a-nginx-reverse-proxy-with-lets-encrypt-certificates
 image:
-  path: /assets/images/lets-encrypt-logo.png
-wordpress_id: 1035
-wordpress_url: https://seanthegeek.net/?p=1035
-date: '2021-02-26 20:07:37 +0000'
-date_gmt: '2021-02-26 20:07:37 +0000'
+  path: /assets/wp-content/uploads/2021/02/lets-encrypt-logo.webp
+  alt: The Let's Encrypt logo
 categories:
 - How-to Guides
 tags:
+- guide
+- "let's encrypt"
 - nginx
 - reverse proxy
-- let's encrypt
-- unifi
-comments: []
+- tutorial
+- Unifi
 ---
 The `certbot` utility by the Electronic Fronter Foundation (EFF) can use DNS
 authentication to obtain, install, and renew free trusted SSL certificates on

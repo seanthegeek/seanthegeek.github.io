@@ -1,48 +1,24 @@
 ---
 layout: post
-status: publish
-published: true
 title: How the Parler data was legally acquired by activists
+description: The Parler data dumps you've heard about were obtained legally by taking
+  advantage of Parler's shoddy architecture. Here's how they did it.
+date: 2021-01-13 06:31:15 -0000
+publish: true
+pin: false
 permalink: /1009/how-the-parler-data-was-legally-acquired-by-activists
-description: The Parler data dumps you've heard about were obtained legally. Here's how they
-  did it.
 image:
-  path: /assets/images/parler-logo.jpg
-wordpress_id: 1009
-wordpress_url: https://seanthegeek.net/?p=1009
-date: '2021-01-13 06:31:15 +0000'
-date_gmt: '2021-01-13 06:31:15 +0000'
+  path: /assets/wp-content/uploads/2021/01/parler-logo.jpg
+  alt: The logo of Parler
 categories:
 - Information Security
 tags:
-- parler
-- social media
 - appsec
-- opsec
-- politics
 - far right
-comments:
-- id: 5031
-  author: Capt Greg
-
-  author_url: ''
-  date: '2021-01-14 01:10:41 +0000'
-  date_gmt: '2021-01-14 01:10:41 +0000'
-  content: "Great article - thanks for sharing this~!\r\n\r\nCapt. Greg"
-- id: 5138
-  author: D.L.
-  author_url: ''
-  date: '2021-02-11 23:08:39 +0000'
-  date_gmt: '2021-02-11 23:08:39 +0000'
-  content: "Hello,\r\nI&rsquo;m an old guy retired programmer. I have screen scraping
-    skills. Is there anyway I can join the team?"
-- id: 5225
-  author: Sean Whalen
-  author_url: ''
-  date: '2021-03-05 13:28:58 +0000'
-  date_gmt: '2021-03-05 13:28:58 +0000'
-  content: I'm not a part of the team that is doing this, but you might want to reach
-    out to the archive.org project.
+- OPSEC
+- Parler
+- politics
+- social media
 ---
 Based on published source code and conversations with the woman behind the
 Parler dump ([donk_enby](https://twitter.com/donk_enby) on Twitter), I can
@@ -104,7 +80,7 @@ by](https://twitter.com/donk_enby/status/1348294151712944128/photo/1)
 donk_enby.
 
 ![A screenshot of GPS coordinates in the metadata of a video file, displayed
-by exiftool](/assets/images/exiftool-gps.jpg)
+by exiftool](/assets/wp-content/uploads/2021/01/exiftool-gps.jpg)
 
 Using Google Maps, it is an [easy
 task](https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en)
@@ -114,7 +90,7 @@ location](https://www.google.com/maps/place/38%C2%B042'00.7%22N+75%C2%B010'11.3%
 inside the General Store in Marshtown, Delaware.
 
 ![A screenshot of Google Maps pinpointing GPS
-coordinates](/assets/images/google-maps-38-42-0.72N_75-10-11.28W.png)
+coordinates](/assets/wp-content/uploads/2021/01/google-maps-38-42-0.72N_75-10-11.28W.png)
 
 Retrieving this information is not illegal. In a textbook case of [security
 through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity),
