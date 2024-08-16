@@ -5,6 +5,7 @@ title: An introduction to DNS
 description: An overview of what DNS is, how it works, and the purposes of the various
   DNS resource record types
 date: 2021-05-15 02:09:42 -0000
+last_modified_at: 2021-05-17 12:30:42 -0000
 publish: true
 pin: false
 categories:

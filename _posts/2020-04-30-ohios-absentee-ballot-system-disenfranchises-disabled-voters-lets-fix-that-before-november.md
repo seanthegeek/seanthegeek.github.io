@@ -6,6 +6,7 @@ title: Ohio's absentee ballot system disenfranchises disabled voters. Let's fix 
 description: Ohio is disenfranchising many disabled voters by requiring the same voter
   ID information multiple times. Oregon-style mail-in voting is better for everyone.
 date: 2020-04-30 09:11:24 -0000
+last_modified_at: 2020-06-10 16:29:44 -0000
 publish: true
 pin: false
 image:

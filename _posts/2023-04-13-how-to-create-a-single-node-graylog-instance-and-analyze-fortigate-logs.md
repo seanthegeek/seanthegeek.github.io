@@ -5,6 +5,7 @@ title: How to create a single-node Graylog instance and analyze FortiGate logs
 description: A complete guide to creating a single-node Graylog instance, sending
   FortiGate firewall logs to it, and analyzing the data
 date: 2023-04-13 19:51:33 -0000
+last_modified_at: 2024-05-15 18:31:15 -0000
 publish: true
 pin: false
 image:

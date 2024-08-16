@@ -6,6 +6,7 @@ title: Google Pixel phones can be unlocked with a recording of a trusted voice b
 description: Trusted Voice is enabled on Google Pixel phones by default, allowing
   anyone with a recording of you saying "Ok Google" to unlock your phone.
 date: 2016-10-23 21:04:41 -0000
+last_modified_at: 2016-10-24 17:03:14 -0000
 publish: true
 pin: false
 image:

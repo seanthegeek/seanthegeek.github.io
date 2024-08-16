@@ -5,6 +5,7 @@ title: 'Demystifying DMARC: A guide to preventing email spoofing'
 description: A 614Con 2018 talk that explains what DMARC is, how to deploy DMARC properly,
   and how to respond to DMARC reports - all with open source software.
 date: 2018-06-15 20:00:30 -0000
+last_modified_at: 2023-10-26 16:04:14 -0000
 publish: true
 pin: false
 image:

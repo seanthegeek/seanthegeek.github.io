@@ -5,6 +5,7 @@ title: How to inspect the certificate of a mail server over a CLI
 description: A tiny guide to using the openssl CLI tool to inspect and/or save the
   SSL.TLS certificates used by mail servers
 date: 2018-11-29 23:17:15 -0000
+last_modified_at: 2019-06-03 18:59:10 -0000
 publish: true
 pin: false
 categories:

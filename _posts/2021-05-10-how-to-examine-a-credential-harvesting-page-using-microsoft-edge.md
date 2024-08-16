@@ -5,6 +5,7 @@ title: How to examine a credential harvesting page using Microsoft Edge
 description: A practical guide to using Microsoft Edge to examine heavily obfuscated
   JavaScript in a credential harvesting page
 date: 2021-05-10 05:22:10 -0000
+last_modified_at: 2021-05-23 00:43:57 -0000
 publish: true
 pin: false
 image:

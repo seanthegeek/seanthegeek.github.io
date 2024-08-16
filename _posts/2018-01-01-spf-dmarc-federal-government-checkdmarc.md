@@ -8,6 +8,7 @@ description: An explanation of SPF and DMARC best practices, using results from 
   scans of US Government domains as a case study, as federal agencies work towards
   fully implementing the cyber hygiene actions prescribed in DHS BOD 18-01
 date: 2018-01-01 18:07:42 -0000
+last_modified_at: 2019-02-11 23:54:37 -0000
 publish: true
 pin: false
 image:

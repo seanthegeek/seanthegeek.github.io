@@ -5,6 +5,7 @@ title: Business Email Compromise prevention and response
 description: A practical guide to preventing Business Email Compromise by using defense-in-depth
   techniques, multi-factor authentication, and training
 date: 2022-06-19 22:27:21 -0000
+last_modified_at: 2022-06-21 13:26:19 -0000
 publish: true
 pin: false
 image:

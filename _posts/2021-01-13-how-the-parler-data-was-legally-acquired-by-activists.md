@@ -5,6 +5,7 @@ title: How the Parler data was legally acquired by activists
 description: The Parler data dumps you've heard about were obtained legally by taking
   advantage of Parler's shoddy architecture. Here's how they did it.
 date: 2021-01-13 06:31:15 -0000
+last_modified_at: 2021-04-23 20:01:56 -0000
 publish: true
 pin: false
 image:

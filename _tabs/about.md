@@ -3,6 +3,8 @@
 icon: fas fa-info-circle
 order: 4
 title: About
+date: 2016-03-20 20:34:24 -0000
+last_modified_at: 2016-08-22 20:14:08 -0000
 ---
 
 This blog is intended to serve multiple purposes:

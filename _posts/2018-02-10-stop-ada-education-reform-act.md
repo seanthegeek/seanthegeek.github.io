@@ -7,6 +7,7 @@ description: The ADA Education and Reform Act of 2017 allows business to ignore 
   with disabilities their right to due process through the courts, shifting the burden
   of compliance from businesses to the disabled
 date: 2018-02-10 22:16:01 -0000
+last_modified_at: 2018-02-12 01:07:56 -0000
 publish: true
 pin: false
 image:

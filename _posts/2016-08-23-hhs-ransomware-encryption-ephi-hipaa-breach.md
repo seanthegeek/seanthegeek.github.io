@@ -5,6 +5,7 @@ title: 'HHS: Ransomware encryption of ePHI is a HIPAA breach'
 description: The US Department of Health and Human Services (HHS) ransomware fact
   sheet states that any unauthorized affect on ePHI is presumed to be a breach.
 date: 2016-08-23 13:34:42 -0000
+last_modified_at: 2016-09-04 12:15:53 -0000
 publish: true
 pin: false
 image:

@@ -5,6 +5,7 @@ title: How to comply with Google and Yahoo's requirements for bulk email senders
 description: Starting February 2024 Google and Yahoo will start enforcing additional
   requirements for emails to reach the inbox. Here's how to comply.
 date: 2024-01-11 19:20:50 -0000
+last_modified_at: 2024-02-25 01:05:26 -0000
 publish: true
 pin: false
 image:

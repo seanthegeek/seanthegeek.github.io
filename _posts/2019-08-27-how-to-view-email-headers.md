@@ -5,6 +5,7 @@ title: How to view email headers
 description: Step by step instructions for viewing email message headers using popular
   mail clients and webmail services, including Outlook, Gmail, and more.
 date: 2019-08-27 21:41:51 -0000
+last_modified_at: 2022-01-19 20:46:22 -0000
 publish: true
 pin: false
 image:

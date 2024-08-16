@@ -6,6 +6,7 @@ title: Proofpoint is requiring their customers to pay for Email Fraud Defense to
 description: In order to get aggregate DMARC data on mail flowing through their own
   gateways, Proofpoint customers must purchase Proofpoint Email Fraud Defense
 date: 2019-06-04 04:31:21 -0000
+last_modified_at: 2023-08-17 20:19:57 -0000
 publish: true
 pin: false
 image:

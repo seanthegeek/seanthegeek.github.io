@@ -5,6 +5,7 @@ title: How to install YARA and write basic YARA rules to identify malware
 description: A complete YARA guide, covering installation, practical examples for
   writing YARA rules, and using YARA to identify, sort, and collect malware samples
 date: 2017-06-15 14:58:36 -0000
+last_modified_at: 2019-04-05 13:22:47 -0000
 publish: true
 pin: false
 image:

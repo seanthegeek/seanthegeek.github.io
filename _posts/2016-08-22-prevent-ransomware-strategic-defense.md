@@ -5,6 +5,7 @@ title: Prevent ransomware from succeeding with strategic defense-in-depth
 description: Schools, hospitals, businesses and others can take simple, low cost steps
   to prevent ransomware and mitigate its potentially devastating effects.
 date: 2016-08-22 03:56:33 -0000
+last_modified_at: 2016-05-08 16:53:18 -0000
 publish: true
 pin: false
 image:

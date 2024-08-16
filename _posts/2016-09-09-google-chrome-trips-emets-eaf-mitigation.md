@@ -5,6 +5,7 @@ title: 'PSA: The latest Google Chrome release trips EMET''s EAF+ mitigation'
 description: Microsoft EMET can sometimes conflict with legitimate software. Learn
   how to fix EMET so EAF+ doesn't crash the new Google Chrome release.
 date: 2016-09-09 13:32:36 -0000
+last_modified_at: 2016-09-18 00:04:27 -0000
 publish: true
 pin: false
 image:

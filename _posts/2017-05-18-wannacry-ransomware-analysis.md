@@ -6,6 +6,7 @@ title: 'WannaCry ransomware analysis: Samples date back to at least early Februa
 description: Information on the spread, mitigation, and patch details of WannaCry,
   The ransomware that has shut down organizations around the world.
 date: 2017-05-18 19:49:29 -0000
+last_modified_at: 2017-05-19 18:26:56 -0000
 publish: true
 pin: false
 image:

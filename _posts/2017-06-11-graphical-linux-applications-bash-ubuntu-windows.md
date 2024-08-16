@@ -6,6 +6,7 @@ title: How to run graphical Linux applications on Windows 10 using the Windows S
 description: A step-by-step guide on installing Bash on Ubuntu on Windows, with additional
   steps for running graphical Linux applications.
 date: 2017-06-11 20:01:53 -0000
+last_modified_at: 2020-03-04 13:30:36 -0000
 publish: true
 pin: false
 image:

@@ -5,6 +5,7 @@ title: How to use Farsight Security's DNSDB to harness the power of passive DNS
 description: A guide to using the dsbdb-python Python module to perform forward and
   inverse queries on passive DNS data in Farsight Security's DNSDB
 date: 2021-05-22 21:30:16 -0000
+last_modified_at: 2021-05-23 02:08:50 -0000
 publish: true
 pin: false
 categories:
