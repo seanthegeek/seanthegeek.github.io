@@ -30,7 +30,7 @@ First, let's look at the frequency graph.
 
 !["A frequency graph based on 3,192 of Donald Trump's tweets From 2028-04-30 to 2019-02-20"](/assets/images/donald-trump-tweets-over-time.png)
 
-TweetFreq retrieved the days when a tweet was posted. he averaged posting 10
+TweetFreq revealed that on days when a tweet was posted. he averaged posting 10
 tweets per day, with the maximum number of tweets per day being 34 in
 November 2018. Some of those may be from staffers of course, but anyone who has
 seen Trump's Twitter timeline knows there is a deference in grammar and
