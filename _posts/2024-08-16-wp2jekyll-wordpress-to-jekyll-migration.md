@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing wp2jekyll: A new way to migrate form WordPress to Jekyll"
+title: "Introducing wp2jekyll: A new way to migrate from WordPress to Jekyll"
 description: Download your media, convert your content to Markdown, and keep
   your SEO optimizations with one Python script
 date: 2024-08-16 20:50 -0400
