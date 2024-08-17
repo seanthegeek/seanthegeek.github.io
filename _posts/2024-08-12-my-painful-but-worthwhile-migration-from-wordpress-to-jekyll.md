@@ -3,7 +3,7 @@ layout: post
 title: My painful but worthwhile migration from WordPress to Jekyll
 description: 'A journey from a bloated dynamic blog to a svelte static blog'
 image:
-  path: /assets/images/wp-to-jekyll.webp
+  path: /assets/images/wp-to-jekyll.png
 categories:
   - How-to Guides
 tags:
@@ -11,6 +11,9 @@ tags:
   - Jekyll
   - GitHub
 ---
+
+*Update*: I created [a script](https://seanthegeek.net/posts/wp2jekyll-wordpress-to-jekyll-migration/) to make this process much easier!
+
 When I was thinking about the best way to share my findings to a wide audience
 when I reverse engineer malware Jekyll was an obvious choice, because I already
 write my notes in Markdown. However, I already have a successful WordPress blog
