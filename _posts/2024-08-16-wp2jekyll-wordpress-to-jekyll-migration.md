@@ -20,7 +20,7 @@ word: manual. The Jekyll importer tools don't convert the post content to
 Markdown, some don't download media files, and if they do, they don't update
 the locations of the media in your content. Third-party importers crashed or
 used obsolete dependencies. But I have good news. After getting a better
-understanding of Jekyll I wrote the WordPress to Jekyll export tool
+understanding of Jekyll, I wrote the WordPress to Jekyll export tool
 I was looking for: [wp2jekyll](https://github.com/seanthegeek/wp2jekyll).
 
 wp2jekyll is a Python 3 script that takes care of the details of migrating so
