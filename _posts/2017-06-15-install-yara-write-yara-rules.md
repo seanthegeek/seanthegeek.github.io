@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /257/install-yara-write-yara-rules
+permalink: /257/install-yara-write-yara-rules/
 title: How to install YARA and write basic YARA rules to identify malware
 description: A complete YARA guide, covering installation, practical examples for
   writing YARA rules, and using YARA to identify, sort, and collect malware samples

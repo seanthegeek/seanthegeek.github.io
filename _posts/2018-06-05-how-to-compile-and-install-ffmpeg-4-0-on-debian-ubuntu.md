@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /455/how-to-compile-and-install-ffmpeg-4-0-on-debian-ubuntu
+permalink: /455/how-to-compile-and-install-ffmpeg-4-0-on-debian-ubuntu/
 title: How to compile and install FFmpeg on Debian/Ubuntu
 description: A guide to building and installing FFmpeg 4,0 from source as a custom
   Debian package on Debian/Ubuntu systems, without conflicting with downstream dependencies

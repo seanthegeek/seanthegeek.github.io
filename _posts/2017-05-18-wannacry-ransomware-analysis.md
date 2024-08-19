@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /208/wannacry-ransomware-analysis
+permalink: /208/wannacry-ransomware-analysis/
 title: 'WannaCry ransomware analysis: Samples date back to at least early February
   2017'
 description: Information on the spread, mitigation, and patch details of WannaCry,

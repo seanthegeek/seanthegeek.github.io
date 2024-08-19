@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /310/spf-dmarc-federal-government-checkdmarc
+permalink: /310/spf-dmarc-federal-government-checkdmarc/
 title: Lessons Learned from the US Federal Government's Ongoing Deployment of SPF
   and DMARC
 seo_title: Lessons Learned as Feds Deploy SPF and DMARC - seanthegeek.net

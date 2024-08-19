@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /1117/an-introduction-to-dns
+permalink: /1117/an-introduction-to-dns/
 title: An introduction to DNS
 description: An overview of what DNS is, how it works, and the purposes of the various
   DNS resource record types

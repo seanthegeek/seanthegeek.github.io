@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /234/graphical-linux-applications-bash-ubuntu-windows
+permalink: /234/graphical-linux-applications-bash-ubuntu-windows/
 title: How to run graphical Linux applications on Windows 10 using the Windows Subsystem
   for Linux (WSL) 1.0
 description: A step-by-step guide on installing Bash on Ubuntu on Windows, with additional

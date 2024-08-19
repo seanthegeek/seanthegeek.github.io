@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /1035/how-to-configure-a-nginx-reverse-proxy-with-lets-encrypt-certificates
+permalink: /1035/how-to-configure-a-nginx-reverse-proxy-with-lets-encrypt-certificates/
 title: How to configure a nginx reverse proxy with Let's Encrypt certificates
 description: Let's Encrypt allows nginx reverse proxy servers to have a real, trusted
   SSL certificate, even for internal sites.

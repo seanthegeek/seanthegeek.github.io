@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /78/prevent-ransomware-strategic-defense
+permalink: /78/prevent-ransomware-strategic-defense/
 title: Prevent ransomware from succeeding with strategic defense-in-depth
 description: Schools, hospitals, businesses and others can take simple, low cost steps
   to prevent ransomware and mitigate its potentially devastating effects.

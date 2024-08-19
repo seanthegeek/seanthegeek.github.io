@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /1189/how-to-update-the-firmware-on-a-samsung-monitor
+permalink: /1189/how-to-update-the-firmware-on-a-samsung-monitor/
 title: How to update the firmware on a Samsung monitor
 description: This guide explains the exact steps for updating the firmware on Samsung
   monitor, and will hopefully save you a lot of searching.

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /459/demystifying-dmarc
+permalink: /459/demystifying-dmarc/
 title: 'Demystifying DMARC: A guide to preventing email spoofing'
 description: A 614Con 2018 talk that explains what DMARC is, how to deploy DMARC properly,
   and how to respond to DMARC reports - all with open source software.

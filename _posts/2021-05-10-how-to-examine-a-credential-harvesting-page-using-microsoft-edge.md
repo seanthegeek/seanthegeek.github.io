@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /1069/how-to-examine-a-credential-harvesting-page-using-microsoft-edge
+permalink: /1069/how-to-examine-a-credential-harvesting-page-using-microsoft-edge/
 title: How to examine a credential harvesting page using Microsoft Edge
 description: A practical guide to using Microsoft Edge to examine heavily obfuscated
   JavaScript in a credential harvesting page

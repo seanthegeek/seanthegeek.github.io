@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /1234/business-email-compromise-prevention-and-response
+permalink: /1234/business-email-compromise-prevention-and-response/
 title: Business Email Compromise prevention and response
 description: A practical guide to preventing Business Email Compromise by using defense-in-depth
   techniques, multi-factor authentication, and training

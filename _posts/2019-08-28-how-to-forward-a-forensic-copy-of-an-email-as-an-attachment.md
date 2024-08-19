@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /862/how-to-forward-a-forensic-copy-of-an-email-as-an-attachment
+permalink: /862/how-to-forward-a-forensic-copy-of-an-email-as-an-attachment/
 title: How to forward a forensic copy of an email as an attachment
 seo_title: How to forward email as an attachment - seanthegeek.net
 description: Step-by-step instructions on how to many popular mail and webmail clients

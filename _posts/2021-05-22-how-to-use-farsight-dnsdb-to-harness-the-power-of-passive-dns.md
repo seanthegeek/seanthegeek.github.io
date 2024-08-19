@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /1122/how-to-use-farsight-dnsdb-to-harness-the-power-of-passive-dns
+permalink: /1122/how-to-use-farsight-dnsdb-to-harness-the-power-of-passive-dns/
 title: How to use Farsight Security's DNSDB to harness the power of passive DNS
 description: A guide to using the dsbdb-python Python module to perform forward and
   inverse queries on passive DNS data in Farsight Security's DNSDB

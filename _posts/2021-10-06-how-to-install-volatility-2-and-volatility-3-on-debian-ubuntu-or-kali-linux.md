@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /1172/how-to-install-volatility-2-and-volatility-3-on-debian-ubuntu-or-kali-linux
+permalink: /1172/how-to-install-volatility-2-and-volatility-3-on-debian-ubuntu-or-kali-linux/
 title: How to Install Volatility 2 and Volatility 3 on Debian, Ubuntu, or Kali Linux
 description: A comprehensive guide to installing Volatility 2, Volatility 3, and all
   of their dependencies on Debian-based Linux like Ubuntu and Kali
