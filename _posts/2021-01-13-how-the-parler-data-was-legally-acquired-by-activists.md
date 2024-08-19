@@ -9,7 +9,7 @@ last_modified_at: 2021-04-23 20:01:56 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2021/01/parler-logo.jpg
+  path: /assets/wp-content/uploads/2021/01/parler-logo.webp
   alt: The logo of Parler
 categories:
 - Information Security
@@ -81,7 +81,7 @@ by](https://twitter.com/donk_enby/status/1348294151712944128/photo/1)
 donk_enby.
 
 ![A screenshot of GPS coordinates in the metadata of a video file, displayed
-by exiftool](/assets/wp-content/uploads/2021/01/exiftool-gps.jpg)
+by exiftool](/assets/wp-content/uploads/2021/01/exiftool-gps.webp)
 
 Using Google Maps, it is an [easy
 task](https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en)
@@ -91,7 +91,7 @@ location](https://www.google.com/maps/place/38%C2%B042'00.7%22N+75%C2%B010'11.3%
 inside the General Store in Marshtown, Delaware.
 
 ![A screenshot of Google Maps pinpointing GPS
-coordinates](/assets/wp-content/uploads/2021/01/google-maps-38-42-0.72N_75-10-11.28W.png)
+coordinates](/assets/wp-content/uploads/2021/01/google-maps-38-42-0.72N_75-10-11.28W.webp)
 
 Retrieving this information is not illegal. In a textbook case of [security
 through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity),

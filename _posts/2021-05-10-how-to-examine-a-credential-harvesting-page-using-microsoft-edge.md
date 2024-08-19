@@ -9,7 +9,7 @@ last_modified_at: 2021-05-23 00:43:57 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2021/05/00-cred-harvest-page-edge.png
+  path: /assets/wp-content/uploads/2021/05/00-cred-harvest-page-edge.webp
   alt: A credential harvesting login page loaded in Microsoft Edge
 categories:
 - Information Security
@@ -51,15 +51,15 @@ lure potential victims. It was sent from someone's compromised Virgin Media
 email account.
 
 ![A screenshot of Received email headers showing the originating mail servers
-that were abused to send the phish ](/assets/wp-content/uploads/2021/05/02-email-headers-received-1.png)
+that were abused to send the phish ](/assets/wp-content/uploads/2021/05/02-email-headers-received-1.webp)
 
-![A screenshot of Authentication-Results email headers](/assets/wp-content/uploads/2021/05/03-email-headers-auth-results-original.png)
+![A screenshot of Authentication-Results email headers](/assets/wp-content/uploads/2021/05/03-email-headers-auth-results-original.webp)
 
 What made this credential harvesting phish a little different was the use of
 an attachment instead of a link.
 
 ![A screenshot of a phishing email with a credential
-](/assets/wp-content/uploads/2021/05/01-email.png)
+](/assets/wp-content/uploads/2021/05/01-email.webp)
 
 From a phishing perspective, there are many advantages to attaching a
 credential harvesting page instead of linking to one. The email gateway cannot
@@ -82,7 +82,7 @@ is very heavily obfuscated. The content is also minified, so the code is
 crammed into as files lines and little whitespace as possible.
 
 ![A screenshot of the content of the phishing email
-attachment](/assets/wp-content/uploads/2021/05/04-javascript.png)
+attachment](/assets/wp-content/uploads/2021/05/04-javascript.webp)
 
 Code minification does have legitimate uses, particularity on websites used on
 mobile devices, where every byte saved means faster load times and less data
@@ -93,7 +93,7 @@ Beautify
 for Visual Studio Code.
 
 ![A screenshot of the content of the phishing email attachment after the
-Beautify has run](/assets/wp-content/uploads/2021/05/05-code-beautify.png)
+Beautify has run](/assets/wp-content/uploads/2021/05/05-code-beautify.webp)
 
 Beautify certainly makes the code easier to read, but it does nothing to
 deobfiscate the code to make all those variable manipulations easier to
@@ -125,14 +125,14 @@ form of anti-analysis. This triggers a breakpoint that stops execution when a
 debugger is used.
 
 ![A screenshot of the debugger stopping on the debugger
-statement](/assets/wp-content/uploads/2021/05/06-anti-debug.png)
+statement](/assets/wp-content/uploads/2021/05/06-anti-debug.webp)
 
 To bypass this, click on the deactivate breakpoints button, and refresh the
 page. When the source tab is clicked, the Developer Tools provides the option
 of deminifying the the code. Do that.
 
 ![A screenshot showing the deactivate breakpoints
-button](/assets/wp-content/uploads/2021/05/07-edge-debugger-pretty.png)
+button](/assets/wp-content/uploads/2021/05/07-edge-debugger-pretty.webp)
 
 Unfortunately, this also deactivates any breakpoints that could be set in the
 debugger for line-by line dynamic analysis.
@@ -147,7 +147,7 @@ If the credential harvesting page had been hosted at a URL instead, it is
 useful to toggle the Preserve log and Disable cache on **before** visiting a
 link in a fishing email, that way any redirects are captured.
 
-![A screenshot of the Network tab](/assets/wp-content/uploads/2021/05/08-edge-network.png)
+![A screenshot of the Network tab](/assets/wp-content/uploads/2021/05/08-edge-network.webp)
 
 Each request is listed in the left sidebar. Right-clicking on any of the
 requests provides an option to copy the request headers, response headers, and
@@ -173,8 +173,8 @@ When fake credentials are submitted, this sample displays the message
 "Processing" for many seconds, before displaying an "incorrect email password"
 password message.
 
-![A screenshot of the phishing page saysing "processing"](/assets/wp-content/uploads/2021/05/09-processing.png)
-![A screenshot of the phishing page saying "incorrect email password](/assets/wp-content/uploads/2021/05/10-incorrect-email-password.png)
+![A screenshot of the phishing page saysing "processing"](/assets/wp-content/uploads/2021/05/09-processing.webp)
+![A screenshot of the phishing page saying "incorrect email password](/assets/wp-content/uploads/2021/05/10-incorrect-email-password.webp)
 
 At first, it seems like this might be an artificial delay and error message,
 designed to trick the user into thinking that the login simply failed.
@@ -204,7 +204,7 @@ prompted to provide a MFA code.
     {"msg":"errorsend"}
 
 ![A screenshot of the Timing tab in Microsoft Edge developer
-tools](/assets/wp-content/uploads/2021/05/11-edge-timing.png)
+tools](/assets/wp-content/uploads/2021/05/11-edge-timing.webp)
 
 Passive DNS data from Farsight Security's
 [DNSDB](https://seanthegeek.net/1122/how-to-use-farsight-dnsdb-to-harness-the-
@@ -215,9 +215,9 @@ detections on VirusTotal.
 **Update** : It turns out justinstalledpanel.com is used as part of the domain
 parking infrastructure for publicdomainregistry.com
 
-![A screenshot of VirusTutal results for 37.18.30.131](/assets/wp-content/uploads/2021/05/VirusTotal-37.18.30.131.png)
-![A screenshot of VirusTotal results for l291067a.justinstalledpanel.com](/assets/wp-content/uploads/2021/05/VirusTotal-plotoperation1.3eehj3wdhdhjww3r3dkjd.com_.png)
-![A screenshot of VirusTotal results for VirusTotal-plotoperation1.3eehj3wdhdhjww3r3dkjd.com ](/assets/wp-content/uploads/2021/05/VirusTotal-l291067a.justinstalledpanel.com_.png)
+![A screenshot of VirusTutal results for 37.18.30.131](/assets/wp-content/uploads/2021/05/VirusTotal-37.18.30.131.webp)
+![A screenshot of VirusTotal results for l291067a.justinstalledpanel.com](/assets/wp-content/uploads/2021/05/VirusTotal-plotoperation1.3eehj3wdhdhjww3r3dkjd.com_.webp)
+![A screenshot of VirusTotal results for VirusTotal-plotoperation1.3eehj3wdhdhjww3r3dkjd.com ](/assets/wp-content/uploads/2021/05/VirusTotal-l291067a.justinstalledpanel.com_.webp)
 
 ## MITRE ATT&CK techniques
 

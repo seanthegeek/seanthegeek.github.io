@@ -12,7 +12,7 @@ last_modified_at: 2019-02-11 23:54:37 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2018/01/army-mail.jpg
+  path: /assets/wp-content/uploads/2018/01/army-mail.webp
   alt: Two soldiers process mail in a US Army Forward Operating Base Mailroom
 categories:
 - Information Security
@@ -122,7 +122,7 @@ simulate-spoof-e-mail-attack-and-bypass-spf-sender-verification-part2-of-2/)
 that explains exactly how to bypass SPF:
 
 [![An illustration of email spoofing that bypasses SPF
-checks](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.jpg)
+checks](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.webp)](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.webp)
 An illustration of email spoofing that bypasses SPF checks
 _Credit: o365info.com_
 _Used under fair use__ for educational purposes
@@ -368,17 +368,17 @@ are not comparable, but these results are more accurate.
 The generated files can be [downloaded here](/assets/wp-content/uploads/2018/01/USG-DMARC-2018-01-28.zip).
 
 [![A pie chart of SPF deployment on .gov domains as of
-2018-01-28](/assets/wp-content/uploads/2018/01/dotgov-spf-2018-01-28.png)](/assets/wp-content/uploads/2018/01/dotgov-spf-2018-01-28.png)
+2018-01-28](/assets/wp-content/uploads/2018/01/dotgov-spf-2018-01-28.webp)](/assets/wp-content/uploads/2018/01/dotgov-spf-2018-01-28.webp)
 A pie chart of SPF deployment on .gov domains as of 2018-01-28
 
 [![A pie chart of DMARC deployment on .gov domains as of
-2018-01-28](/assets/wp-content/uploads/2018/01/dotgov-dmarc-2018-01-28.png)](/assets/wp-content/uploads/2018/01/dotgov-dmarc-2018-01-28.png)
+2018-01-28](/assets/wp-content/uploads/2018/01/dotgov-dmarc-2018-01-28.webp)](/assets/wp-content/uploads/2018/01/dotgov-dmarc-2018-01-28.webp)
 A pie chart of DMARC deployment on .gov domains as of 2018-01-28
 
 [![A column chart of DMARC deployment by policy on .gov domains as of
 2018-01-28; Note: “none” is a valid DMARC policy – the “\(empty\)” chart value
 represents domains that have missing or invalid DMARC
-records](/assets/wp-content/uploads/2018/01/dotgov-dmarc-policy-2018-01-28.png)](/assets/wp-content/uploads/2018/01/dotgov-dmarc-policy-2018-01-28.png)
+records](/assets/wp-content/uploads/2018/01/dotgov-dmarc-policy-2018-01-28.webp)](/assets/wp-content/uploads/2018/01/dotgov-dmarc-policy-2018-01-28.webp)
 A column chart of DMARC deployment by policy on .gov domains as of 2018-01-28;
 Note: "none" is a valid DMARC policy - the "(empty)" chart value represents
 domains that have missing or invalid DMARC record

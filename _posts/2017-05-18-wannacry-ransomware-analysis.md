@@ -10,7 +10,7 @@ last_modified_at: 2017-05-19 18:26:56 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2017/05/VT-wannacry.png
+  path: /assets/wp-content/uploads/2017/05/VT-wannacry.webp
   alt: VirusTotal results showing the earliest observed sample of Wannacry ransomware
 categories:
 - Information Security
@@ -40,7 +40,7 @@ version. The sample was compiled on February 9th, and uploaded to VirusTotal
 on February 10th. While compile timestamps can be faked, the closeness to the
 upload date suggests that the compilation timestamp is legitimate.
 
-[![Screenshot of the build timestamp on VirusTotal](/assets/wp-content/uploads/2017/05/wannacry-timestamp.png)](/assets/wp-content/uploads/2017/05/wannacry-timestamp.png)
+[![Screenshot of the build timestamp on VirusTotal](/assets/wp-content/uploads/2017/05/wannacry-timestamp.webp)](/assets/wp-content/uploads/2017/05/wannacry-timestamp.webp)
 
 Malware authors will often upload their builds to VirusTotal as a lazy way of
 testing against current versions of almost all anti-malware products, before
@@ -147,7 +147,7 @@ access to a network. From there, it would be trivial to pivot to other systems
 on the LAN.
 
 [![A screenshot of Shodan search results for Windows systems with exposed SMB
-on 2017-05-18](/assets/wp-content/uploads/2017/05/windows-smb-shodan-2017-05-18.png)](/assets/wp-content/uploads/2017/05/windows-smb-shodan-2017-05-18.png)
+on 2017-05-18](/assets/wp-content/uploads/2017/05/windows-smb-shodan-2017-05-18.webp)](/assets/wp-content/uploads/2017/05/windows-smb-shodan-2017-05-18.webp)
 
 ## Lessons from WannaCry
 

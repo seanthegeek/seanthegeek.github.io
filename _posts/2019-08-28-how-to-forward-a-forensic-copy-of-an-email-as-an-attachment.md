@@ -10,7 +10,7 @@ last_modified_at: 2022-01-19 20:50:36 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2019/08/stack-of-mail.jpg
+  path: /assets/wp-content/uploads/2019/08/stack-of-mail.webp
 categories:
 - How-to Guides
 - Information Security

@@ -9,7 +9,7 @@ last_modified_at: 2016-09-04 12:15:53 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2016/08/Medical-Records.jpg
+  path: /assets/wp-content/uploads/2016/08/Medical-Records.webp
   alt: 'Colorful shelves of paper medical records at a dental clinic - Credit: Tom Magliery License:
     CC BY-NC-SA 2.0'
 categories:

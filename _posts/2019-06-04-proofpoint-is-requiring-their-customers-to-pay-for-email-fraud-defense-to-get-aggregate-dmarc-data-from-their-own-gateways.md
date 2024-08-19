@@ -10,7 +10,7 @@ last_modified_at: 2023-08-17 20:19:57 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2019/06/Proofpoint-DMARC-dashboard.jpg
+  path: /assets/wp-content/uploads/2019/06/Proofpoint-DMARC-dashboard.webp
   alt: A redacted screenshot of the Proofpoint Email Fraud Defense dashboard
 categories:
 - Information Security

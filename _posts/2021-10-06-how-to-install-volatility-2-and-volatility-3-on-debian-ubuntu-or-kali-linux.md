@@ -9,7 +9,7 @@ last_modified_at: 2021-10-06 18:59:18 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2021/10/memory-ram-close-up.jpg
+  path: /assets/wp-content/uploads/2021/10/memory-ram-close-up.webp
 categories:
 - Information Security
 - How-to Guides

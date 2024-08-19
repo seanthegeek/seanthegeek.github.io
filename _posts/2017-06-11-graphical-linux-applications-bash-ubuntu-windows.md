@@ -10,7 +10,7 @@ last_modified_at: 2020-03-04 13:30:36 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2017/06/xeyes-bash-ubuntu-windows-10.png
+  path: /assets/wp-content/uploads/2017/06/xeyes-bash-ubuntu-windows-10.webp
   alt: A screenshot of xeyes running on Bash on Ubuntu on Windows 10 WSL
 categories:
 - How-to Guides
@@ -41,7 +41,7 @@ Settings>System>About. Look for the System Type and Version fields
 respectively, as shown in the screenshot below.
 
 [![Acreenshot of the About section of the Windows 10 Settings
-app](/assets/wp-content/uploads/2017/06/windows_about.png)](/assets/wp-content/uploads/2017/06/windows_about.png)
+app](/assets/wp-content/uploads/2017/06/windows_about.webp)](/assets/wp-content/uploads/2017/06/windows_about.webp)
 
 If your build is below 14393, try checking for updates.
 
@@ -54,7 +54,7 @@ You can enable the feature using a GUI or command-line interface.
   1. From the Start Menu, search for "Turn Windows features on or off" (type 'turn')
   2. Select Windows Subsystem for Linux  
 [![The Windows features dialog box in Windows
-10](/assets/wp-content/uploads/2017/06/windows_features.png)](/assets/wp-content/uploads/2017/06/windows_features.png)
+10](/assets/wp-content/uploads/2017/06/windows_features.webp)](/assets/wp-content/uploads/2017/06/windows_features.webp)
 
   3. Click OK
 
@@ -102,7 +102,7 @@ The first time you launch a Linux distribution in Windows, you will be
 prompted to create a UNIX username and password.
 
 [![A screenshot of a new UNIX user being created for Bash on Ubuntu on
-Windows](/assets/wp-content/uploads/2017/06/new-user.png)](/assets/wp-content/uploads/2017/06/new-user.png)
+Windows](/assets/wp-content/uploads/2017/06/new-user.webp)](/assets/wp-content/uploads/2017/06/new-user.webp)
 
 This UNIX username and password has no relationship to your Windows username
 and password, and it can be different.****

@@ -11,7 +11,7 @@ last_modified_at: 2018-02-12 01:07:56 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2018/02/handicapped-parking.jpg
+  path: /assets/wp-content/uploads/2018/02/handicapped-parking.webp
   alt: An image of handicapped parking by Shawn Campbell
 categories:
 - Healthcare
@@ -82,8 +82,8 @@ disabilities their right to obtain a court order to enforce compliance with a
 
 ## How would this affect disabled people?
 
-[![Image of Senator Tammy Duckworth](/assets/wp-content/uploads/2018/02/tammy-duckworth.jpg)  
-](/assets/wp-content/uploads/2018/02/tammy-duckworth.jpg)
+[![Image of Senator Tammy Duckworth](/assets/wp-content/uploads/2018/02/tammy-duckworth.webp)  
+](/assets/wp-content/uploads/2018/02/tammy-duckworth.webp)
 _Senator Tammy Duckworth_
 
 > This offensive legislation would segregate the disability community, making
@@ -140,7 +140,7 @@ Network already provides ADA training and education; setting up an additional
 education program at the Department of Justice is unnecessary and wasteful
 Contact your local congress members at: www.callmycongress.com
 www.democracy.io An image of an ADA
-logo](/assets/wp-content/uploads/2018/02/H.R.-620-Flyer.png)](/assets/wp-content/uploads/2018/02/H.R.-620-Flyer.png)
+logo](/assets/wp-content/uploads/2018/02/H.R.-620-Flyer.webp)](/assets/wp-content/uploads/2018/02/H.R.-620-Flyer.webp)
 
 Transcription of the infographic:
 

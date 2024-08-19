@@ -5,7 +5,7 @@ description: Download your media, convert your content to Markdown, and keep
   your SEO optimizations with one Python script
 date: 2024-08-16 20:50 -0400
 image:
-  path: /assets/images/wordpress-python-jekyll.png
+  path: /assets/images/wordpress-python-jekyll.webp
 categories:
   - How-to-Guides
 tags:

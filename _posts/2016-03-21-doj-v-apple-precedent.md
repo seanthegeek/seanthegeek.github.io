@@ -9,7 +9,7 @@ last_modified_at: 2016-08-06 20:28:13 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2016/03/secret-stamp.jpg
+  path: /assets/wp-content/uploads/2016/03/secret-stamp.webp
   alt: A battle for encryption privacy and secrecy has been highlighted in a series of DoJ v. Apple court filings
 categories:
 - Information Security

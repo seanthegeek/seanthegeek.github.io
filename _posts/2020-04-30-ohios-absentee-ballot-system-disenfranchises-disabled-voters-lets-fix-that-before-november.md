@@ -10,7 +10,7 @@ last_modified_at: 2020-06-10 16:29:44 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2020/04/polling_place_sign.jpg
+  path: /assets/wp-content/uploads/2020/04/polling_place_sign.webp
   alt: A sign reading "POLLING PLACE" in English and Spanish, with a handicapped symbol
 categories:
 - Politics
@@ -26,7 +26,7 @@ I have lived in Ohio all my life. I have voted in person for nearly every electi
 
 By the time of Ohio's delayed primary election, every Democratic presidential candidate except Joe Biden had dropped out of the race. Every other downballot primary candidate was running completely unopposed. Still, I wanted to be sure to vote for the local school district tax levy. I filled out the [absentee ballot application](<https://www.boe.ohio.gov/comoh/Absentee_Request_11-A.pdf>) on my computer, printed it, signed it, and mailed it. A few days later, I received a ballot, instructions, and an inner envelope to seal the completed ballot in.
 
-![A Picture of a 2020 Ohio absentee ballot envelope. Scribbles and crossed out numbers show my failed attempts to write in the required proof of identity information on the envelope.](https://seanthegeek.net/wp-content/uploads/2020/04/ohio_2020_absentee_envelope.jpg)My failed attempts at filling out the ballot envelope
+![A Picture of a 2020 Ohio absentee ballot envelope. Scribbles and crossed out numbers show my failed attempts to write in the required proof of identity information on the envelope.](https://seanthegeek.net/wp-content/uploads/2020/04/ohio_2020_absentee_envelope.webp)My failed attempts at filling out the ballot envelope
 
 ## The problem
 

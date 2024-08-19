@@ -9,7 +9,7 @@ last_modified_at: 2023-10-26 16:04:14 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2018/06/DMARC-Summary-dashboard.png
+  path: /assets/wp-content/uploads/2018/06/DMARC-Summary-dashboard.webp
   alt: A screenshot of a pre-made aggregate/summary DMARC dashboard in ELK using data
     from ParseDMARC
 categories:
@@ -232,7 +232,7 @@ controls (i.e. infosecspeakeasy.org), while spoofing the target's own domain
 address that the target user will see.
 
 [![A screenshot showing how SPF can be bypassed by spoofing the SMTP mail from
-header](/assets/wp-content/uploads/2018/06/SPF-bypass.png)](/assets/wp-content/uploads/2018/06/SPF-bypass.png)
+header](/assets/wp-content/uploads/2018/06/SPF-bypass.webp)](/assets/wp-content/uploads/2018/06/SPF-bypass.webp)
 A screenshot showing how SPF can be bypassed by spoofing the SMTP mail from
 header
 
@@ -242,7 +242,7 @@ the SMTP mail from header will contain the domain of the forwarding mail
 server.
 
 [![A process graphic that shows how forwarded email fails SPF
-alignment](/assets/wp-content/uploads/2018/06/smtp_forward_spf_dmarc_process.png)](/assets/wp-content/uploads/2018/06/smtp_forward_spf_dmarc_process.png)DKIM
+alignment](/assets/wp-content/uploads/2018/06/smtp_forward_spf_dmarc_process.webp)](/assets/wp-content/uploads/2018/06/smtp_forward_spf_dmarc_process.webp)DKIM
 signatures, on the other hand, are part of the message headers, and survive
 message forwarding. **Therefore DKIM alignment is much more critical than SPF
 alignment.**
@@ -601,9 +601,9 @@ this screenshot of a valid email from a retail credit service, displayed in
 its-domains-authentication-requirements-warning/) and Gmail.
 
 [![A screenshot of ProtonMal showing a DMARC failure
-warning](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.png)](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.png)
+warning](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.webp)](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.webp)
 
-[![A screenshot of a DMARC failure warning in Gmail](/assets/wp-content/uploads/2018/06/Gmail-DMARC-warning.png)](/assets/wp-content/uploads/2018/06/Gmail-DMARC-warning.png)
+[![A screenshot of a DMARC failure warning in Gmail](/assets/wp-content/uploads/2018/06/Gmail-DMARC-warning.webp)](/assets/wp-content/uploads/2018/06/Gmail-DMARC-warning.webp)
 
 ### Authentication-Results headers
 
@@ -757,7 +757,7 @@ address of the person who did the forwarding is placed in the Sender header,
 which DMARC does not use.
 
 [![A screenshot of a draft forward of a calendar event in Microsoft
-Outlook](/assets/wp-content/uploads/2018/06/outlook-calendar-event-forwarding.png)](/assets/wp-content/uploads/2018/06/outlook-calendar-event-forwarding.png)
+Outlook](/assets/wp-content/uploads/2018/06/outlook-calendar-event-forwarding.webp)](/assets/wp-content/uploads/2018/06/outlook-calendar-event-forwarding.webp)
 
 If the domain of the meeting organizer has an enforced DMARC policy (i.e.,
 p=quarantine, or p=reject), and the recipient mail server honors DMARC, the
@@ -773,13 +773,13 @@ events to do so by clicking on the three dots, and clicking Forward as
 Attachment, instead of clicking on the usual Forward button.
 
 [![A screenshot showing how to forward a calendar invite as an attachment in
-Outlook](/assets/wp-content/uploads/2018/06/forward-calendar-invite-as-attachment.png)](/assets/wp-content/uploads/2018/06/forward-calendar-invite-as-attachment.png)
+Outlook](/assets/wp-content/uploads/2018/06/forward-calendar-invite-as-attachment.webp)](/assets/wp-content/uploads/2018/06/forward-calendar-invite-as-attachment.webp)
 
 On Outlook for macOS, calendar events must be forwarded by clicking on
 Message> Forward as Attachment in the Menu Bar.
 
 [![A screenshot of the Forward as attachment menu item in Outlook for
-macOS](/assets/wp-content/uploads/2018/06/macos-outlook-forward-as-attachment.png)](/assets/wp-content/uploads/2018/06/macos-outlook-forward-as-attachment.png)
+macOS](/assets/wp-content/uploads/2018/06/macos-outlook-forward-as-attachment.webp)](/assets/wp-content/uploads/2018/06/macos-outlook-forward-as-attachment.webp)
 
 ### FAQs
 
@@ -789,7 +789,7 @@ Send an email to a Gmail account. They have a nice UI that shows the DKIM
 status of a message.
 
 [![A screenshot showing how DKIM signature alignment can be verified using
-Gmail's UI](/assets/wp-content/uploads/2018/06/DKIM-Gmail.png)](/assets/wp-content/uploads/2018/06/DKIM-Gmail.png)
+Gmail's UI](/assets/wp-content/uploads/2018/06/DKIM-Gmail.webp)](/assets/wp-content/uploads/2018/06/DKIM-Gmail.webp)
 A screenshot showing how DKIM signature alignment can be verified using
 Gmail's UI
 
@@ -1341,7 +1341,7 @@ information.
 
 ![Screenshots of an email with and without BIMI in Outlook
 webmail](https://blog.returnpath.com/wp-content/uploads/2018/08/Screen-
-Shot-2018-08-30-at-10.01.10-AM.png)
+Shot-2018-08-30-at-10.01.10-AM.webp)
 
 To set up BIMI, host a SVG graphic file at a publicly accessible HTTPS URL,
 then add a BIMI assertion TXT DNS record like this one.

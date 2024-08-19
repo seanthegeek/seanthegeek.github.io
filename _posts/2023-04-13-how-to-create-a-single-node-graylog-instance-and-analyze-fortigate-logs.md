@@ -9,7 +9,7 @@ last_modified_at: 2024-05-15 18:31:15 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2023/04/graylog-fortigate-dashboard-application-control.png
+  path: /assets/wp-content/uploads/2023/04/graylog-fortigate-dashboard-application-control.webp
   alt: The Application Control dashboard included in the FortiGate
     Syslog Content Pack for Graylog
 categories:

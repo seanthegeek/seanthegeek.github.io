@@ -9,7 +9,7 @@ last_modified_at: 2022-05-01 00:24:36 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2021/02/lets-encrypt-logo.png
+  path: /assets/wp-content/uploads/2021/02/lets-encrypt-logo.webp
   alt: The Let's Encrypt logo
 categories:
 - How-to Guides

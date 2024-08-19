@@ -7,7 +7,7 @@ description: I created a word cloud from nearly a year Donald Trump's tweets
   five year retrospective.
 date: 2024-08-17 12:52 -0400
 image:
-  path: /assets/images/donald-trump-twitter-word-cloud.png
+  path: /assets/images/donald-trump-twitter-word-cloud.webp
   alt: A word cloud based on 3,192 of Donald Trump's tweets From 2028-04-30 to 2019-02-20
 categories:
   - Politics
@@ -28,7 +28,7 @@ promptly forgot about them...until now!
 
 First, let's look at the frequency graph.
 
-!["A frequency graph based on 3,192 of Donald Trump's tweets From 2028-04-30 to 2019-02-20"](/assets/images/donald-trump-tweets-over-time.png)
+!["A frequency graph based on 3,192 of Donald Trump's tweets From 2028-04-30 to 2019-02-20"](/assets/images/donald-trump-tweets-over-time.webp)
 
 TweetFreq revealed that on days when a tweet was posted he averaged posting 10
 tweets per day, with the maximum number of tweets per day being 34 in

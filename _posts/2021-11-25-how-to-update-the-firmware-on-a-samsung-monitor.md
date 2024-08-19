@@ -9,7 +9,7 @@ last_modified_at: 2021-11-25 01:58:09 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2021/11/samsung-monitor-upgrade-scaled.jpg
+  path: /assets/wp-content/uploads/2021/11/samsung-monitor-upgrade-scaled.webp
 categories:
 - Consumer Devices
 - How-to Guides
@@ -61,7 +61,7 @@ The flash drive needs to be formatted with a FAT32 filesystem. The easiest way
 to do this is to use the free an open source drive flashing tool,
 [Rufus](https://rufus.ie).
 
-![Screenshot of Rufus](/assets/wp-content/uploads/2021/11/rufus-gui.png)  
+![Screenshot of Rufus](/assets/wp-content/uploads/2021/11/rufus-gui.webp)  
 Rufus is a simple GUI utility for flashing drives
 
 Plug in the flash drive, then run Rufus. Apply the following settings:
@@ -75,7 +75,7 @@ Plug in the flash drive, then run Rufus. Apply the following settings:
 
 Click START, read the warning, and click OK.
 
-![Screenshot of a warning from Rufus](/assets/wp-content/uploads/2021/11/formatting-warning.png)  
+![Screenshot of a warning from Rufus](/assets/wp-content/uploads/2021/11/formatting-warning.webp)  
 Rufus will warn you before taking action
 
 You might need to unplug the drive and reconnect it before it will appear
@@ -84,7 +84,7 @@ again.
 Rufus will add the files `autorun.ico` and `autorun.inf` to the flash drive.
 Delete these files.
 
-![A screenshot of the files created by rufus](/assets/wp-content/uploads/2021/11/rufus-autorun-files.png)  
+![A screenshot of the files created by rufus](/assets/wp-content/uploads/2021/11/rufus-autorun-files.webp)  
 Rufus creates these files to add an icon to the drive label
 
 Copy the .img file you extracted earlier to the flash drive.
@@ -101,7 +101,7 @@ Plug the flash drive into the USB Type A port labeled Service. Same Samsung
 monitors have two USB Type A ports, but only one of those ports is a service
 port that can be used to upgrade firmware.
 
-![Diagrams of the ports on Samsung monitors](/assets/wp-content/uploads/2021/11/samsung-monitor-ports.png)  
+![Diagrams of the ports on Samsung monitors](/assets/wp-content/uploads/2021/11/samsung-monitor-ports.webp)  
 Some monitors only have a service port. Others have multiple USB ports, with
 only one port as a service port.
 

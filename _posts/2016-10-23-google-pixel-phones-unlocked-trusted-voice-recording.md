@@ -10,7 +10,7 @@ last_modified_at: 2016-10-24 17:03:14 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2016/10/Trusted-Voice-Warning.png
+  path: /assets/wp-content/uploads/2016/10/Trusted-Voice-Warning.webp
   alt: user manually enables "Ok Google" Trusted Voice
 categories:
 - Information Security
@@ -60,7 +60,7 @@ Launcher, then tap it again in the search bar. Tap on the menu icon in the
 upper-left, the tap Settings, Voice "Ok Google" Detection, and turn off the
 Trusted Voice switch.
 
-[![A screenshot of ok google detection settings](/assets/wp-content/uploads/2016/10/ok-google-detection-settings.png)](/assets/wp-content/uploads/2016/10/ok-google-detection-settings.png)
+[![A screenshot of ok google detection settings](/assets/wp-content/uploads/2016/10/ok-google-detection-settings.webp)](/assets/wp-content/uploads/2016/10/ok-google-detection-settings.webp)
 
 ## Trade-offs
 

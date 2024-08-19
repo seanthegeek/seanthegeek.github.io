@@ -3,7 +3,7 @@ layout: post
 title: My painful but worthwhile migration from WordPress to Jekyll
 description: 'A journey from a bloated dynamic blog to a svelte static blog'
 image:
-  path: /assets/images/wp-to-jekyll.png
+  path: /assets/images/wp-to-jekyll.webp
 categories:
   - How-to Guides
 tags:
@@ -212,7 +212,7 @@ and description, of course.
 ```yaml
 description: This in an example description
 image:
-  path: https://example.com/asets/featured.png
+  path: https://example.com/asets/featured.webp
   alt: An optional description/caption
 ```
 
@@ -290,12 +290,12 @@ Because my new Jekyll site is completely static, the site was being cached for
 4 hours. To fix this in Cloudflare, I Navigated to `Caching> Configuration`,
 and set the `Browser Cache TTL` setting to `Respect Existing Headers`.
 
-![A screenshot of the Cloudflare Browser Cache TTL setting](/assets/images/cloudflare-browser-cache-ttl-setting-screenshot.png)
+![A screenshot of the Cloudflare Browser Cache TTL setting](/assets/images/cloudflare-browser-cache-ttl-setting-screenshot.webp)
 
 Once that was fixed, I noticed a nice modern feature of the Chirpy theme that
 notifies the user when content changes while they have the site open.
 
-![Screenshot of the content update message](/assets/images/chirpy-updated-content-message.png)
+![Screenshot of the content update message](/assets/images/chirpy-updated-content-message.webp)
 
 I still use CloudFlare so I can get basic analytics without adding additional
 JavaScript or invasive trackers.

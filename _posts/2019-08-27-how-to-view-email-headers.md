@@ -9,7 +9,7 @@ last_modified_at: 2022-01-19 20:46:22 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2019/08/email-headers-screenshot.png
+  path: /assets/wp-content/uploads/2019/08/email-headers-screenshot.webp
   alt: A screenshot of email headers
 categories:
 - Information Security

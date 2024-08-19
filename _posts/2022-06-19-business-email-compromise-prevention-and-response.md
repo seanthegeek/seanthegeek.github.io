@@ -9,7 +9,7 @@ last_modified_at: 2022-06-21 13:26:19 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2022/06/istock-phishing-laptop.png
+  path: /assets/wp-content/uploads/2022/06/istock-phishing-laptop.webp
   alt: An illustration of a phishing attack
 categories:
 - Information Security
@@ -161,7 +161,7 @@ technology/2022/03/lapsus-and-solar-winds-hackers-both-use-the-same-old-trick-
 to-bypass-mfa/).
 
 ![A screenshot of a push notification for multi-factor
-authentication](/assets/wp-content/uploads/2022/06/push-notification-mfa.png)
+authentication](/assets/wp-content/uploads/2022/06/push-notification-mfa.webp)
 
 Time-Based One Time Passwords (TOTP) are six digit numbers that change every
 minute. To set up TOTP with a service, a user scans a QR code provided by the
@@ -187,7 +187,7 @@ bypassed by tricking the user into tapping an allow button in an app, visiting
 a lookalike website, or giving the attacker a one-time code.
 
 ![An image of the Yubikey 5 NFC hardware security key. Hardware security keys
-are the most secure form of MFA.](/assets/wp-content/uploads/2022/06/yubikey-5-nfc.png)
+are the most secure form of MFA.](/assets/wp-content/uploads/2022/06/yubikey-5-nfc.webp)
 
 To authenticate with a hardware key, the user plugs the key into a USB port
 (or taps the key against the back of their phone), and presses the button on
