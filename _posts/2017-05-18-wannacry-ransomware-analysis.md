@@ -14,7 +14,6 @@ image:
   alt: VirusTotal results showing the earliest observed sample of Wannacry ransomware
 categories:
 - Information Security
-- Journal
 tags:
 - exploits
 - malware

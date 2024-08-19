@@ -10,7 +10,6 @@ publish: true
 pin: false
 categories:
 - How-to Guides
-- Journal
 tags:
 - build guide
 - ffmpeg

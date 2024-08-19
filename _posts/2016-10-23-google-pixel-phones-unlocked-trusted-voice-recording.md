@@ -14,7 +14,6 @@ image:
   alt: user manually enables "Ok Google" Trusted Voice
 categories:
 - Information Security
-- Journal
 tags:
 - Android
 - Google Assistant

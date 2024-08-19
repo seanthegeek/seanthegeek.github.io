@@ -14,7 +14,6 @@ image:
     when used with the default EMET config
 categories:
 - Information Security
-- Journal
 tags:
 - EMET
 - Google Chrome
