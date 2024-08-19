@@ -44,6 +44,6 @@ Great is the largest word. Lots of references to himself in the third-person
 (president, Trump, @realdonaldtrump). Immigration, border, etc. Keep in mind
 that this covers 2018, the second year of Trump's presidential
 term, when the [Mueller special counsel investigation](https://en.wikipedia.org/wiki/Mueller_special_counsel_investigation) was in full swing, so collusion and
-which show up. Even my home state of Ohio makes an appearance.
+witch show up. Even my home state of Ohio makes an appearance.
 
 The only remaining question is: Does this word cloud qualify as art?
