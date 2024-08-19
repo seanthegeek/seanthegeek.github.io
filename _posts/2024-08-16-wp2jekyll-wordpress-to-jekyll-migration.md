@@ -7,7 +7,7 @@ date: 2024-08-16 20:50 -0400
 image:
   path: /assets/images/wordpress-python-jekyll.webp
 categories:
-  - How-to-Guides
+  - Guides
 tags:
   - WordPress
   - Python
