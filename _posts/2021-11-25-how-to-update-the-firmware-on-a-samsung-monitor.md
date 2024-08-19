@@ -12,7 +12,7 @@ image:
   path: /assets/wp-content/uploads/2021/11/samsung-monitor-upgrade-scaled.webp
 categories:
 - Consumer Devices
-- How-to Guides
+- Guides
 tags:
 - Samsung
 ---

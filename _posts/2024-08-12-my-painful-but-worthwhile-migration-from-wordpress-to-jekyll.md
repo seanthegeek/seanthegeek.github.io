@@ -5,7 +5,7 @@ description: 'A journey from a bloated dynamic blog to a svelte static blog'
 image:
   path: /assets/images/wp-to-jekyll.webp
 categories:
-  - How-to Guides
+  - Guides
 tags:
   - WordPress
   - Jekyll

@@ -13,7 +13,7 @@ image:
   alt: A screenshot of a pre-made aggregate/summary DMARC dashboard in ELK using data
     from ParseDMARC
 categories:
-- How-to Guides
+- Guides
 - Information Security
 tags:
 - phishing

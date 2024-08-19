@@ -14,7 +14,7 @@ image:
     An envelope sealed with a wax seal embossed with the word "DMARC"'
 categories:
 - Information Security
-- How-to Guides
+- Guides
 tags:
 - DMARC
 - email

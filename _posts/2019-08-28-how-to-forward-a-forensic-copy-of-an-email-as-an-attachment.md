@@ -12,7 +12,7 @@ pin: false
 image:
   path: /assets/wp-content/uploads/2019/08/stack-of-mail.webp
 categories:
-- How-to Guides
+- Guides
 - Information Security
 tags:
 - email

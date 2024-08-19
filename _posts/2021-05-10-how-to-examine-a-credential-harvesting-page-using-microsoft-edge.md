@@ -13,7 +13,7 @@ image:
   alt: A credential harvesting login page loaded in Microsoft Edge
 categories:
 - Information Security
-- How-to Guides
+- Guides
 tags:
 - credential harvesting
 - JavaScript

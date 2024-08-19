@@ -14,7 +14,7 @@ image:
     Syslog Content Pack for Graylog
 categories:
 - Information Security
-- How-to Guides
+- Guides
 tags:
 - Forensics
 - FortiGate

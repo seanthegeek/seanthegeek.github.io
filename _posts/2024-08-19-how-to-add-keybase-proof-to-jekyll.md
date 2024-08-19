@@ -6,7 +6,7 @@ title: How to add a Keybase proof to a Jekyll static website
 image:
   path: /assets/images/keybase-logo.webp
 categories:
-  - How-To Guides
+  - Guides
 tags:
   - Keybase
   - Jekyll

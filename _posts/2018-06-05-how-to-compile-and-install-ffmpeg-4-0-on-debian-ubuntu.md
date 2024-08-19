@@ -9,7 +9,7 @@ last_modified_at: 2019-10-08 02:15:18 -0000
 publish: true
 pin: false
 categories:
-- How-to Guides
+- Guides
 tags:
 - build guide
 - ffmpeg

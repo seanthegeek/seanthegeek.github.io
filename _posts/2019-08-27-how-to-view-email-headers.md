@@ -13,7 +13,7 @@ image:
   alt: A screenshot of email headers
 categories:
 - Information Security
-- How-to Guides
+- Guides
 tags:
 - email
 - forensics

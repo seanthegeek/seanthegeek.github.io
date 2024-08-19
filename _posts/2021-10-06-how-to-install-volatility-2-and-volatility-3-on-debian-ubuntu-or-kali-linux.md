@@ -12,7 +12,7 @@ image:
   path: /assets/wp-content/uploads/2021/10/memory-ram-close-up.webp
 categories:
 - Information Security
-- How-to Guides
+- Guides
 tags:
 - forensics
 - Python

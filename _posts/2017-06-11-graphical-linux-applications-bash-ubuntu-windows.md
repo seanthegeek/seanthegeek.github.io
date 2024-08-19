@@ -13,7 +13,7 @@ image:
   path: /assets/wp-content/uploads/2017/06/xeyes-bash-ubuntu-windows-10.webp
   alt: A screenshot of xeyes running on Bash on Ubuntu on Windows 10 WSL
 categories:
-- How-to Guides
+- Guides
 tags:
 - Linux
 - Ubuntu

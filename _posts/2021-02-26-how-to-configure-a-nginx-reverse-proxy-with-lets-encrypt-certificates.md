@@ -12,7 +12,7 @@ image:
   path: /assets/wp-content/uploads/2021/02/lets-encrypt-logo.webp
   alt: The Let's Encrypt logo
 categories:
-- How-to Guides
+- Guides
 tags:
 - guide
 - "let's encrypt"

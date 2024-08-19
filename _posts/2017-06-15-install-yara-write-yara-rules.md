@@ -12,7 +12,7 @@ image:
   path: /assets/wp-content/uploads/2017/06/sample-yara-rule.webp
   alt: A screenshot of a YARA rule with syntax highlighting
 categories:
-- How-to Guides
+- Guides
 - Information Security
 tags:
 - forensics

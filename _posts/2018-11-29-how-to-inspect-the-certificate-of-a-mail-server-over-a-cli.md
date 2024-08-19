@@ -9,7 +9,7 @@ last_modified_at: 2019-06-03 18:59:10 -0000
 publish: true
 pin: false
 categories:
-- How-To Guides
+- Guides
 tags: []
 ---
 If you ever need to inspect the certificate of a remote SMTP server, you can use the `openssl` CLI tool.

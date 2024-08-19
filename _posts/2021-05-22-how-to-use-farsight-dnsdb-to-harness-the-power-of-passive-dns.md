@@ -10,7 +10,7 @@ publish: true
 pin: false
 categories:
 - Information Security
-- How-to Guides
+- Guides
 tags:
 - DNS
 - OSINT
