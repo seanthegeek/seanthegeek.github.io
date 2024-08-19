@@ -55,10 +55,10 @@ I looked for a while for automated ways to export the content. My goals were:
   - Description
   - Featured image
 
-### the Jekyll Exporter WordPress plugin
+### The Jekyll Exporter WordPress plugin
 
 The Jekyll Exporter [plugin](https://wordpress.org/plugins/jekyll-exporter/)
-for WordPress crashed when I tried to run it on on WordPress 6.6.1.
+for WordPress [crashed](https://github.com/benbalter/wordpress-to-jekyll-exporter/issues/319) when I tried to run it on on WordPress 6.6.1.
 
 ### exitwp
 
