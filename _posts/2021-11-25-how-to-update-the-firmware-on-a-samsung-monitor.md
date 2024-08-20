@@ -62,7 +62,7 @@ to do this is to use the free an open source drive flashing tool,
 [Rufus](https://rufus.ie).
 
 ![Screenshot of Rufus](/assets/wp-content/uploads/2021/11/rufus-gui.webp)  
-Rufus is a simple GUI utility for flashing drives
+__Rufus is a simple GUI utility for flashing drives__
 
 Plug in the flash drive, then run Rufus. Apply the following settings:
 
@@ -76,7 +76,7 @@ Plug in the flash drive, then run Rufus. Apply the following settings:
 Click START, read the warning, and click OK.
 
 ![Screenshot of a warning from Rufus](/assets/wp-content/uploads/2021/11/formatting-warning.webp)  
-Rufus will warn you before taking action
+__Rufus will warn you before taking action__
 
 You might need to unplug the drive and reconnect it before it will appear
 again.
@@ -85,7 +85,7 @@ Rufus will add the files `autorun.ico` and `autorun.inf` to the flash drive.
 Delete these files.
 
 ![A screenshot of the files created by rufus](/assets/wp-content/uploads/2021/11/rufus-autorun-files.webp)  
-Rufus creates these files to add an icon to the drive label
+__Rufus creates these files to add an icon to the drive label__
 
 Copy the .img file you extracted earlier to the flash drive.
 
