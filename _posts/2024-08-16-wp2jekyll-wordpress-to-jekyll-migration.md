@@ -37,7 +37,7 @@ the popular Yoast SEO WordPress plugin.
 
 I tried using that plugin but it [crashed](https://github.com/benbalter/wordpress-to-jekyll-exporter/issues/319) on me. Since I haven't actually used that plugin, I can't say for sure, but a quick glance at its [source code](https://github.com/benbalter/wordpress-to-jekyll-exporter/blob/5333f4bbb71519361e0b79a2056a9d3d8acfd6d9/jekyll-exporter.php#L3) seems to show a few key things wp2jekyll does better than the WordPress plugin.
 
-* By default, wp22jekyll will retain the existing permalink of posts and pages, so incoming links don't break.
+* By default, wp2jekyll will retain the existing permalink of posts and pages, so incoming links don't break.
 * Rather than just dumping all WordPress post metadata to YAML in the Front Data, wp2jekyll only retains items useful for SEO (i.e, the featured image and Yoast metadata), and maps them to variable names that are expected by many Jekyll themes. This makes the Front Data much cleaner and useful.
 * By default, wp2jekyll adjusts image/attachment URLs to be relative to the `assets` directory. I don't think the WordPress plugin does that.
 * wp2jekyll keeps a copy of the original post HTML outside of the Jekyll build path so you can look at that in case the Markdown conversion botched some content.
