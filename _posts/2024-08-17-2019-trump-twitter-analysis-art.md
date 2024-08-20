@@ -16,15 +16,15 @@ tags:
   - Twitter
 ---
 
-Back in 2016, I ran a website called TweetFreq.net. It would take any Twitter
-username, load up the 3,200 of of that account's last Tweets, and output a
-frequency graph of how many tweets the account posted per day, along with a
-list of the most frequently used words in those tweets, and a word cloud image
-based on that list. The site had to be shut down in 2023 after Elon Musk
-acquired Twitter, renamed it X, and started charging $100/month for the APIs
-that were used by TweetFreq. Thanks Elon. However, I ran that analysis on
-Donald Trump's @realdonaldtrump Twitter account in 2019, saved the images, and
-promptly forgot about them...until now!
+Back in 2016, I [created](https://github.com/seanthegeek/TweetFreq) a website
+called TweetFreq.net. It would take any Twitter username, load up the last
+3,200 tweets of that account, and output a frequency graph of how many tweets
+the account posted per day, along with a list of the most frequently used words
+in those tweets, and a word cloud image based on that list. The site had to be
+shut down in 2023 after Elon Musk acquired Twitter, renamed it X, and started
+charging $100/month for the APIs that were used by TweetFreq. Thanks Elon.
+However, I ran that analysis on Donald Trump's @realdonaldtrump Twitter account
+in 2019, saved the images, and promptly forgot about them...until now!
 
 First, let's look at the frequency graph.
 
