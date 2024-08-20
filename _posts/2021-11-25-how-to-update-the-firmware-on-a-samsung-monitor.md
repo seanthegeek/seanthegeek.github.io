@@ -62,7 +62,7 @@ to do this is to use the free an open source drive flashing tool,
 [Rufus](https://rufus.ie).
 
 ![Screenshot of Rufus](/assets/wp-content/uploads/2021/11/rufus-gui.webp)  
-__Rufus is a simple GUI utility for flashing drives__
+_Rufus is a simple GUI utility for flashing drives_
 
 Plug in the flash drive, then run Rufus. Apply the following settings:
 
@@ -76,7 +76,7 @@ Plug in the flash drive, then run Rufus. Apply the following settings:
 Click START, read the warning, and click OK.
 
 ![Screenshot of a warning from Rufus](/assets/wp-content/uploads/2021/11/formatting-warning.webp)  
-__Rufus will warn you before taking action__
+_Rufus will warn you before taking action_
 
 You might need to unplug the drive and reconnect it before it will appear
 again.
@@ -85,7 +85,7 @@ Rufus will add the files `autorun.ico` and `autorun.inf` to the flash drive.
 Delete these files.
 
 ![A screenshot of the files created by rufus](/assets/wp-content/uploads/2021/11/rufus-autorun-files.webp)  
-__Rufus creates these files to add an icon to the drive label__
+_Rufus creates these files to add an icon to the drive label_
 
 Copy the .img file you extracted earlier to the flash drive.
 
@@ -102,8 +102,8 @@ monitors have two USB Type A ports, but only one of those ports is a service
 port that can be used to upgrade firmware.
 
 ![Diagrams of the ports on Samsung monitors](/assets/wp-content/uploads/2021/11/samsung-monitor-ports.webp)  
-Some monitors only have a service port. Others have multiple USB ports, with
-only one port as a service port.
+_Some monitors only have a service port. Others have multiple USB ports, with
+only one port as a service port._
 
 ## Start the update
 
