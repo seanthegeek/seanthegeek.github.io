@@ -4,7 +4,7 @@ title: Ghidra setup guide
 description: A complete setup guide to Ghidra, including perquisites, scripts, and
   extensions.
 image:
-  path: "/assets/images/ghidra.webp"
+  path: "/assets/images/ghidra-logo.webp"
 categories:
 - Reverse Engineering Malware
 tags:
