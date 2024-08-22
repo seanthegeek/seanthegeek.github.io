@@ -83,7 +83,7 @@ python3 -m pip install --upgrade pip
 
 ### Windows
 
-Python installers for windows can be Downloaded from the
+Python installers for windows can be downloaded from the
 [Python website](https://www.python.org/downloads/).
 
 #### Microsoft build tools
