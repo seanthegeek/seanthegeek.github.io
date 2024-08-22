@@ -63,9 +63,6 @@ itself without needing Python 2 installed. However, a project by Mandiant
 called [Ghidrathon](https://github.com/mandiant/Ghidrathon) allows an external
 Python 3 interpreter to be used for really cool things like CAPA for Ghidra.
 
-> Make sure to check the option about adding Python to the `PATH`.
-{: .prompt-warning}
-
 ### Python on Linux
 
 Most Linux distributions have Python preinstalled.
@@ -85,6 +82,9 @@ python3 -m pip install --upgrade pip
 
 Python installers for windows can be downloaded from the
 [Python website](https://www.python.org/downloads/).
+
+> Make sure to check the option about adding Python to the `PATH`.
+{: .prompt-warning}
 
 #### Microsoft build tools
 
