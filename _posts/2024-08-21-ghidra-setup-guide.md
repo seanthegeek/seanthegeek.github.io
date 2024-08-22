@@ -177,8 +177,8 @@ Download and copy both scrips to your `ghidra_scripts` directory.
 
 #### Ghidrathon
 
-The CAPA scripts are Python scripts that require [Ghidrathon](https://github.com/mandiant/ghidrathon?tab=readme-ov-file#installing-ghidrathon) to be installed so that
-Ghidra can run python scripts. Here's how to do that:
+The CAPA scripts require [Ghidrathon](https://github.com/mandiant/ghidrathon?tab=readme-ov-file#installing-ghidrathon) to be installed so that
+Ghidra can run Python 3 scripts. Here's how to do that:
 
 1. Download the latest [release](https://github.com/mandiant/Ghidrathon/releases) and unzip it.
 2. `cd` to the extracted directory.
