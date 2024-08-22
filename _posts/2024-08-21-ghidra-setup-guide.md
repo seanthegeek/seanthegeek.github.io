@@ -219,13 +219,13 @@ In the Ghidra window, drag and drop a simple benign executable such as `C:\Windo
 
 Click Yes when Prompted to analyze the file. Then, click `Analyze`.
 
-### Add the data types
+## Add the data types
 
 You can see the progress of the analysis by watching the progress par in the bottom right. Once the analysis has completed, look at the `Data Type Manager`, in the bottom left. Click on the down arrow in the title bar, and click Edit Archive Paths. Add the `ghidra-ght` directory that you created earlier. Then click Ok. Then for each file in `ghidra-gdt`, click the down arrow again, click open file archive, and select the `.ght` file.
 
 You will only need to do this once, and the new data types will be visible in in the Data Type Manager all future projects.
 
-### Cleanup
+## Cleanup
 
 1. Close the Code Browser indow
 2. In the main Ghidra window, select File> Close Project
