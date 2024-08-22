@@ -14,7 +14,7 @@ date: 2024-08-21 19:56 -0400
 Ghidra is an open-source software reverse engineering platform developed by the
 US National Security Agency (NSA). It is a useful free alternative to
 commercial reverse engineering platforms such as IDA or Binary Ninja. Each
-platform has its strengths and weaknesses but a price tag of $0 is a powerful
+platform has its strengths and weaknesses, but a price tag of $0 is a powerful
 adoption motivator. In fact, Ghidra has replaced IDA as in the SANS
 FOR610: Reverse-Engineering Malware: Malware Analysis Tools and Techniques
 course! Ghidra does require a few setup steps, which is what this guide is all
