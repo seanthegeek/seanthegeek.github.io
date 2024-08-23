@@ -17,8 +17,8 @@ tags:
 - pentesting
 - recon
 ---
-DNS describes the [structure](/1117/an-introduction-to-
-dns/) of resources on the internet. It can provide lots of valuable
+DNS describes the [structure](/1117/an-introduction-to-dns/)
+of resources on the internet. It can provide lots of valuable
 information about (attacker or target) infrastructure. However, in order to
 query DNS records, you must already know the exact domains or subdomains to
 query. When examining unknown infrastructure, this is not practical. On top of

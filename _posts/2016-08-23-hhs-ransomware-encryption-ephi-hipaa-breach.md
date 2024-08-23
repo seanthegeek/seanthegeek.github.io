@@ -26,8 +26,8 @@ tags:
 - regulation
 ---
 As a growing number of medical facilities are struck by ransomware, the US
-Department of Health and Human Services (HHS) has published a [fact
-sheet](https://www.hhs.gov/sites/default/files/RansomwareFactSheet.pdf)
+Department of Health and Human Services (HHS) has published a
+[fact sheet](https://www.hhs.gov/sites/default/files/RansomwareFactSheet.pdf)
 describing how businesses that process electronic Protected Health Information
 (ePHI) should defend against and respond to ransomware. Most of the
 recommendations are known IT security best practices.
@@ -42,8 +42,7 @@ recommendations are known IT security best practices.
 > initiate its security incident and response and reporting procedures. See 45
 > C.F.R. 164.308(a)(6).
 
-However, it also mentions that **any unauthorized affect on ePHI must be
-reported as a HIPAA breach**.
+However, it also mentions that **any unauthorized affect on ePHI must be reported as a HIPAA breach**.
 
 > Whether or not the presence of ransomware would be a breach under the HIPAA
 > Rules is a fact-specific determination. A breach under the HIPAA Rules is
@@ -99,7 +98,7 @@ reported as a HIPAA breach**.
 The information security field tends to think of a breach as a loss of
 confidentiality. However, this document makes it clear that HHS considers a
 loss of integrity and/or availability to be a breach as well. Check out
-[my guide](/2016/08/22/prevent-ransomware-strategic-defense/)
+[my guide](/78/prevent-ransomware-strategic-defense/)
 for strategic defenses against ransomware.
 
 Image credit: [Tom Magliery](https://www.flickr.com/photos/mag3737/5841741742).
