@@ -71,7 +71,7 @@ sudo apt install -y nginx
 If your upstream site (the site that nginx is in front of) uses a self-signed
 SSL certificate, download a copy of the certificate. The easiest way to do
 this is to visit the website in Google Chrome or Microsoft Edge (such as the
-Unifi controller's HTTPS URL https://host:8443), click on the padlock on the
+Unifi controller's HTTPS URL `https://host:8443`), click on the padlock on the
 address bar, and click certificate. On Windows, click on the Details tab, then
 `click Copy to file...`. Click next, and select Base-64 format. Save the
 certificate, then upload it to the web server using SCP, and move it into a

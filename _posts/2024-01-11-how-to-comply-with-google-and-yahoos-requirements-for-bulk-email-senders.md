@@ -56,7 +56,7 @@ more likely that your emails reach the inbox.
 
     * [parsedmarc](https://domainaware.github.io/parsedmarc/) is an open source tool that can parse and analyze DMARC reports.
 
-    * Many commercial solutions exist to analyze DMARC reports, including [Dmarcian](https://dmarcian.com/). Proofpoint customers will need to use Proofpoint's Email Fraud Defense product or [use workarounds](https://seanthegeek.net/806/proofpoint-is-requiring-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways/) to get a full view of their DMARC data.
+    * Many commercial solutions exist to analyze DMARC reports, including [Dmarcian](https://dmarcian.com/). Proofpoint customers will need to use Proofpoint's Email Fraud Defense product or [use workarounds](/806/proofpoint-is-requiring-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways/) to get a full view of their DMARC data.
 
 * Emails must pass a DMARC authentication check to verify that the from address is not spoofed.
 
@@ -74,7 +74,7 @@ delivered.
 
 More information about SPF, DKIM, and DMARC authentication can be found in my
 complete guide: [Demystifying DMARC: A guide to preventing email
-spoofing](https://seanthegeek.net/459/demystifying-dmarc/).
+spoofing](/459/demystifying-dmarc/).
 
 ## What do I do if my emails aren't passing DMARC?
 

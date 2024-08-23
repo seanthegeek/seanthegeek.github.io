@@ -216,7 +216,7 @@ Leave the `http_bind_address` option commented out to keep it at its default
 value.
 
 Set `http_publish_url` to the HTTPS URL that will be used to access Graylog. For
-example, https://graylog.example.com/
+example, `https://graylog.example.com/`
 
 Set `elasticsearch_hosts` to `https://127.0.0.1:9200`. The configuration file
 says this is the default value, but I have found that it must be explicitly
@@ -362,12 +362,12 @@ you what to retain.
 ## Install the FortiGate Syslog content packs
 
 I have created two Graylog content packs for FortiGate syslog data. The first
-content pack, ([FortiGate syslog](https://github.com/seanthegeek/graylog-
-fortigate-syslog)) contains a stream and dashboard. A stream tells Graylog
+content pack, ([FortiGate syslog](https://github.com/seanthegeek/graylog-fortigate-syslog))
+contains a stream and dashboard. A stream tells Graylog
 what data to direct to a particular index set or pipeline. Searches can also
 be filtered by stream. After you install the first content pack install the
-[Graylog syslog pipeline](https://github.com/seanthegeek/graylog-fortigate-
-syslog-pipeline) content pack. This installs a pipeline that sets fields used
+[Graylog syslog pipeline](https://github.com/seanthegeek/graylog-fortigate-syslog-pipeline)
+content pack. This installs a pipeline that sets fields used
 by the dashboard to their proper datatype and removes redundant fields. The
 full original message is still available in the message field.
 
@@ -418,11 +418,10 @@ example, to retain a year of logs set the rotation period to P1D and set the
 max number of indices to 365.
 
 Download the FortiGate Syslog Graylog content pack JSON file by right-clicking
-on [this link](https://github.com/seanthegeek/graylog-fortigate-
-syslog/raw/1.0.0-rev1/content_pack.json) and clicking "Save link as." Be sure
-to add yourself as a watcher to the [GitHub
-project](https://github.com/seanthegeek/graylog-fortigate-syslog) to be
-notified of new Content Pack releases that fix bugs or add more features.
+on [this link](https://github.com/seanthegeek/graylog-fortigate-syslog/raw/1.0.0-rev1/content_pack.json)
+and clicking "Save link as." Be sure
+to add yourself as a watcher to the [GitHub project](https://github.com/seanthegeek/graylog-fortigate-syslog)
+to be notified of new Content Pack releases that fix bugs or add more features.
 
 In Graylog, navigate to System> Content Packs. Click Upload, choose the
 content_pack.json file, and click Upload. Click Install across from the

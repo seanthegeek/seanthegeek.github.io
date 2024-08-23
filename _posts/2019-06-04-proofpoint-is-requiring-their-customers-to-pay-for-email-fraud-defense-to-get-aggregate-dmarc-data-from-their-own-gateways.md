@@ -21,7 +21,7 @@ tags:
 - Proofpoint
 ---
 I have written extensively about the DMARC email security standard, including
-publishing a [comprehensive guide](https://seanthegeek.net/459/demystifying-
+publishing a [comprehensive guide](/459/demystifying-
 dmarc/) on how to implement it, with or without additional third-party
 vendors.  I also do a little consulting on DMARC deployment best practices.
 One of those consulting clients uses Proofpoint for their email gateway. They
@@ -51,8 +51,8 @@ cornerstone of the DMARC standard.
 
 Proofpoint does provide aggregate DMARC data about the mail traffic flowing
 through a customer's gateway, but only via Proofpoint's own DMARC report
-[analytics offering](https://www.proofpoint.com/us/products/email-fraud-
-defense), Proofpoint Email Fraud Defense (EFD). In essence, Proofpoint is
+[analytics offering](https://www.proofpoint.com/us/products/email-fraud-defense),
+Proofpoint Email Fraud Defense (EFD). In essence, Proofpoint is
 ensuring that only their EFD offering provides their existing email gateway
 customers with the full picture needed to deploy DMARC, at an additional cost,
 of course.

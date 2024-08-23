@@ -30,8 +30,8 @@ support for native visual voicemail in the Android dialer was missing. Worse,
 I was getting cryptic text messages instead of the usual basic voicemail
 notification.
 
-A blog post from [Matt Cutts](https://www.mattcutts.com/blog/verizon-visual-
-voicemail-texts/) describes this situation in detail. It turns out the text
+A blog post from [Matt Cutts](https://www.mattcutts.com/blog/verizon-visual-voicemail-texts/)
+describes this situation in detail. It turns out the text
 messages are somehow used in the background by Verizon's proprietary visual
 voicemail application. That application is not available to Nexus devices on
 the Google Play store like the My Verizon app is. So the only solution to get
@@ -62,15 +62,13 @@ phones](/assets/wp-content/uploads/2016/10/android-7.1.1-settings.webp)](/assets
 to see it included.~~   Hopefully ~~more~~ features from the Pixel phones like
 the [Google Assistant](https://assistant.google.com/) will make their way to
 Nexus devices over the next few months. That would go a long way towards
-soothing the [outrage](https://www.androidpolice.com/2016/10/06/its-time-to-
-talk-about-google-the-pixel-phones-and-feelings-of-abandonment/) of many Nexus
+soothing the [outrage](https://www.androidpolice.com/2016/10/06/its-time-to-talk-about-google-the-pixel-phones-and-feelings-of-abandonment/) of many Nexus
 owners who feel left behind. It would certainly be in Google's long-term
 interest to put the assistant in the hands of as many Android users as
 possible once it has full integration with third party services.
 
 **Update** : Unfortunately, the day after this post was published, Google
-updated [Google Support
-Services](https://play.google.com/store/apps/details?id=com.google.android.apps.helprtc)
+updated [Google Support Services](https://play.google.com/store/apps/details?id=com.google.android.apps.helprtc)
 that remove the phones and chat support buttons for Nexus devices :(
 
 [![A screenshot of the support tab in settings as seen on a Nexus 5X after the

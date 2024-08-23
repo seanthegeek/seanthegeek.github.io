@@ -37,8 +37,8 @@ the accommodations must be practical and affordable. As a result of 27 years
 of building access equality, these features have become so ubiquitous that
 it's easy for anyone to take them for granted. However, the enforcement
 mechanism that has been in place for nearly three decades is now in jeopardy
-because of [H.R.620](https://www.congress.gov/bill/115th-congress/house-
-bill/620) \- The ADA Education and Reform Act of 2017, sponsored by [Rep. Poe,
+because of [H.R.620](https://www.congress.gov/bill/115th-congress/house-bill/620)
+-\- The ADA Education and Reform Act of 2017, sponsored by [Rep. Poe,
 Ted [R-TX-2]](https://www.congress.gov/member/ted-poe/P000592).
 
 Currently, if a business does not meet the basic accessibility standards that
@@ -73,8 +73,8 @@ After receiving notification, the business would have 60 days to acknowledge
 the violation, and another 120 days to make "substantial progress" towards
 remedying the violation. **Businesses would have no obligation to be
 accessible until such a complaint is received.** Even then, as the ACLU
-[mentions](https://www.aclu.org/blog/disability-rights/congress-wants-change-
-americans-disabilities-act-and-undermine-civil-rights), this time period could
+[mentions](https://www.aclu.org/blog/disability-rights/congress-wants-change-americans-disabilities-act-and-undermine-civil-rights),
+this time period could
 be **extended indefinitely** , as long as the business claims to continue to
 be making "substantial progress" towards a remedy, denying people with
 disabilities their right to obtain a court order to enforce compliance with a
@@ -96,10 +96,8 @@ _Senator Tammy Duckworth_
 > educate the entities  perpetrating it about their obligations not to
 > discriminate."
 
-[Sen. Tammy Duckworth](https://www.washingtonpost.com/opinions/congress-is-on-
-the-offensive-against-americans-with-
-disabilities/2017/10/17/f508069c-b359-11e7-9e58-e6288544af98_story.html), U.S
-Army combat veteran
+[Sen. Tammy Duckworth](https://www.washingtonpost.com/opinions/congress-is-on-the-offensive-against-americans-with-disabilities/2017/10/17/f508069c-b359-11e7-9e58-e6288544af98_story.html),
+U.S Army combat veteran
 
 ## What can I do to help stop this bill?
 

@@ -20,7 +20,7 @@ tags:
 ---
 If you receive a fraudulent email, can be very useful to send a full forensic copy to an organization that is being spoofed, industry partners, and law enforcement.
 
-When a user clicks forward in a mail client, the client copies the message's content and attachments to a new message. The original [message headers](<https://seanthegeek.net/861/how-to-view-email-headers/>) are **not** included.
+When a user clicks forward in a mail client, the client copies the message's content and attachments to a new message. The original [message headers](</861/how-to-view-email-headers/>) are **not** included.
 
 In order to send a full forensic sample that includes the original message headers, the original message must be sent as an attachment in a new message. The process for doing this varies by mail client.
 

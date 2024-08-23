@@ -28,11 +28,8 @@ hundreds of thousands of systems around the world; a rate not seen since the
 
 1. WannaCry -- also known as WannaCrypt, WannaCryptor, WanaCrypt0r, WCry,
 or WCrypt -- leverages vulnerabilities that Microsoft patched in the March
-[MS17-010 Security Bulletin](https://technet.microsoft.com/en-
-us/library/security/ms17-010.aspx), after taking the unprecedented step of
-[canceling the February Patch Tuesday](https://arstechnica.com/information-
-technology/2017/02/microsoft-cancels-february-patch-tuesday-despite-0-day-in-
-wild/).
+[MS17-010 Security Bulletin](https://technet.microsoft.com/en-us/library/security/ms17-010.aspx), after taking the unprecedented step of
+[canceling the February Patch Tuesday](https://arstechnica.com/information-technology/2017/02/microsoft-cancels-february-patch-tuesday-despite-0-day-in-wild/).
 
 While collecting samples of WannaCry, I found a sample that predates the worm
 version. The sample was compiled on February 9th, and uploaded to VirusTotal
@@ -58,9 +55,7 @@ products detected these new samples as malicious.
 Fortunately, WannaCry samples to date have not been packed or otherwise
 obfuscated. A few days after the initial worm outbreak, almost every anti-
 malware software was updated in ways that detect all known variants of
-WannaCry, but not before the ransomware [disrupted hospital care across the
-UK](https://www.theguardian.com/technology/2017/may/13/nhs-workers-and-
-patients-on-how-cyber-attack-has-affected-them), and paralyzed hundreds of
+WannaCry, but not before the ransomware [disrupted hospital care across the UK](https://www.theguardian.com/technology/2017/may/13/nhs-workers-and-patients-on-how-cyber-attack-has-affected-them), and paralyzed hundreds of
 other organizations worldwide. Of course, the attackers will eventually make
 changes to avoid detection again.  This is a typical detection pattern for new
 malware, which illustrates why any one product -- including "next gen"
@@ -104,9 +99,7 @@ At the time of this writing, these wallets combined have received a total of
 exchange rate of 1 BTC ≈ $1,867.01 USD. The ransom amounts range from
 $300-$600 per system.
 
-Reports indicate that [North Korea](https://www.npr.org/sections/thetwo-
-way/2017/05/16/528587064/north-korea-may-be-linked-to-wannacry-ransomware-
-researchers-say) may be using WannaCry to fund its weapons programs as it
+Reports indicate that [North Korea](https://www.npr.org/sections/thetwo-way/2017/05/16/528587064/north-korea-may-be-linked-to-wannacry-ransomware-researchers-say) may be using WannaCry to fund its weapons programs as it
 faces tightening international sanctions and isolation.
 
 ## The kill switch implementation is odd
@@ -116,9 +109,7 @@ horribly unexpected happens with your code -- e.g. it crashes a system 50% of
 the time -- you may want to kill the worm before it can brick half of your
 potential targets. What's odd about WannaCry's kill switch is that it simply
 checked for the registration of a predetermined domain name, which lead one
-researcher to register it, [not
-knowing](https://www.theguardian.com/technology/2017/may/13/accidental-hero-
-finds-kill-switch-to-stop-spread-of-ransomware-cyber-attack) it was a kill
+researcher to register it, [not knowing](https://www.theguardian.com/technology/2017/may/13/accidental-hero-finds-kill-switch-to-stop-spread-of-ransomware-cyber-attack) it was a kill
 switch. It stopped the worm in its tracks, until the attackers launched a
 version without a kill switch. These seem like lazy development choices.
 WannaCry was already using asymmetric encryption; why not use that to verify

@@ -119,8 +119,8 @@ navigate to More tools> Developer tools, or use the keyboard shortcut Ctrl +
 Shift + I.
 
 This sample continuously calls the debugger
-[statement](https://developer.mozilla.org/en-
-US/docs/Web/JavaScript/Reference/Statements/debugger) in a loop as a basic
+[statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger)
+in a loop as a basic
 form of anti-analysis. This triggers a breakpoint that stops execution when a
 debugger is used.
 
@@ -207,7 +207,7 @@ prompted to provide a MFA code.
 tools](/assets/wp-content/uploads/2021/05/11-edge-timing.webp)
 
 Passive DNS data from Farsight Security's
-[DNSDB](https://seanthegeek.net/1122/how-to-use-farsight-dnsdb-to-harness-the-
+[DNSDB](/1122/how-to-use-farsight-dnsdb-to-harness-the-
 power-of-passive-dns/) revealed that l291067a.justinstalledpanel.com also
 pointed to the same IP address. The IP address and domains currently have 0
 detections on VirusTotal.

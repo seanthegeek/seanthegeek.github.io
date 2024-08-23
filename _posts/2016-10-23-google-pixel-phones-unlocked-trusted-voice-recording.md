@@ -32,10 +32,7 @@ with a recording of the trusted voice saying "Ok Google" -- or even someone
 with a similar voice -- can easily unlock the device.
 
 I recorded myself saying "Ok Google", and played it back while screencasting
-my Google Pixel using [AllCast
-Receiver](https://chrome.google.com/webstore/detail/allcast-
-receiver/hjbljnpdahefgnopeohlaeohgkiidnoe) and [AllCast
-Mirror](https://play.google.com/store/apps/details?id=com.koushikdutta.mirror&hl=en)
+my Google Pixel using [AllCast Receiver](https://chrome.google.com/webstore/detail/allcast-receiver/hjbljnpdahefgnopeohlaeohgkiidnoe) and [AllCast Mirror](https://play.google.com/store/apps/details?id=com.koushikdutta.mirror&hl=en)
 (since I don't have a tripod to record the phone itself.)  I cranked up the
 volume on studio monitor speakers at my desk to ensure that the phone would
 hear it for the demo; but if you wanted to break into a device discreetly, you
@@ -67,7 +64,7 @@ With Trusted Voice off, your device will prompt you to unlock it before taking
 any action if if hears you say "Ok Google" while the device is locked. It
 would be nice if Google had settings to let the user ask general, non-personal
 questions, or make phone calls with Trusted Voice disabled and the device is
-locked. That's the way it works when giving voice commands on a Blutetooth
+locked. That's the way it works when giving voice commands on a Bluetooth
 headset. The upcoming [Google Home](https://madeby.google.com/home/) will give
 some convenience without having to use Trusted Voice on your phone.  For now
 though, you'll have to choose between the convince of talking to your phone

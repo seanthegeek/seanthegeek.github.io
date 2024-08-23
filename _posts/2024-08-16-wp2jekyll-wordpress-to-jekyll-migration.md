@@ -14,7 +14,7 @@ tags:
   - Jekyll
 ---
 
-A few days ago, I wrote [a post](https://seanthegeek.net/posts/my-painful-but-worthwhile-migration-from-wordpress-to-jekyll/) about what I did
+A few days ago, I wrote [a post](/posts/my-painful-but-worthwhile-migration-from-wordpress-to-jekyll/) about what I did
 to migrate from my WordPress blog to this Jekyll blog. The process was, in a
 word: manual. The Jekyll importer tools don't convert the post content to
 Markdown, some don't download media files, and if they do, they don't update

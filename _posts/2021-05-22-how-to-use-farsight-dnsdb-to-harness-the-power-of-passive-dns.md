@@ -17,7 +17,7 @@ tags:
 - pentesting
 - recon
 ---
-DNS describes the [structure](https://seanthegeek.net/1117/an-introduction-to-
+DNS describes the [structure](/1117/an-introduction-to-
 dns/) of resources on the internet. It can provide lots of valuable
 information about (attacker or target) infrastructure. However, in order to
 query DNS records, you must already know the exact domains or subdomains to
@@ -68,7 +68,7 @@ records associated with a domain or subdomain. Inverse lookups find all
 hostnames that have pointed to a specific IP address or CNAME value.
 
 in this guide, we will be running queries to examine the infrastructure behind
-a [credential harvesting page](https://seanthegeek.net/1069/how-to-examine-a-
+a [credential harvesting page](/1069/how-to-examine-a-
 credential-harvesting-page-using-microsoft-edge/).
 
 This particular credential harvesting page sends stolen credentials to a web

@@ -22,16 +22,15 @@ comments: []
 ---
 Ransomware has become the weapon of choice for financially motivated
 cybercriminals. Individuals,
-[hospitals](https://www.nbcnews.com/tech/security/big-paydays-force-hospitals-
-prepare-ransomware-attacks-n557176), businesses,
-[schools](https://wdtn.com/2016/03/08/sc-school-district-pays-nearly-10k-to-
-ransomware-hackers/), [police departments](https://www.darkreading.com/), and
-government agencies have all been victims of highly disruptive ransomware,
-resulting in ransom payments totaling at least $24 million in 2015, [according
-to the DoJ and DHS](https://www.businessinsider.com/doj-and-dhs-ransomware-
-attacks-government-2016-4). It doesn't take much to start a ransomware
-campaign, and the returns can be extremely high. Fortunately, the steps to
-prevent ransomware from succeeding are equally simple and low cost.
+[hospitals](https://www.nbcnews.com/tech/security/big-paydays-force-hospitals-prepare-ransomware-attacks-n557176),
+businesses,
+[schools](https://wdtn.com/2016/03/08/sc-school-district-pays-nearly-10k-to-ransomware-hackers/),
+police departments, and government agencies have all been victims of highly
+disruptive ransomware, resulting in ransom payments totaling at least $24
+million in 2015, [according to the DoJ and DHS](https://www.businessinsider.com/doj-and-dhs-ransomware-attacks-government-2016-4).
+It doesn't take much to start a ransomware campaign, and the returns can be
+extremely high. Fortunately, the steps to prevent ransomware from succeeding are
+equally simple and low cost.
 
 ## Don't be easy prey
 
@@ -61,13 +60,12 @@ exploits. Let's focus on the phishing vector first.
 A phishing campaign needs a list of valid target email addresses. These are
 frequently gathered by scraping public websites, documents, and social media.
 CloudFlare provides a free service tier (which is used by this site) that can
-[obscure email addresses](https://support.cloudflare.com/hc/en-
-us/articles/200170016-What-is-Email-Address-Obfuscation-) from bots, and
-prevent many bad bots from accessing your sites altogether.
+[obscure email addresses](https://support.cloudflare.com/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-)
+from bots, and prevent many bad bots from accessing your sites altogether.
 
 Using social media services like Facebook and LinkedIn, attackers can get a
 list of employees, and then build a list of probable email addresses based on
-common conventions like firstname.lastname@example.com. Train your employees
+common conventions like `firstname.lastname@example.com`. Train your employees
 to keep their social media profiles as private as possible, especially those
 that list their employment details. Of course, sometimes public exposure of
 email addresses are unavoidable. Many people in sales need their email address
@@ -91,8 +89,8 @@ complete training, simulation, and testing suite.
 
 Unsophisticated phishing campaigns will package malware in file types that
 should _never_ attached to legitimate email, like .exe, .scr, .js, and .hta.
-Microsoft maintains a [helpful list](https://support.microsoft.com/en-
-us/kb/883260) of high-risk file extensions. You should configure your email
+Microsoft maintains a [helpful list](https://support.microsoft.com/en-us/kb/883260)
+of high-risk file extensions. You should configure your email
 gateway to block delivery of any email that contains these attachment types,
 including inside archive files like zips:
 
@@ -198,8 +196,7 @@ Office documents that were downloaded from the internet or email. This a great
 option, because most legitimate documents with macros (like the aforementioned
 Excel finance wizards) are stored on local storage or internal network shares.
 Microsoft has a handy guide to macro security settings
-[here](https://blogs.technet.microsoft.com/mmpc/2016/03/22/new-feature-in-
-office-2016-can-block-macros-and-help-prevent-infection/).
+[here](https://blogs.technet.microsoft.com/mmpc/2016/03/22/new-feature-in-office-2016-can-block-macros-and-help-prevent-infection/).
 
 [![A screenshot of the new Office 2016 GPO setting to disable macros from
 office files that were downloaded from the internet.](/assets/wp-content/uploads/2016/08/Macro-GPO-Settings.webp)](/assets/wp-content/uploads/2016/08/Macro-GPO-Settings.webp)  
@@ -218,9 +215,7 @@ _Microsoft_
 
 OLE packages are almost never used in legit files, even the ones for those
 macro-crazy finance and accounting people, which is good because there is no
-GPO setting to block them. [Registry
-changes](https://blogs.technet.microsoft.com/mmpc/2016/06/14/wheres-the-macro-
-malware-author-are-now-using-ole-embedding-to-deliver-malicious-files/) are
+GPO setting to block them. [Registry changes](https://blogs.technet.microsoft.com/mmpc/2016/06/14/wheres-the-macro-malware-author-are-now-using-ole-embedding-to-deliver-malicious-files/) are
 needed:
 
 > Administrators can prevent activation of OLE packages by modifying the
@@ -327,15 +322,14 @@ Guide](https://www.microsoft.com/en-us/download/details.aspx?id=53355).
 #### Limit admin permissions
 
 While most malware only uses user-level privileges, some ransomware like
-[petya](https://blog.malwarebytes.com/threat-analysis/2016/05/petya-and-
-mischa-ransomware-duet-p1/) uses elevated privileges to overwrite the Master
-Boot Record (MBR).
+[Petya](https://blog.malwarebytes.com/threat-analysis/2016/05/petya-and-mischa-ransomware-duet-p1/)
+uses elevated privileges to overwrite the Master Boot Record (MBR).
 
 Restrict local and domain admin privileges to only those who absolutely need
-it. Products like [Avecto
-DefendPoint](https://www.avecto.com/defendpoint/privilege-management) can
-selectively elevate privileges on a per application basis, based on what that
-user is permitted to do.
+it. Products like
+[Avecto DefendPoint](https://www.avecto.com/defendpoint/privilege-management)
+can selectively elevate privileges on a per application basis, based on what
+that user is permitted to do.
 
 Microsoft's free [Local Administrator Password Solution
 (LAPS)](https://technet.microsoft.com/en-us/library/security/3062591.aspx) can
@@ -410,7 +404,7 @@ ready, and recover as quickly as possible.
 * Limit admin access
 * Regularly check your network perimeter and publicly accessible applications for vulnerabilities
 * Use multi-factor authentication for all remote access
-* Block all uncatagorized sites
+* Block all uncategorized sites
 * Block high-risk sites and P2P protocols
 * Automatic VPN for everyone working remotely
 * Have solid backups and disaster recovery plans

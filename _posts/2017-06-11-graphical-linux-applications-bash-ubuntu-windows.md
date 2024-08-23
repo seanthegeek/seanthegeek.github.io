@@ -40,8 +40,7 @@ To find your PC's CPU architecture and Windows version/build number, open
 Settings>System>About. Look for the System Type and Version fields
 respectively, as shown in the screenshot below.
 
-[![Acreenshot of the About section of the Windows 10 Settings
-app](/assets/wp-content/uploads/2017/06/windows_about.webp)](/assets/wp-content/uploads/2017/06/windows_about.webp)
+[![A screenshot of the About section of the Windows 10 Settings app](/assets/wp-content/uploads/2017/06/windows_about.webp)](/assets/wp-content/uploads/2017/06/windows_about.webp)
 
 If your build is below 14393, try checking for updates.
 
@@ -92,9 +91,7 @@ a very good reason:
 
 > Avoid creating and/or modifying files in this location using Windows tools
 > and apps! If you do, it is likely that your Linux files will be corrupted
-> and data loss may occur. Please read this [blog
-> post](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-
-> linux-files-using-windows-apps-and-tools/) for more information.
+> and data loss may occur. Please read this [blog post](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/) for more information.
 
 ### Create a UNIX user
 
@@ -109,8 +106,7 @@ and password, and it can be different.****
 
 Use the same username that you use on remote Linux/UNIX systems, so you won't
 need to specify it in individual configuration files, or every time you run
-commands like `ssh`. [Read more](https://msdn.microsoft.com/en-
-us/commandline/wsl/user_support).
+commands like `ssh`. [Read more](https://msdn.microsoft.com/en-us/commandline/wsl/user_support).
 
 ### Update the Linux distribution
 
@@ -208,10 +204,7 @@ And run the GUI application from the shell prompt.
 ## Using Visual Studio Code
 
 Instead on installing the Linux version on Visual Studio Code on your WSL
-Linux distribution, install Visual Studio Code in Windows, and add the [Remote
-Development extension
-pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-
-remote.vscode-remote-extensionpack).
+Linux distribution, install Visual Studio Code in Windows, and add the [Remote Development extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack).
 
 After reloading Visual Studio Code, click on the green arrows at the bottom
 right corner of the window, and select `Remote-WSL: New window` action.

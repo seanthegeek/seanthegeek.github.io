@@ -597,11 +597,10 @@ reject | The Domain Owner wishes for Mail Receivers to reject email that fails t
 Even if a domain has a DMARC policy set to p=none, mail services may still
 display warnings to their users in the event of a DMARC failure, as shown in
 this screenshot of a valid email from a retail credit service, displayed in
-[ProtonMail](https://protonmail.com/support/knowledge-base/email-has-failed-
-its-domains-authentication-requirements-warning/) and Gmail.
+[ProtonMail](https://protonmail.com/support/knowledge-base/email-has-failed-its-domains-authentication-requirements-warning/)
+and Gmail.
 
-[![A screenshot of ProtonMal showing a DMARC failure
-warning](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.webp)](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.webp)
+[![A screenshot of ProtonMal showing a DMARC failure warning](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.webp)](/assets/wp-content/uploads/2018/06/DMARC_failure_ProtonMail.webp)
 
 [![A screenshot of a DMARC failure warning in Gmail](/assets/wp-content/uploads/2018/06/Gmail-DMARC-warning.webp)](/assets/wp-content/uploads/2018/06/Gmail-DMARC-warning.webp)
 
@@ -623,7 +622,7 @@ Email headers are added and read from the bottom to the top.
 First, the server notes that the message has not been DKIM signed.
 
 Then, SPF is checked, with a SMTP mail from header value of
-noreply_[redacted]_portal=[redacted].com__0-28eb251z589s1s@zihu5s1p6odwjt9p.s3cycftqbacrhjk9.hf76qay.3-1ffzneao.na45.bnc.salesforce.com,
+`noreply_[redacted]_portal=[redacted].com__0-28eb251z589s1s@zihu5s1p6odwjt9p.s3cycftqbacrhjk9.hf76qay.3-1ffzneao.na45.bnc.salesforce.com`,
 and SPF passed. A salesforce.com address was used so that Salesforce can keep
 track of bouncebacks, and avoid sending to invalid email addresses in the
 future. SPF passed.
@@ -724,7 +723,7 @@ ri |  **Default is 86400** Indicates a request to Receivers to generate aggregat
 If an email address in rua or ruf has a different base domain than the domain
 of the policy record, an authorization record must be added to the base domain
 of the email address to indicate that it accepts reports about that domain.
-For example, if dmarc@example.com also needed to accept reports for
+For example, if `dmarc@example.com` also needed to accept reports for
 example.net, the poly record for example.net would look like this:
 
     _dmarc.example.net TXT "v=DMARC1; p=none; rua=mailto:dmarc@example.com; ruf=mailto:dmarc@example.com"
@@ -765,9 +764,8 @@ message will not be delivered, because DMARC does not allow an unauthorized
 mail server (i.e., the forwarding mail server) to send an email as the
 organizer's domain.
 
-This is a [known
-problem](https://office365.uservoice.com/forums/264636-general/suggestions/34012756-forwarding-
-of-calendar-appointments-from-a-dmarc-p) with Outlook that Microsoft has so
+This is a [known problem](https://office365.uservoice.com/forums/264636-general/suggestions/34012756-forwarding-of-calendar-appointments-from-a-dmarc-p)
+with Outlook that Microsoft has so
 far not addressed. In the meantime, tell anyone who wants to forward calendar
 events to do so by clicking on the three dots, and clicking Forward as
 Attachment, instead of clicking on the usual Forward button.
@@ -799,14 +797,14 @@ Gmail's UI
 Check if they can send through your email relays instead of theirs.
 
   2. Do they really need to spoof your domain? Why not use the display name instead?
-  3. Worst case, have that vendor send email as a specific subdomain of your domain (e.g. noreply@news.example.com), and then create separate SPF and DMARC records on news.example.com, and set p=none in that DMARC record.
+  3. Worst case, have that vendor send email as a specific subdomain of your domain (e.g. `noreply@news.example.com`), and then create separate SPF and DMARC records on news.example.com, and set p=none in that DMARC record.
 
 **Do not** alter the p or sp values of the DMARC record on the Top-Level
 Domain (TLD) - **that would leave you vulnerable to spoofing of your TLD
 and/or any subdomain**.
 
-[Further reading](https://dmarcian.com/what-to-do-about-non-dmarc-capable-
-email-sources/) on this problem.
+[Further reading](https://dmarcian.com/what-to-do-about-non-dmarc-capable-email-sources/)
+on this problem.
 
 ## How can I get more forensic reports?
 
@@ -1008,7 +1006,7 @@ Some additional steps are needed for Linux hosts.
 + [NIST Special Publication 800-177 - Trustworthy Email](https://doi.org/10.6028/NIST.SP.800-177r1)
 + [DMARC Overview](https://dmarc.org/overview/)
 + [Proofpoint Email Authentication Guide](/assets/wp-content/uploads/2018/06/Proofpoint-Email-Authentication-Guide.pdf)
-  + **[Proofpoint does not currently send any DMARC reports](https://seanthegeek.net/806/proofpoint-is-forcing-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways/)
+  + **[Proofpoint does not currently send any DMARC reports](/806/proofpoint-is-forcing-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways/)
 **
 
 + [DMARC guide for G Suite](https://www.youtube.com/watch?v=WB-aUZMDnU8)
@@ -1118,7 +1116,7 @@ Add include:jangomail.com to your SPF record.
 + <https://jangomail.com/features/>
 + <https://jangomail.com/pricing/>
 + <https://jangomail.com/send-email-via-api/>
-+ [https://jangomail.com/domainkeysdkim/](https://seanthegeek.net/392/stop-ada-education-reform-act/)
++ [https://jangomail.com/domainkeysdkim/](/392/stop-ada-education-reform-act/)
 
 ### JangoSMTP
 

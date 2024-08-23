@@ -99,7 +99,7 @@ reported as a HIPAA breach**.
 The information security field tends to think of a breach as a loss of
 confidentiality. However, this document makes it clear that HHS considers a
 loss of integrity and/or availability to be a breach as well. Check out [my
-guide](https://seanthegeek.net/2016/08/22/prevent-ransomware-strategic-
+guide](/2016/08/22/prevent-ransomware-strategic-
 defense/) for strategic defenses against ransomware.
 
 Image credit: [Tom

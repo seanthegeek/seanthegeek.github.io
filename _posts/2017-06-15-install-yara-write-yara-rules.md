@@ -27,13 +27,12 @@ practical examples of how to use it.
 
 ## Installing YARA
 
-Official Windows binaries [can be found
-here](https://yara.readthedocs.io/en/v3.9.0/gettingstarted.html#installing-on-
-windows). Unfortunately, as of the time of this writing, practically every
+Official Windows binaries [can be found here](https://yara.readthedocs.io/en/v3.9.0/gettingstarted.html#installing-on-windows).
+Unfortunately, as of the time of this writing, practically every
 Linux distribution's repository contains an out-of-date version of YARA that
-has [one or more](https://security-tracker.debian.org/tracker/source-
-package/yara) security vulnerabilities. Follow the instructions below to
-compile and install the latest release with all features enabled on a Debain
+has [one or more](https://security-tracker.debian.org/tracker/source-package/yara)
+security vulnerabilities. Follow the instructions below to
+compile and install the latest release with all features enabled on a Debian
 or Ubuntu system. The steps should be similar in other Linux distributions.
 
 Download the source code .tar.gz for the [latest stable
@@ -268,7 +267,7 @@ alternatives exist.
 
 In early 2019, the NSA released an open source Software Reverse Engineering
 (SRE) suite called [Ghidra](https://ghidra-sre.org/). It includes a
-decomplier, and a very simillar feel to IDA.
+decomplier, and a very similar feel to IDA.
 
 The open source Radare Framework provides [many of the same
 features](https://www.radare.org/r/cmp.html) of IDA (and a few more) for free,
@@ -322,19 +321,18 @@ condition for each rule will likely be very narrow (i.e. all of them). I
 usually combine these rules based on what I suspect are the most reliable
 strings, and group the strings as needed in the condition statement.
 
-You can download yarGen from its [GitHub
-repository](https://github.com/Neo23x0/yarGen).
+You can download yarGen from its [GitHub repository](https://github.com/Neo23x0/yarGen).
 
 ## Learning more
 
-Take some time to review the comprehensive [official
-documentation](https://yara.readthedocs.io/) for YARA. There, you will find
+Take some time to review the comprehensive [official documentation](https://yara.readthedocs.io/)
+for YARA. There, you will find
 complete details on writing rules, and using the command-line program, the
 Python API, and the C API.
 
 Once you feel comfortable working with YARA, consider joining the YARA
-[Exchange](https://www.deependresearch.org/2012/08/yara-signature-exchange-
-google-group.html). The Exchange is a very active and helpful group of
+[Exchange](https://www.deependresearch.org/2012/08/yara-signature-exchange-google-group.html).
+The Exchange is a very active and helpful group of
 information security professionals that share rules and tips for writing them.
 You can even get access to VirusTotal Intelligence for free through the
 exchange, if your company doesn't already pay for it.  In return, they only

@@ -72,7 +72,7 @@ Unfortunately, Intelligence Community and/or National Security systems are not
 required to comply with BODs, although they would still benefit from applying
 them.
 
-Enabiling STARTTLS on mail servers allows senders to establish an encrypted
+Enabling STARTTLS on mail servers allows senders to establish an encrypted
 connection before sending email. Enabling HTS on a web server tells clients to
 only use an encrypted (HTTPS) connection whenever they are accessing the site
 in the future. Disabling obsolete, weak cipher suites prevents easy exploits
@@ -117,14 +117,12 @@ record is found, the IP address of the sending mail server is compared to the
 list. Note that SPF does not check the from header that the user sees, and the
 SMTP envelope is not part of the message headers. so it is easy to bypass SPF
 and still spoof email to the user. The best illustration I have found of this
-comes from the great guide at [o365info.com](https://o365info.com/how-to-
-simulate-spoof-e-mail-attack-and-bypass-spf-sender-verification-part2-of-2/)
+comes from the great guide at [o365info.com](https://o365info.com/how-to-simulate-spoof-e-mail-attack-and-bypass-spf-sender-verification-part2-of-2/)
 that explains exactly how to bypass SPF:
 
-[![An illustration of email spoofing that bypasses SPF
-checks](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.webp)](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.webp)
+[![An illustration of email spoofing that bypasses SPFchecks](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.webp)](/assets/wp-content/uploads/2018/01/Simulating-Spoof-E-mail-attack-and-bypassing-the-SPF-verification-check-03-B.webp)
 An illustration of email spoofing that bypasses SPF checks
-__Credit: o365info.com - Used under fair use for educational purposes__
+_Credit: o365info.com - Used under fair use for educational purposes_
 
 Also, It is up the receiving mail server to decide what to do with an email if
 the SPF check fails. SPF does not specify an action for the recipient mail
@@ -322,10 +320,8 @@ like `totallylegit.com`,  adding the record:
 And sending a ton of emails as `totallylegit.com` that purposefully fail the
 DMARC check to many different organizations.
 
-Return Path has an [great series of blog
-posts](https://blog.returnpath.com/how-to-read-your-first-dmarc-reports-
-part-1/) of how to read DMARC reports. Check it out once you start getting
-reports.
+Return Path has an [great series of blog posts](https://blog.returnpath.com/how-to-read-your-first-dmarc-reports-part-1/)
+on how to read DMARC reports. Check it out once you start getting reports.
 
 ## What is DMARC alignment?
 
@@ -455,9 +451,8 @@ Directives do not apply to IC and/or National Security systems. However, SPF
 and DMARC would still be great security controls for them to deploy, as they
 are much more likely to be targets of spoofed phishing email than other
 agencies. At the very least, it could provide counterintelligence on phishing
-attempts sent to Unclassified email systems, because [nothing like that has
-ever happened before](https://www.nytimes.com/2015/04/26/us/russian-hackers-
-read-obamas-unclassified-emails-officials-say.html). So, let's check on the
+attempts sent to Unclassified email systems, because [nothing like that has ever happened before](https://www.nytimes.com/2015/04/26/us/russian-hackers-read-obamas-unclassified-emails-officials-say.html).
+So, let's check on the
 deployment of SPF and DMARC in the IC too.
 
 **Domain** | **Agency** | **SPF** | **DMARC**

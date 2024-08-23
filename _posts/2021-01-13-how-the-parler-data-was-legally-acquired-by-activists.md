@@ -55,10 +55,11 @@ returned all posts, both published and deleted. Standard best-practice
 development is to hide restricted content from those who are not authorized to
 see it, no matter what method of used to access the content, including APIs.
 Instead, Parler's developers relied on the website or app UI to not display
-the posts the API indicated were "deleted". This lack of [Role-Based Access
-Control (RBAC)](https://en.wikipedia.org/wiki/Role-based_access_control) in
-the API led to a [sensitive information exposure](https://owasp.org/www-
-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure) vulnerability. The API
+the posts the API indicated were "deleted". This lack of
+[Role-Based Access Control (RBAC)](https://en.wikipedia.org/wiki/Role-based_access_control)
+in the API led to a
+[sensitive information exposure](https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure)
+vulnerability. The API
 did not put a limit on the number of queries that could be executed in a given
 time frame, allowing anyone to retrieve information at a rapid pace.
 
@@ -129,20 +130,17 @@ claims resulting from publishing the scripts.
 > the person engaging in the circumvention, to the extent any such acts of
 > identification and analysis do not constitute infringement under this title.
 
-In the wake of the US Capital riots that were [organized in
-part](https://www.buzzfeednews.com/article/janelytvynenko/trump-rioters-
-planned-online) by Parler users, Amazon gave Parler 24 hours notice that it
-would [stop providing hosting
-services](https://www.buzzfeednews.com/article/johnpaczkowski/amazon-parler-
-aws), for failing to consistently remove calls for violence in a timely manner
+In the wake of the US Capital riots that were
+[organized in part](https://www.buzzfeednews.com/article/janelytvynenko/trump-rioters-planned-online)
+by Parler users, Amazon gave Parler 24 hours notice that it
+would [stop providing hosting services](https://www.buzzfeednews.com/article/johnpaczkowski/amazon-parler-aws),
+for failing to consistently remove calls for violence in a timely manner
 for years. Researchers and activists used donk_enby's scripts to quickly
-archive nearly all of Parler's content -- [30 TB in
-size](https://twitter.com/donk_enby/status/1348778814910980098) -- before
-Amazon took the website down.
+archive nearly all of Parler's content -- [30 TB in size](https://twitter.com/donk_enby/status/1348778814910980098)
+-- before Amazon took the website down.
 
 Location data from photos and videos of the riots allowed Gizmodo to pinpoint
-[how disturbingly far](https://gizmodo.com/parler-users-breached-deep-inside-
-u-s-capitol-building-1846042905) rioters advanced inside the Capital. This
+[how disturbingly far](https://gizmodo.com/parler-users-breached-deep-inside-u-s-capitol-building-1846042905) rioters advanced inside the Capital. This
 data will clearly make the FBI's task of identifying rioters and those
 inciting violence much, much easier.
 
@@ -160,7 +158,7 @@ Parler users seem to be moving to Gab, another upstart social media platform
 full of disinformation and anger, but one that is much better built.
 
 **Update** : Ironically, shortly after the above statement was posted, Gab was
-the victim of [a data breach](https://www.wired.com/story/gab-hack-data-
-breach-ddosecrets/). Parler has since come back one line, and [briefly
-blocked](https://www.buzzfeednews.com/article/ryanmac/parler-bans-former-ceo)
+the victim of [a data breach](https://www.wired.com/story/gab-hack-data-breach-ddosecrets/).
+Parler has since come back one line, and
+[briefly blocked](https://www.buzzfeednews.com/article/ryanmac/parler-bans-former-ceo)
 its ex-CEO. Apparently, fascists aren't good at AppSec.

@@ -12,7 +12,7 @@ tags:
   - GitHub
 ---
 
-*Update*: I created [a script](https://seanthegeek.net/posts/wp2jekyll-wordpress-to-jekyll-migration/) to make this process much easier!
+*Update*: I created [a script](/posts/wp2jekyll-wordpress-to-jekyll-migration/) to make this process much easier!
 
 When I was thinking about the best way to share my findings to a wide audience
 when I reverse engineer malware Jekyll was an obvious choice, because I already
@@ -155,7 +155,7 @@ to remove commenter email addresses.
 
 Again, using the Find in Files feature of Visual Studio Code, I replaced
 anything matching the regex pattern
-`https://seanthegeek.net/wp-content/uploads/.{4}/.{2}/` with
+`/wp-content/uploads/.{4}/.{2}/` with
 `/assets/images/`
 
 ### Convert HTML files to markdown using html2text

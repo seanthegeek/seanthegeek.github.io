@@ -52,7 +52,7 @@ A XMPP chat service on server.example.com would need a SRV record like
 For more information on SRV resource records, [see
 this](https://www.cloudflare.com/learning/dns/dns-records/dns-srv-record/)
 documentation at Cloudflare.  
-TXT | Arbitrary text strings. Used by standards like [SPF, DKIM, and DMARC](https://seanthegeek.net/459/demystifying-dmarc/) to publish information about a domain for email authentication. Also used by various services to validate domain ownership.  
+TXT | Arbitrary text strings. Used by standards like [SPF, DKIM, and DMARC](/459/demystifying-dmarc/) to publish information about a domain for email authentication. Also used by various services to validate domain ownership.  
   
  DNS zones are hosted in nameservers specified by the domain owner. The
 nameservers may be hosted by the domain registrar, owner, or a third-party
@@ -84,7 +84,7 @@ is a commonly-used subdomain, so that is a good one to try.
     dig TXT www.example.com
     dig SRV www.example.com
 
-Here are the resource records for example.com and www.example.com:
+Here are the resource records for `example.com` and `www.example.com`:
 
 rrname | rrtype | rdata  
 ---|---|---  
@@ -102,16 +102,16 @@ Based on these results, we know the following about the DNS zone for
 example.com:
 
 * The zone's primary nameserver is ns.icann.org
-* The zone administrator's email address is noc@dns.icann.org
+* The zone administrator's email address is `noc@dns.icann.org`
 * The zone's serial number is 2021022340
 * The REFRESH threshold is 7200 seconds (120 minutes)
 * The RETRY threshold is 3600 seconds (one hour)
 * The EXPIRES threshold is 1209600 seconds (14 days)
 * The default TTL is 3600 seconds (one hour)
 * Connections to example.com will be routed to the IPv4 address 93.184.216.34 and the IPv6 address is 2606:2800:220:1:248:1893:25c8:1946
-* www.example.com points to the same IPv4 and IPv6 addresses
+* `www.example.com` points to the same IPv4 and IPv6 addresses
 * An empty MX record value is set, which explicitly indicates that the domain does not accept incoming email
-* The "v=spf1 -all" TXT records are SPF records that inform mail servers that example.com and www.example.com are not used in outgoing emails
+* The "v=spf1 -all" TXT records are SPF records that inform mail servers that `example.com` and `www.example.com` are not used in outgoing emails
 * The purpose of example.com TXT record "8j5nfqld20zpcyr8xjw0ydcfq9rk8hgm" is unknown
 
 If the administrator of example.com wanted to allow a contractor to control
