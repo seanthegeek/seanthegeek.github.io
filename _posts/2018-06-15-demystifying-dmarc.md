@@ -1006,7 +1006,7 @@ Some additional steps are needed for Linux hosts.
 + [NIST Special Publication 800-177 - Trustworthy Email](https://doi.org/10.6028/NIST.SP.800-177r1)
 + [DMARC Overview](https://dmarc.org/overview/)
 + [Proofpoint Email Authentication Guide](/assets/wp-content/uploads/2018/06/Proofpoint-Email-Authentication-Guide.pdf)
-  + **[Proofpoint does not currently send any DMARC reports](/806/proofpoint-is-forcing-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways/)
+  + **[Proofpoint does not currently send any DMARC reports](/806/proofpoint-is-requiring-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways/)
 **
 
 + [DMARC guide for G Suite](https://www.youtube.com/watch?v=WB-aUZMDnU8)
