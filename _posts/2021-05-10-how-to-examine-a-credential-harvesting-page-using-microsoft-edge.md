@@ -207,8 +207,7 @@ prompted to provide a MFA code.
 tools](/assets/wp-content/uploads/2021/05/11-edge-timing.webp)
 
 Passive DNS data from Farsight Security's
-[DNSDB](/1122/how-to-use-farsight-dnsdb-to-harness-the-
-power-of-passive-dns/) revealed that l291067a.justinstalledpanel.com also
+[DNSDB](/1122/how-to-use-farsight-dnsdb-to-harness-the-power-of-passive-dns/) revealed that l291067a.justinstalledpanel.com also
 pointed to the same IP address. The IP address and domains currently have 0
 detections on VirusTotal.
 

@@ -21,9 +21,9 @@ tags:
 - Proofpoint
 ---
 I have written extensively about the DMARC email security standard, including
-publishing a [comprehensive guide](/459/demystifying-
-dmarc/) on how to implement it, with or without additional third-party
-vendors.  I also do a little consulting on DMARC deployment best practices.
+publishing a [comprehensive guide](/459/demystifying-dmarc/) on how to
+implement it, with or without additional third-party vendors.  I also do a
+little consulting on DMARC deployment best practices.
 One of those consulting clients uses Proofpoint for their email gateway. They
 also use Dmarcian, a reasonably priced DMARC report analytics service that
 also publishes a ton of [public content](https://dmarc.io/) for the good of

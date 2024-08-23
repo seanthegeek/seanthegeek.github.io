@@ -92,9 +92,8 @@ the credentials have been stolen, so the user just thinks it's a glitch and
 logs into the real service. From there, attackers can take actions as the
 compromised user account, and/or sell the credentials to other scammers in
 underground markets on the dark web. Targets and their security teams can
-sometimes glean details about the attackers by [examining how the credential
-harvesting page operates](/1069/how-to-examine-a-
-credential-harvesting-page-using-microsoft-edge/).
+sometimes glean details about the attackers by
+[examining how the credential harvesting page operates](/1069/how-to-examine-a-credential-harvesting-page-using-microsoft-edge/).
 
 ![A screenshot of fake Microsoft login form used for credential harvesting, a
 common first step of Business Email Compromise \(BEC\)](/assets/wp-content/uploads/2022/06/fake-login-page.webp)  

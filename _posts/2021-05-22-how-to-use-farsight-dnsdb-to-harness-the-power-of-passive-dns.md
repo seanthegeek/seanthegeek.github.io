@@ -68,8 +68,7 @@ records associated with a domain or subdomain. Inverse lookups find all
 hostnames that have pointed to a specific IP address or CNAME value.
 
 in this guide, we will be running queries to examine the infrastructure behind
-a [credential harvesting page](/1069/how-to-examine-a-
-credential-harvesting-page-using-microsoft-edge/).
+a [credential harvesting page](/1069/how-to-examine-a-credential-harvesting-page-using-microsoft-edge/).
 
 This particular credential harvesting page sends stolen credentials to a web
 server at plotoperation1.3eehj3wdhdhjww3r3dkjd.com.
