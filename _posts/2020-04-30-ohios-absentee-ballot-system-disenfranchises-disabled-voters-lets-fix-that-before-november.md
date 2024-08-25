@@ -15,7 +15,7 @@ image:
 categories:
 - Politics
 tags:
-- disabillity rights
+- disability rights
 - voting
 ---
 I was born with [cerebral palsy](<https://www.mayoclinic.org/diseases-conditions/cerebral-palsy/symptoms-causes/syc-20353999>) — neurological damage from a lack of oxygen to the brain at birth. Each person with this condition is affected differently, and to varying degrees. Some may have balance issues; others may have mental impairments. For me and many others, cerebral palsy causes muscle spasticity. In my case, my muscles are so tight that my range of motion is very limited. Practically, the biggest impacts for me are not being able to walk without assistance, drive, or write legibly at all.

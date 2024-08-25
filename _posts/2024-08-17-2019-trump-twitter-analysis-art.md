@@ -41,7 +41,7 @@ The word cloud is made up of the top 300 most frequently used words. The more
 often a word is used, the larger that word will be in the word cloud.
 What strikes me about the word cloud is similar it is to Trump's speech today.
 Great is the largest word. Lots of references to himself in the third-person
-(president, Trump, @realdonaldtrump). Immigration, border, etc. Keep in mind
+(president, Trump, @realDonaldTrump). Immigration, border, etc. Keep in mind
 that this covers 2018, the second year of Trump's presidential
 term, when the [Mueller special counsel investigation](https://en.wikipedia.org/wiki/Mueller_special_counsel_investigation) was in full swing, so collusion and
 witch show up. Even my home state of Ohio makes an appearance.
