@@ -244,7 +244,7 @@ ESP|RSP|Points to the last item on the stack
 ESI/EDI|RSI/RDI|Used by memory transfer instructions
 
 > `RSP` is often used to access parameters instead of `RBP`.
-{: .prompt-note }
+{: .prompt-info }
 
 ### New 64 bit general purpose registers
 
