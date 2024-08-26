@@ -55,9 +55,10 @@ stack will be the first item `popped` off of the stack.
 ![A representation of the stack with push and pop operations](/assets/images/lifo-stack.webp)
 
 32 bit applications use the stack to store the values of local variables and
-function arguments. Each item on the stack has 4 bytes. Addressing on the stack
-goes from larger to smaller values as more items are added to the stack, which
-might seem counterintuitive.
+function arguments.  The first parameter will be the bottom `PUSH` instruction,
+and the last argument will be the top `PUSH` instruction. Each item on the stack
+has 4 bytes. Addressing on the stack goes from larger to smaller values as more
+items are added to the stack, which might seem counterintuitive.
 
 The `ESP` register points to the address of the next item on the stack. Its
 value is automatically updated as the stack changes.
