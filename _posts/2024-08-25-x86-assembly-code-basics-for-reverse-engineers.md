@@ -160,7 +160,7 @@ Follows the same notation as jcc
 
 ### Loop example
 
-A loop that add 1 to the control variable while it is less than 5
+A loop that adds `1` to the control variable while it is less than `5`.
 
 ```text
 Start:
