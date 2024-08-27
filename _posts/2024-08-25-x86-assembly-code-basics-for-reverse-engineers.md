@@ -4,6 +4,9 @@ title: x86 assembly code basics for reverse engineers
 date: 2024-08-25 21:32 -0400
 description: Learn the basics of x86 assembly code for use in dissemblers like
   Ghidra, IDA, and Binary Ninja, and debuggers like x64dbg.
+image:
+  path: /assets/images/asm.webp
+  description: A screenshot of Locky locale checks in Ghidra
 categories:
   - Malware Reverse Engineering
 ---
