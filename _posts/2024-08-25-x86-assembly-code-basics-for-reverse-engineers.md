@@ -235,7 +235,7 @@ The `cdecl` and `stdcall` calling conventions have a few things in common:
 
 ## 64 bit assembly
 
-### 64 bit Expanded general purpose registers
+### 64 bit expanded general purpose registers
 
 **32 bit register**|**64 bit register**|**Purpose**
 EAX|RAX|Used for addition, multiplication, and return value
