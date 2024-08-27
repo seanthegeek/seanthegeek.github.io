@@ -11,7 +11,7 @@ tags:
   - Ghidra
 ---
 
-> This guide assumes that you have followed my [Ghidra setup guide](/posts/2024-08-21-ghidra-setup-guide).
+> This guide assumes that you have followed my [Ghidra setup guide](/posts/ghidra-setup-guide).
 {: .prompt-info}
 
 ## Automatic function data type annotation
