@@ -19,12 +19,12 @@ x86 CPUs for some time for maximum compatibility, so this guide will focus on
 
 ## Registers
 
-Registers are super-fast temporary memory on a CPU. On x86 CPUs, the registers
+Registers are super-fast temporary memory on a CPU. On x86 CPUs the registers
 store 32 bits each. The general purpose registers `EAX`, `EBX`, `ECX`, and `EDX`
 can each be divided into 16 or 8 bits as shown in the diagram below.
 
 ![A diagram of x86 registers by David Evans at the University of Virginia](/assets/images/x86-registers.webp)
-_A diagram of x86 registers by David Evans at the University of Virginia_
+_Diagram by David Evans at the University of Virginia_
 
 Some registers are used for specific tasks.
 
@@ -102,7 +102,7 @@ MOV EAX, [0x410230]
 Compilers will XOR a register by itself as the most efficient way of setting
 that register to `0`.
 
-```test
+```text
 XOR EDI, EDI
 ```
 
@@ -257,7 +257,7 @@ of a register, such as `R9`:
 - R9W: Lower 16 bits (WORD)
 - R9B: Lower 8 bits (byte)
 
-### 64 bit Calling convention
+### 64 bit calling convention
 
 Because of the expanded and additional registers, compilers will pass parameters
 via registers, instead of via the stack.
