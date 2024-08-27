@@ -75,7 +75,7 @@ Local variables: `EBP` - value
 Ghidra and other tools use the Intel notation for assembly code, which follows
 this format when moving data in and out of registers.
 
-```text
+```nasm
 MOV DESTINATION, SOURCE
 ```
 
@@ -84,7 +84,7 @@ Comments start with `;`.
 In Ghidra, parameters that reference memory locations instead of a direct value
 are enclosed in square brackets. For example:
 
-```text
+```nasm
 MOV EAX, [0x410230]
 ```
 
@@ -102,25 +102,25 @@ MOV EAX, [0x410230]
 Compilers will XOR a register by itself as the most efficient way of setting
 that register to `0`.
 
-```text
+```nasm
 XOR EDI, EDI
 ```
 
 ### Testing if a register is set to 0
 
-```text
+```nasm
 TEST EAX, EAX ; Implied AND, but does NOT modify the destination register
 ```
 
 ### Testing if a register is set to a value
 
-```text
+```nasm
 CMP ECX, 8 ; Implied SUB, but does NOT modify the destination register
 ```
 
 ## Stack cleanup
 
-```text
+```nasm
 LEAVE
 RET
 ```
