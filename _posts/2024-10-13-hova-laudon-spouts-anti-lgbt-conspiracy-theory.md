@@ -30,7 +30,7 @@ half of the roughly hour-long video provides some good advice such as mentioning
 involving children — even in churches. Then,
 [the discussion turns political](https://www.youtube.com/watch?v=F7uwKFnlAAc&t=2320s),
 when Laudon attempts to connect convicted pedophile Jeffery Epstein to the progressive
-effort [Run for Something](runforsomething.org) and an unspecified "LGBT agenda" without
+effort [Run for Something](runforsomething.net) and an unspecified "LGBT agenda" without
 offering any evidence, despite claiming to have done "years of research".
 
 > Laudon: If I could name one single thing — and this is just from my own years of research in both of these topics, but politics drive this. Like, politics drive the trafficking. There's a huge —
