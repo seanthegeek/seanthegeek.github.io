@@ -14,9 +14,12 @@ date: 2024-10-13 13:42 -0400
 My background isn't in education and I don't have any kids, so I always left
 school board elections blank when filling out my ballot. This year, I took a
 few minutes to do Google searches for each of the two candidates for
-Ohio Board of Elections District 5 (which covers much of southwest ohio), and I'm very
+Ohio Board of Elections District 5 (which covers much of southern ohio), and I'm very
 glad I did. One has dedicated her career to education; the other is a religious
 zealot who pushes fearmongering lies about Lesbian, Gay, Bisexual and Transgender (LGBT) people to advance the goal of evangelical christian control of public education.
+
+![A map of Ohio State School Board District 5](/assets/images/ohio-state-schhool-board-district-5.webp)
+_Ohio State School Board District 5 includes all or part of Adams, Brown, Clark, Clermont,Clinton, Highland, Jackson, Lawrence, Madison, Pike, Ross, Scioto, and Vinton counties_
 
 Mary Binegar's [qualifications](https://marybinegar.com/) include B.S. and Master's
 degrees in education, over twenty years of experience, and the endorsement of the
