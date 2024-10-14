@@ -58,7 +58,7 @@ the past few years. For those on the right, children even indirectly learning th
 
 Her campaign's [Facebook page](https://www.facebook.com/VoteLaudon/) also speaks out against Critical Race Theory (CRT), which
 is an [academic field](https://www.edweek.org/leadership/what-is-critical-race-theory-and-why-is-it-under-attack/2021/05) studying the impact of race in US society, politics, laws, and media. On the right, CRT has become a sort of
-[dog whistle](https://en.wikipedia.org/wiki/Dog_whistle_(politics)) for teaching any history where white people look bad. For example, the fact that the US civil war was indeed [fuaght over slavery](https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War).
+[dog whistle](https://en.wikipedia.org/wiki/Dog_whistle_(politics)) for teaching any history where white people look bad. For example, the fact that the US civil war was indeed [fought over slavery](https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War).
 
 In short, Hova Laudon and other conservatives like her want an education system that conforms to their religious and racial views. It is not enough that they have the
 ability to home school their own children. Their religion and politics demand that everyone else's children must also never know that LGBT people exist or the dark parts of
