@@ -48,15 +48,14 @@ Laudon uses this alleged connection between local government and human trafficki
 > And so, as christians, its not enough to be like "Well, we're homeschooling our children, we have an emotionally connected family, everything's good." It's not enough as a christian. We are called to look out for more vulnerable [children], and one of the best ways you can do that is [to] get involved with your local government. So even things like — some of it is actually not that complicated. Like, I'm from Ohio, so we have central County Commission seats. You have influence all the way up the chain. I think we have quarterly meetings? You know what I mean? But that actually has a far-ranging effect. County commissioners, you know, the people who control where the money in your school goes.
 
 Laudon is a supporter of a conservative movement known as school choice, where taxpayer
-funds provide parents with vouchers tuition at private religious schools.
+funds provide parents with vouchers for tuition at private religious schools.
 
 Falsely calling LGBT people [groomers](https://www.adl.org/resources/article/what-grooming-truth-behind-dangerous-bigoted-lie-targeting-lgbtq-community) or child predators has become a common tactic right-wing politicians and influencers over the
 the past few years. For those on the right, children even indirectly learning that LGBT people exist is unacceptable, even if their classmates have gay parents. Laudon alludes to this on her campaign website, stating "Introducing adult subjects to young children is harmful and has no place in our schools."
 
 Her campaign's [Facebook page](https://www.facebook.com/VoteLaudon/) also speaks out against Critical Race Theory (CRT), which
 is an [academic field](https://www.edweek.org/leadership/what-is-critical-race-theory-and-why-is-it-under-attack/2021/05) studying the impact of race in US society, politics, laws, and media. On the right, CRT has become a sort of
-dog whistle for teaching any history where white people look bad. For
-example, the fact that the US civil war was indeed [fuaght over slavery](https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War).
+[dog whistle](https://en.wikipedia.org/wiki/Dog_whistle_(politics)) for teaching any history where white people look bad. For example, the fact that the US civil war was indeed [fuaght over slavery](https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War).
 
 In short, Hova Laudon and other conservatives like her want an education system that conforms to their religious and racial views. It is not enough that they have the
 ability to home school their own children. Their religion and politics demand that everyone else's children must also never know that LGBT people exist or the dark parts of
