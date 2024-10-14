@@ -14,7 +14,7 @@ date: 2024-10-13 13:42 -0400
 My background isn't in education and I don't have any kids, so I always left
 school board elections blank when filling out my ballot. This year, I took a
 few minutes to do Google searches for each of the two candidates for
-Ohio Board of Elections District 5 (which covers southwest ohio), and I'm very
+Ohio Board of Elections District 5 (which covers much of southwest ohio), and I'm very
 glad I did. One has dedicated her career to education; the other is a religious
 zealot who pushes fearmongering lies about Lesbian, Gay, Bisexual and Transgender (LGBT)people to advance the goal of evangelical christian control of public education.
 
