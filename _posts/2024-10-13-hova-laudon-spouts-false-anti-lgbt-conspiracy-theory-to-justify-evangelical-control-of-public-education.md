@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hova Laudon spouts a false anti-LGBT conspiracy theory to justify evangelical christian control of public education
-seo_title: Hova Laudon wants evangelicals to control public schools
 description: A candidate for Ohio School Board District 5 cites an unspecified "LGBT agenda" while discussing child abuse in a video interview posted to her campaign website
 image:
   path: /assets/images/hova-laudon-politics-drive-trafficking.webp
