@@ -44,7 +44,7 @@ To write my blog post, I watched that entire video, manually transcribed the par
 the video that mentioned policy word-for-word, and included that in the blog post.
 I also included my own commentary, but I made sure to mark the transcriptions
 as [blockquote](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
-elements to make the separation between post and commentary clear for both readers and
+elements to make the separation between quotes and commentary clear for both readers and
 search engines.
 
 ## Use a descriptive title that contains important search terms
