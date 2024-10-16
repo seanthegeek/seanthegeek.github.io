@@ -59,7 +59,7 @@ top-level heading.
 ## Include search terms as part of the post content
 
 Include search terms as a part of the post content, but only do it where it fits
-naturally. Don't repeat terms overand over again just for the word count.
+naturally. Don't repeat terms ove rand over again just for the word count.
 
 ## Provide alt-text for all images
 
