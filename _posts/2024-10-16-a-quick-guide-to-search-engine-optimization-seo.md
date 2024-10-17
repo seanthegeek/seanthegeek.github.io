@@ -6,7 +6,7 @@ image:
   path: /assets/images/google-and-bing-search-results.webp
   description: Side by side screenshots of Google and Microsoft Bing results 
 categories: ["Guides"]
-tags: ["SEO", "Google", "Microsoft", "Bing"]
+tags: ["SEO", "Google", "Microsoft", "Bing", "DuckDuckGo", "Yahoo"]
 date: 2024-10-16 10:08 -0400
 ---
 
