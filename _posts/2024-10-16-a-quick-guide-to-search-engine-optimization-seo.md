@@ -109,7 +109,7 @@ post ranked ninth out of ten in first page of DuckDuckGo results when only searc
 for the candidate by name. The post was ranked first on DuckDuckGo when adding LGBT to
 the search query. This was acceptable because my main goal was to inform voters about
 the lie she spread about LGBT people. Unfortunately, that same `name LGBT` query on
-Yahoo placed the blog post near the bottom of the forth page of results.
+Yahoo placed the blog post near the bottom of the fourth page of results.
 
 ## See also
 
