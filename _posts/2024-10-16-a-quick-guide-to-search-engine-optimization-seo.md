@@ -14,7 +14,7 @@ Almost all of the posts on this blog are related to information security and oth
 technical topics. In general, I only write posts about [politics](/categories/politics/)
 to cover topics that are not being covered elsewhere. Recently, I published
 [a post](/posts/hova-laudon-spouts-false-anti-lgbt-conspiracy-theory-to-justify-evangelical-control-of-public-education/)
-about a State of Ohio School Board candidate. That post has been ranked very high in
+about a State of Ohio Board of Education candidate. That post has been ranked very high in
 both Google and Microsoft Bing when searching for her name. At the time of this writing,
 it is the first, third (via Reddit) and fourth result on Google, and the fourth result
 on Microsoft Bing. Despite the fact that my post ranks at the top on Google, I actually
@@ -92,7 +92,7 @@ below:
 ## Get external sites to link to your content
 
 As your content gets popular more people will link to it. Consider sharing your content
-with popular communities. For example, I shared my post about the Ohio School Board
+with popular communities. For example, I shared my post about the Ohio Board of Education
 candidate to the [/r/Ohio](https://www.reddit.com/r/Ohio/comments/1g3s1ew/ohio_school_board_candidate_spouts_a_false/)
 subreddit. However, don't go overboard and spam various places with links.
 

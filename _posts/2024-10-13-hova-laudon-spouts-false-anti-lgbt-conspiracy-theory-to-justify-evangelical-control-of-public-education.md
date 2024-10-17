@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hova Laudon spouts a false anti-LGBT conspiracy theory to justify evangelical christian control of public education
-description: A candidate for Ohio School Board District 5 cites an unspecified "LGBT agenda" while discussing child abuse in a video interview posted to her campaign website
+description: A candidate for Ohio Board of Education District 5 cites an unspecified "LGBT agenda" while discussing child abuse in a video interview posted to her campaign website
 image:
   path: /assets/images/hova-laudon-politics-drive-trafficking.webp
   description: A still image from a video interview with Hova Laudon titled "Predators, Groomers, and Human Traffickers - What to Know"
@@ -17,8 +17,8 @@ Ohio Board of Elections District 5 (which covers much of southern ohio), and I'm
 glad I did. One has dedicated her career to education; the other is a religious
 zealot who pushes fearmongering lies about Lesbian, Gay, Bisexual and Transgender (LGBT) people to advance the goal of evangelical christian control of public education.
 
-![A map of Ohio State School Board District 5](/assets/images/ohio-state-schhool-board-district-5.webp)
-_Ohio State School Board District 5 includes all or part of Adams, Brown, Clark, Clermont, Clinton, Gallia, Greene, Highland, Jackson, Lawrence, Madison, Pike, Ross, Scioto, and Vinton counties_
+![A map of Ohio State Board of Education District 5](/assets/images/ohio-state-schhool-board-district-5.webp)
+_State of Ohio Board of Education District 5 includes all or part of Adams, Brown, Clark, Clermont, Clinton, Gallia, Greene, Highland, Jackson, Lawrence, Madison, Pike, Ross, Scioto, and Vinton counties_
 
 Mary Binegar's [qualifications](https://marybinegar.com/) include B.S. and Master's
 degrees in education, over twenty years of experience, and the endorsement of the
@@ -43,7 +43,7 @@ offering any evidence, despite claiming to have done "years of research".
 >
 > Calender: Even on the lower levels?
 >
-> Laudon: It can. Um, I think sometimes on the lower level it can be more like your bot or here's the other thing — the higher level people, they run organizations. I was just looking at a website, the website is Run for Something. And it's it's um, ran by — they want more progressive people in office. And so when it means [sic] run for something it means anything, right? Like, local government is so important because — you need to be on your school board — **the whole LGBT agenda that comes right into this**. A lot of this stuff that we all know about, right? That's more commonly talked about, it's connected right? You don't have to have kids in the school to be in on the school board, by the way.
+> Laudon: It can. Um, I think sometimes on the lower level it can be more like your bot or here's the other thing — the higher level people, they run organizations. I was just looking at a website, the website is Run for Something. And it's it's um, ran by — they want more progressive people in office. And so when it means [sic] run for something it means anything, right? Like, local government is so important because — you need to be on your Board of Education — **the whole LGBT agenda that comes right into this**. A lot of this stuff that we all know about, right? That's more commonly talked about, it's connected right? You don't have to have kids in the school to be in on the school board, by the way.
 
 Laudon uses this alleged connection between local government and human trafficking to justify evangelical christian control [later in the interview](https://www.youtube.com/watch?v=F7uwKFnlAAc&t=2460s).
 
@@ -60,4 +60,4 @@ is an [academic field](https://www.edweek.org/leadership/what-is-critical-race-t
 [dog whistle](https://en.wikipedia.org/wiki/Dog_whistle_(politics)) for teaching any history where white people look bad. For example, the fact that the US civil war was indeed [fought over slavery](https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War).
 
 In short, Hova Laudon and other conservatives like her want an education system that conforms to their religious and racial views. It is not enough that they have the
-ability to home school their own children. Their religion and politics demand that everyone else's children must also never know about the existence of LGBT people or dark parts of US history, and they are hellbent on using the power of government to do it. So please, research local elections carefully and if you live in southern Ohio, vote Mary Binegar for Ohio School Board District 5.
+ability to home school their own children. Their religion and politics demand that everyone else's children must also never know about the existence of LGBT people or dark parts of US history, and they are hellbent on using the power of government to do it. So please, research local elections carefully and if you live in southern Ohio, vote Mary Binegar for Ohio Board of Education District 5.
