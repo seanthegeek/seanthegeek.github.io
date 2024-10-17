@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A quick guide to Search Engine Optimization (SEO)
+title: A quick Search Engine Optimization (SEO) guide
 description: How my post about a local politician ranked high in search engine results without a Big Tech conspiracy
 image:
   path: /assets/images/google-and-bing-search-results.webp
@@ -104,6 +104,5 @@ created within the past year or two, such as new campaign websites.
 
 ## See also
 
-- [MSDN Glossary: SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO)
-- [SEO entry on Wikipedia](https://en.wikipedia.org/wiki/SEO)
+- SEO entry on [Wikipedia](https://en.wikipedia.org/wiki/SEO)
 - [Google Search Central](https://developers.google.com/search/docs)
