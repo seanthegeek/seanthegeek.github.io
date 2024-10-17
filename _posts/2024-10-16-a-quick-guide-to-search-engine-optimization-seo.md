@@ -104,5 +104,5 @@ created within the past year or two, such as new campaign websites.
 
 ## See also
 
-- SEO entry on [Wikipedia](https://en.wikipedia.org/wiki/SEO)
+- The SEO entry on [Wikipedia](https://en.wikipedia.org/wiki/SEO)
 - [Google Search Central](https://developers.google.com/search/docs)
