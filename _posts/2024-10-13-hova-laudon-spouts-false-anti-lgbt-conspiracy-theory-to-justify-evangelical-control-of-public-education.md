@@ -50,7 +50,7 @@ the past few years. For those on the right, children even indirectly learning th
 
 > And so, as christians its not enough to be like "Well, we're homeschooling our children, we have an emotionally connected family. Everything's good." It's not enough as a christian. We are called to look out for more vulnerable [children], and one of the best ways you can do that is [to] get involved with your local government. So even things like — some of it is actually not that complicated. Like, I'm from Ohio, so we have central County Commission seats. You have influence all the way up the chain. I think we have quarterly meetings? You know what I mean? But that actually has a far-ranging effect. County commissioners, you know, the people who control where the money in your school goes.
 
-In addition to controlling money within public schools, Laudon advocates defunding public schools by supporting a conservative movement known as school choice, where taxpayer funds provide parents with vouchers for tuition at private religious schools.
+In addition to controlling money within public schools, Laudon advocates for defunding public schools by supporting a conservative movement known as school choice, where taxpayer funds provide parents with vouchers for tuition at private religious schools.
 
 Her campaign's [Facebook page](https://www.facebook.com/VoteLaudon/) also speaks out against Critical Race Theory (CRT), which
 is an [academic field](https://www.edweek.org/leadership/what-is-critical-race-theory-and-why-is-it-under-attack/2021/05) studying the impact of race in US society, politics, laws, and media. On the right, CRT has become a
