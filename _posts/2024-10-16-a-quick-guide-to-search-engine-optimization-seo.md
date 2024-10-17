@@ -101,7 +101,7 @@ I have been writing this blog since 2016, filling it with lots of useful guides 
 others have linked to. That gives my blog a better reputation than a site that was
 created within the past year or two, such as new campaign websites.
 
-## Different search engines rank differently
+## Different search engines rank things differently
 
 Although my blog post appeared at the top of Google and Microsoft Bing results just by
 searching for the candidate's name, this did not happen with DuckDuckGo or Yahoo. The
