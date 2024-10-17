@@ -21,12 +21,8 @@ on Microsoft Bing. Despite the fact that my post ranks at the top on Google, I a
 think Microsoft Bing does a better job returning relevant results, because the
 candidate's official campaign website and Facebook page are the top two results there,
 which is what I would expect to see as a curious voter. Those aren't included in the
-Google results at all! If you find that Google isn't indexing your website, visit the
-[Google Search Console](https://search.google.com/search-console/about)
-to find out why, and how to fix it.
-
-Before anyone accuses me, Google, or Microsoft of some sort of Big
-Tech conspiracy, I'd like to explain why that post is ranked so highly in search
+Google results at all! Before anyone accuses me, Google, or Microsoft of some sort of
+Big Tech conspiracy, I'd like to explain why that post is ranked so highly in search
 engines, and how to leverage Search Engine Optimization (SEO) on your own website or
 blog posts.
 
@@ -38,7 +34,10 @@ without specifics on exactly what she meant or why she took those positions,
 which is what I really wanted to know. Those details were included in a YouTube video
 on her campaign website. Website search engines don't index the content of videos, so
 there wasn't much content for a search engine to index. This lack of indexable content
-is likely why the campaign website preformed so poorly on Google.
+is likely why the campaign website preformed so poorly on Google. If you find that
+Google isn't indexing your website, visit the
+[Google Search Console](https://search.google.com/search-console/about)
+to find out why, and how to fix it.
 
 To write my blog post, I watched that entire video, manually transcribed the parts of
 the video that mentioned policy word-for-word, and included that in the blog post.
