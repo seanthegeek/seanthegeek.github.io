@@ -1,13 +1,15 @@
 ---
 layout: post
-title: Hova Laudon spouts a false anti-LGBT conspiracy theory to justify evangelical christian control of public education
+title: Hava Laudon spouts a false anti-LGBT conspiracy theory to justify evangelical christian control of public education
 description: A candidate for Ohio Board of Education District 5 cites an unspecified "LGBT agenda" while discussing child abuse in a video interview posted to her campaign website
 image:
-  path: /assets/images/hova-laudon-politics-drive-trafficking.webp
-  description: A still image from a video interview with Hova Laudon titled "Predators, Groomers, and Human Traffickers - What to Know"
+  path: /assets/images/hava-laudon-politics-drive-trafficking.webp
+  description: A still image from a video interview with Hava Laudon titled "Predators, Groomers, and Human Traffickers - What to Know"
 categories: ["Politics"]
 tags: ["Education", "LGBT", "Ohio", "Christianity", "Fascism", "Christofascism"]
 date: 2024-10-13 13:42 -0400
+redirect_from:
+  - /posts/hova-laudon-spouts-false-anti-lgbt-conspiracy-theory-to-justify-evangelical-control-of-public-education/
 ---
 
 My background isn't in education and I don't have any kids, so I always left
@@ -24,7 +26,7 @@ Mary Binegar's [qualifications](https://marybinegar.com/) include B.S. and Maste
 degrees in education, over twenty years of experience, and the endorsement of the
 [Ohio Education Association](https://ohea.org/resources/take-action/oea-candidate-recommendations/) teacher's union.
 
-The qualifications of her opponent, Hova Laudon, are a B.S. degree in Ministry
+The qualifications of her opponent, Hava Laudon, are a B.S. degree in Ministry
 Leadership from [Moody's Bible Institute](https://en.wikipedia.org/wiki/Moody_Bible_Institute), and the endorsement of several Republican groups. Laudon's [campaign website](https://www.votelaudon.com/) includes an embedded YouTube video from
 September 8th, 2023, titled "Predators, Groomers, and Human Traffickers - What to Know",
 where she is interviewed by Kendi Callender at LED Live, now named Little Light Studios. I have saved a copy of the video [here](https://1drv.ms/v/s!Ak-0erEu9-tbgr1KklqAXtXmg4ka-w?e=VyUsiw) in case Little Light Studios decides to delete it. At the time of this writing the video has nearly 11,000 views on YouTube. The interview begins by Calender describing LED Live as "A show where we use the light of Christ to expose the darkness happening in media and our culture." She proceeds to introduce Laudon as someone who has been a director of or volunteer for numerous anti-trafficking organizations for over twelve years. However, the organizations are never named. The first
@@ -56,5 +58,5 @@ Her campaign's [Facebook page](https://www.facebook.com/VoteLaudon/) also speaks
 is an [academic field](https://www.edweek.org/leadership/what-is-critical-race-theory-and-why-is-it-under-attack/2021/05) studying the impact of race in US society, politics, laws, and media. On the right, CRT has become a
 [dog whistle](https://en.wikipedia.org/wiki/Dog_whistle_(politics)) for teaching any history where white people look bad. For example, the fact that the US civil war was indeed [fought over slavery](https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War).
 
-In short, Hova Laudon and other conservatives like her want an education system that conforms to their religious and racial views. It is not enough that they have the
+In short, Hava Laudon and other conservatives like her want an education system that conforms to their religious and racial views. It is not enough that they have the
 ability to home school their own children. Their religion and politics demand that everyone else's children must also never know about the existence of LGBT people or dark parts of US history, and they are hellbent on using the power of government to do it. So please, research local elections carefully and if you live in southern Ohio, vote Mary Binegar for Ohio Board of Education District 5.
