@@ -61,4 +61,4 @@ is an [academic field](https://www.edweek.org/leadership/what-is-critical-race-t
 In short, Hava Laudon and other conservatives like her want an education system that conforms to their religious and racial views. It is not enough that they have the
 ability to home school their own children. Their religion and politics demand that everyone else's children must also never know about the existence of LGBT people or dark parts of US history, and they are hellbent on using the power of government to do it. So please, research local elections carefully and if you live in southern Ohio, vote Mary Binegar for Ohio Board of Education District 5.
 
-_Correction_: An earlier version of this post mistakenly misspelled Hava as Hova
+_Correction_: An earlier version of this post mistakenly misspelled Hava as Hova.
