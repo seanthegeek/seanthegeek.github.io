@@ -101,6 +101,16 @@ I have been writing this blog since 2016, filling it with lots of useful guides 
 others have linked to. That gives my blog a better reputation than a site that was
 created within the past year or two, such as new campaign websites.
 
+## Different search engines rank differently
+
+Although my blog post appeared at the top of Google and Microsoft Bing results just by
+searching for the candidate's name, this did not happen with DuckDuckGo or Yahoo. The
+post ranked ninth out of ten in first page of DuckDuckGo results when only searching
+for the candidate by name. The post was ranked first on DuckDuckGo when adding LGBT to
+the search query. This was acceptable because my main goal was to inform voters about
+the lie she spread about LGBT people. Unfortunately, that same `name LGBT` query on
+Yahoo placed the blog post near the bottom of the forth page of results.
+
 ## See also
 
 - The SEO entry on [Wikipedia](https://en.wikipedia.org/wiki/SEO)
