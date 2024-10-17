@@ -17,8 +17,8 @@ Ohio Board of Elections District 5 (which covers much of southern ohio), and I'm
 glad I did. One has dedicated her career to education; the other is a religious
 zealot who pushes fearmongering lies about Lesbian, Gay, Bisexual and Transgender (LGBT) people to advance the goal of evangelical christian control of public education.
 
-![A map of Ohio State Board of Education District 5](/assets/images/ohio-state-schhool-board-district-5.webp)
-_State of Ohio Board of Education District 5 includes all or part of Adams, Brown, Clark, Clermont, Clinton, Gallia, Greene, Highland, Jackson, Lawrence, Madison, Pike, Ross, Scioto, and Vinton counties_
+![A map of Ohio Board of Education District 5](/assets/images/ohio-state-schhool-board-district-5.webp)
+_The Ohio Board of Education District 5 includes all or part of Adams, Brown, Clark, Clermont, Clinton, Gallia, Greene, Highland, Jackson, Lawrence, Madison, Pike, Ross, Scioto, and Vinton counties_
 
 Mary Binegar's [qualifications](https://marybinegar.com/) include B.S. and Master's
 degrees in education, over twenty years of experience, and the endorsement of the
