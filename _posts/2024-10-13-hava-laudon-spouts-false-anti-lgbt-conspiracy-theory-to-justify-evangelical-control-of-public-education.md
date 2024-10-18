@@ -12,29 +12,12 @@ redirect_from:
   - /posts/hova-laudon-spouts-false-anti-lgbt-conspiracy-theory-to-justify-evangelical-control-of-public-education/
 ---
 
-My background isn't in education and I don't have any kids, so I always left
-school board elections blank when filling out my ballot. This year, I took a
-few minutes to do Google searches for each of the two candidates for
-Ohio Board of Education District 5 (which covers much of southern Ohio), and I'm very
-glad I did. One has dedicated her career to education; the other is a religious
-zealot who pushes fearmongering lies about Lesbian, Gay, Bisexual and Transgender (LGBT) people to advance the goal of evangelical christian control of public education.
+My background isn't in education and I don't have any kids, so I always left school board elections blank when filling out my ballot. This year, I took a few minutes to do Google searches for each of the two candidates for Ohio Board of Education District 5 (which covers much of southern Ohio), and I'm very glad I did. One has dedicated her career to education; the other is a religious zealot who pushes fearmongering lies about Lesbian, Gay, Bisexual and Transgender (LGBT) people to advance the goal of evangelical christian control of public education.
 
-![A map of Ohio Board of Education District 5](/assets/images/ohio-state-schhool-board-district-5.webp)
+![A map of Ohio Board of Education District 5][d5]
 _The Ohio Board of Education District 5 includes all or part of Adams, Brown, Clark, Clermont, Clinton, Gallia, Greene, Highland, Jackson, Lawrence, Madison, Pike, Ross, Scioto, and Vinton counties_
 
-Mary Binegar's [qualifications](https://marybinegar.com/) include B.S. and Master's
-degrees in education, over twenty years of experience, and the endorsement of the
-[Ohio Education Association](https://ohea.org/resources/take-action/oea-candidate-recommendations/)
-teacher's union. The qualifications of her opponent, Hava Laudon, are a B.S. degree in Ministry
-Leadership from [Moody's Bible Institute](https://en.wikipedia.org/wiki/Moody_Bible_Institute), and the endorsement of several Republican groups. Laudon's [campaign website](https://www.votelaudon.com/) includes an embedded YouTube video from
-September 8th, 2023, titled "Predators, Groomers, and Human Traffickers - What to Know",
-where she is interviewed by Kendi Callender at LED Live, now named Little Light Studios. I have saved a copy of the video [here](https://1drv.ms/v/s!Ak-0erEu9-tbgr1KklqAXtXmg4ka-w?e=VyUsiw) in case Little Light Studios decides to delete it. At the time of this writing the video has nearly 11,000 views on YouTube. The interview begins by Calender describing LED Live as "A show where we use the light of Christ to expose the darkness happening in media and our culture." She proceeds to introduce Laudon as someone who has been a director of or volunteer for numerous anti-trafficking organizations for over twelve years. However, the organizations are never named. The first
-half of the roughly hour-long video provides some good advice such as mentioning that child predators often will work in jobs where they are given positions of trust
-involving children — even in churches. Then,
-[the discussion turns political](https://www.youtube.com/watch?v=F7uwKFnlAAc&t=2320s),
-when Laudon attempts to connect convicted pedophile Jeffery Epstein to the progressive
-effort [Run for Something](https://runforsomething.net/) and an unspecified "LGBT agenda" without
-offering any evidence, despite claiming to have done "years of research".
+Mary Binegar's [qualifications][binegar] include B.S. and Master's degrees in education, over twenty years of experience, and the endorsement of the [Ohio Education Association][oea_endorsements] teacher's union. The qualifications of her opponent, Hava Laudon, are a B.S. degree in Ministry Leadership from [Moody's Bible Institute][moody], and the endorsement of several Republican groups. Laudon's [campaign website][laudon] includes an embedded YouTube video from September 8th, 2023, titled "Predators, Groomers, and Human Traffickers - What to Know", where she is interviewed by Kendi Callender at LED Live, now named Little Light Studios. I have saved a copy of the video [here][backup] in case Little Light Studios decides to delete it. At the time of this writing the video has nearly 11,000 views on YouTube. The interview begins by Calender describing LED Live as "A show where we use the light of Christ to expose the darkness happening in media and our culture." She proceeds to introduce Laudon as someone who has been a director of or volunteer for numerous anti-trafficking organizations for over twelve years. However, the organizations are never named. The first half of the roughly hour-long video provides some good advice such as mentioning that child predators often will work in jobs where they are given positions of trust involving children — even in churches. Then, [the discussion turns political][interview], when Laudon attempts to connect convicted pedophile Jeffery Epstein to the progressive effort [Run for Something][rfs] and an unspecified "LGBT agenda" without offering any evidence, despite claiming to have done "years of research".
 
 > Laudon: If I could name one single thing — and this is just from my own years of research in both of these topics, but politics drive this. Like, politics drive the trafficking. There's a huge —
 >
@@ -46,18 +29,29 @@ offering any evidence, despite claiming to have done "years of research".
 >
 > Laudon: It can. Um, I think sometimes on the lower level it can be more like your bot or here's the other thing — the higher level people, they run organizations. I was just looking at a website, the website is Run for Something. And it's it's um, ran by — they want more progressive people in office. And so when it means [sic] run for something it means anything, right? Like, local government is so important because — you need to be on your school board — **the whole LGBT agenda that comes right into this**. A lot of this stuff that we all know about, right? That's more commonly talked about, it's connected right? You don't have to have kids in the school to be in on the school board, by the way.
 
-Falsely calling LGBT people [groomers](https://www.adl.org/resources/article/what-grooming-truth-behind-dangerous-bigoted-lie-targeting-lgbtq-community) or child predators has become a common tactic right-wing politicians and influencers over the
-the past few years. For those on the right, children even indirectly learning that LGBT people exist is unacceptable, even if their classmates have gay parents. Laudon alludes to this on her campaign website, stating "Introducing adult subjects to young children is harmful and has no place in our schools." Laudon uses the alleged connection between local government and human trafficking to justify evangelical christian control [later in the interview](https://www.youtube.com/watch?v=F7uwKFnlAAc&t=2460s).
+Falsely calling LGBT people [groomers][adl] or child predators has become a common tactic right-wing politicians and influencers over the the past few years. For those on the right, children even indirectly learning that LGBT people exist is unacceptable, even if their classmates have gay parents. Laudon alludes to this on her campaign website, stating "Introducing adult subjects to young children is harmful and has no place in our schools." Laudon uses the alleged connection between local government and human trafficking to justify evangelical christian control [later in the interview][interview2].
 
 > And so, as christians its not enough to be like "Well, we're homeschooling our children, we have an emotionally connected family. Everything's good." It's not enough as a christian. We are called to look out for more vulnerable [children], and one of the best ways you can do that is [to] get involved with your local government. So even things like — some of it is actually not that complicated. Like, I'm from Ohio, so we have central County Commission seats. You have influence all the way up the chain. I think we have quarterly meetings? You know what I mean? But that actually has a far-ranging effect. County commissioners, you know, the people who control where the money in your school goes.
 
 In addition to controlling money within public schools, Laudon advocates for defunding public schools by supporting a conservative movement known as school choice, where taxpayer funds provide parents with vouchers for tuition at private religious schools.
 
-Her campaign's [Facebook page](https://www.facebook.com/VoteLaudon/) also speaks out against Critical Race Theory (CRT), which
-is an [academic field](https://www.edweek.org/leadership/what-is-critical-race-theory-and-why-is-it-under-attack/2021/05) studying the impact of race in US society, politics, laws, and media. On the right, CRT has become a
-[dog whistle](https://en.wikipedia.org/wiki/Dog_whistle_(politics)) for teaching any history where white people look bad. For example, the fact that the US civil war was indeed [fought over slavery](https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War).
+Her campaign's [Facebook page][laudon_fb] also speaks out against Critical Race Theory (CRT), which is an [academic field][crt] studying the impact of race in US society, politics, laws, and media. On the right, CRT has become a [dog whistle][dw] for teaching any history where white people look bad. For example, the fact that the US civil war was indeed [fought over slavery][cw].
 
-In short, Hava Laudon and other conservatives like her want an education system that conforms to their religious and racial views. It is not enough that they have the
-ability to homeschool their own children. Their religion and politics demand that everyone else's children must also never know about the existence of LGBT people or dark parts of US history, and they are hellbent on using the power of government to do it. So please, research local elections carefully and if you live in southern Ohio, vote Mary Binegar for Ohio Board of Education District 5.
+In short, Hava Laudon and other conservatives like her want an education system that conforms to their religious and racial views. It is not enough that they have the ability to homeschool their own children. Their religion and politics demand that everyone else's children must also never know about the existence of LGBT people or dark parts of US history, and they are hellbent on using the power of government to do it. So please, research local elections carefully and if you live in southern Ohio, vote Mary Binegar for Ohio Board of Education District 5.
 
 _Correction_: An earlier version of this post mistakenly misspelled Hava as Hova.
+
+[d5]: /assets/images/ohio-state-schhool-board-district-5.webp
+[binegar]: https://marybinegar.com/
+[oea_endorsements]: https://ohea.org/resources/take-action/oea-candidate-recommendations/
+[moody]: https://en.wikipedia.org/wiki/Moody_Bible_Institute
+[laudon]: https://www.votelaudon.com/
+[backup]: https://1drv.ms/v/s!Ak-0erEu9-tbgr1KklqAXtXmg4ka-w?e=VyUsiw
+[interview]: https://www.youtube.com/watch?v=F7uwKFnlAAc&t=2320s
+[rfs]: https://runforsomething.net/
+[interview2]: https://www.youtube.com/watch?v=F7uwKFnlAAc&t=2460s
+[adl]: https://www.adl.org/resources/article/what-grooming-truth-behind-dangerous-bigoted-lie-targeting-lgbtq-community
+[laudon_fb]: https://www.facebook.com/VoteLaudon/
+[crt]: https://www.edweek.org/leadership/what-is-critical-race-theory-and-why-is-it-under-attack/2021/05
+[dw]: https://en.wikipedia.org/wiki/Dog_whistle_(politics)
+[cw]: https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War
