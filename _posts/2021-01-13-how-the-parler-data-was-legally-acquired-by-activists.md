@@ -77,25 +77,19 @@ location coordinates that a frequently added by smartphones when taking photos
 or videos.
 
 The metadata in these files can easily be viewed using a free tool like
-exiftool, such as in this screenshot [posted
-by](https://twitter.com/donk_enby/status/1348294151712944128/photo/1)
+exiftool, such as in this screenshot [posted by](https://twitter.com/donk_enby/status/1348294151712944128/photo/1)
 donk_enby.
 
-![A screenshot of GPS coordinates in the metadata of a video file, displayed
-by exiftool](/assets/wp-content/uploads/2021/01/exiftool-gps.webp)
+![A screenshot of GPS coordinates in the metadata of a video file, displayed by exiftool](/assets/wp-content/uploads/2021/01/exiftool-gps.webp)
 
-Using Google Maps, it is an [easy
-task](https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en)
+Using Google Maps, it is an [easy task](https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en)
 to convert those coordinates, showing that this particular video was recorded
-at [a
-location](https://www.google.com/maps/place/38%C2%B042'00.7%22N+75%C2%B010'11.3%22W/@38.7002,-75.1719887,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d38.7002!4d-75.1698)
+at [a location](https://www.google.com/maps/place/38%C2%B042'00.7%22N+75%C2%B010'11.3%22W/@38.7002,-75.1719887,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d38.7002!4d-75.1698)
 inside the General Store in Marshtown, Delaware.
 
-![A screenshot of Google Maps pinpointing GPS
-coordinates](/assets/wp-content/uploads/2021/01/google-maps-38-42-0.72N_75-10-11.28W.webp)
+![A screenshot of Google Maps pinpointing GPScoordinates](/assets/wp-content/uploads/2021/01/google-maps-38-42-0.72N_75-10-11.28W.webp)
 
-Retrieving this information is not illegal. In a textbook case of [security
-through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity),
+Retrieving this information is not illegal. In a textbook case of [security through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity),
 Parler's shoddy design allowed any Parler user account to access all of this
 information via an undocumented API without bypassing or breaking any security
 controls. The proper security controls were simply not implemented by Parler's
@@ -103,8 +97,7 @@ developers in the first place.
 
 donk_enby wrote Python scripts that leverage Parler's API just like the iOS
 app would. She shared the scripts on GitHub on December 7th, 2020, in a
-cleverly-named repository called [parler-
-tricks](https://github.com/d0nk/parler-tricks).
+cleverly-named repository called [parler-tricks](https://github.com/d0nk/parler-tricks).
 
 In the README file, she notes:
 

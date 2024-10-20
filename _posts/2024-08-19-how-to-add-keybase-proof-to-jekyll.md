@@ -17,7 +17,7 @@ tags:
 I got an email that the Keybase proof for this blog broke because I forgot to
 copy over `keybase.txt` from my old web server before I deleted it. So I had to
 revoke the old proof in Keybase, create the new proof in Keybase, and add that
-proof to my Jekyell blog. If you still have a copy of your existing
+proof to my Jekyll blog. If you still have a copy of your existing
 `keybase.txt` file, you can reuse that proof instead of revoking it and
 generating a new one.
 

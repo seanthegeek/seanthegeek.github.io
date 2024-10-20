@@ -82,8 +82,7 @@ disabilities their right to obtain a court order to enforce compliance with a
 
 ## How would this affect disabled people?
 
-[![Image of Senator Tammy Duckworth](/assets/wp-content/uploads/2018/02/tammy-duckworth.webp)  
-](/assets/wp-content/uploads/2018/02/tammy-duckworth.webp)
+![Image of Senator Tammy Duckworth](/assets/wp-content/uploads/2018/02/tammy-duckworth.webp)
 _Senator Tammy Duckworth_
 
 > This offensive legislation would segregate the disability community, making
