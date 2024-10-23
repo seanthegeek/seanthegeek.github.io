@@ -1325,46 +1325,22 @@ and STARTTLS.
 
 ### Brand Indicators for Message Identification (BIMI)
 
-[Brand Indicators for Message Identification
-(BIMI)](https://authindicators.github.io/rfc-brand-indicators-for-message-
-identification/) is an emerging standard that some mail applications/services
-are starting to follow (currently only Yahoo, with more services throughout
-2019) . When a mail client uses BIMI, it first checks to see if the message
-passed DMARC alignment. If the DMARC policy is set to enforcement (i.e.
-p=quarentine or p=reject) and DMARC alignment has passed, the mail/webmail
-client then checks for a BIMI assertion record at the message from domain.
-This record points the client to a SVG file publicly hosted on a web server,
+[Brand Indicators for Message Identification (BIMI)](https://bimigroup.org/) is a standard for verified branding in email  When a mail client uses BIMI, it first checks to see if the message passed DMARC alignment. If the DMARC policy is set to enforcement (i.e. p=quarentine or p=reject) and DMARC alignment has passed, the mail/webmail client then checks for a BIMI assertion record at the message from domain. This record points the client to a SVG file publicly hosted on a web server,
 which is then displayed in the client UI, next to the message from
 information.
 
 ![Screenshots of an email with and without BIMI in Outlook
-webmail](https://blog.returnpath.com/wp-content/uploads/2018/08/Screen-
-Shot-2018-08-30-at-10.01.10-AM.webp)
+webmail (Credit: Returnpath)](https://blog.returnpath.com/wp-content/uploads/2018/08/Screen-Shot-2018-08-30-at-10.01.10-AM.png)
 
 To set up BIMI, host a SVG graphic file at a publicly accessible HTTPS URL,
 then add a BIMI assertion TXT DNS record like this one.
 
 `default._bimi.example.com TXT "v=BIMI1; l=https://cdn.example.com/logo.svg"`
 
-You can validate a BIMI record and logo format at the [Mailkit BIMI
-inspector](https://www.mailkit.com/resources/bimi-inspector), which also gives
+It is also reccomended to acquire a Verified Mark Certificate (VMC) images 
+from a verifying athority who has validated your ownership of a trademarked logo.
+
+You can validate a BIMI record and logo format at the [BIMI inspector](https://bimigroup.org/bimi-generator/), which also gives
 you nice previews of what your BIMI logo would look like in a mail client.
 
-What is currently missing is a way to validate that an entity using a domain
-actually owns the rights to use a logo, so BIMI isn't widely used yet. In May
-2018, Valimail, Google, and Standcore published a [draft
-standard](https://tools.ietf.org/html/draft-bkl-bimi-overview-00) for solving
-this problem by authenticating BIMI logos using certificates, similar to how
-Certificate Authorities (CAs) work for SSL certificates today, but there isn't
-a public timeline for when this might be adopted for BIMI and/or Google.
-Currently, Yahoo is the only major mail provider showing BIMI logos out of the
-box.
-
-Microsoft has their own non-BIMI beta process for validating and displaying
-logos called [Business Profiles](https://business.microsoft.com/).
-
-if you would like more information about BIMI, email
-[info@authindicators.org](mailto:info@authindicators.org); or if you are a
-customer of Aguri, Return Path, or Valimail (Who are members of the
-AuthIndicators Working Group responsible for the BIMI standard), contact their
-support for more information.
+For more information, see the offical [implementation guide](https://bimigroup.org/implementation-guide/)
