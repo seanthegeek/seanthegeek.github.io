@@ -8,7 +8,7 @@ description: I created a word cloud from nearly a year Donald Trump's tweets
 date: 2024-08-17 12:52 -0400
 image:
   path: /assets/images/donald-trump-twitter-word-cloud.webp
-  alt: A word cloud based on 3,192 of Donald Trump's tweets From 2028-04-30 to 2019-02-20
+  alt: A word cloud based on 3,192 of Donald Trump's tweets From 2018-04-30 to 2019-02-20
 categories:
   - Politics
 tags:
