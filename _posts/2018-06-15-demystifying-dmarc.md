@@ -1,28 +1,28 @@
 ---
 layout: post
 permalink: /459/demystifying-dmarc/
-title: 'Demystifying DMARC: A guide to preventing email spoofing'
-description: A 614Con 2018 talk that explains what DMARC is, how to deploy DMARC properly,
-  and how to respond to DMARC reports - all with open source software.
+title: "Demystifying DMARC: A guide to preventing email spoofing"
+description: Learn how the SPF, DKIM, DMARC email authentication standards work together to prevent unauthorized email spoofing — and how to use open source tools to deploy DMARC for free
 date: 2018-06-15 20:00:30 -0000
-last_modified_at: 2023-10-26 16:04:14 -0000
 publish: true
 pin: false
 image:
   path: /assets/wp-content/uploads/2018/06/DMARC-Summary-dashboard.webp
-  alt: A screenshot of a pre-made aggregate/summary DMARC dashboard in ELK using data
+  alt:
+    A screenshot of a pre-made aggregate/summary DMARC dashboard in ELK using data
     from ParseDMARC
 categories:
-- Guides
-- Information Security
+  - Guides
+  - Information Security
 tags:
-- phishing
-- DKIM
-- DMARC
-- open source
-- CheckDMARC
-- ParseDMARC
+  - phishing
+  - DKIM
+  - DMARC
+  - open source
+  - CheckDMARC
+  - ParseDMARC
 ---
+
 DMARC can stop spoofed spam and phishing from reaching you and your customers,
 protecting your information security and your brand. However, complexity and
 misconceptions deter many organizations from ever deploying it. Part
@@ -197,12 +197,12 @@ your SPF record**.
 Mechanisms listed in the SPF record have an implicit pass (i.e. +) qualifier
 in front of them. Possible qualifiers are:
 
-Modifier | Name | Description
----------|------|------------
-\+ | pass |  A "pass" result means the client is authorized to inject mail with the given identity. The domain can now, in the sense of reputation, be considered responsible for sending the message. Further policy checks can now proceed with confidence in the legitimate use of the identity.
-? | neutral | A "neutral" result indicates that although a policy for the identity was discovered, there is no definite assertion (positive or negative) about the client. A "neutral" result MUST be treated exactly like the "none" result; the distinction exists only for informational purposes. Treating "neutral" more harshly than "none" would discourage domain managers from testing the use of SPF records. With a "none" result, the SPF verifier has no information at all about the authorization or lack thereof of the client to use the checked identity or identities. The check_host() function completed without errors but was not able to reach any conclusion.
-\~ | softfail |  A "softfail" result ought to be treated as somewhere between "fail" and "neutral"/"none". The domain manager believes the host is not authorized but is not willing to make a strong policy statement.Receiving software SHOULD NOT reject the message based solely on this result, but MAY subject the message to closer scrutiny than normal.
-\- | fail |  A "fail" result is an explicit statement that the client is not authorized to use the domain in the given identity. Disposition of SPF fail messages is a matter of local policy.
+| Modifier | Name     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| \+       | pass     | A "pass" result means the client is authorized to inject mail with the given identity. The domain can now, in the sense of reputation, be considered responsible for sending the message. Further policy checks can now proceed with confidence in the legitimate use of the identity.                                                                                                                                                                                                                                                                                                                                                                                   |
+| ?        | neutral  | A "neutral" result indicates that although a policy for the identity was discovered, there is no definite assertion (positive or negative) about the client. A "neutral" result MUST be treated exactly like the "none" result; the distinction exists only for informational purposes. Treating "neutral" more harshly than "none" would discourage domain managers from testing the use of SPF records. With a "none" result, the SPF verifier has no information at all about the authorization or lack thereof of the client to use the checked identity or identities. The check_host() function completed without errors but was not able to reach any conclusion. |
+| \~       | softfail | A "softfail" result ought to be treated as somewhere between "fail" and "neutral"/"none". The domain manager believes the host is not authorized but is not willing to make a strong policy statement.Receiving software SHOULD NOT reject the message based solely on this result, but MAY subject the message to closer scrutiny than normal.                                                                                                                                                                                                                                                                                                                          |
+| \-       | fail     | A "fail" result is an explicit statement that the client is not authorized to use the domain in the given identity. Disposition of SPF fail messages is a matter of local policy.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 Most SPF records (except for those that are designed to be included in other
 SPF records) end with an all modifier. The all modifier consists of the word
@@ -304,26 +304,26 @@ Here's an example DKIM header
 
 #### Required DKIM header tags
 
-Tag | Value Description
----|---
-v | Signature version
-a | Signature algorithm (rsa-sha256 should be used)
-d | The domain where the public key can be found
-s | The selector pointing to the public key at the domain (an arbitrary string)
-h | A colon separated list of headers to concatenate when validating the header signature
-b | The base64-enoded signature hash of the headers listed in the h tag
-bh | The base64-enoded signature hash of the message body
+| Tag | Value Description                                                                     |
+| --- | ------------------------------------------------------------------------------------- |
+| v   | Signature version                                                                     |
+| a   | Signature algorithm (rsa-sha256 should be used)                                       |
+| d   | The domain where the public key can be found                                          |
+| s   | The selector pointing to the public key at the domain (an arbitrary string)           |
+| h   | A colon separated list of headers to concatenate when validating the header signature |
+| b   | The base64-enoded signature hash of the headers listed in the h tag                   |
+| bh  | The base64-enoded signature hash of the message body                                  |
 
 #### Optional DKIM header tags
 
-Tag | Value Description
----|---
-t | Signature timestamp in UNIX timestamp format (i.e. the number of seconds from 00:00:00 on January 1, 1970 in the UTC time zone)
-x | Signature expiration timestamp in UNIX timestamp format (i.e. the number of seconds from 00:00:00 on January 1, 1970 in the UTC time zone)
-c | canonicalization algorithm: Defines if/how the receiving the receiving mail server should normalize the message to account for slight variations in whitespace and line breaks that could otherwise invalidate the signature. **Relaxed mode is strongly recommended for the header and body canonicalization** (i.e. c=relaxed/relaxed).
-i | Identity/user-agent of the signer
-l | Number of characters from the beginning of the body to use when calculating the body signature (**not recommended because someone could append malicious content**)
-z | Not well defined
+| Tag | Value Description                                                                                                                                                                                                                                                                                                                         |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| t   | Signature timestamp in UNIX timestamp format (i.e. the number of seconds from 00:00:00 on January 1, 1970 in the UTC time zone)                                                                                                                                                                                                           |
+| x   | Signature expiration timestamp in UNIX timestamp format (i.e. the number of seconds from 00:00:00 on January 1, 1970 in the UTC time zone)                                                                                                                                                                                                |
+| c   | canonicalization algorithm: Defines if/how the receiving the receiving mail server should normalize the message to account for slight variations in whitespace and line breaks that could otherwise invalidate the signature. **Relaxed mode is strongly recommended for the header and body canonicalization** (i.e. c=relaxed/relaxed). |
+| i   | Identity/user-agent of the signer                                                                                                                                                                                                                                                                                                         |
+| l   | Number of characters from the beginning of the body to use when calculating the body signature (**not recommended because someone could append malicious content**)                                                                                                                                                                       |
+| z   | Not well defined                                                                                                                                                                                                                                                                                                                          |
 
 The receiving mail server uses the selector (`s=`) and domain (`d=`) tags to look
 up the public key as a DNS TXT record at
@@ -350,16 +350,16 @@ lookup tool](https://mxtoolbox.com/dkim.aspx) at MX Toolbox.
 
 #### Recommended DKIM DNS record tags
 
-**Tag** | **Value Description**
----|---
-**v** |  According to the RFC, this tag is recommended but not required, with an implicit default value of DKIM1. **However, in practice, some recipients don't follow the RFC exactly, and require this tag to be used anyway. This must be the first tag if used.****Your DKIM public key records should start with v=DKIM1;**
-**n** | Notes: Human-readable notes for administrators reviewing DNS records **Useful for noting which service uses a selector and key.**
+| **Tag** | **Value Description**                                                                                                                                                                                                                                                                                                       |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **v**   | According to the RFC, this tag is recommended but not required, with an implicit default value of DKIM1. **However, in practice, some recipients don't follow the RFC exactly, and require this tag to be used anyway. This must be the first tag if used.\*\***Your DKIM public key records should start with v=DKIM1;\*\* |
+| **n**   | Notes: Human-readable notes for administrators reviewing DNS records **Useful for noting which service uses a selector and key.**                                                                                                                                                                                           |
 
 #### Required DKIM DNS record tags
 
-**Tag** | **Value Description**
----|---
-**p** |  Public key data encoded in base64. **Keys must be at least 1024 bytes long. 2048 bit length is strongly recommended.**
+| **Tag** | **Value Description**                                                                                                  |
+| ------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **p**   | Public key data encoded in base64. **Keys must be at least 1024 bytes long. 2048 bit length is strongly recommended.** |
 
 #### Optional DKIM record tags
 
@@ -533,10 +533,10 @@ the public key at a given selector for up to a week.
 Using this ping-pong key rotation scheme, you ensure that email is always
 signed with a valid, secure key.
 
-  1. Start exclusively signing with the other selector.
-  2. Wait 7 days.
-  3. Replace the key at the old selector so it is ready for the next rotation.
-  4. Go to step 1.
+1. Start exclusively signing with the other selector.
+2. Wait 7 days.
+3. Replace the key at the old selector so it is ready for the next rotation.
+4. Go to step 1.
 
 ### DKIM's weakness: arbitrary d= values
 
@@ -560,10 +560,10 @@ and at least send back aggregate reports if requested by the domain owner.
 A message passes a DMARC check by passing DKIM **or** SPF, **as long as the
 related indicators are also in alignment with the message's from address**.
 
-  | DKIM | SPF
----|---|---
-Passing | The signature in the DKIM header is validated using a public key that is published as a DNS record of the domain name specified in the signature | The mail server's IP address is listed in the SPF record of the domain in the SMTP envelope's mail from header.
-Alignment | The signing domain aligns with the base domain in the message from header. | The domain in the SMTP envelope's mail from header aligns with the base domain in the message's from header.
+| DKIM      | SPF                                                                                                                                              |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| Passing   | The signature in the DKIM header is validated using a public key that is published as a DNS record of the domain name specified in the signature | The mail server's IP address is listed in the SPF record of the domain in the SMTP envelope's mail from header. |
+| Alignment | The signing domain aligns with the base domain in the message from header.                                                                       | The domain in the SMTP envelope's mail from header aligns with the base domain in the message's from header.    |
 
 DKIM alignment is more important than SPF, because only DKIM remains aligned
 when a message is forwarded via a mailbox rule.
@@ -576,10 +576,10 @@ addresses listed in the domain's DMARC record. There reports contain very
 useful information for debugging message alignment and identifying malicious
 spoofing campaigns.
 
-Report type | Description
----|---
-Aggregate (rua) | Compressed XML files sent at least once per day by recipient domains to the URIs listed in the rua DMARC tag. Records number of messages sent from an IP address, and the SPF and DKIM status. These reports are sent regardless of a success or failure, so that domain owners have a view of all mail authentication of messages appearing to be from their domain.
-Failure/Forensic (ruf) | An email with an email that failed the DMARC check attached (RFC 822/.eml format) sent to the URIs listed in the ruf DMARC tag. These can be very useful for DMARC troubleshooting and phishing investigations. However, **most email recipients do not send forensic reports, or may only supply the message headers for privacy****reasons.**
+| Report type            | Description                                                                                                                                                                                                                                                                                                                                                           |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aggregate (rua)        | Compressed XML files sent at least once per day by recipient domains to the URIs listed in the rua DMARC tag. Records number of messages sent from an IP address, and the SPF and DKIM status. These reports are sent regardless of a success or failure, so that domain owners have a view of all mail authentication of messages appearing to be from their domain. |
+| Failure/Forensic (ruf) | An email with an email that failed the DMARC check attached (RFC 822/.eml format) sent to the URIs listed in the ruf DMARC tag. These can be very useful for DMARC troubleshooting and phishing investigations. However, **most email recipients do not send forensic reports, or may only supply the message headers for privacy\*\***reasons.\*\*                   |
 
 ### DMARC policies
 
@@ -588,11 +588,11 @@ This policy tells recipients how they should react to an email that appears to
 come from that domain based on the message from header but does not pass DMARC
 alignment.
 
-Policy | Description
----|---
-none | The Domain Owner requests no specific action be taken regarding delivery of messages. Use this first to ensure your messages are DMARC compliant before switching to quarantine or reject.
-quarantine | The Domain Owner wishes to have email that fails the DMARC mechanism check be treated by Mail Receivers as suspicious. Depending on the capabilities of the Mail Receiver, this can mean "place into spam folder", "scrutinize with additional intensity", and/or "flag as suspicious".
-reject | The Domain Owner wishes for Mail Receivers to reject email that fails the DMARC mechanism check. Rejection SHOULD occur during the SMTP transaction.
+| Policy     | Description                                                                                                                                                                                                                                                                             |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| none       | The Domain Owner requests no specific action be taken regarding delivery of messages. Use this first to ensure your messages are DMARC compliant before switching to quarantine or reject.                                                                                              |
+| quarantine | The Domain Owner wishes to have email that fails the DMARC mechanism check be treated by Mail Receivers as suspicious. Depending on the capabilities of the Mail Receiver, this can mean "place into spam folder", "scrutinize with additional intensity", and/or "flag as suspicious". |
+| reject     | The Domain Owner wishes for Mail Receivers to reject email that fails the DMARC mechanism check. Rejection SHOULD occur during the SMTP transaction.                                                                                                                                    |
 
 Even if a domain has a DMARC policy set to p=none, mail services may still
 display warnings to their users in the event of a DMARC failure, as shown in
@@ -642,13 +642,12 @@ a DNS TXT record on [redacted].com.
 another, such as from an IronPort to Office 365, by the time an email reaches
 a user's mailbox, the information from Office 365 in the Authentication-
 Results header will always show that SPF and DMARC passed, since the IronPort
-is authorized to send as your domains when messages are forwarded to Office
-365. The results of the original IronPort check that occurs before the message
+is authorized to send as your domains when messages are forwarded to Office 365. The results of the original IronPort check that occurs before the message
 reaches Office 365 are stored in the Authentication-Results-Original header.
 
 ### DMARC policy DNS records
 
-DMARC policy DNS records are placed at a TXT record at the _dmarc subdomain.
+DMARC policy DNS records are placed at a TXT record at the \_dmarc subdomain.
 Subdomains of the TLD/base domain automatically inherit this DMARC policy
 record, **or** they can have their own record at their own_dmarc subdomain.
 
@@ -658,10 +657,10 @@ Here is an example DMARC policy DNS record
 
 #### Required DMARC policy DNS record tags
 
-Tag | Description
-----|------------
-v   | DMARC version (e.g., `v=DMARC1`)
-p   | DMARC policy
+| Tag | Description                      |
+| --- | -------------------------------- |
+| v   | DMARC version (e.g., `v=DMARC1`) |
+| p   | DMARC policy                     |
 
 #### Recommended DMARC policy DNS record tags
 
@@ -709,14 +708,14 @@ These tags tell recipients where and how to send reports.
 
 #### Not recommended DMARC policy DNS record tags
 
-Tag | Description
----|---
-sp | **Default mirrors the p tag's value** Sets the policy for all subdomains. Setting this tag could allow the spoofing of any arbitrary subdomain. **Add a separate policy record for each subdomain as needed instead.**
-pct |  **Default is 100** Sets the percentage of mail to apply the DMARC policy to. Set p=none when testing instead to ensure all mail is treated equally
-adkim |  **Default is relaxed (r)** In relaxed mode, the Organizational Domains of both the DKIM-authenticated signing domain (taken from the value of the "d=" tag in the signature) and that of the RFC 5322 From domain must be equal if the identifiers are to be considered aligned.
-aspf |  **Default is relaxed (r)** In relaxed mode, the SPF-authenticated domain and RFC5322 From domain must have the same Organizational Domain. In strict mode, only an exact DNS domain match is considered to produce Identifier Alignment.
-rf |  A list separated by colons of one or more report formats as requested by the Domain Owner to be used when a message fails both SPF and DKIM tests to report details of the individual failure. Only "afrf" (the auth-failure report type) is currently supported in the DMARC standard.
-ri |  **Default is 86400** Indicates a request to Receivers to generate aggregate reports separated by no more than the requested number of seconds. DMARC implementations MUST be able to provide daily reports and SHOULD be able to provide hourly reports when requested. However, anything other than a daily report is understood to be accommodated on a best-effort basis.
+| Tag   | Description                                                                                                                                                                                                                                                                                                                                                                  |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| sp    | **Default mirrors the p tag's value** Sets the policy for all subdomains. Setting this tag could allow the spoofing of any arbitrary subdomain. **Add a separate policy record for each subdomain as needed instead.**                                                                                                                                                       |
+| pct   | **Default is 100** Sets the percentage of mail to apply the DMARC policy to. Set p=none when testing instead to ensure all mail is treated equally                                                                                                                                                                                                                           |
+| adkim | **Default is relaxed (r)** In relaxed mode, the Organizational Domains of both the DKIM-authenticated signing domain (taken from the value of the "d=" tag in the signature) and that of the RFC 5322 From domain must be equal if the identifiers are to be considered aligned.                                                                                             |
+| aspf  | **Default is relaxed (r)** In relaxed mode, the SPF-authenticated domain and RFC5322 From domain must have the same Organizational Domain. In strict mode, only an exact DNS domain match is considered to produce Identifier Alignment.                                                                                                                                     |
+| rf    | A list separated by colons of one or more report formats as requested by the Domain Owner to be used when a message fails both SPF and DKIM tests to report details of the individual failure. Only "afrf" (the auth-failure report type) is currently supported in the DMARC standard.                                                                                      |
+| ri    | **Default is 86400** Indicates a request to Receivers to generate aggregate reports separated by no more than the requested number of seconds. DMARC implementations MUST be able to provide daily reports and SHOULD be able to provide hourly reports when requested. However, anything other than a daily report is understood to be accommodated on a best-effort basis. |
 
 ### DMARC authorization DNS records
 
@@ -736,22 +735,22 @@ about example.com:
 
 ## DMARC deployment steps
 
-  1. Configure email gateways to honor DMARC records and send aggregate DMARC reports.
-  2. Inventory domains.
-  3. Deploy SPF.
-  4. Deploy DKIM.
-  5. Set up mailbox for receiving DMARC reports.
-  6. Deploy DMARC DNS records.
-  7. Monitor incoming DMARC reports.
-  8. Adjust SPF, DKIM signing, and DMARC policies as needed.
+1. Configure email gateways to honor DMARC records and send aggregate DMARC reports.
+2. Inventory domains.
+3. Deploy SPF.
+4. Deploy DKIM.
+5. Set up mailbox for receiving DMARC reports.
+6. Deploy DMARC DNS records.
+7. Monitor incoming DMARC reports.
+8. Adjust SPF, DKIM signing, and DMARC policies as needed.
 
 ## Calendar invites forwarded by Outlook violate DMARC
 
 Calendar events from DMARC protected domains forwarded by outsiders using
-Outlook will fail DMARC.  Unfortunately, unlike a normal forwarded email,
+Outlook will fail DMARC. Unfortunately, unlike a normal forwarded email,
 calendar events forwarded using Outlook are "sent on behalf of" the meeting
 organizer. Instead of using the address of the person who forwarded the email
-in the from header, Outlook uses the address of the meeting organizer.  The
+in the from header, Outlook uses the address of the meeting organizer. The
 address of the person who did the forwarding is placed in the Sender header,
 which DMARC does not use.
 
@@ -793,11 +792,11 @@ Gmail's UI
 
 #### What if a third-party sender can't support DMARC?
 
-  1. Some vendors don't know about DMARC yet; ask about SPF and DKIM/email authentication.
-Check if they can send through your email relays instead of theirs.
+1. Some vendors don't know about DMARC yet; ask about SPF and DKIM/email authentication.
+   Check if they can send through your email relays instead of theirs.
 
-  2. Do they really need to spoof your domain? Why not use the display name instead?
-  3. Worst case, have that vendor send email as a specific subdomain of your domain (e.g. `noreply@news.example.com`), and then create separate SPF and DMARC records on news.example.com, and set p=none in that DMARC record.
+2. Do they really need to spoof your domain? Why not use the display name instead?
+3. Worst case, have that vendor send email as a specific subdomain of your domain (e.g. `noreply@news.example.com`), and then create separate SPF and DMARC records on news.example.com, and set p=none in that DMARC record.
 
 **Do not** alter the p or sp values of the DMARC record on the Top-Level
 Domain (TLD) - **that would leave you vulnerable to spoofing of your TLD
@@ -842,22 +841,22 @@ summary:
 
 **Do**
 
-+ Retain headers from the original message.
-+ Add [RFC 2369](https://tools.ietf.org/html/rfc2369) List-Unsubscribe headers to outgoing messages, instead of adding unsubscribe links to the body.
+- Retain headers from the original message.
+- Add [RFC 2369](https://tools.ietf.org/html/rfc2369) List-Unsubscribe headers to outgoing messages, instead of adding unsubscribe links to the body.
 
-        List-Unsubscribe: 
+        List-Unsubscribe:
 
-+ Add [RFC 2919](https://tools.ietf.org/html/rfc2919) List-Id headers instead of modifying the subject.
+- Add [RFC 2919](https://tools.ietf.org/html/rfc2919) List-Id headers instead of modifying the subject.
 
-        List-Id: Example Mailing List 
+        List-Id: Example Mailing List
 
 Modern mail clients and webmail services generate unsubscribe buttons based on
 these headers.
 
 **Do not**
 
-+ Remove or modify any existing headers from the original message, including From, Date, Subject, etc.
-+ Add to or remove content from the message body, **including traditional disclaimers and unsubscribe****footers.**
+- Remove or modify any existing headers from the original message, including From, Date, Subject, etc.
+- Add to or remove content from the message body, **including traditional disclaimers and unsubscribe\*\***footers.\*\*
 
 In addition to complying with DMARC, this configuration ensures that Reply and
 Reply All actions work like they would with any email message. Reply replies
@@ -873,32 +872,32 @@ Configuration steps for common mailing list platforms are listed below.
 
 Navigate to General Settings, and configure the settings below
 
-**Setting** | **Value**
-------------|----------
-**subject_prefix** |
-**from_is_list** | No
-**first_strip_reply_to** | No
-**reply_goes_to_list** | Poster
-**include_rfc2369_headers** | Yes
-**include_list_post_header** | Yes
-**include_sender_header** | No
+| **Setting**                  | **Value** |
+| ---------------------------- | --------- |
+| **subject_prefix**           |
+| **from_is_list**             | No        |
+| **first_strip_reply_to**     | No        |
+| **reply_goes_to_list**       | Poster    |
+| **include_rfc2369_headers**  | Yes       |
+| **include_list_post_header** | Yes       |
+| **include_sender_header**    | No        |
 
 Navigate to Non-digest options, and configure the settings below:
 
-**Setting** | **Value**
----|---
-**msg_header** |
-**msg_footer** |
-**scrub_nondigest** | No
+| **Setting**         | **Value** |
+| ------------------- | --------- |
+| **msg_header**      |
+| **msg_footer**      |
+| **scrub_nondigest** | No        |
 
 Navigate to Privacy Options> Sending Filters, and configure the settings
 below:
 
-**Setting** | **Value**
----|---
-**dmarc_moderation_action** | Accept
-**dmarc_quarentine_moderation_action** | Yes
-**dmarc_none_moderation_action** | Yes
+| **Setting**                            | **Value** |
+| -------------------------------------- | --------- |
+| **dmarc_moderation_action**            | Accept    |
+| **dmarc_quarentine_moderation_action** | Yes       |
+| **dmarc_none_moderation_action**       | Yes       |
 
 #### Mailman 3 best practices
 
@@ -910,23 +909,23 @@ Navigate to Settings> Alter Messages
 
 Configure the settings below:
 
-**Setting** | **Value**
----|---
-**Convert HTML to plaintext** | No
-**Include RFC2369 headers** | Yes
-**Include the list post header** | Yes
-**Explicit reply-to address** |
-**First strip reply-to** | No
-**Reply goes to list** | No munging
+| **Setting**                      | **Value**  |
+| -------------------------------- | ---------- |
+| **Convert HTML to plaintext**    | No         |
+| **Include RFC2369 headers**      | Yes        |
+| **Include the list post header** | Yes        |
+| **Explicit reply-to address**    |
+| **First strip reply-to**         | No         |
+| **Reply goes to list**           | No munging |
 
 Navigate to Settings> DMARC Mitigation
 
 Configure the settings below
 
-**Setting** | **Value**
----|---
-**DMARC mitigation action** | No DMARC mitigations
-**DMARC mitigate unconditionally** | No
+| **Setting**                        | **Value**            |
+| ---------------------------------- | -------------------- |
+| **DMARC mitigation action**        | No DMARC mitigations |
+| **DMARC mitigate unconditionally** | No                   |
 
 Create a blank footer template for your mailing list to remove the message
 footer. Unfortunately, the Postorius mailing list admin UI will not allow you
@@ -953,11 +952,11 @@ Configuration steps for common mailing list platforms are listed below.
 
 Navigate to Privacy Options> Sending Filters, and configure the settings below
 
-**Setting** | **Value**
----|---
-**dmarc_moderation_action** | Munge From
-**dmarc_quarentine_moderation_action** | Yes
-**dmarc_none_moderation_action** | Yes
+| **Setting**                            | **Value**  |
+| -------------------------------------- | ---------- |
+| **dmarc_moderation_action**            | Munge From |
+| **dmarc_quarentine_moderation_action** | Yes        |
+| **dmarc_none_moderation_action**       | Yes        |
 
 **Note**
 
@@ -976,10 +975,10 @@ Choose the option that best fits your community.
 In the DMARC Mitigations tab of the Settings page, configure the settings
 below:
 
-**Setting** | **Value**
----|---
-**DMARC mitigation action** | Replace From: with list address
-**DMARC mitigate unconditionally** | No
+| **Setting**                        | **Value**                       |
+| ---------------------------------- | ------------------------------- |
+| **DMARC mitigation action**        | Replace From: with list address |
+| **DMARC mitigate unconditionally** | No                              |
 
 **Note**
 
@@ -1003,44 +1002,45 @@ Some additional steps are needed for Linux hosts.
 
 ## DMARC deployment guides
 
-+ [NIST Special Publication 800-177 - Trustworthy Email](https://doi.org/10.6028/NIST.SP.800-177r1)
-+ [DMARC Overview](https://dmarc.org/overview/)
-+ [Proofpoint Email Authentication Guide](/assets/wp-content/uploads/2018/06/Proofpoint-Email-Authentication-Guide.pdf)
-  + **[Proofpoint does not currently send any DMARC reports](/806/proofpoint-is-requiring-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways/)
-**
+- [NIST Special Publication 800-177 - Trustworthy Email](https://doi.org/10.6028/NIST.SP.800-177r1)
+- [DMARC Overview](https://dmarc.org/overview/)
+- [Proofpoint Email Authentication Guide](/assets/wp-content/uploads/2018/06/Proofpoint-Email-Authentication-Guide.pdf)
 
-+ [DMARC guide for G Suite](https://www.youtube.com/watch?v=WB-aUZMDnU8)
-+ [DMARC guide for Office 365](https://technet.microsoft.com/en-us/library/mt734386\(v=exchg.150\).aspx)
-  + Note: [**Office 365 does not currently send any DMARC reports**](https://office365.uservoice.com/forums/264636-general/suggestions/11094318-dmarc-aggregate-reports-from-o365-domains), but you can analyze DMARC data from Office 365 using the free[Valimail Monitor for Office 365](https://www.microsoft.com/security/blog/2019/06/03/secure-cloud-free-dmarc-monitoring-office-365/) service
-+ [Complete DKIM and DMARC deployment guide for Cisco AsyncOS](/assets/wp-content/uploads/2018/06/AsyncOS-DKIM-DMARC-Guide.pdf)
-+ [Generic DMARC Deployment guide - Dmarcian](https://space.dmarcian.com/deployment/)
-+ [List of DMARC Support Status of SaaS Services - Dmarcian](https://dmarc.io/sources/)
-+ [DMARC Guide for 3rd Party Senders - Dmarcian](https://space.dmarcian.com/how-to-send-dmarc-compliant-email-on-behalf-of-others/)
-+ [Solutions to common problems - Dmarcian](https://dmarcian.com/category/deployment/)
-+ [Reference library by OnDMARC](https://knowledge.ondmarc.com/)
-+ [SPF Deployment Guide - MSDN](https://blogs.msdn.com/b/tzink/archive/2013/04/24/how-to-set-up-your-spf-records-if-you-are-outsourcing-some-or-all-of-your-email.aspx)
-+ [RFC 7489](https://tools.ietf.org/html/rfc7489)
+  - **[Proofpoint does not currently send any DMARC reports](/806/proofpoint-is-requiring-their-customers-to-pay-for-email-fraud-defense-to-get-aggregate-dmarc-data-from-their-own-gateways/)
+    **
+
+- [DMARC guide for G Suite](https://www.youtube.com/watch?v=WB-aUZMDnU8)
+- [DMARC guide for Office 365](<https://technet.microsoft.com/en-us/library/mt734386(v=exchg.150).aspx>)
+  - Note: [**Office 365 does not currently send any DMARC reports**](https://office365.uservoice.com/forums/264636-general/suggestions/11094318-dmarc-aggregate-reports-from-o365-domains), but you can analyze DMARC data from Office 365 using the free[Valimail Monitor for Office 365](https://www.microsoft.com/security/blog/2019/06/03/secure-cloud-free-dmarc-monitoring-office-365/) service
+- [Complete DKIM and DMARC deployment guide for Cisco AsyncOS](/assets/wp-content/uploads/2018/06/AsyncOS-DKIM-DMARC-Guide.pdf)
+- [Generic DMARC Deployment guide - Dmarcian](https://space.dmarcian.com/deployment/)
+- [List of DMARC Support Status of SaaS Services - Dmarcian](https://dmarc.io/sources/)
+- [DMARC Guide for 3rd Party Senders - Dmarcian](https://space.dmarcian.com/how-to-send-dmarc-compliant-email-on-behalf-of-others/)
+- [Solutions to common problems - Dmarcian](https://dmarcian.com/category/deployment/)
+- [Reference library by OnDMARC](https://knowledge.ondmarc.com/)
+- [SPF Deployment Guide - MSDN](https://blogs.msdn.com/b/tzink/archive/2013/04/24/how-to-set-up-your-spf-records-if-you-are-outsourcing-some-or-all-of-your-email.aspx)
+- [RFC 7489](https://tools.ietf.org/html/rfc7489)
 
 ## SPF and DMARC record validators
 
-+ [checkdmarc](https://domainaware.github.io/checkdmarc/) - A Python module and CLI tool I wrote to validate and parse SPF and DMARC records
-+ [trustymail](https://github.com/dhs-ncats/trustymail) - By DHS; checks for compliance with BOD 18-01, including SPF, DMARC, and STARTTLS
-+ [DNS Checker](https://dnschecker.org/) - Check DNS propagation worldwide
+- [checkdmarc](https://domainaware.github.io/checkdmarc/) - A Python module and CLI tool I wrote to validate and parse SPF and DMARC records
+- [trustymail](https://github.com/dhs-ncats/trustymail) - By DHS; checks for compliance with BOD 18-01, including SPF, DMARC, and STARTTLS
+- [DNS Checker](https://dnschecker.org/) - Check DNS propagation worldwide
 
 ## DMARC report processing services
 
-+ [Agari](https://www.agari.com/dmarc/) - Most popular provider to federal agencies, partners with ISACs and others - "Contact us" pricing
-+ [Dmarcian](https://dmarcian.com/) - Public, [straightforward pricing](https://dmarcian.com/pricing/), free public [reference](https://space.dmarcian.com/deployment/)[guides](https://space.dmarcian.com/deployment/)
-+ [OnDMARC](https://ondmarc.com/) - [Low cost](https://ondmarc.com/pricing) services, extensive free public [reference guides](https://knowledge.ondmarc.com/)
-+ [Proofpoint Email Fraud Defense](https://www.proofpoint.com/us/products/email-fraud-defense) - "Contact us" pricing; most useful for current Proofpoint customers
-+ [Valimail](https://www.valimail.com/) - Offers [automated SPF/DKIM/DMARC DNS record generation](https://www.valimail.com/why-valimail/#automate-dmarc-enforcement)
-+ [parsedmarc](https://domainaware.github.io/parsedmarc/) - Open source self-hosted DMARC report processing and analytics
+- [Agari](https://www.agari.com/dmarc/) - Most popular provider to federal agencies, partners with ISACs and others - "Contact us" pricing
+- [Dmarcian](https://dmarcian.com/) - Public, [straightforward pricing](https://dmarcian.com/pricing/), free public [reference](https://space.dmarcian.com/deployment/)[guides](https://space.dmarcian.com/deployment/)
+- [OnDMARC](https://ondmarc.com/) - [Low cost](https://ondmarc.com/pricing) services, extensive free public [reference guides](https://knowledge.ondmarc.com/)
+- [Proofpoint Email Fraud Defense](https://www.proofpoint.com/us/products/email-fraud-defense) - "Contact us" pricing; most useful for current Proofpoint customers
+- [Valimail](https://www.valimail.com/) - Offers [automated SPF/DKIM/DMARC DNS record generation](https://www.valimail.com/why-valimail/#automate-dmarc-enforcement)
+- [parsedmarc](https://domainaware.github.io/parsedmarc/) - Open source self-hosted DMARC report processing and analytics
 
 ## DMARC adoption
 
-+ [Email Authentication Policy and Deployment Strategy for Financial Services Firms](https://www.fsroundtable.org/wp-content/uploads/2015/05/BITSEmailAuthenticationFeb2013.pdf) (BITS/The Financial Services Roundtable - Feb. 2013)
-+ [DHS Binding Operational Directive (BOD) 18-01](https://cyber.dhs.gov/bod/18-01/) (Oct. 2017)
-+ [Fifty-Seven Percent of Email "From" Healthcare Industry is Fraudulent](https://nhisac.org/announcements/fifty-seven-percent-email-healthcare-industry-fraudulent/) (H-ISAC - Nov. 2017)
+- [Email Authentication Policy and Deployment Strategy for Financial Services Firms](https://www.fsroundtable.org/wp-content/uploads/2015/05/BITSEmailAuthenticationFeb2013.pdf) (BITS/The Financial Services Roundtable - Feb. 2013)
+- [DHS Binding Operational Directive (BOD) 18-01](https://cyber.dhs.gov/bod/18-01/) (Oct. 2017)
+- [Fifty-Seven Percent of Email "From" Healthcare Industry is Fraudulent](https://nhisac.org/announcements/fifty-seven-percent-email-healthcare-industry-fraudulent/) (H-ISAC - Nov. 2017)
 
 ## DMARC compliant services
 
@@ -1048,15 +1048,15 @@ Some additional steps are needed for Linux hosts.
 
 Payment and CRM solutions for non-profits
 
-+ <https://www.blackbaud.com/solutions>
-+ <https://docs.blackbaud.com/email-resource-center/faqs/best-practices-faq#what-is-an-spf-record-and-how-do-i-create-it>
-+ <https://kb.blackbaud.com/articles/Article/65862>
+- <https://www.blackbaud.com/solutions>
+- <https://docs.blackbaud.com/email-resource-center/faqs/best-practices-faq#what-is-an-spf-record-and-how-do-i-create-it>
+- <https://kb.blackbaud.com/articles/Article/65862>
 
 ### Constant Contact
 
-+ <https://www.constantcontact.com/email-marketing>
-+ <https://www.constantcontact.com/pricing>
-+ <https://knowledgebase.constantcontact.com/guides/KnowledgeBase/5932-self-publishing-for-authentication>
+- <https://www.constantcontact.com/email-marketing>
+- <https://www.constantcontact.com/pricing>
+- <https://knowledgebase.constantcontact.com/guides/KnowledgeBase/5932-self-publishing-for-authentication>
 
 ### Cvent
 
@@ -1069,43 +1069,43 @@ include:cvent-planner.com
 Contact [Cvent support](https://www.cvent.com/en/contact/customer-support) to
 set up DKIM signing as your domain.
 
-+ <https://www.cvent.com/>
-+ <https://knowledge.ondmarc.com/articles/1977363-cvent-planner-spf-and-dkim-set-up>
+- <https://www.cvent.com/>
+- <https://knowledge.ondmarc.com/articles/1977363-cvent-planner-spf-and-dkim-set-up>
 
 ### Emma
 
-+ <https://myemma.com/pricing>
-+ <https://support.e2ma.net/Resource_Center/Account_how-to/deliverability-best-practices#5._Authenticate_your_sending_domain>
+- <https://myemma.com/pricing>
+- <https://support.e2ma.net/Resource_Center/Account_how-to/deliverability-best-practices#5._Authenticate_your_sending_domain>
 
 ### Elastic Email
 
 Reasonably priced, fully DMARC compliant marketing and transactional email.
 
-+ <https://elasticemail.com/pricing/>
-+ <https://elasticemail.com/marketing-features/>
-+ <https://elasticemail.com/transactional/>
-+ <https://elasticemail.com/resources/settings/spf-dkim-tracking-faq/>
+- <https://elasticemail.com/pricing/>
+- <https://elasticemail.com/marketing-features/>
+- <https://elasticemail.com/transactional/>
+- <https://elasticemail.com/resources/settings/spf-dkim-tracking-faq/>
 
 ### GlobalCert SecureMail Gateway
 
-+ <https://support.globalcerts.net/portal/kb/articles/dkim-signatures>
+- <https://support.globalcerts.net/portal/kb/articles/dkim-signatures>
 
 ### HealthcareSource
 
 Healthcare talent management SaaS. Contact support and let them know that you
 need SPF and DKIM set up for DMARC alignment.
 
-+ <https://www.healthcaresource.com/>
-+ [support@healthcaresource.com](mailto:support@healthcaresource.com)
+- <https://www.healthcaresource.com/>
+- [support@healthcaresource.com](mailto:support@healthcaresource.com)
 
 ### HubSpot
 
 Good option if a full Customer Relationship Management (CRM) platform is
 needed.
 
-+ <https://www.hubspot.com/pricing/marketing>
-+ <https://www.hubspot.com/products/marketing>
-+ <https://knowledge.hubspot.com/articles/kcs_article/email/can-i-use-a-dmarc-policy-with-hubspot>
+- <https://www.hubspot.com/pricing/marketing>
+- <https://www.hubspot.com/products/marketing>
+- <https://knowledge.hubspot.com/articles/kcs_article/email/can-i-use-a-dmarc-policy-with-hubspot>
 
 ### JangoMail
 
@@ -1113,10 +1113,10 @@ Full-featured email marketing
 
 Add include:jangomail.com to your SPF record.
 
-+ <https://jangomail.com/features/>
-+ <https://jangomail.com/pricing/>
-+ <https://jangomail.com/send-email-via-api/>
-+ [https://jangomail.com/domainkeysdkim/](/392/stop-ada-education-reform-act/)
+- <https://jangomail.com/features/>
+- <https://jangomail.com/pricing/>
+- <https://jangomail.com/send-email-via-api/>
+- [https://jangomail.com/domainkeysdkim/](/392/stop-ada-education-reform-act/)
 
 ### JangoSMTP
 
@@ -1125,45 +1125,45 @@ others.
 
 Add include:jangomail.com to your SPF record.
 
-+ <https://jangosmtp.com/features/>
-+ <https://jangosmtp.com/pricing/>
-+ <https://jangomail.zendesk.com/hc/en-us/articles/200660154-DomainKeys-DKIM>
+- <https://jangosmtp.com/features/>
+- <https://jangosmtp.com/pricing/>
+- <https://jangomail.zendesk.com/hc/en-us/articles/200660154-DomainKeys-DKIM>
 
 ### MailChimp
 
 Extremely cheap bulk marketing email; extremely expensive transactional email.
 
-+ [https://kb.mailchimp.com/accounts/email-authentication/verify-a-domain#Verify-Domain-in-Account-Settings](https://kb.mailchimp.com/accounts/email-authentication/verify-a-domain)
-+ <https://kb.mailchimp.com/accounts/email-authentication/set-up-custom-domain-authentication-dkim-and-spf>
+- [https://kb.mailchimp.com/accounts/email-authentication/verify-a-domain#Verify-Domain-in-Account-Settings](https://kb.mailchimp.com/accounts/email-authentication/verify-a-domain)
+- <https://kb.mailchimp.com/accounts/email-authentication/set-up-custom-domain-authentication-dkim-and-spf>
 
 ### Mandrill
 
 A MailChimp add-on service for transitional email
 
-+ <https://kb.mailchimp.com/mandrill/mailchimp-vs-mandrill>
-+ <https://mandrill.com/pricing/>
-+ <https://mandrill.zendesk.com/hc/en-us/articles/205582267-What-are-SPF-and-DKIM-and-do-I-need-to-set-them-up>
-+ Set SMTP envelope sender for SPF alignment in the Mandrill dashboard
-Settings -> Domains -> Tracking and Return Path Domain
+- <https://kb.mailchimp.com/mandrill/mailchimp-vs-mandrill>
+- <https://mandrill.com/pricing/>
+- <https://mandrill.zendesk.com/hc/en-us/articles/205582267-What-are-SPF-and-DKIM-and-do-I-need-to-set-them-up>
+- Set SMTP envelope sender for SPF alignment in the Mandrill dashboard
+  Settings -> Domains -> Tracking and Return Path Domain
 
 ### Mailgun
 
-+ <https://www.mailgun.com/pricing>
-+ <https://documentation.mailgun.com/en/latest/user_manual.html#verifying-your-domain>
+- <https://www.mailgun.com/pricing>
+- <https://documentation.mailgun.com/en/latest/user_manual.html#verifying-your-domain>
 
 ### Mailjet
 
 Email and SMS marketing**.**
 
-+ [https](https://www.mailjet.com/pricing/)[://www.mailjet.com/pricing/](https://www.mailjet.com/pricing/)
-+ <https://www.mailjet.com/docs/spf-dkim-guide>
+- [https](https://www.mailjet.com/pricing/)[://www.mailjet.com/pricing/](https://www.mailjet.com/pricing/)
+- <https://www.mailjet.com/docs/spf-dkim-guide>
 
 ### Net-Results
 
 Marketing automation
 
-+ <https://www.net-results.com/pricing/>
-+ <https://support.net-results.com/index.php/Domain_Branding>
+- <https://www.net-results.com/pricing/>
+- <https://support.net-results.com/index.php/Domain_Branding>
 
 ### OnSolve Mir3
 
@@ -1174,8 +1174,8 @@ Mir3 supports DKIM alignment via DKIM.
 Contact your Mir3 account manager to have them set up DKIM signing/email
 whitelabeling.
 
-+ <https://www.onsolve.com/solutions/products/mir3/>
-+ <https://www.onsolve.com/resources/support/>
+- <https://www.onsolve.com/solutions/products/mir3/>
+- <https://www.onsolve.com/resources/support/>
 
 ### Phytel (sent via JangoSMTP)
 
@@ -1186,9 +1186,9 @@ Add include:jangomail.com to your SPF record.
 
 Contact IBM Phytel support and ask them to configure DKIM signing.
 
-+ [PhytelClientCare@us.ibm.com](mailto:PhytelClientCare@us.ibm.com)
-+ <https://www-01.ibm.com/support/docview.wss?uid=ibm10716407>
-+ <https://www.ibm.com/watson-health/phytel>
+- [PhytelClientCare@us.ibm.com](mailto:PhytelClientCare@us.ibm.com)
+- <https://www-01.ibm.com/support/docview.wss?uid=ibm10716407>
+- <https://www.ibm.com/watson-health/phytel>
 
 ### Safe Pay Services
 
@@ -1198,29 +1198,29 @@ Add a:mail.safepayservices.com to your SPF record.
 
 Contact support for details.
 
-+ <https://safepayservices.com/services>
-+ <https://safepayservices.com/contact>
+- <https://safepayservices.com/services>
+- <https://safepayservices.com/contact>
 
 ### Salesforce Marketing Cloud
 
-+ <https://www.salesforce.com/editions-pricing/marketing-cloud/>
-+ <https://www.salesforce.com/products/marketing-cloud/email-marketing/>
-+ [https://help.salesforce.com/articleView?id=emailadmin_create_secure_dkim.htm&type=5](https://help.salesforce.com/articleView?id=emailadmin_create_secure_dkim.htm&type=5)
+- <https://www.salesforce.com/editions-pricing/marketing-cloud/>
+- <https://www.salesforce.com/products/marketing-cloud/email-marketing/>
+- [https://help.salesforce.com/articleView?id=emailadmin_create_secure_dkim.htm&type=5](https://help.salesforce.com/articleView?id=emailadmin_create_secure_dkim.htm&type=5)
 
 ### SendGrid
 
-+ <https://sendgrid.com/solutions/email-marketing/>
-+ <https://sendgrid.com/pricing/>
-+ <https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication/>
+- <https://sendgrid.com/solutions/email-marketing/>
+- <https://sendgrid.com/pricing/>
+- <https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication/>
 
 ### Sendinblue
 
 Not as cheap as Elastic Email, but cheaper than SendGrid and Mandrill, with
 options for SMS.
 
-+ <https://www.sendinblue.com/pricing/>
-+ <https://www.sendinblue.com/features/>
-+ <https://help.sendinblue.com/hc/en-us/articles/209577385-Understand-SPF-DKIM-and-DMARC-protocols>
+- <https://www.sendinblue.com/pricing/>
+- <https://www.sendinblue.com/features/>
+- <https://help.sendinblue.com/hc/en-us/articles/209577385-Understand-SPF-DKIM-and-DMARC-protocols>
 
 ### Simplee
 
@@ -1231,27 +1231,27 @@ signing, they need to purchase a domain authentication package from
 Salesforce, with the cost passed on to the customer, and have the Simplee
 customer delegate a domain or subdomain to Salesforce via NS records:
 
-+ ns1.exacttarget.com
-+ ns2.exacttarget.com
-+ ns3.exacttarget.com
-+ ns4.exacttarget.com
+- ns1.exacttarget.com
+- ns2.exacttarget.com
+- ns3.exacttarget.com
+- ns4.exacttarget.com
 
 Costs include:
 
-+ One-time setup fee: $350 for Simplee to cover implementation and setup costs
-+ Annual Fee: $1,500 per year per domain (pass-through expense via Salesforce) + $39 Salesforce Purchase Order Fee
+- One-time setup fee: $350 for Simplee to cover implementation and setup costs
+- Annual Fee: $1,500 per year per domain (pass-through expense via Salesforce) + $39 Salesforce Purchase Order Fee
 
 For for information, contact Simplee support at
 <https://support.simplee.com/hc/en-us/requests/new>
 
 ### Symantec MessageLabs
 
-+ <https://support.symantec.com/en_US/article.HOWTO126432.html>
+- <https://support.symantec.com/en_US/article.HOWTO126432.html>
 
 ## Services that must use your SMTP relays to be fully DMARC compliant
 
-+ [Qualtrics](https://www.qualtrics.com/support/survey-platform/distributions-module/email-distribution/using-a-custom-from-address/#SettingUpAnSMTPRelay)
-+ [ServiceNow](https://docs.servicenow.com/bundle/jakarta-servicenow-platform/page/administer/reference-pages/task/t_ConfAltEmailUsgOwnSMTP.html)
+- [Qualtrics](https://www.qualtrics.com/support/survey-platform/distributions-module/email-distribution/using-a-custom-from-address/#SettingUpAnSMTPRelay)
+- [ServiceNow](https://docs.servicenow.com/bundle/jakarta-servicenow-platform/page/administer/reference-pages/task/t_ConfAltEmailUsgOwnSMTP.html)
 
 ## Incompatible services
 
@@ -1262,8 +1262,8 @@ domain they are spoofing.
 There are different two ways to work around this problem, each with its own
 benefits and drawbacks:
 
-  1. Have the vendor send emails from their domain instead of yours
-  2. Configure the service to use a specific subdomain of your domain in the message from address. Then, create a separate DMARC record with p=none under that specific subdomain.
+1. Have the vendor send emails from their domain instead of yours
+2. Configure the service to use a specific subdomain of your domain in the message from address. Then, create a separate DMARC record with p=none under that specific subdomain.
 
 By having a service send as its own domain, you loose branding in the from
 email address, but it will not cause additional complexity or risk.
@@ -1291,11 +1291,11 @@ Volgistics does not currently support DKIM signing, so the account
 administrator will need to complete the following steps to configure
 Volgistics to send email as Volgistics.com:
 
-  1. Choose Setup from the menu in the account
-  2. Expand Messages
-  3. Click the "Ground Rules" link
-  4. In the "From address" section, select the "Use VolunteerMail@volgistics.com as the from address (recommended)" option
-  5. Click the Save button
+1. Choose Setup from the menu in the account
+2. Expand Messages
+3. Click the "Ground Rules" link
+4. In the "From address" section, select the "Use VolunteerMail@volgistics.com as the from address (recommended)" option
+5. Click the Save button
 
 ## Bonus steps
 
@@ -1325,7 +1325,7 @@ and STARTTLS.
 
 ### Brand Indicators for Message Identification (BIMI)
 
-[Brand Indicators for Message Identification (BIMI)](https://bimigroup.org/) is a standard for verified branding in email  When a mail client uses BIMI, it first checks to see if the message passed DMARC alignment. If the DMARC policy is set to enforcement (i.e., p=quarantine or p=reject) and DMARC alignment has passed, the mail/webmail client then checks for a BIMI assertion record at the message from domain. This record points the client to a SVG file publicly hosted on a web server,
+[Brand Indicators for Message Identification (BIMI)](https://bimigroup.org/) is a standard for verified branding in email When a mail client uses BIMI, it first checks to see if the message passed DMARC alignment. If the DMARC policy is set to enforcement (i.e., p=quarantine or p=reject) and DMARC alignment has passed, the mail/webmail client then checks for a BIMI assertion record at the message from domain. This record points the client to a SVG file publicly hosted on a web server,
 which is then displayed in the client UI, next to the message from
 information.
 
