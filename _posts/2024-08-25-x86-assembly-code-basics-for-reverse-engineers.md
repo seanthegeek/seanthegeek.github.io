@@ -8,7 +8,7 @@ image:
   path: /assets/images/asm.webp
   description: A screenshot of Locky locale checks in Ghidra
 categories:
-  - Malware Reverse Engineering
+  - Reverse Engineering Malware
 ---
 
 Assembly language is the lowest-level set of instructions for a CPU. You need
