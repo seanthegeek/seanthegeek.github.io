@@ -1305,7 +1305,7 @@ email more secure.
 ### Verify TLS
 
 TLS ensures that messages are encrypted on their way to your mail servers.
-STARTTLS allows email clients to upgrade from a plan text connection to an
+STARTTLS allows email clients to upgrade from a plain text connection to an
 encrypted one.
 
 To check `STARTTLS`, run:
@@ -1325,22 +1325,26 @@ and STARTTLS.
 
 ### Brand Indicators for Message Identification (BIMI)
 
-[Brand Indicators for Message Identification (BIMI)](https://bimigroup.org/) is a standard for verified branding in email  When a mail client uses BIMI, it first checks to see if the message passed DMARC alignment. If the DMARC policy is set to enforcement (i.e. p=quarentine or p=reject) and DMARC alignment has passed, the mail/webmail client then checks for a BIMI assertion record at the message from domain. This record points the client to a SVG file publicly hosted on a web server,
+[Brand Indicators for Message Identification (BIMI)](https://bimigroup.org/) is a standard for verified branding in email  When a mail client uses BIMI, it first checks to see if the message passed DMARC alignment. If the DMARC policy is set to enforcement (i.e., p=quarantine or p=reject) and DMARC alignment has passed, the mail/webmail client then checks for a BIMI assertion record at the message from domain. This record points the client to a SVG file publicly hosted on a web server,
 which is then displayed in the client UI, next to the message from
 information.
 
 ![Screenshots of an email with and without BIMI in Outlook
-webmail (Credit: Returnpath)](https://blog.returnpath.com/wp-content/uploads/2018/08/Screen-Shot-2018-08-30-at-10.01.10-AM.png)
+webmail (Credit: Returnpath)](/assets/images/bimi-example.webp)
 
-To set up BIMI, host a SVG graphic file at a publicly accessible HTTPS URL,
-then add a BIMI assertion TXT DNS record like this one.
+In order to set up BIMI you need 5 things:
 
-`default._bimi.example.com TXT "v=BIMI1; l=https://cdn.example.com/logo.svg"`
+1. A logo that is a registered trademark, or a non-trademarked logo that has been in use for at least one year
+2. An image of that logo in [SVG Portable/Secure (SVG P/S)](https://bimigroup.org/creating-bimi-svg-logo-files/) format
+3. A Verified Mark Certificate (VMC) for trademarked logos, or a Common Mark Certificate (CMC) from a verifying authority (currently [Digicert](https://www.digicert.com/tls-ssl/verified-mark-certificates) or [Entrust](https://www.entrust.com/digital-security/certificate-solutions/products/digital-certificates/verified-mark-certificates)) that proves that your organization has the right to use that logo
+4. A BIMI DNS record with HTTPS URLs pointing to the SVG and the VMC or CMC
+5. A DMARC record with an enforced policy (i.e., `p=quarantine` or `p=reject`)
 
-It is also reccomended to acquire a Verified Mark Certificate (VMC) images 
-from a verifying athority who has validated your ownership of a trademarked logo.
+A BIMI assertion DNS record looks like this
+
+`default._bimi.bankofamerica.com TXT  "v=BIMI1; l=https://bimi.entrust.net/bankofamerica.com/logo.svg; a=https://bimi.entrust.net/bankofamerica.com/certchain.pem"`
 
 You can validate a BIMI record and logo format at the [BIMI inspector](https://bimigroup.org/bimi-generator/), which also gives
 you nice previews of what your BIMI logo would look like in a mail client.
 
-For more information, see the offical [implementation guide](https://bimigroup.org/implementation-guide/)
+For more information, see the official [implementation guide](https://bimigroup.org/implementation-guide/).
