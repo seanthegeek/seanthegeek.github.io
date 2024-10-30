@@ -253,9 +253,7 @@ alignment.**
 (DMARC reports will tell you), update the SPF record accordingly, and change
 the ?all modifier to ~all.**
 
-#### SPF record for domains that send emails from their incoming gateways and
-
-are missing SPF records
+#### SPF record for domains that send emails from their incoming gateways and are missing SPF records
 
     v=spf1 mx ?all
 
