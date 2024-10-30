@@ -290,7 +290,7 @@ domains.
 
 DomainKeys Identified Mail (DKIM) is a email message authentication standard,
 defined in [RFC 6376](https://tools.ietf.org/html/rfc6376). Because DKIM
-authenticates the message headers , rather than the SMTP headers, DKIM
+authenticates the message headers rather than the SMTP headers, DKIM
 authentication survives intact when a message is directly forwarded (e.g. via
 a mailbox rule).
 
