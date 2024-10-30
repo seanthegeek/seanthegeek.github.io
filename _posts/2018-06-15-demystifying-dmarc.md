@@ -1096,6 +1096,10 @@ need SPF and DKIM set up for DMARC alignment.
 - <https://www.healthcaresource.com/>
 - [support@healthcaresource.com](mailto:support@healthcaresource.com)
 
+### Highspot
+
+Highspot supports DKIM signing as their customer's domains. Contact their support to get started.
+
 ### HubSpot
 
 Good option if a full Customer Relationship Management (CRM) platform is
