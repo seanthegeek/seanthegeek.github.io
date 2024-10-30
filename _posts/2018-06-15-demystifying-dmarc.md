@@ -1111,21 +1111,21 @@ needed.
 
 ### JangoMail
 
-Full-featured email marketing
+Full-featured email marketing.
 
-Add include:jangomail.com to your SPF record.
+Add `include:jangomail.com` to your SPF record.
 
 - <https://jangomail.com/features/>
 - <https://jangomail.com/pricing/>
 - <https://jangomail.com/send-email-via-api/>
-- [https://jangomail.com/domainkeysdkim/](/392/stop-ada-education-reform-act/)
+- <https://jangomail.com/domainkeysdkim/>
 
 ### JangoSMTP
 
 Transactional email service used by IBM Phytel (see separate entry below) and
 others.
 
-Add include:jangomail.com to your SPF record.
+Add `include:jangomail.com` to your SPF record.
 
 - <https://jangosmtp.com/features/>
 - <https://jangosmtp.com/pricing/>
@@ -1155,7 +1155,7 @@ A MailChimp add-on service for transitional email
 
 ### Mailjet
 
-Email and SMS marketing**.**
+Email and SMS marketing.
 
 - [https](https://www.mailjet.com/pricing/)[://www.mailjet.com/pricing/](https://www.mailjet.com/pricing/)
 - <https://www.mailjet.com/docs/spf-dkim-guide>
@@ -1184,7 +1184,7 @@ whitelabeling.
 IBM Phytel is used by healthcare providers to send appointment reminders and
 other information to their patients. Emails are relayed through JangoSMTP.
 
-Add include:jangomail.com to your SPF record.
+Add `include:jangomail.com` to your SPF record.
 
 Contact IBM Phytel support and ask them to configure DKIM signing.
 
