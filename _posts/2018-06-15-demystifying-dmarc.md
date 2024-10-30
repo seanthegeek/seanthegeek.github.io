@@ -1188,6 +1188,10 @@ Contact IBM Phytel support and ask them to configure DKIM signing.
 - <https://www-01.ibm.com/support/docview.wss?uid=ibm10716407>
 - <https://www.ibm.com/watson-health/phytel>
 
+### Poppulo (Formerly Newsweaver)
+
+Poppulo/Newsweaver supports DKIM alignment. Contact their support to begin the process.
+
 ### Safe Pay Services
 
 A payment processor that supports DMARC alignment via SPF and DKIM.
