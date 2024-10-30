@@ -1272,6 +1272,10 @@ subdomains, or the top level domain. This allows you to keep your domain in
 the from address, **but also opens up that specific subdomain to spoofing from
 anyone**.
 
+### Archer Risk Management
+
+Archer Risk Management does not currently support SPF or DKIM alignment of third-party domains, so customers of Archer should configure all of their Archer emails to use a from address at the `archerirm.us` domain.
+
 ### UL PureSafety
 
 DKIM signing as customer domains is not currently supported by UL PureSafety
