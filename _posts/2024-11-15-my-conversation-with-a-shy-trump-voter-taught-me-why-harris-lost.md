@@ -6,7 +6,7 @@ image:
   path: /assets/images/kamala-harris.webp
   alt: Vice President Kamala Harris - Credit Phil Mistry/Shutterstock
 categories: ["Politics"]
-tags: ["Harris", "Trump", "Economics", "Education", Democracy"]
+tags: ["Harris", "Trump", "Economics", "Education", "Democracy"]
 date: 2024-11-15 16:37 -0500
 ---
 
