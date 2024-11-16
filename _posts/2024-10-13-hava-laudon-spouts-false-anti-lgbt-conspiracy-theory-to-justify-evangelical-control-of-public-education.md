@@ -4,7 +4,7 @@ title: Hava Laudon spouts a false anti-LGBT conspiracy theory to justify evangel
 description: A candidate for Ohio Board of Education District 5 cites an unspecified "LGBT agenda" while discussing child abuse in a video interview posted to her campaign website
 image:
   path: /assets/images/hava-laudon-politics-drive-trafficking.webp
-  description: A still image from a video interview with Hava Laudon titled "Predators, Groomers, and Human Traffickers - What to Know"
+  alt: A still image from a video interview with Hava Laudon titled "Predators, Groomers, and Human Traffickers - What to Know"
 categories: ["Politics"]
 tags: ["Education", "LGBT", "Ohio", "Christianity", "Fascism", "Christofascism"]
 date: 2024-10-13 13:42 -0400

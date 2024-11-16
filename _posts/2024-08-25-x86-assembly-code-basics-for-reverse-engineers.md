@@ -6,7 +6,7 @@ description: Learn the basics of x86 assembly code for use in dissemblers like
   Ghidra, IDA, and Binary Ninja, and debuggers like x64dbg.
 image:
   path: /assets/images/asm.webp
-  description: A screenshot of Locky locale checks in Ghidra
+  alt: A screenshot of Locky locale checks in Ghidra
 categories:
   - Reverse Engineering Malware
 ---
@@ -58,7 +58,7 @@ stack will be the first item `popped` off of the stack.
 ![A representation of the stack with push and pop operations](/assets/images/lifo-stack.webp)
 
 32 bit applications use the stack to store the values of local variables and
-function arguments.  The first parameter will be the bottom `PUSH` instruction,
+function arguments. The first parameter will be the bottom `PUSH` instruction,
 and the last argument will be the top `PUSH` instruction. Each item on the stack
 has 4 bytes. Addressing on the stack goes from larger to smaller values as more
 items are added to the stack, which might seem counterintuitive.
@@ -91,12 +91,12 @@ are enclosed in square brackets. For example:
 MOV EAX, [0x410230]
 ```
 
-**Example**|**Description**
------------|---------------
-[EAX]|Access dynamically allocated memory (base)
-[EBP + 0x10]|Access data on the stack (base + displacement)
-[EAX + EBX * 8]|Access an array with 8-byte structures (base + index * scale)
-[EAX + EBX + 0xC]|Access a two-dimensional array of structures (base + index + displacement)
+| **Example**       | **Description**                                                            |
+| ----------------- | -------------------------------------------------------------------------- |
+| [EAX]             | Access dynamically allocated memory (base)                                 |
+| [EBP + 0x10]      | Access data on the stack (base + displacement)                             |
+| [EAX + EBX * 8]   | Access an array with 8-byte structures (base + index \* scale)             |
+| [EAX + EBX + 0xC] | Access a two-dimensional array of structures (base + index + displacement) |
 
 ## Common patterns
 
@@ -130,11 +130,11 @@ RET
 
 ## Unconditional jumps
 
-**Name**|**Description**
---------|---------------
-JMP|Jump directly to a memory address
-CALL|Call a function
-RET|Return a value to the calling function
+| **Name** | **Description**                        |
+| -------- | -------------------------------------- |
+| JMP      | Jump directly to a memory address      |
+| CALL     | Call a function                        |
+| RET      | Return a value to the calling function |
 
 ## Conditional jumps
 
@@ -247,7 +247,7 @@ ESP|RSP|Points to the last item on the stack
 ESI/EDI|RSI/RDI|Used by memory transfer instructions
 
 > `RSP` is often used to access parameters instead of `RBP`.
-{: .prompt-info }
+> {: .prompt-info }
 
 ### New 64 bit general purpose registers
 
@@ -273,8 +273,8 @@ via registers, instead of via the stack.
 Any additional arguments are placed onto the stack.
 
 > Ghidra is unable to propagate external parameters in 64 bit PE files, so it cannot annotate parameter data types for you.
-{: .prompt-warning }
+> {: .prompt-warning }
 
 ### 64 bit addressing
 
- `RIP` + Displacement
+`RIP` + Displacement

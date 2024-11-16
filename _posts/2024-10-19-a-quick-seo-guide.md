@@ -4,7 +4,7 @@ title: A quick Search Engine Optimization (SEO) Guide
 description: How to rank high in search results without a Big Tech conspiracy
 image:
   path: /assets/images/google-search-results.webp
-  description: A screenshot of Google search results
+  alt: A screenshot of Google search results
 categories: ["Guides"]
 tags: ["SEO", "Google", "Microsoft", "Bing", "DuckDuckGo", "Yahoo"]
 date: 2024-10-19 16:51 -0400
