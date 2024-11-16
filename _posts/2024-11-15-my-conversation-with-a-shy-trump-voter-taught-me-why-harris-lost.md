@@ -16,7 +16,7 @@ I have cerebral palsy go to physical therapy once a week nearly every week. I've
 
 So what led my PT to hold his nose and cast a ballot for Trump? Economics. "It was easier to support my family when Trump was in office."
 
-There are two age-old sayings in US presidential races that apply here. "It's the economy, stupid." and "Are you better of than you were four years ago?" For many americans and their families, the answer to that question is a resounding "No!"
+There are two age-old sayings in US presidential races that apply here. "It's the economy, stupid." and "Are you better off than you were four years ago?" For many americans and their families, the answer to that question is a resounding "No!"
 
 | Item                                    | Oct. 2016 | Oct. 2020 | Change from 2016 to 2020 | Oct. 2024 | Change 2020 to 2024 | Difference in change |
 | --------------------------------------- | --------- | --------- | ------------------------ | --------- | ------------------- | -------------------- |
