@@ -18,6 +18,8 @@ So what led my PT to hold his nose and cast a ballot for Trump? Economics. "It w
 
 There are two age-old sayings in US presidential races that apply here. "It's the economy, stupid." and "Are you better off than you were four years ago?" For many americans and their families, the answer to that question is a resounding "No!"
 
+Despite the unemployment rate being at [its lowest point in ten years](https://www.bls.gov/charts/employment-situation/civilian-unemployment-rate.htm), the cost of many food has risen sharply. For example, the price of eggs increased 139% between between October 2020 and October 2024, compared to only 1% between October 2016 and October 2020. The cause of this increase isn't related to any particular Biden or Trump policy. It is the result of price gouging that started during the COVID-19 pandemic, which grocery store executives have [admitted to](https://www.newsweek.com/kroger-executive-admits-company-gouged-prices-above-inflation-1945742).
+
 | Item                                    | Oct. 2016 | Oct. 2020 | Change from 2016 to 2020 | Oct. 2024 | Change 2020 to 2024 | Difference in change |
 | --------------------------------------- | --------- | --------- | ------------------------ | --------- | ------------------- | -------------------- |
 | Bananas, per lb.                        | $0.75     | $0.58     | -23%                     | $0.62     | 7%                  | 30%                  |
@@ -33,7 +35,7 @@ There are two age-old sayings in US presidential races that apply here. "It's th
 
 Source: [Average price data (in U.S. dollars), selected items](https://www.bls.gov/charts/consumer-price-index/consumer-price-index-average-price-data.htm), _U.S Bureau of Labor Statistics_
 
-Grocery store executives have admitted to [price gouging](https://www.newsweek.com/kroger-executive-admits-company-gouged-prices-above-inflation-1945742). A president cannot act on their own to address issues like price gouging. That requires Congress to pass legislation for the president sign into law. Republican politicians know this of course, but would rather block legislation that helps so they can campaign on the problems that Biden can't fix. This happened most recently when Republicans killed a bipartisan [border security bill](https://www.nbcnews.com/politics/congress/senate-republicans-knife-bipartisan-border-security-bill-declaring-dea-rcna137572) at the last minute, allowing Trump to make continue making immigration a key part of his campaign.
+ A president cannot act on their own to address issues like price gouging. That requires Congress to pass legislation for the president sign into law. Republican politicians know this of course, but would rather block legislation that helps so they can campaign on the problems that Biden can't fix. This happened most recently when Republicans killed a bipartisan [border security bill](https://www.nbcnews.com/politics/congress/senate-republicans-knife-bipartisan-border-security-bill-declaring-dea-rcna137572) at the last minute, allowing Trump to make continue making immigration a key part of his campaign.
 
 "It's true that food prices have soared", I said, "but that is due to price gouging by greedy corporations, not Biden. Just like how people have been blaming whoever the sitting president is for the price of gas for decades."
 
