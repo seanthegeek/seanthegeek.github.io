@@ -12,7 +12,7 @@ redirect_from:
   - /posts/hova-laudon-spouts-false-anti-lgbt-conspiracy-theory-to-justify-evangelical-control-of-public-education/
 ---
 
-**Update**: [She lost](https://decisiondeskhq.com/results/2024/General/races/ohio-state-board-of-education-all-parties-general-election-5) big time, earning only 30.6% of the votes!
+**Update**: [She lost][results] big time, earning only 30.6% of the votes!
  
 My background isn't in education and I don't have any kids, so I always left school board elections blank when filling out my ballot. This year, I took a few minutes to do Google searches for each of the two candidates for Ohio Board of Education District 5 (which covers much of southern Ohio), and I'm very glad I did. One has dedicated her career to education; the other is a religious zealot who pushes fearmongering lies about Lesbian, Gay, Bisexual and Transgender (LGBT) people to advance the goal of evangelical christian control of public education.
 
@@ -57,3 +57,4 @@ _Correction_: An earlier version of this post mistakenly misspelled Hava as Hova
 [crt]: https://www.edweek.org/leadership/what-is-critical-race-theory-and-why-is-it-under-attack/2021/05
 [dw]: https://en.wikipedia.org/wiki/Dog_whistle_(politics)
 [cw]: https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War
+[results]: https://decisiondeskhq.com/results/2024/General/races/ohio-state-board-of-education-all-parties-general-election-5
