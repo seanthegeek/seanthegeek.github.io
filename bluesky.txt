@@ -2,5 +2,4 @@
 layout: none
 permalink: /.well-known/atproto-did
 ---
-
 did:plc:rvlb2gpvv676soipgfoh7yku
