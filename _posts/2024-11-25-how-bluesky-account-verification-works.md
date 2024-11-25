@@ -24,7 +24,7 @@ To do this, all you or whoever manages your domain/website need to do is prove t
 
 ## Disadvantages
 
-### Switching a handle leaves your old handle open for squatting
+### Changing a handle leaves your old handle open for squatting
 
 Once your handle is changed to a domain the old `.bsky.social` handle is free for anyone to take over.
 
