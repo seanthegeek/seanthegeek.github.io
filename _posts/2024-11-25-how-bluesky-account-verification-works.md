@@ -28,7 +28,7 @@ To do this, all you or whoever manages your domain/website need to do is prove t
 
 Once your handle is changed to a domain the old `.bsky.social` handle is free for anyone to take over.
 
-## Your handle will no longer match your X handle
+### Your handle will no longer match your X handle
 
 Many X to Bluesky migration tools will search for matching accounts based on your X handle ending with `.bsky.social`.
 
