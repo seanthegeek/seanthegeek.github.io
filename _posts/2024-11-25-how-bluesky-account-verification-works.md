@@ -22,9 +22,19 @@ To do this, all you or whoever manages your domain/website need to do is prove t
 4. It is self-service: Accounts can be verified in minutes.
 5. Subdomains can be used to verify an individual's relationship to an organization.
 
-## Disadvantage: Lookalike domains
+## Disadvantages
+
+## Switching a handle to a domain leaves your old handle open for squatting
+
+Once your handle is changed to a domain the old `.bsky.social` handle is free for anyone to take over.
+
+## Lookalike domains
 
 The one notable disadvantage to this approach is that someone could register a domain that is similar to the official one using a typo or a different TLD (e.g., `example.net` instead of `example.com`) and use that as a Bluesky account handle. Most organizations already register typos of their domains to prevent this sort of abuse, but individuals might not. Users should do a quick web search to find the user's actual website if they are suspicious or unsure.
+
+## Not everyone has their own website
+
+Mark Hamill is an example of a celebrity who does not have his own website, so Bluesky's account verification method won't work for him. [As he has pointed out](https://bsky.app/profile/markhamillofficial.bsky.social/post/3lbpyd7qbkc2z), a lot of accounts are impersonating him on Bluesky.
 
 ## How to verify your account
 
