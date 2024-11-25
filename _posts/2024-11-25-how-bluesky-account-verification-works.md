@@ -28,7 +28,7 @@ To do this, all you or whoever manages your domain/website need to do is prove t
 
 The Bluesky verification guide [warns](https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial):
 
-> If you change your default Bluesky username (with the .`bsky.social suffix`) to a website URL, your old username will be available for someone else to use. However, any tags or mentions with your old handle will still point to your account. If you'd like to keep your old `.bsky.social` username, we recommend creating a second account to hold that username.
+> If you change your default Bluesky username (with the `.bsky.social` suffix) to a website URL, your old username will be available for someone else to use. However, any tags or mentions with your old handle will still point to your account. If you'd like to keep your old `.bsky.social` username, we recommend creating a second account to hold that username.
 
 Not an ideal situation.
 
