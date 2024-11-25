@@ -30,7 +30,7 @@ Once your handle is changed to a domain the old `.bsky.social` handle is free fo
 
 ### Lookalike domains
 
-The one notable disadvantage to this approach is that someone could register a domain that is similar to the official one using a typo or a different TLD (e.g., `example.net` instead of `example.com`) and use that as a Bluesky account handle. Most organizations already register typos of their domains to prevent this sort of abuse, but individuals might not. Users should do a quick web search to find the user's actual website if they are suspicious or unsure.
+Someone could register a domain that is similar to the official one using a typo or a different TLD (e.g., `example.net` instead of `example.com`) and use that as a Bluesky account handle. Most organizations already register typos of their domains to prevent this sort of abuse, but individuals might not. Users should do a quick web search to find the user's actual website if they are suspicious or unsure.
 
 ### Not everyone has their own website
 
