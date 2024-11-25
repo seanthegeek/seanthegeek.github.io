@@ -10,9 +10,9 @@ tags: ["Bluesky"]
 date: 2024-11-25 10:35 -0500
 ---
 
-Starting out, all Bluesky account handles end with `.bsky.social`. News organizations, businesses, non-profits, politicians, lawyers, celebrities, podcast hosts, bloggers, and others all have official websites that are easy to recognize. Bluesky allows any user that owns a domain name (e.g., `example.com`) or subdomain to use that domain name as their account handle. The result is easily identifiable [verified accounts](https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial) like [@wyden.senate.gov](https://bsky.app/profile/wyden.senate.gov), [@cnn.com](https://bsky.app/profile/cn.com), [@npr.org](https://bsky.app/profile/npr.org), [@washingtonpost.com](https://bsky.app/profile/washingtonpost.com), [@arstechnica.com](https://bsky.app/profile/arstechnicia.com).
+Starting out, all Bluesky account handles end with `.bsky.social`. News organizations, businesses, non-profits, politicians, lawyers, celebrities, podcast hosts, bloggers, and others often have official websites that are easy to recognize. Bluesky allows any user that owns a domain name (e.g., `example.com`) or subdomain to use that domain name as their account handle. The result is easily identifiable [verified accounts](https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial) like [@wyden.senate.gov](https://bsky.app/profile/wyden.senate.gov), [@cnn.com](https://bsky.app/profile/cn.com), [@npr.org](https://bsky.app/profile/npr.org), [@washingtonpost.com](https://bsky.app/profile/washingtonpost.com), [@arstechnica.com](https://bsky.app/profile/arstechnicia.com).
 
-To do this, all you or whoever manages your domain/website need to do is prove that you control the domain or subdomain in a way that a computer can verify. It only takes a few minutes to do and it is fully automated.
+To do this, all you or whoever manages your domain/website need to do is prove that you control the domain or subdomain in a way that a computer can verify. It only takes a few minutes to do and it is fully automated. That said, there are some disadvantages.
 
 ## Advantages
 
@@ -30,7 +30,7 @@ Once your handle is changed to a domain the old `.bsky.social` handle is free fo
 
 ### Your handle will no longer match your X handle
 
-Many X to Bluesky migration tools will search for matching accounts based on your X handle ending with `.bsky.social`.
+Many X to Bluesky migration tools will search for matching accounts based on an X handle ending with `.bsky.social`.
 
 ### Lookalike domains
 
