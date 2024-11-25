@@ -26,11 +26,17 @@ To do this, all you or whoever manages your domain/website need to do is prove t
 
 ### Changing a handle leaves your old handle open for squatting
 
-Once your handle is changed to a domain the old `.bsky.social` handle is free for anyone to take over.
+The Bluesky verification guide [warns]((https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial)):
 
-### Your handle will no longer match your X handle
+> If you change your default Bluesky username (with the .`bsky.social suffix`) to a website URL, your old username will be available for someone else to use. However, any tags or mentions with your old handle will still point to your account. If you'd like to keep your old `.bsky.social` username, we recommend creating a second account to hold that username.
 
-Many X to Bluesky migration tools will search for matching accounts based on an X handle ending with `.bsky.social`.
+Not an ideal situation.
+
+### Your Bluesky handle will no longer match your X handle
+
+After Elon started charging $100/month for X API access, X migration tools had to switch from using the X API to using a browser extention that pages though a list on the `following` page, where profile data can be truncated.
+
+Migration tools like the Sky follower Bridge search for matching accounts based on an X handle ending with `.bsky.social`. If your Bluesky account handle does not match your X handle. the author of Sky Follower Bridge [recommends](https://github.com/kawamataryo/sky-follower-bridge/issues/64) making sure the display names at least match so it can still find your account that way.
 
 ### Lookalike domains
 
