@@ -28,6 +28,10 @@ To do this, all you or whoever manages your domain/website need to do is prove t
 
 Once your handle is changed to a domain the old `.bsky.social` handle is free for anyone to take over.
 
+## Your handle will no longer match your X handle
+
+Many X to Bluesky migration tools will search for matching accounts based on your X handle ending with `.bsky.social`.
+
 ### Lookalike domains
 
 Someone could register a domain that is similar to the official one using a typo or a different TLD (e.g., `example.net` instead of `example.com`) and use that as a Bluesky account handle. Most organizations already register typos of their domains to prevent this sort of abuse, but individuals might not. Users should do a quick web search to find the user's actual website if they are suspicious or unsure.
