@@ -30,7 +30,7 @@ The Bluesky verification guide [warns](https://bsky.social/about/blog/4-28-2023-
 
 > If you change your default Bluesky username (with the `.bsky.social` suffix) to a website URL, your old username will be available for someone else to use. However, any tags or mentions with your old handle will still point to your account. If you'd like to keep your old `.bsky.social` username, we recommend creating a second account to hold that username.
 
-This is not an ideal situation. Creating a second account to stop people from squatting on your old `.bsky.social` username creates confusion about which account users should follow or mention. Ideally, the old `.bsky.social` handle would be an alias of the domain name handle, with the domain name handle being the primary handle, but this is not currently possible.
+This is not an ideal situation. Creating a second account to stop people from squatting on your old `.bsky.social` username creates confusion about which account users should follow or mention. Ideally, the old `.bsky.social` handle would be an alias of the domain name handle, with the domain name handle being the primary handle, but this is [not currently possible](https://github.com/bluesky-social/atproto/issues/3111).
 
 ### Your Bluesky handle will no longer match your X handle
 
