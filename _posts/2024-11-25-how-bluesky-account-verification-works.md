@@ -34,7 +34,7 @@ This is not an ideal situation. Creating a second account to stop people from sq
 
 ### Your Bluesky handle will no longer match your X handle
 
-After Elon started charging $100/month for X API access, X migration tools had to switch from using the X API to using a browser extention that pages though a list on the `following` page, where profile data can be truncated.
+After Elon started charging $100/month for X API access, X migration tools had to switch from using the X API to using a browser extension that pages though a list on the `following` page, where profile data can be truncated.
 
 Migration tools like the Sky follower Bridge search for matching accounts based on an X handle ending with `.bsky.social`. If your Bluesky account handle does not match your X handle, the author of Sky Follower Bridge [recommends](https://github.com/kawamataryo/sky-follower-bridge/issues/64) making sure the display names at least match so it can still find your account that way.
 

@@ -23,7 +23,7 @@ Select "No DNS panel" to switch to the file verification method. This simply req
 
 ![A screenshot of the Bluesky file verification prompt](/assets/images/bluesky-file-verification.webp)
 
-To add this file on a Jekyll site, create a new file in the root of your project. The file can have any name, but it must **not** have any file extention. On my site I used `bluesky` to remind myself that this file is for Bluesky verification, so I don't accidentally delete it. Add the following content to the top of the file.
+To add this file on a Jekyll site, create a new file in the root of your project. The file can have any name, but it must **not** have any file extension. On my site I used `bluesky` to remind myself that this file is for Bluesky verification, so I don't accidentally delete it. Add the following content to the top of the file.
 
 ```markdown
 ---
