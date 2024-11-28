@@ -36,7 +36,4 @@ This bit of [front matter](https://jekyllrb.com/docs/front-matter/) tells Jekyll
 
 Place the content given by Bluesky at the bottom of this file. Save the file and push your changes. Then click the "Verify Text File" button on Bluesky.
 
-> You can add verification strings from multiple AT Protocol servers to the same file, one per line.
-{: .prompt-tip}
-
 Your Bluesky username will now be your domain name or subdomain.
