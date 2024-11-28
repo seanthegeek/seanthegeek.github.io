@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Bluesky account verification works
-description: The account verification method on Bluesky is simple simple and transparent – but it comes with some major drawbacks
+description: The account verification method on Bluesky is simple and transparent – but it comes with some major drawbacks
 image:
   path: /assets/images/bluesky-logo.webp
   alt: The Bluesky logo
