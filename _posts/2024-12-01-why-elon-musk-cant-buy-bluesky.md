@@ -58,7 +58,7 @@ In a July 2023 [blog post](https://bsky.social/about/blog/7-05-2023-business-pla
 >
 >We believe that there must be better strategies to sustain social networks that don’t require selling user data for ads.
 
-Jar Garber [went further](https://www.wired.com/story/bluesky-ceo-jay-graber-wont-enshittify-ads/) by stating that Bluesky will not "[enshittify](https://en.wikipedia.org/wiki/Enshittification) the network with ads". Instead, Bluesky will soon offer subscriptions. The details of the subscriptions have not yet been announced.
+Jar Garber [went further](https://www.wired.com/story/bluesky-ceo-jay-graber-wont-enshittify-ads/) by stating that Bluesky will not "[enshittify](https://en.wikipedia.org/wiki/Enshittification) the network with ads". Instead, Bluesky will soon offer subscriptions.
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:qjeavhlw222ppsre4rscd3n2/app.bsky.feed.post/3l7bivqfqk62s" data-bluesky-cid="bafyreig2hhuwsgkf3vxusnnycdzmlkfr5ejc6yu3y7clh2ytpytrjq4u5e"><p lang="en">To grow sustainably, we’re working on a subscription model for premium features like higher-quality video uploads and profile customizations (think colors and avatar frames), but Bluesky will always be free to use. We believe information and conversation should stay accessible to everyone.</p>&mdash; Rose 🌹 (<a href="https://bsky.app/profile/did:plc:qjeavhlw222ppsre4rscd3n2?ref_src=embed">@rose.bsky.team</a>) <a href="https://bsky.app/profile/did:plc:qjeavhlw222ppsre4rscd3n2/post/3l7bivqfqk62s?ref_src=embed">October 24, 2024 at 12:44 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
 
