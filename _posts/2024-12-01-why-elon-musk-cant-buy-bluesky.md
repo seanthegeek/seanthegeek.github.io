@@ -82,7 +82,7 @@ Bluesky [made a point](https://bsky.social/about/blog/10-24-2024-series-a) to me
 
 ### Bob Young
 
-[Bob Young](https://en.wikipedia.org/wiki/Bob_Young_(businessman)) is one of founders of [Red Hat](https://www.redhat.com/) He invested in the seed round of Bluesky funding.
+[Bob Young](https://en.wikipedia.org/wiki/Bob_Young_(businessman)) is one of founders of [Red Hat](https://www.redhat.com/). He invested in the seed round of Bluesky funding.
 
 ### Amjad Masad
 
@@ -130,7 +130,7 @@ Bluesky [made a point](https://bsky.social/about/blog/10-24-2024-series-a) to me
 
 ### Abdul Ly
 
-[Abdul Ly](https://www.linkedin.com/in/abdully/) is a Partner at [Initialized Capital](https://initialized.com/) He invested in the seed round of Bluesky funding.
+[Abdul Ly](https://www.linkedin.com/in/abdully/) is a Partner at [Initialized Capital](https://initialized.com/). He invested in the seed round of Bluesky funding.
 
 ### Alumni Ventures
 
