@@ -9,10 +9,12 @@
 
 /* append your custom style below */
 
-.chirpy-embed {
-    margin: auto;
+
+.bluesky-embed {
+  margin: auto;
+  margin-bottom: 1rem !important;
 }
 
 .embed-video {
-    aspect-ratio: auto; !important
+  aspect-ratio: auto !important;
 }
