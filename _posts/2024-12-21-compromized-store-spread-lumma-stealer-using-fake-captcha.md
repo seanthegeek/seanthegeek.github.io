@@ -27,7 +27,7 @@ Upon visiting the store from a Windows system the the page was blurred and inacc
 > 2. In the verification window press Ctrl + V [which pastes in command(s) that the fake reCAPTCHA has put in the clipboard]
 > 3. Press Enter on your keyboard to finish [which executes the commands]
 
-If a visitor did this, the fake CAPTCHA was smart enough to notice, disappear, and allow the visitor to access the website normally, making it look like they passed. However, the visitor actually starts a chain of events that runs malware.
+If a visitor did this, the fake CAPTCHA was smart enough to notice, disappear, and allow the visitor to access the website normally, making it look like they passed. However, the visitor actually started a chain of events that runs malware.
 
 {% include embed/video.html src='/assets/videos/fake-recaptcha.mp4' title='The fake reCAPTCHA in action' %}
 
