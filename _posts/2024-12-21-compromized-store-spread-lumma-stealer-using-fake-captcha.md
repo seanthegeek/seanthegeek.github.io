@@ -174,7 +174,7 @@ And the result is...another PowerShell script!
 
 ![A screenshot of CyberChef decoding and decrypting the byte array](/assets/images/cyberchef_powershell_decode_decrypt.webp)
 
-This script is not obfuscated at all, except for the long base64-encoded string inside it. Decoding that in CyberChef reveals a windows the tell-tale signs of a Windows Portable Executable (PE). It starts with `MZ` and contains the string "This program cannot be run in DOS mode."
+This script is not obfuscated at all, except for the long base64-encoded string inside it, at line 164 of 157 (much better than 1,000+ lines!). Decoding that in CyberChef reveals a windows the telltale signs of a Windows Portable Executable (PE). It starts with `MZ` and contains the string "This program cannot be run in DOS mode."
 
 Special thanks to Alexandre Matousek at Orange Cyberdefence for guiding me and teaching me not to be discouraged by 1,000+ lines of junk when reversing a malicious Powershell script.
 
