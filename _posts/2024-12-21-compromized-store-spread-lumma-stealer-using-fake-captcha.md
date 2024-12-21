@@ -19,7 +19,15 @@ date: 2024-12-21 00:51 -0500
 ---
 Threat actors spreading Lumma Stealer have been known to lure people to malicious websites with fake CAPTCHAs using malvertizing or SEO poisoning. Recently they used a different tactic by placing a more polished CAPTCHA on an existing store. For at least two days, `gmkkeyycaps[.]com` hosted a fake CAPTCHA that tried to trick Windows visitors into running malicious commands on their systems. This likely occurred due to an opportunistic attacker exploiting outdated WordPress software or other vulnerability on the store, which didn't have a [great reputation][Reddit] on Reddit even years before it was compromised.
 
-While the website was compromised, it loaded `yandex[.]ru` analytics, which makes it likely that the threat actor is Russian-speaking. The threat actor is likely not picky about which websites to exploit, as a keycap store would be frequented by technology enthusiasts who are more likely to spot a fake reCAPTCHA than the average visitor. Upon visiting the website from a Windows system the the page was blurred and inaccessible, with what looked like a Google reCAPTCHA prompt front and center. However, after clicking the "I'm a not a robot" checkbox a very unusual and dangerous set of "Verification Steps" appeared:
+While the website was compromised, it loaded `yandex[.]ru` analytics, which makes it likely that the threat actor is Russian-speaking. The threat actor is likely not picky about which websites to exploit, as a keycap store would be frequented by technology enthusiasts who are more likely to spot a fake reCAPTCHA than the average visitor. In fact, I became a aware of this compromise because someone shopping for GMK keycaps posted about the dangerous prompt on Bluesky, and the post showed up on my [infosec feed](https://bsky.app/profile/seanthegeek.net/feed/infosec).
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:z3uy3b2jspstbruvu3l4ganm/app.bsky.feed.post/3ldbokhyock2m" data-bluesky-cid="bafyreibxy6f5lduiseilskmda7mjd5kwfyb7zcqpa4ulugs5jejjykisve"><p lang="en">the way i damn near fell off my chair when this appeared!
+
+second screenshot is the code it put on my clipboard - a malware downloader, i imagine, i haven&#x27;t unpicked the obfuscation yet
+
+stay safe out there folks!<br><br><a href="https://bsky.app/profile/did:plc:z3uy3b2jspstbruvu3l4ganm/post/3ldbokhyock2m?ref_src=embed">[image or embed]</a></p>&mdash; Richard Gaywood (<a href="https://bsky.app/profile/did:plc:z3uy3b2jspstbruvu3l4ganm?ref_src=embed">@penllawen.favrd.social</a>) <a href="https://bsky.app/profile/did:plc:z3uy3b2jspstbruvu3l4ganm/post/3ldbokhyock2m?ref_src=embed">December 14, 2024 at 11:06 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
+Upon visiting the store from a Windows system the the page was blurred and inaccessible, with what looked like a Google reCAPTCHA prompt front and center. However, after clicking the "I'm a not a robot" checkbox a very unusual and dangerous set of "Verification Steps" appeared:
 
 > 1. Press and hold the Windows Key + R [which opens a Run dialog]
 > 2. In the verification window press Ctrl + V [which pastes in command(s) that the fake reCAPTCHA has put in the clipboard]
