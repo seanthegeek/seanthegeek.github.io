@@ -14,6 +14,7 @@ tags:
 - PowerShell
 - Malware
 - Emmenhtal
+- Infostealer
 - Lumma Stealer
 date: 2024-12-21 00:51 -0500
 ---
