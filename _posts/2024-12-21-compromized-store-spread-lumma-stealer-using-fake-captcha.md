@@ -209,6 +209,34 @@ Size: 1.3 MB
 - `1ad01aac266e1287050cb7e0fbb5f659449af024ddfbb777c65f713721e2263b`
 - `ed0074c644b448eda3a6fa4b3fd83bdcbebe958cae85b759b1c621cd9162fcc0`
 
+## Update: legitrant.com
+
+A few days after posting this, another Bluesky user [spotted](https://bsky.app/profile/gbl08ma.com/post/3ldxwuppbvk2f) the same fake CAPTCHA on `legitrant.com`, a website that is ironically describes itself as dedicated to documenting online scams. It is another WordPress-powered website, but it is unclear what vulnerability or vulnerabilities are being targeted. I sent an email warning about the compromise and asking for more information. The compromise was remediated soon after, but I did not receive a reply.
+
+![A screenshot of legitrant.com while it was compromised](/assets/images/legitrant.com-fake-captcha.jpg)
+
+The loader, loader domains, and payload were all different, with the same goal of dropping an instance of Lumma stealer:
+
+- First stage loader (named `winwidgitshp.json`, but actually an HTA file): `8c4f272fed7cc1545eff3805aa41e4806ac4fb9d24219e4df7cef27d7af36b18`
+- Second stage loader (named `hbus.xlm`, but is actually a PowerShell script): `9830c0b444cc1d853816c1e72b3c3c2e0fac041a6aaa4b3cb2fa4b9b102f33eb`
+- The Lumma Stealer payload: `b1d672ba06455a8fc1ed57bbaf1a112f2a0a0fce09ff195b0cbc52294a6b9050`
+
+The HTA file is easier to read. The PowerShell file is slightly more obfuscated, but used the same XOR key. The biggest difference is in the payload. The packer changed from Babel to .NET Reactor.
+
+C2 Domains:
+
+- `necklacebudi[.]lat`
+- `crosshuaht[.]lat`
+- `aspecteirs[.]lat`
+- `locketplyxx[.]click`
+- `discokeyus[.]lat`
+- `grannyejh[.]lat`
+- `sustainskelet[.]lat`
+- `rapeflowwj[.]lat`
+- `energyaffai[.]lat`
+- `sustainskelet[.]lat`
+- `locketplyxx[.]click`
+
 ## MITRE ATT&CK techniques
 
 - [T1190: Exploit Public-Facing Application][T1190]
