@@ -29,7 +29,7 @@ Proofpoint does provide aggregate DMARC data about the mail traffic flowing thro
 
 ## Workaround
 
-As a less-than0ideal workaround for this problem, Proofpoint customers can create a Policy Route that matches on message `From` headers that end with their domains, and then create a DMARC policy in Proofpoint that applies to that route and configure the policy to copy any messages that fail DMARC to a separate quarantine folder for later review. That way, they can at least get samples of the emails that failed DMARC, even though they won't show up in third party DMARC analytics solutions.
+As a less-than-ideal workaround for this problem, Proofpoint customers can create a Policy Route that matches on message `From` headers that end with their domains, then create a DMARC policy in Proofpoint that applies to that route, and configure the policy to copy any messages that fail DMARC to a separate quarantine folder for later review. That way, they can at least get samples of the emails that failed DMARC, even though they won't show up in third party DMARC analytics solutions.
 
 ### Create email authentication quarantine folders
 
@@ -134,7 +134,7 @@ Proofpoint provides consultants to help customers to deploy DMARC. My health sys
 
 ### Hosted authentication records
 
-Proofpoint EFD offers the ability to host SPF, DKIM, and DMARC DNS records for a customer's domain and manage them through the EFD UI. This allows EFD administrators (e.g., SecOps/SecArch/email team/Proofpoint consultant, etc.) to make changes without needing full DNS write access, which simplifies changes while reducing risk, and reducing the number of people who would need to be involved in a DNS change. But, it also causes a some vendor lock-in by making it harder to move away from Proofpoint EFD if desired.
+Proofpoint EFD offers the ability to host SPF, DKIM, and DMARC DNS records for a customer's domain and manage them through the EFD UI. This allows EFD administrators (e.g., SecOps/SecArch/email team/Proofpoint consultants, etc.) to make changes without needing full DNS write access, which simplifies changes while reducing risk, and reducing the number of people who would need to be involved in a DNS change. But, it also causes some vendor lock-in by making it harder to move away from Proofpoint EFD if desired.
 
 #### Hosted SPF
 
@@ -152,7 +152,7 @@ The only downside for customers using Hosted SPF is that it becomes more difficu
 
 #### Hosted DKIM
 
-Hosted DKIM works by delegating a domain's `_dkim` subdomain to Proofpoint EFD using `NS` DNS records. Like hosted SPF, this allows DKIM keys to be added to a domain using the EFD UI, but makes moving away from EFD a little more complicated.
+Hosted DKIM works by delegating a domain's `_dkim` subdomain to Proofpoint EFD using `NS` DNS records. Like hosted SPF, this allows DKIM keys to be added to a domain using the EFD UI, but it makes moving away from EFD a little more complicated.
 
 #### Hosted DMARC
 
