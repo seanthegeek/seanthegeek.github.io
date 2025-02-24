@@ -140,7 +140,7 @@ Proofpoint EFD offers the ability to host SPF, DKIM, and DMARC DNS records for a
 
 SPF records are made up of mechanisms. Most of those mechanisms require one or more DNS lookups. However, the SPF standard limits the number of DNS lookups to 10, which can be a problem if you send as many different services that each want to be added to your domain's SPF record.
 
-Hosted SPF in Proofpoint EFS solves this problem by replacing the mechanisms in a domain's SPF record with a single `include` mechanism that looks like this:
+Hosted SPF in Proofpoint EFD solves this problem by replacing the mechanisms in a domain's SPF record with a single `include` mechanism that looks like this:
 
 ```text
 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com
