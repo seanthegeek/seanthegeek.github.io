@@ -128,7 +128,7 @@ with a **Description** of "Emails with a  message header from domain matching on
 
 Here is a detailed breakdown of all of the Proofpoint EFD [features][efd].
 
-## Consultants
+### Consultants
 
 Proofpoint provides consultants to help customers to deploy DMARC. My health system client graciously kept me on as a consultant. We all worked well together, and I got a first-hand look at how EFD and other Proofpoint products work.
 
