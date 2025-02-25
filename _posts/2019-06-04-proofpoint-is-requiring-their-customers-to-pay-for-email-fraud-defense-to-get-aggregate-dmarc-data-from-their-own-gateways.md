@@ -176,7 +176,7 @@ You can create DMARC policy overrides for the email gateway from EFD.
 
 ### DMARC visibility for Microsoft 365
 
-Proofpoint EFD can work even if you use Microsoft as your email gateway and not Proofpoint. This really isn't an added feature, although Proofpoint markets it as one. Every DMARC analytics tool can do this, because unlike Proofpoint's gateway. Microsoft 365 follows the DMARC standard and provides DMARC aggregate reports.
+Proofpoint EFD can work even if you use Microsoft as your email gateway and not Proofpoint. This really is not an added feature, although Proofpoint markets it as one. Every DMARC analytics tool can do this because unlike Proofpoint's gateway, Microsoft 365 follows the DMARC standard and provides DMARC aggregate reports.
 
 ## Impact
 
