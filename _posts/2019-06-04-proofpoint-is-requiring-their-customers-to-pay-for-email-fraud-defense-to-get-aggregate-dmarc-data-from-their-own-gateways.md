@@ -151,7 +151,9 @@ include:%{ir}.%{v}.%{d}.spf.has.pphosted.com
 
 [SPF macros][spf_macros] are used in the `include` mechanism so that Proofpoint servers can dynamically decide if an email should pass SPF based on entries in EFD every time the SPF record is queried. Customers can load as many SPF entries as they want in EFD.
 
-The only downside for customers using Hosted SPF is that it becomes more difficult to stop using Proofpoint EFD if desired. A customer would need to figure out which SPF mechanisms are necessary up to 10 DNS lookups and allow other email sources to be authenticated by DKIM alone, which does not have a limit on the number of sources.
+The only downside for customers using Hosted SPF is that it becomes more difficult to stop using Proofpoint EFD if desired. A customer would need to figure out which SPF mechanisms are necessary up to 10 DNS lookups and allow other email sources to be authenticated by DKIM alone, which does not have a limit on the number of sources. 
+
+Alternatively, SPF macros can be self-hosted using [Expurgate][expurgate].
 
 #### Hosted DKIM
 
@@ -168,6 +170,8 @@ What Proofpoint marketing calls "360-degree visibility" is just visualizations o
 ### Identification of lookalike domains
 
 Proofpoint EFD can identify lookalike domains as they are registered and when emails from those domains are delivered to your users. A nice feature that goes beyond DMARC.
+
+Alternatively, the open source project [openSquat][opensquat] can be used.
 
 ### Supplier risk
 
@@ -198,3 +202,5 @@ Please start honoring DMARC policies by default and sending proper DMARC aggrega
 [spf_macros]: https://www.jamieweb.net/blog/using-spf-macros-to-solve-the-operational-challenges-of-spf/
 [rfc_7489_section_7.0]: https://datatracker.ietf.org/doc/html/rfc7489#section-7
 [efd]:https://www.proofpoint.com/us/products/email-fraud-defense
+[expurgate]: https://github.com/smck83/expurgate
+[opensquat]: https://opensquat.com/
