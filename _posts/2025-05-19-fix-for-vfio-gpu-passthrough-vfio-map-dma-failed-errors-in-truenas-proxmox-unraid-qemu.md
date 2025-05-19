@@ -60,7 +60,7 @@ Next, run this command to apply the change without needing a reboot.
 sudo sysctl -p
 ```
 
-Then try running the VM. Increase the number of hugepages as needed until the VM boots successfully. I found that I needed to set `vm.nr_hugepages=512` to successfully boot a VM with 64 GB of system RAM with a GPU passed through that has 12 GB of VRAM. Once you have found a value that works, write it to a `sysctl` configuration file so the change is applied at boot, like this:
+Then try running the VM. Increase the number of hugepages as needed until the VM boots successfully. I found that I needed to set `vm.nr_hugepages=4096` to successfully boot a VM with 64 GB of system RAM with a GPU passed through that has 12 GB of VRAM. Once you have found a value that works, write it to a `sysctl` configuration file so the change is applied at boot, like this:
 
 ```bash
 sudo cat vm.nr_hugepages=4096 > /etc/sysctl.d/10-hugepages.conf
