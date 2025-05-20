@@ -14,7 +14,7 @@ tags:
   - IPMI
 date: 2025-05-20 17:05 -0400
 ---
-I have a used Dell PowerEdge R730xd server in my basement running TrueNAS. The R70XD is a storage server that was originally launched in 2014. I use it mostly for storage and running a few virtual machines. Recently, I decided to add a refurbished Nvidia A5000 GPU so I could play around with LLMs and other AI tech in a VM with the GPU [passed through](posts/fix-for-vfio-gpu-passthrough-vfio-map-dma-failed-errors-in-truenas-proxmox-unraid-qemu/). As soon as the OS booted all of the fans sped up to 100% even though the system was just idling. A very helpful [YouTube video](https://www.youtube.com/watch?v=8wRFUxs3tPQ) by MadTc Tech explains how to fix this. I'm documenting the steps here on my blog so they are handy for me without needing to watch a 6 minute video, and for safekeeping if that video every disappears.
+I have a used Dell PowerEdge R730xd server in my basement running TrueNAS. The R70XD is a storage server that was originally launched in 2014. I use it mostly for storage and running a few virtual machines. Recently, I decided to add a refurbished Nvidia A5000 GPU so I could play around with LLMs and other AI tech in a VM with the GPU [passed through](/posts/fix-for-vfio-gpu-passthrough-vfio-map-dma-failed-errors-in-truenas-proxmox-unraid-qemu/). As soon as the OS booted all of the fans sped up to 100% even though the system was just idling. A very helpful [YouTube video](https://www.youtube.com/watch?v=8wRFUxs3tPQ) by MadTc Tech explains how to fix this. I'm documenting the steps here on my blog so they are handy for me without needing to watch a 6 minute video, and for safekeeping if that video every disappears.
 
 ## Ensure IPMI is Enabled in iDRAC
 
