@@ -18,7 +18,7 @@ I have a used Dell PowerEdge R730xd server in my basement running TrueNAS. The R
 
 ## Ensure IPMI is Enabled in iDRAC
 
-The solution presented by MadTc Tech uses the (Integrated Dell Remote Access Controller (iDRAC))[Integrated Dell Remote Access Controller (iDRAC)] and [Intelligent Platform Management Interface (IPMI)](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface) to reconfigure the fan profiles.
+The solution presented by MadTc Tech uses the (Integrated Dell Remote Access Controller (iDRAC))[Integrated Dell Remote Access Controller (iDRAC)](https://www.dell.com/en-us/lp/dt/open-manage-idrac) and [Intelligent Platform Management Interface (IPMI)](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface) to reconfigure the fan profiles.
 
 First, access iDRAC via a web browser at the IP address assigned to the iDRAC network interface of the server. This IP address is displayed at he BIOS startup screen.
 
