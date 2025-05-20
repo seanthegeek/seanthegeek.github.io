@@ -47,7 +47,7 @@ Then run `.\ipmitool.exe` with different command line arguments, depending on wh
 Run this command to stop to system fans from running at 100% when a third-party graphics card is installed.
 
 ```powershell
-.\ipmitool -I lanplus -H $IPADDRESS -U $USERNAME$ -P $PASSWORD raw 0x30 0xce 0x00 0x16 0x05 0x00 0x00 0x00 0x05 0x00 0x01 0x00 0x00
+.\ipmitool -I lanplus -H $IPADDRESS -U $USERNAME -P $PASSWORD raw 0x30 0xce 0x00 0x16 0x05 0x00 0x00 0x00 0x05 0x00 0x01 0x00 0x00
 ```
 
 ### Set Third-Party PCIe Card Default Cooling Response Logic To Enabled
@@ -55,7 +55,7 @@ Run this command to stop to system fans from running at 100% when a third-party 
 Ren this command to restore the default behavior (I don't know why you would).
 
 ```powershell
-.\ipmitool -I lanplus -H $IPADDRESS -U $USERNAME$ -P $PASSWORD raw 0x30 0xce 0x00 0x16 0x05 0x00 0x00 0x00 0x05 0x00 0x00 0x00 0x00 
+.\ipmitool -I lanplus -H $IPADDRESS -U $USERNAME -P $PASSWORD raw 0x30 0xce 0x00 0x16 0x05 0x00 0x00 0x00 0x05 0x00 0x00 0x00 0x00 
 ```
 
 ### Get Third-Party PCIe Card Default Cooling Response Logic Status
@@ -63,7 +63,7 @@ Ren this command to restore the default behavior (I don't know why you would).
 Use this command to get the setting status.
 
 ```powershell
-.\ipmitool -I lanplus -H $IPADDRESS -U $USERNAME$ -P $PASSWORD raw 0x30 0xce 0x01 0x16 0x05 0x00 0x00 0x00
+.\ipmitool -I lanplus -H $IPADDRESS -U $USERNAME -P $PASSWORD raw 0x30 0xce 0x01 0x16 0x05 0x00 0x00 0x00
 ```
 
 The response data is:
