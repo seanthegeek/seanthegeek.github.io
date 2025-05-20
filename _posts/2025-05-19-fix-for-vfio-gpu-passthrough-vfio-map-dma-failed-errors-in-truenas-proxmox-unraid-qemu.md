@@ -19,6 +19,7 @@ tags:
   - Nvidia
   - Hugepages
 ---
+
 I wanted to passthrough a GPU to a Nvidia GPU (specifically an A5000) to VM on TrueNAS SCALE so I could try out some local LLMs. I properly [isolated the GPU](https://www.truenas.com/docs/scale/25.04/scaletutorials/systemsettings/advanced/managegpuscale/) so the host OS didn't try to use it, edited the VM, and set the GPU to the isolated GPU. But, when I tried to start the VM I got a long pause and an error like this:
 
 ```text
