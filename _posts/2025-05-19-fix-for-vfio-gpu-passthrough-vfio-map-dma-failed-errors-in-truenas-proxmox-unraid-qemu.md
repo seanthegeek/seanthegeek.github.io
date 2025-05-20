@@ -31,7 +31,7 @@ vfio 0000:82:00.1: failed to setup container for group XX: memory listener initi
 
 After lots of poking around on the internet, I've found that the this error is due to the OS trying and failing to map a large amount of memory for the VM and the GPU.
 
-To fix this, you either need to reduce the amount of system memory dedicated to the VM, or use hugepages to reserve an amount of system memory for mapping peruses by configuring the kernel option `vm.nr_hugepages` on the host system.
+To fix this, you either need to reduce the amount of system memory dedicated to the VM, or use hugepages to reserve an amount of system memory for mapping purposes by configuring the kernel option `vm.nr_hugepages` on the host system.
 
 Hugepages come in 2 MB chunks by default on most systems. So, the formula is:
 
