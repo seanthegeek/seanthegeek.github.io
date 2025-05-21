@@ -2,7 +2,7 @@
 layout: post
 title: How to fix a broken UEFI GRUB bootloader in TrueNAS/Proxmox/Unraid/QEMU VMs
 date: 2025-05-20 19:22 -0400
-description: Navigation of the VM's BIOS menu and a few Linux commands will fix it
+description: Navigation of the VM's BIOS menu and a Linux command will fix it
 image:
   path: /assets/images/uefi-interactive-shell-prompt.webp
   description: A screenshot of the UEFI interactive shell prompt
