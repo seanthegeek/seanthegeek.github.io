@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Bluesky domain verification works
-description: The account verification method on Bluesky is simple and transparent – but it comes with some major drawbacks
+description: The domain verification method on Bluesky is simple and transparent – but it comes with some major drawbacks
 image:
   path: /assets/images/bluesky-logo.webp
   alt: The Bluesky logo
