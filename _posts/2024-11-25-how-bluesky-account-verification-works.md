@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Bluesky account verification works
+title: How Bluesky domain verification works
 description: The account verification method on Bluesky is simple and transparent – but it comes with some major drawbacks
 image:
   path: /assets/images/bluesky-logo.webp
@@ -9,6 +9,9 @@ categories: ["Guides"]
 tags: ["Bluesky"]
 date: 2024-11-25 10:35 -0500
 ---
+
+> Bluesky launched a [new form of verification](https://bsky.social/about/blog/04-21-2025-verification) on April 21st, 2025 that provides a blue check to notable accounts and allows trusted organizations to verify other accounts. It is still possible to set your handle to a domain name as described below.
+{: .prompt-tip}
 
 Starting out, all Bluesky account handles end with `.bsky.social`. News organizations, businesses, non-profits, politicians, lawyers, celebrities, podcast hosts, bloggers, and others often have official websites that are easy to recognize. Bluesky allows any user that owns a domain name (e.g., `example.com`) or subdomain to use that domain name as their account handle. The result is easily identifiable [verified accounts](https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial) like [@wyden.senate.gov](https://bsky.app/profile/wyden.senate.gov), [@cnn.com](https://bsky.app/profile/cn.com), [@npr.org](https://bsky.app/profile/npr.org), [@washingtonpost.com](https://bsky.app/profile/washingtonpost.com), and [@arstechnica.com](https://bsky.app/profile/arstechnicia.com).
 
@@ -44,9 +47,9 @@ Someone could register a domain that is similar to the official one using a typo
 
 ### Not everyone has their own website
 
-Mark Hamill is an example of a celebrity who does not have his own website, so Bluesky's account verification method won't work for him. [As he has pointed out](https://bsky.app/profile/markhamillofficial.bsky.social/post/3lbpyd7qbkc2z), a lot of accounts are impersonating him on Bluesky.
+Mark Hamill is an example of a celebrity who does not have his own website, so Bluesky's domain verification method won't work for him. [As he has pointed out](https://bsky.app/profile/markhamillofficial.bsky.social/post/3lbpyd7qbkc2z), a lot of accounts are impersonating him on Bluesky.
 
-## How to verify your account
+## How to verify your domain
 
 In Bluesky, go to Settings> Account> Handle, then click “I have my own domain”. Two different methods can be used.
 
