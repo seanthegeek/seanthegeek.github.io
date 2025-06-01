@@ -34,7 +34,7 @@ In this guide, we'll use [certbot](https://certbot.eff.org/) as the ACME client 
 To make this architecture work, you'll need:
 
 - A registered domain name pointed to DNS nameservers [supported by certbot](https://eff-certbot.readthedocs.io/en/stable/using.html#dns-plugins)
-- A [DNS server](https://en.wikipedia.org/wiki/Comparison_of_DNS_server_software) on your local network that hosts with non-authoritative DNS zones that point to internal IP addresses
+- A [DNS server](https://en.wikipedia.org/wiki/Comparison_of_DNS_server_software) on your local network that hosts non-authoritative DNS zones that point to internal IP addresses
   - Many firewalls have the ability to configure an internal DNS server
   - Alternatively, the hostnames could be added to the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) of the edge webserver
   - A static public IP address or a [dynamic DNS](https://www.howtogeek.com/866573/what-is-dynamic-dns-ddns-and-how-do-you-set-it-up/) hostname pointing to a dynamic public IP address
