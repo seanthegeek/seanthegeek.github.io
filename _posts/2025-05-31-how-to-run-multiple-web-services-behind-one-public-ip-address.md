@@ -20,7 +20,7 @@ One of the most popular use cases for nginx (pronounced Engine X) is to to act a
 
 Let's Encrypt is a Certificate Authority (CA) that issues free TLS certificates. It uses the [ACME protocol](https://datatracker.ietf.org/doc/html/rfc8555) to verify control of a domain before issuing a certificate. There are two methods of verification: the HTTP challenge and the DNS challenge.
 
-In the HTTP challenge, the ACME client temporally places a file at a path specified by the ACME server under `/.well-known/acme-challenge/`. The ACME server then checks if this file and issues the certificate if it exists.
+In the ACME HTTP challenge, the ACME client temporally places a file at a path specified by the ACME server under `/.well-known/acme-challenge/`. The ACME server then checks if this file and issues the certificate if it exists.
 
 In the ACME DNS challenge, the ACME client temporally adds a `TXT` DNS record to the domain at `_acme-challenge`, waits a few seconds for the DNS changes to propagate, then the ACME server checks if the record exists before issuing the certificate.
 
