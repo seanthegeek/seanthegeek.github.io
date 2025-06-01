@@ -177,7 +177,7 @@ Save the file, then run
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable openwebui.service
-sudo service parsedmarc start
+sudo service openwebui start
 ```
 
 This systend service is designed to pull the latest images every time it starts and restarts, so it might take a few minutes to start or restart. That is normal.
