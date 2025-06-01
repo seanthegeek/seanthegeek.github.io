@@ -38,7 +38,7 @@ To make this architecture work, you'll need:
   - Many firewalls have the ability to configure an internal DNS server
   - Alternatively, the hostnames could be added to the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) of the edge webserver
   - A static public IP address or a [dynamic DNS](https://www.howtogeek.com/866573/what-is-dynamic-dns-ddns-and-how-do-you-set-it-up/) hostname pointing to a dynamic public IP address
-    - Some firewalls/router manufacturers offer their own Dynamic DNS service for free
+    - Some firewalls/router manufacturers offer their own dynamic DNS service for free
 
 Configure your hostnames for all web applications in both internal and external DNS zones, even if they are internal-only applications.
 
