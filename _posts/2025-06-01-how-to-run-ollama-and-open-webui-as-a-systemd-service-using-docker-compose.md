@@ -157,6 +157,8 @@ Requires=docker.service network-online.target
 WorkingDirectory=/opt/openwebui
 Type=oneshot
 RemainAfterExit=yes
+user=docker
+group=docker
 
 ExecStartPre=/usr/bin/docker compose pull --quiet
 ExecStart=/usr/bin/docker compose up -d
