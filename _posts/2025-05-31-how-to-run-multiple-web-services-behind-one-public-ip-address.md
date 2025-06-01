@@ -18,9 +18,11 @@ One of the most popular use cases for nginx (pronounced Engine X) is to to act a
 
 ## Let's Encrypt
 
-Let's Encrypt is a Certificate Authority (CA) that issues free TLS certificates. It uses the [ACME protocol](https://datatracker.ietf.org/doc/html/rfc8555) to verify control of a domain before issuing a certificate. There are two methods of verification: the HTTP challenge and the DNS challenge. For the HTTP challenge, the ACME client temporally places a file at a path specified by the ACME server under `/.well-known/acme-challenge/`. The ACME server then checks if this file and issues the certificate if it exists.
+Let's Encrypt is a Certificate Authority (CA) that issues free TLS certificates. It uses the [ACME protocol](https://datatracker.ietf.org/doc/html/rfc8555) to verify control of a domain before issuing a certificate. There are two methods of verification: the HTTP challenge and the DNS challenge.
 
-In DNS challenge, the ACME client temporally adds a `TXT` DNS record to the domain at `_acme-challenge`, waits a few seconds for the DNS changes to propagate, then the ACME server checks if the record exists before issuing the certificate.
+In the HTTP challenge, the ACME client temporally places a file at a path specified by the ACME server under `/.well-known/acme-challenge/`. The ACME server then checks if this file and issues the certificate if it exists.
+
+In the ACME DNS challenge, the ACME client temporally adds a `TXT` DNS record to the domain at `_acme-challenge`, waits a few seconds for the DNS changes to propagate, then the ACME server checks if the record exists before issuing the certificate.
 
 In this guide, we'll use [certbot](https://certbot.eff.org/) as the ACME client to verify domains on the edge webserver using DNS, and via HTTP on the application webservers. If a web application needs to be public facing, we'll configure the edge webserver to proxy all web traffic for that domain to the application server. But, if a web a web application is for internal use only, we'll configure the edge webserver to only forward traffic for the ACME HTTP verification path and return `HTTP 404 Not Found` for any other path. This architecture has a few advantages. Credentials for modifying DNS records are only located on one webserver, rather than every webserver, even if a web application is not public facing, and internal only applications can use the HTTP challenge without the application being publicly exposed.
 
@@ -154,3 +156,7 @@ Run the same command on each application server. The HTTP challenge request shou
 ## Update the edge web server to proxy using HTTPS
 
 Once an application server has successfully passed the HTTP challenge and obtained a TLS certificate, change the corresponding nginx configuration on the edge web server for that application to use `https` instead of `http` in the `proxy_pass` option and restart or reload nginx. Otherwise, a redirect loop will occur, resulting in a `Too many redirects` error.
+
+## Enhance security with network segmentation
+
+If your networking equipment supports network segmentation (i.e., VLANs), you can enhance security by placing each of the application servers in separate VLANs/zones, then place the edge web server in its own DMZ/zone, and add firewall rules to allow it to communicate with the upstream webservers. That way. if a web application is compromised, the attackers cannot move directly to another application or your internal network.
