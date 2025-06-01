@@ -5,7 +5,7 @@ date: 2025-05-19 17:16 -0400
 description: To fix VFIO_MAP_DMA errors, reduce VM RAM allocation or configure hugepages on the host
 image:
   path: /assets/images/truenas-qemu-vm-memory-error.webp
-  description: A screenshot of a VFIO_MAP_DMA error error when trying to boot a QEMU VM with an attached GPU in TrueNAS
+  alt: A screenshot of a VFIO_MAP_DMA error error when trying to boot a QEMU VM with an attached GPU in TrueNAS
 categories:
   - Guides
 tags:
