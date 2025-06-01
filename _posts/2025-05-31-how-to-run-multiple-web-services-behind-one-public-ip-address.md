@@ -24,7 +24,10 @@ In the ACME HTTP challenge, the ACME client temporally places a file at a path s
 
 In the ACME DNS challenge, the ACME client temporally adds a `TXT` DNS record to the domain at `_acme-challenge`, waits a few seconds for the DNS change to propagate, then the ACME server checks if that record exists before issuing the certificate.
 
-In this guide, we'll use [certbot](https://certbot.eff.org/) as the ACME client to verify domains on the edge webserver using DNS, and via HTTP on the application webservers. If a web application needs to be public facing, we'll configure the edge webserver to proxy all web traffic for that domain to the application server. But, if a web a web application is for internal use only, we'll configure the edge webserver to only forward traffic for the ACME HTTP verification path and return `HTTP 404 Not Found` for any other path. This architecture has a few advantages. Credentials for modifying DNS records are only located on one webserver, rather than every webserver, even if a web application is not public facing, and internal only applications can use the HTTP challenge without the application being publicly exposed.
+In this guide, we'll use [certbot](https://certbot.eff.org/) as the ACME client to verify domains on the edge webserver using DNS, and via HTTP on the application webservers. If a web application needs to be public facing, we'll configure the edge webserver to proxy all web traffic for that domain to the application server. But, if a web a web application is for internal use only, we'll configure the edge webserver to only forward traffic for the ACME HTTP verification path and return `HTTP 404 Not Found` for any other path. This architecture has a few advantages.
+
+- Credentials for modifying DNS records are only located on one webserver, rather than every webserver
+- internal only applications can use the HTTP challenge without the application being publicly exposed
 
 ## DNS configuration
 
