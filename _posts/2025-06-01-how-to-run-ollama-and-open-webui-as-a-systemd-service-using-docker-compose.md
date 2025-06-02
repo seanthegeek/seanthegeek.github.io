@@ -49,7 +49,7 @@ Plus, I wanted to learn more about Docker anyway.
 
 Using Docker for this does have a couple of disadvantages.
 
-Docker can only use Nvidia GPUs, and a GPU must be reserved by a container, and cannot be shared across multiple Docker containers. That said, the GPU is still usable by the host outside of Docker. For example, I can run Stable Diffusion projects on the host outside of Docker when the GPU is reserved by ba Docker container but is not actively in use.
+Docker can only use Nvidia GPUs, and the GPU must be reserved by a container, so the GPU cannot be shared across multiple Docker containers. That said, the GPU is still usable by the host outside of Docker. For example, I can run Stable Diffusion projects on the host outside of Docker when the GPU is reserved by ba Docker container but is not actively in use.
 
 See the [Docker documentation](https://docs.docker.com/compose/how-tos/gpu-support/) for more details.
 
