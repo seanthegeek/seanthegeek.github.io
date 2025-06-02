@@ -19,13 +19,18 @@ I wanted to get started running Large Language Models (LLMs) on my own hardware 
 
 ## What you'll need
 
-- A [Turing](https://en.wikipedia.org/wiki/Turing_(microarchitecture)) generation or newer Nvidia GPU
+- A [Turing](https://en.wikipedia.org/wiki/Turing_(microarchitecture))
 - A Linux distribution on bare metal or on a VM with the GPU passed through
 - The open source [Nvidia drivers](https://developer.nvidia.com/blog/nvidia-transitions-fully-towards-open-source-gpu-kernel-modules/)
   - `sudo apt-get install nvidia-open` on Debian-based distributions like Ubuntu
   - `sudo dnf module install nvidia-driver:open-dkms` on RHEL-based distributions
 - [Docker](https://docs.docker.com/engine/install/)
 - The [Nvidia Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+
+GPUs with more video memory can use larger AI models, so a card with 24 GB of video memory or more is ideal. But even cards with a small amount of VRAM can can run small models like Gemma 3 1B (a text-only model with one billion parameters).
+
+> Check for used or refurbished older models with high amounts of VRAM like the GeForce RTX 3090 or RTX A5000 on sites like eBay and serverpartdeals.com.
+{: .prompt-tip }
 
 ## Why use Docker for Ollama?
 
@@ -72,7 +77,8 @@ services:
     ports:
       - "127.0.0.1:11434:11434"
     volumes:
-      - ollama:/root/.ollama
+      - ollama:/root/.ollama # Used for Ollama backend storage
+      # Used for building and testing custom models
       - type: bind
         source: ./ollama_custom
         target: /root/custom
@@ -113,7 +119,7 @@ volumes:
 - `restart: unless-stopped`:  Ensures the container automatically restarts if it stops, unless you explicitly stop it.
 - `ports: - "127.0.0.1:11434:11434"`: Exposes port `11434` of the container to port `11434` on your local machine'a loopback interface. This is the standard port used by Ollama for communication.
 - `volumes: - ollama:/root/.ollama`:  This is crucial for persisting Ollama’s configuration and downloaded models.  It creates a named volume called `ollama` which mounts to `/root/.ollama` inside the container. This means that even if you stop or remove the container, your downloaded models and settings will be preserved.
-- `volumes: - type: bind source: ./ollama_custom target: /root/custom`: This uses a *bind mount* to link a local directory named `ollama_custom` to `/root/custom` inside the container. I use this directory to store custom models for building and testing.
+- `volumes: - type: bind source: ./ollama_custom target: /root/custom`: This uses a *bind mount* to link a local directory named `ollama_custom` to `/root/custom` inside the container. I use this directory to build custom models for testing.
 - `environment: OLLAMA_HOST: 0.0.0.0`: This sets the `OLLAMA_HOST` environment variable to `0.0.0.0`.  By default, Ollama will only listen for connections from `127.0.0.1`. Setting this to `0.0.0.0` makes the Ollama server accessible from *other* containers on the same Docker network, which is necessary for Open WebUI to connect to Ollama.
 - `deploy`: This section reserves one GPU for the `ollama` container.
 
