@@ -238,6 +238,9 @@ To share access with others, click on your initials in the top right, then click
 > Open WebUI supports different authentication methods, such as LDAP and Okta. See the documentation for more details.
 {: .prompt-tip }
 
+> Unless the environment variable `ENABLE_ADMIN_CHAT_ACCESS` is set to `False`, administrators can read the chats of other users by clicking on the user in the Admin Panel. See [the documentation](https://docs.openwebui.com/getting-started/env-configuration/) a full list of configuration environment variables.
+{: .prompt-warning }
+
 ### Granting access to models
 
 Out of the box, users you add won't have access to any models because all models have their visibility set to `Private` by default, meaning only those with explicit access other than admins can see the model. There are two ways to fix this:
