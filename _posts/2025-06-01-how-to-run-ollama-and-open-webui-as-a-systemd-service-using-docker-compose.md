@@ -55,7 +55,7 @@ See the [Docker documentation](https://docs.docker.com/compose/how-tos/gpu-suppo
 
 ## Docker Compose configuration
 
-With that covered, let's get started, First, create some directories.
+With that covered, let's get started. First, create some directories.
 
 ```bash
 sudo mkdir /opt/openwebui
