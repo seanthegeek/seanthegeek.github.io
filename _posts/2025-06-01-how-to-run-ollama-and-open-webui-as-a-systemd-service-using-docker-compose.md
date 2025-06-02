@@ -19,7 +19,7 @@ I wanted to get started running Large Language Models (LLMs) on my own hardware 
 
 ## What you'll need
 
-- A [Turing](https://en.wikipedia.org/wiki/Turing_(microarchitecture))
+- A [Turing](https://en.wikipedia.org/wiki/Turing_(microarchitecture)) generation or newer Nvidia GPU
 - A Linux distribution on bare metal or on a VM with the GPU passed through
 - The open source [Nvidia drivers](https://developer.nvidia.com/blog/nvidia-transitions-fully-towards-open-source-gpu-kernel-modules/)
   - `sudo apt-get install nvidia-open` on Debian-based distributions like Ubuntu
