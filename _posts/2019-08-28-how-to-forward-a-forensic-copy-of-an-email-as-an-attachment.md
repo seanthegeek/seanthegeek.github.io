@@ -69,7 +69,7 @@ In order to send a full forensic sample that includes the original message heade
   2. Save it to a file by going to the File > Save As menu item
   3. Attach the file to a new email and send it
 
-## Outlook.com/Office 365 webmail
+## Outlook.com/Microsoft 365 webmail
 
   1. Open the web mail in two browser windows
   2. Create a new email in one browser window
