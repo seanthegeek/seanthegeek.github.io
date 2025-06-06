@@ -28,8 +28,12 @@ In order to send a full forensic sample that includes the original message heade
 
   1. In the list of emails in your in inbox or folder, right click on the message (not in the message itself)
   2. Click View Message Source
-  3. Select the entire raw message content, copy it, paste it into an empty text editor, and save the file with a .eml file extension
-  4. Attach the file to a new email, and send it
+  3. Select the entire raw message content, right click on it, and click Copy (Ctrl+C)
+  4. Open the Start Menu, search for Notepad, and click on it
+  5. Right click in blank space in the editor and click Paste (Ctrl+V)
+  6. In the menu bar, click File> Save, or press (Ctrl+S)
+  7. Change the `Save as Type` to `All Files (*.*)`, use a filename ending in `.eml` , and click Save
+  8. Attach the file to a new email, and send it
 
 ## Apple Mail on macOS
 
@@ -84,7 +88,9 @@ In order to send a full forensic sample that includes the original message heade
   2. Drag the message you want to forward from the messages list and drop it in the blank message body
   3. Fill in the To field, and click Send
 
-## ProtonMail webmail
+## Proton webmail
+
+Formerly known as ProtonMail.
 
   1. Open the message you want to forward
   2. Click on the down arrow, to the tight of the forward button
@@ -107,7 +113,11 @@ In order to send a full forensic sample that includes the original message heade
 
 ## Yahoo webmail
 
-  1. Open the  message
+  1. Open the message
   2. Click on the three horizontal dots in the upper right, and click View Raw Message
-  3. Select the entire raw message content, copy it, paste it into an empty text editor, and save the file with a .eml file extension
-  4. Attach the file to a new email, and send it
+  3. Select the entire raw message content, right click on it, and click Copy (Ctrl+C)
+  4. Open the Start Menu, search for Notepad, and click on it
+  5. Right click in blank space in the editor and click Paste (Ctrl+V)
+  6. In the menu bar, click File> Save, or press (Ctrl+S)
+  7. Change the `Save as Type` to `All Files (*.*)`, use a filename ending in `.eml` , and click Save
+  8. Attach the file to a new email, and send it
