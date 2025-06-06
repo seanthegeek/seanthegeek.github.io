@@ -107,7 +107,7 @@ In order to send a full forensic sample that includes the original message heade
 
 ## Yahoo webmail
 
-  1. Open the the message
+  1. Open the  message
   2. Click on the three horizontal dots in the upper right, and click View Raw Message
   3. Select the entire raw message content, copy it, paste it into an empty text editor, and save the file with a .eml file extension
   4. Attach the file to a new email, and send it
