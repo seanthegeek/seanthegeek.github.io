@@ -6,7 +6,6 @@ seo_title: How to forward email as an attachment - seanthegeek.net
 description: Step-by-step instructions on how to many popular mail and webmail clients
   to properly forward emails as attachments with forensic headers intact
 date: 2019-08-28 00:36:19 -0000
-last_modified_at: 2022-01-19 20:50:36 -0000
 publish: true
 pin: false
 image:
