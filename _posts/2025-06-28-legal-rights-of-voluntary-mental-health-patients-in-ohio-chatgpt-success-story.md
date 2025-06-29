@@ -21,7 +21,7 @@ Recently, a family friend called my mother with an urgent problem. Her adult dau
 
 I thought this kind of research would be perfect for AI, but I knew that I shouldn't depend on my [local Large Language Models (LLMs)][ollama] for something this urgent, especially when Gemma3 ia more likely to make things up than other models, so I turned to ChatGPT.
 
-I explained the situation to ChatGPT, and told it to provide sources, then I checked the sources of the output. Impressively, when I told ChatGPT that one of its legal citations was incorrect, it apologized, searched the web, found the correct citation, provided sources, and offered to draft letters.
+I explained the situation to ChatGPT, and told it to provide sources, then I checked the sources of the output. Impressively, when I told ChatGPT that one of its legal citations was incorrect it searched the web, found the correct citation, provided sources, and updated the draft letters.
 
 ![Screenshot of ChatGPT's response when I pointed out out the mistake](/assets/images/chatgpt-ohio-code-correction.webp)
 
