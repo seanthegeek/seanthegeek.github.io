@@ -191,7 +191,7 @@ Olesandr Didenko, also known as Alexander Didenko is a Ukrainian national last k
 
 > As explained further herein, evidence collected during the investigation reveals that DIDENKO manages as many as approximately 871 proxy identities, provides proxy accounts for 3 freelance IT hiring platforms, and provides proxy accounts for 3 different MSTs. In coordination with co-conspirators, DIDENKO facilitates the operation of at least 3 US.-based “laptop farms” hosting approximately 79 computers. DIDENKO’s 3 MST accounts, which he uses to send and receive funds in furtherance of the scheme, have received approximately $920,000 in U.S.D. payments since July 2018.
 
-The complaint against Didenko includes excerpts of chats, which include mentions of Christina Chapman and North Korea. The complaint mentions other laptop farms, so if Didenko decides to cooperate in a plea deal, we could see many more arrests.
+The complaint against Didenko includes excerpts of chats, which include mentions of Christina Chapman and North Korea. The complaint mentions other laptop farms, so if Didenko decides to cooperate in a plea deal, (or not) we could see many more arrests.
 
 Didenko was arrested on December 31, 2024. His plea hearing is currently scheduled for September 17, 2025, at 2:00 p.m. in Courtroom 8.
 
