@@ -13,7 +13,7 @@ categories:
   - National Security
 tags:
   - North Korea 
-date: 2025-08-08 17:41 -0400 
+date: 2025-08-08 17:41 -0400
 ---
  The government of North Korea, formally known as the Democratic People's Republic of Korea (DPRK) wants to continue its nuclear weapons program despite US and UN sanctions. To do that it needs lots of money, which is difficult to come by if most of the world has you under sanction. To work around this, the DPRK has trained some of its people in IT skills, and then used fake, borrowed, or stolen identities to get them high-paying jobs around the world. The proceeds from these jobs are then laundered and funneled into North Korea's weapons program. To pull this off, they need help from a variety of others. They need someone who can pass an interview and people to help forge identification documents. Once one of their personas are hired, they need people in the US to run laptop farms. These facilitators receive the victim company's laptop, host it at their residence, and configure remote access software (e.g., Anydesk, TeamViewer, or Splashtop Streamer) or hardware such as a KVM over IP device, to allow the DPRK workers to appear to be working in the US.
 
