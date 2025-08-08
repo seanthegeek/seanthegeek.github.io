@@ -90,7 +90,7 @@ Ashtor allegedly used a company that he fraudulently created, Vali Tech Inc., to
 
 ![A photo of a fake US passport for K.Bane](/assets/images/fake-us-passport-for-k-bane.webp)
 
-The trial for Erick Ntekereze Prince and Emanuel Ashtor is [currently scheduled](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.48.0_1.pdf) for October 6, 2025.
+The trial for Erick Ntekereze Prince and Emanuel Ashtor is [currently scheduled](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.48.0_1.pdf) for October 6, 2025 at 400 North Miami Avenue, Courtroom 11-1, Miami, Florida.
 
 They face charges of:
 
