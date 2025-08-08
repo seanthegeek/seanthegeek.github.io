@@ -160,7 +160,7 @@ He was charged with:
 5. Aggravated Identity Theft
 6. Conspiracy to Cause the Unlawful Employment of Aliens
 
-As you first start reading [the indictment](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.3.0_3.pdf), you might consider it to be a leap a guy just setting up laptops was involved in the overall conspiracy. Indeed, Knoot attorney  makes this argument [in his motion to dismiss](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.76.0.pdf) counts 1, 4, 5, and 6.
+As you first start reading [the indictment](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.3.0_3.pdf), you might consider it to be a leap a guy just setting up laptops was involved in the overall conspiracy. Indeed, Knoot's attorney makes this argument [in his motion to dismiss](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.76.0.pdf) counts 1, 4, 5, and 6.
 
 > The Government claims that Matthew Knoot committed, conspired to commit, or aid-and abetted the commission of no less than six crimes, including computer fraud, wire fraud, money laundering, aggravated identity theft, and unlawful employment of an unauthorized alien.
 >
