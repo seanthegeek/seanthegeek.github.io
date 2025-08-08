@@ -205,7 +205,7 @@ He faces charges of:
 2. Conspiracy to Defraud the United States ([18:371])
 3. Conspiracy to Falsely Represent to be a Citizen of the United States ([18:911], [371][18:371])
 4. Aggravated Identity Theft ([18:2] and [1028][18:1028]A(a)(1))
-5. Conspiracy to Commit Fraud and Related Activity in Connection with Identification Documents ([18:1028](a)(7), (b)(1)(D), (c)(3)(A), & (f))
+5. Conspiracy to Commit Fraud and Related Activity in Connection with Identification Documents ([18:1028]\(a)(7), (b)(1)(D), (c)(3)(A), & (f))
 6. Conspiracy to Cause Unlawful Employment of Aliens ([18:371] and [8:1324]a(a)(1)(A) and [1324a]1324A(f)(1))
 7. Conspiracy to Launder Monetary Instruments ([18:1956][18:1956](a)(1)(B)(i) & (h))
 8. Conspiracy to Launder Monetary Instruments ([18:1956][18:1956](a)(1)(B)(i) & (h))
