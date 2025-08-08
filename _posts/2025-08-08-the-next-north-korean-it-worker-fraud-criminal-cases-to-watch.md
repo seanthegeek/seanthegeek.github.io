@@ -113,7 +113,7 @@ In this case, 14 North Korean IT workers are [accused of](https://storage.courtl
 
 > Throughout the approximately six-year conspiracy, the defendants and their  conspirators employed by Yanbian Silverstar and Volasys Silverstar fraudulently possessed and used the identities of hundreds of U.S. persons to generate at least $88 million in illicit revenue for the DPRK.
 
-The incitement make it clear how important US persons were as facilitators of the conspiracy.
+The incitement makes it clear how important US persons were as facilitators of the conspiracy.
 
 > The conspirators pretended to be U.S. persons seeking remote IT work by using  stolen, borrowed, or purchased identities. In some instances, to better hide their identities and  obtain employment, the conspirators paid U.S. persons and others to appear in their place at  interviews and provided direction and guidance to the U.S. persons during the interviews. After  being hired, the conspirators paid U.S. persons and others to receive and maintain laptops that  were provided by U.S. businesses. By using U.S. persons to interview in their place and to host employer-provided laptops, the conspirators created the false appearance that employers had hired  U.S. persons who were performing work from within the United States.
 
