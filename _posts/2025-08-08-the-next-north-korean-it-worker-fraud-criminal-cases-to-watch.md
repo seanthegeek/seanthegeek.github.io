@@ -48,14 +48,14 @@ Query: ("Democratic People's Republic of Korea" OR DPRK OR "North Korea") ("Info
 Case Name: "United States v."
 ```
 
-> As a side-effect, this query also picked up cases against property rather than people, known as _in rem_ (pronounced race) jurisdiction cases; things like email accounts and cryptocurrency. These cases are usually related to North Korea's ransomware activities, which are not covered in this article. I decided not to filter out _in rem_ cases in the above search query out of curiosity.
+> As a side-effect, this query also picked up cases against property rather than people, known as _in rem_ (pronounced race) jurisdiction cases; things like email accounts and cryptocurrency. These cases are usually related to North Korea's ransomware activities, which are not covered in this post. I decided not to filter out _in rem_ cases in the above search query out of curiosity.
 {: .prompt-info }
 
 While looking though the results, I found another case, [_United States v. Vong_](https://www.justice.gov/opa/pr/maryland-man-pleads-guilty-conspiracy-commit-wire-fraud), that while technically newer than _Chapman_ ended with a plea agreement before the _Chapman_ plea agreement, likely because only one charge was ever involved, Conspiracy to Commit Wire Fraud.
 
 [Docket](https://www.courtlistener.com/docket/68814692/united-states-v-vong/)
 
-Now, finally, onto the content that I promised at the top of this post, the cases current in litigation.
+Now, finally, onto the content that I promised in the title of this post, the cases current in litigation.
 
 ## United States v. Jin et al
 
