@@ -17,7 +17,7 @@ date: 2025-08-08 17:41 -0400
 ---
  The government of North Korea, formally known as the Democratic People's Republic of Korea (DPRK) wants to continue its nuclear weapons program despite US and UN sanctions. To do that it needs lots of money, which is difficult to come by if most of the world has you under sanction. To work around this, the DPRK has trained some of its people in IT skills, and then used fake, borrowed, or stolen identities to get them high-paying jobs around the world. The proceeds from these jobs are then laundered and funneled into North Korea's weapons program. To pull this off, they need help from a variety of others. They need someone who can pass an interview and people to help forge identification documents. Once one of their personas are hired, they need people in the US to run laptop farms. These facilitators receive the victim company's laptop, host it at their residence, and configure remote access software (e.g., Anydesk, TeamViewer, or Splashtop Streamer) or hardware such as a KVM over IP device, to allow the DPRK workers to appear to be working in the US.
 
-Christina Chapman, a 50-year-old woman from Arizona made headlines on July 30, 2025 for being sentenced to [108 months (8.5 years) in prison](https://www.justice.gov/usao-dc/pr/arizona-woman-sentenced-17m-it-worker-fraud-scheme-illegally-generated-revenue-north), with three years of supervised release afterwards. She was also ordered to forfeit $284,555.92 that was to be paid to the North Koreans, and to pay a judgement of $176,850 for her role as a facilitator of North Korean IT worker fraud. On February 11,2025, she pled guilty to Conspiracy to Commit Wire Fraud, Aggravated Identity Theft, and Conspiracy to Launder Monetary Instruments, in exchange for charges of Conspiracy to Defraud the United States, Conspiracy to Commit Bank Fraud, Conspiracy to Commit Fraud and Related Activity in Connection with Identification Documents, Unlicensed Money Transmitting Business, and Causing Unlawful Employment of Aliens to be dismissed as part of a [plea agreement](https://storage.courtlistener.com/recap/gov.uscourts.dcd.268378/gov.uscourts.dcd.268378.22.0.pdf). The sentence is still less than the 111 months (9.25 years) the government recommended in their [sentencing memorandum](https://storage.courtlistener.com/recap/gov.uscourts.dcd.268378/gov.uscourts.dcd.268378.33.0.pdf).
+Christina Chapman, a 50-year-old woman from Arizona made headlines on July 30, 2025 for being sentenced to [108 months (8.5 years) in prison](https://www.justice.gov/usao-dc/pr/arizona-woman-sentenced-17m-it-worker-fraud-scheme-illegally-generated-revenue-north), with three years of supervised release afterwards. She was also ordered to forfeit $284,555.92 that was to be paid to the North Koreans, and to pay a judgement of $176,850 for her role as a facilitator of North Korean IT worker fraud. On February 11,2025, she pled guilty to Conspiracy to Commit Wire Fraud ([18:1343], [1349][18:1349]), Aggravated Identity Theft ([18:1028A]), and Conspiracy to Launder Monetary Instruments ([18:1956]), in exchange for counts of Conspiracy to Defraud the United States ([18:731]), Conspiracy to Commit Bank Fraud ([18:1344][18:1344]\(1) & (2), [1349][18:1349]), Conspiracy to Commit Fraud and Related Activity in Connection with Identification Documents ([18:1028][18:1028](a)(7), (b)(1)(D), (c)(3)(A), & (f)), Prohibition of Unlicensed Money Transmitting Business ([18:1960]\(a), 2), and Causing Unlawful Employment of Aliens ([18:371], [8:1324a]\(a)(1)(A), [8:1324a]\(f)(1)) to be dismissed as part of a [plea agreement](https://storage.courtlistener.com/recap/gov.uscourts.dcd.268378/gov.uscourts.dcd.268378.22.0.pdf). The sentence is still less than the 111 months (9.25 years) the government recommended in their [sentencing memorandum](https://storage.courtlistener.com/recap/gov.uscourts.dcd.268378/gov.uscourts.dcd.268378.33.0.pdf).
 
 By reviewing the court [docket](https://www.courtlistener.com/docket/68534169/united-states-v-chapman/) you can find the [Statement of Offense](https://storage.courtlistener.com/recap/gov.uscourts.dcd.268378/gov.uscourts.dcd.268378.23.0.pdf), which is an 18 page description of the criminal actions taken by Chapman that she has admitted to as part of the plea agreement. This includes chat logs and other evidence showing that Chapman was not only hosting the laptops, but was also actively participating in using identities that she knew were stolen and collecting paychecks at her residence.
 
@@ -92,12 +92,12 @@ Ashtor allegedly used a company that he fraudulently created, Vali Tech Inc., to
 
 The trial for Erick Ntekereze Prince and Emanuel Ashtor is [currently scheduled](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.48.0_1.pdf) for October 6, 2025 at 400 North Miami Avenue, Courtroom 11-1, Miami, Florida.
 
-They face charges of:
+They face counts:
 
-1. Conspiracy to Damage a Protected Computer
-2. Conspiracy to Commit Wire Fraud and Mail Fraud
-3. Conspiracy to Commit Money Laundering
-4. Conspiracy to Transfer False Identification Documents
+1. Conspiracy to Damage a Protected Computer ([18:731])
+2. Conspiracy to Commit Wire Fraud and Mail Fraud ([18:1349])
+3. Conspiracy to Commit Money Laundering ([18:1956]h)
+4. Conspiracy to Transfer False Identification Documents ([18:1028]\(a)(2) and (f))
 
 [Department of Justice Press release](https://www.justice.gov/opa/pr/two-north-korean-nationals-and-three-facilitators-indicted-multi-year-fraudulent-remote)
 
@@ -139,13 +139,22 @@ In addition to stolen identities, they also found people willing to allow the us
 
 > On or about December 3, 2019, to conceal their identities and appear to be non DPRK citizens, CHOE JONG YONG and SON UN CHOL paid B.T., a Belgian person, approximately $130 in order to use B.T.'s identity to obtain freelance IT work in the United States.
 
+They all face counts:
+
+1. Conspiracy to Violate the International Emergency Economic Powers Act
+2. Conspiracy to Commit Wire Fraud
+3. Money Laundering Conspiracy
+4. Conspiracy to Commit Identity Theft
+
+8 of them face a fifth count of Aggravated Identity Theft.
+
 [Justice Department press release](https://www.justice.gov/archives/opa/pr/justice-department-disrupts-north-korean-remote-it-worker-fraud-schemes-through-charges-and)<br>
 [Wanted posters](https://www.fbi.gov/wanted/cyber/dprk-it-workers)<br>
 [Docket](https://www.courtlistener.com/docket/69459808/united-states-v-hwa/)
 
 ## United States v. Knoot, 3:24-cr-00151, (M.D. Tenn.)
 
-Matthew Isaac Knoot, 38, of Nashville, Tennessee, is accused being a facilitator of North Korean IT workers using the persona Yang Di, who used the stolen identity Andrew M. Knoot allegedly received laptops from victim companies, hosted them at this Tennessee residences, and installed remote access software (namely called Splashtop Streamer) on them, thus building a "laptop farm" to allow DPRK IT workers to appear to be working from a US location.
+Matthew Isaac Knoot, 38, of Nashville, Tennessee, is accused being a facilitator of North Korean IT workers using the persona Yang Di, who used the stolen identity Andrew M. Knoot allegedly received laptops from victim companies, hosted them at this Tennessee residences, and installed remote access software (namely called Splashtop Streamer) on them, thus building a laptop farm to allow DPRK IT workers to appear to be working from a US location.
 
 He was allegedly paid for this work, though apparently not nearly as much as he had expected.
 
@@ -153,12 +162,12 @@ He was allegedly paid for this work, though apparently not nearly as much as he 
 
 He was charged with:
 
-1. Conspiracy to Cause Damage to Protected Computers
-2. Conspiracy to Commit Money Laundering
-3. Conspiracy to Commit Wire Fraud
-4. Intentional Damage to a Protected Computer
-5. Aggravated Identity Theft
-6. Conspiracy to Cause the Unlawful Employment of Aliens
+1. Conspiracy to Cause Damage to Protected Computers ([18:371])
+2. Conspiracy to Commit Money Laundering ([18:1956]\(h))
+3. Conspiracy to Commit Wire Fraud ([18:1349])
+4. Intentional Damage to a Protected Computer ([18:1030]\(a)(5)(A), [18:1030]\(c)(4)(B), [18:1030]\(c)(4)(B), [18:1030]\(c)(4)(A)(i)(I), [18:2]\(4))
+5. Aggravated Identity Theft ([18:1028A]\(a)(1) and [18:2])
+6. Conspiracy to Cause the Unlawful Employment of Aliens ([18:371])
 
 As you first start reading [the indictment](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.3.0_3.pdf), you might consider it to be a leap a guy just setting up laptops was involved in the overall conspiracy. Indeed, Knoot's attorney makes this argument [in his motion to dismiss](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.76.0.pdf) counts 1, 4, 5, and 6.
 
@@ -195,14 +204,14 @@ The complaint against Didenko includes excerpts of chats, which include mentions
 
 Didenko was arrested on December 31, 2024. His plea hearing is currently scheduled for September 17, 2025, at 2:00 p.m. in Courtroom 8.
 
-He faces charges of:
+He faces counts:
 
 1. Conspiracy to Commit Wire Fraud ([18:1343] & [1349][18:1349])
 2. Conspiracy to Defraud the United States ([18:371])
 3. Conspiracy to Falsely Represent to be a Citizen of the United States ([18:911], [371][18:371])
-4. Aggravated Identity Theft ([18:2] and [1028][18:1028]A(a)(1))
+4. Aggravated Identity Theft ([18:2] and [1028][18:1028A](a)(1))
 5. Conspiracy to Commit Fraud and Related Activity in Connection with Identification Documents ([18:1028]\(a)(7), (b)(1)(D), (c)(3)(A), & (f))
-6. Conspiracy to Cause Unlawful Employment of Aliens ([18:371] and [8:1324]a(a)(1)(A) and [1324a]1324A(f)(1))
+6. Conspiracy to Cause Unlawful Employment of Aliens ([18:371] and [8:1324a]\(a)(1)(A) and [1324a]1324a(f)(1))
 7. Conspiracy to Launder Monetary Instruments ([18:1956][18:1956](a)(1)(B)(i) & (h))
 8. Conspiracy to Launder Monetary Instruments ([18:1956][18:1956](a)(1)(B)(i) & (h))
 9. Prohibition of Unlicensed Money Transmitting Business ([18:1960][18:1960](a))
@@ -216,12 +225,14 @@ Now we wait. I'm going to keep a close eye on these cases, so look for new blog 
 
 In the meantime, the IT-ISAC recently published a [great article](https://www.it-isac.org/post/do-you-know-who-you-are-hiring-spotting-fraudulent-job-seekers) about how to avoid and detect fraudulent job applicants and employees. It includes advice like requiring video interviews without virtual backgrounds, confirming that an applicant's previous employers are real, and once an employee is hired check that payment accounts match the employee's name and systems for unauthorized remote access software, as well as hardware like KVM over IP devices, and more.
 
-[8:1324]: https://www.law.cornell.edu/uscode/text/8/1324
+[8:1324a]: https://www.law.cornell.edu/uscode/text/8/1324a
 [18:2]: https://www.law.cornell.edu/uscode/text/18/2
-[18:1028]: https://www.law.cornell.edu/uscode/text/18/1028
-[18:1343]: https://www.law.cornell.edu/uscode/text/18/1343
 [18:371]: https://www.law.cornell.edu/uscode/text/18/371
 [18:911]: https://www.law.cornell.edu/uscode/text/18/911
+[18:1028]: https://www.law.cornell.edu/uscode/text/18/1028
+[18:1028A]: https://www.law.cornell.edu/uscode/text/18/1028A
+[18:1343]: https://www.law.cornell.edu/uscode/text/18/1343
+[18:1344]: https://www.law.cornell.edu/uscode/text/18/1344
 [18:1349]: https://www.law.cornell.edu/uscode/text/18/1349
 [18:1956]: https://www.law.cornell.edu/uscode/text/18/1956
 [18:1960]: https://www.law.cornell.edu/uscode/text/18/1956
