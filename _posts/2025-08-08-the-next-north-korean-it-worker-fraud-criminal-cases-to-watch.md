@@ -55,7 +55,7 @@ While looking though the results, I found another case, [_United States v. Vong_
 
 [Docket](https://www.courtlistener.com/docket/68814692/united-states-v-vong/)
 
-Now, finally, on to the content that I promised in the title of this post, the cases current in litigation.
+Now, finally, on to the content that I promised in the title of this post, the cases currently in litigation.
 
 ## United States v. Jin et al
 
