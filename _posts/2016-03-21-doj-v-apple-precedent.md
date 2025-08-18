@@ -21,7 +21,7 @@ tags:
 - law
 - privacy
 ---
-By now, you've probably heard something about the ongoing legal battle between
+By now , you've probably heard something about the ongoing legal battle between
 Apple and the Department of Justice. "DoJ v. Apple" coverage has been
 abundant, on blogs and TV news shows alike, but in case you haven't here's a
 quick recap. The FBI obtained the work iPhone of Syed Rizwan Farook, who,
