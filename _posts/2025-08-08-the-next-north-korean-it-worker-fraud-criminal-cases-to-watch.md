@@ -27,13 +27,13 @@ By reviewing the court [docket](https://www.courtlistener.com/docket/68534169/un
 
 With the docket you can build a timeline of the case.
 
-- On or about March 25, 2023: A [search warrant](https://storage.courtlistener.com/recap/gov.uscourts.azd.1351229/gov.uscourts.azd.1351229.1.0_1.pdf) was signed for Chapman's home and person
 - In or around March 2020: An unknown coconspirator approached Chapman,
 through her Linkedln page, and asked her to "be the U.S. face" of their company
 and assist them in helping the overseas IT workers gain remote employment in
 the United States.
 - Between in or around August 2022, through in or around November 2023: North Koreans select targets
 - Beginning at least in or around October 2020: The start of the conspiracy with Chapman
+- On or about October 25, 2023: A [search warrant](https://storage.courtlistener.com/recap/gov.uscourts.azd.1351229/gov.uscourts.azd.1351229.1.0_1.pdf) was signed for Chapman's home and person
 - On or about October 26, 2023: The end of the conspiracy with Chapman
 - May 8,2024: Chapman is indited and the case is sealed
 - May 16, 2024: Chapman is arrested, and the case is unsealed
