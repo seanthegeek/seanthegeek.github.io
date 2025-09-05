@@ -207,7 +207,9 @@ The complaint against Didenko includes excerpts of chats, which include mentions
 
 Didenko was arrested on December 31, 2024. His plea hearing is currently scheduled for September 17, 2025, at 2:00 p.m. in Courtroom 8.
 
-He faces counts:
+**Update**: The government has filed an [unopposed motion](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.23.0.pdf) to reschedule the plea hearing to the week of November t0th, or later.
+
+Facing counts of:
 
 1. Conspiracy to Commit Wire Fraud ([18:1343] & [1349][18:1349])
 2. Conspiracy to Defraud the United States ([18:371])
@@ -215,12 +217,135 @@ He faces counts:
 4. Aggravated Identity Theft ([18:2] and [1028][18:1028A](a)(1))
 5. Conspiracy to Commit Fraud and Related Activity in Connection with Identification Documents ([18:1028]\(a)(7), (b)(1)(D), (c)(3)(A), & (f))
 6. Conspiracy to Cause Unlawful Employment of Aliens ([18:371] and [8:1324a]\(a)(1)(A) and [1324a]1324a(f)(1))
-7. Conspiracy to Launder Monetary Instruments ([18:1956][18:1956](a)(1)(B)(i) & (h))
-8. Conspiracy to Launder Monetary Instruments ([18:1956][18:1956](a)(1)(B)(i) & (h))
-9. Prohibition of Unlicensed Money Transmitting Business ([18:1960][18:1960](a))
+7. Conspiracy to Launder Monetary Instruments ([18:1956]\(a)(1)(B)(i) & (h))
+8. Conspiracy to Launder Monetary Instruments ([18:1956]\(a)(1)(B)(i) & (h))
+9. Prohibition of Unlicensed Money Transmitting Business ([18:1960]\(a))
 
 [Justice Department press release](https://www.justice.gov/usao-dc/pr/charges-and-seizures-brought-fraud-scheme-aimed-denying-revenue-workers-associated-north)<br>
 [Docket](https://www.courtlistener.com/docket/68810724/united-states-v-didenko/)
+
+## United States v. Wang et al (1:25-cr-10273)
+
+This is a massive criminal case involving 10 defendants including US and Chinese citizens [facing various charges](https://storage.courtlistener.com/recap/gov.uscourts.mad.286339/gov.uscourts.mad.286339.1.0.pdf) for their alleged roles in facilitating DPRK IT worker fraud.
+
+> From in and around 2021 until approximately October 2024, a group of overseas IT workers, along with co-conspirator facilitators located in New Jersey, New York, California, and overseas, perpetrated such a coordinated scheme to obtain remote work from U.S. companies. The scheme resulted in the transmission of false and misleading information to dozens of U.S. companies, U.S financial institutions, and U.S. government agencies, including the U.S. Department of Homeland Security ("DHS"), the Internal Revenue Service ("IRS"), and the Social Security Administration ("SSA"). Specifically, this group of overseas IT workers and their co--conspirators compromised the identities of more than 80 U.S. persons; applied for and obtained remote jobs at more than 100 U.S. companies, including many Fortune 500 companies; caused false and fraudulent employment verification information to be sent to DHS, IRS, and SSA on dozens of occasions; received laptops and other hardware from U.S. companies; accessed, without authorization, the internal systems of the U.S. companies using remote desktop software or other means; gained access to sensitive employer data and source code; and generated at least $5 million in revenue for the overseas IT workers, and caused U.S. victim companies to incur legal fees, computer network remediation costs, and other damages and losses of at least $3 million. This scheme generated at least $5 Million for North Korea, and caused at least $3 million dollars.
+
+The US-based facilitators were paid at least $696,000 for their services. To my knowledge, this is the first legal filing that mentions the use on network KVM devices in addition to remote desktop software.
+
+[Justice Department Press Release](https://www.justice.gov/opa/pr/justice-department-announces-coordinated-nationwide-actions-combat-north-korean-remote)
+[Docket](https://www.courtlistener.com/docket/70678228/united-states-v-wang/)
+
+### Keja "Tony" Wang
+
+Keja "Tony" Wang is a US citizen who set up the front companies Hopana Tech and Tony WKJ to receive funds for the overseas IT workers and receiving laptops from victim companies at his residence, which he distributed to other US-based facilitators. He is said to have met with co-conspirators near the border between China and North Korea in 2023, including codefendants Jing Bin Huang, Tong Yuze, and Baoyu Zhou.
+
+Kejia Wang signed [an agreement](https://storage.courtlistener.com/recap/gov.uscourts.mad.286384/gov.uscourts.mad.286384.11.0.pdf) on May 20, 2025, pleading guilty to:
+
+1. Conspiracy to Commit Wire and Mail Fraud ([18:1349])
+2. Money Laundering Conspiracy ([18:1956]\(h))
+3. Conspiracy to Commit Identity Theft ([18:1028]\(a)(7) and (f))
+
+In the plea agreement, the DOJ recommends a sentence of incarceration between 108 months (9 years) and 120 months (10 years), followed by 36 months (3 years) of supervised released, along with the forfeiture of $400,000 that Wang obtained during the conspiracy and a $300 dollar special assessment.
+Wang is currently [scheduled to be sentenced](https://storage.courtlistener.com/recap/gov.uscourts.mad.286384/gov.uscourts.mad.286384.15.0.pdf) on December 16, 2025 at 03:00 PM in courtroom 4.
+
+ Although this was unsealed on July, 2 2025, [that docket](https://www.courtlistener.com/docket/70691920/united-states-v-wang/) didn't show up in my RECAP searches and alerts until someone upload [the information](https://storage.courtlistener.com/recap/gov.uscourts.mad.286384/gov.uscourts.mad.286384.1.0.pdf) to RECAP on September 3, 2025. Kejia Wong worked with at four other US persons to assist in North Korean employment fraud or fraud at over 100 US companies using the compromised identities of more than 80 US persons.
+
+ > The conspiracy perpetrated a massive fraud that impacted more than 100 U.S. companies, compromised the identities of more than 80 U.S. persons, caused false information to be conveyed to DHS, IRS, and SSA on dozens of occasions, generated at least $5 million in revenue for the overseas IT workers, and caused U.S. victim companies to incur legal fees, computer network remediation costs, and other damages and losses of at least $3 million.The victimized U.S. companies spanned multiple industries across much of the United States, including Massachusetts, California, New York, New Jersey, Florida, New Mexico, Georgia, Maryland, Alabama, North Carolina, Illinois, Ohio, South Carolina, Michigan, Texas, Indiana, Arkansas, Missouri, Tennessee, Minnesota, Rhode Island, Wisconsin, Oregon, Pennsylvania, Washington, Utah, Colorado, and the District of Columbia.
+
+### Zhenxing "Danny" Wang
+
+Zhenxing "Danny" Wang is also a US citizen. He is alleged to have created the front company Independent Lab for the purpose of receiving and redistributing funds and victim laptops.
+
+Facing counts of
+
+1. Conspiracy to Commit Wire Fraud ([18:1349])
+2. Money laundering conspiracy ([18:1349]\(h))
+3. Conspiracy to commit identity theft ([18:1080]\(a)(7) and (f))
+4. Conspiracy to damage a protected computer ([18:371])
+
+### Jing Bin Huang
+
+Jing Bin Huang,a Chinese citizen living in China who is alleged to have opened bank accounts and Money Transfer Service (MTS) accounts to receive money from Kaja Wang, Zhenxing Wang, and others.
+
+Facing counts of
+
+1. Conspiracy to Commit Wire Fraud ([18:1349])
+2. Money laundering conspiracy ([18:1349]\(h))
+3. Conspiracy to commit identity theft ([18:1080]\(a)(7) and (f))
+4. Conspiracy to damage a protected computer ([18:371])
+5. Conspiracy to violate the IEEPA ([50:1705]\(a) and (c))
+
+### Baoyu Zhou
+
+Baoyu Zhou, a Chinese citizen living in China who is alleged to have opened bank accounts and Money Transfer Service (MTS) accounts to receive money from Kaja Wang, Zhenxing Wang, and others.
+
+Facing counts of
+
+1. Conspiracy to Commit Wire Fraud ([18:1349])
+2. Money laundering conspiracy ([18:1349]\(h))
+3. Conspiracy to commit identity theft ([18:1080]\(a)(7) and (f))
+4. Conspiracy to damage a protected computer ([18:371])
+5. Conspiracy to violate the IEEPA ([50:1705]\(a) and (c))
+
+### Tong Yuze
+
+Tong Yuze is a Chinese citizen living in China who is alleged to have opened bank accounts and Money Transfer Service (MTS) accounts to receive money from Kaja Wang, Zhenxing Wang, and others. The Hopana Tech website identified Yuze as a China-based representative of the company.
+
+Facing counts of
+
+1. Conspiracy to Commit Wire Fraud ([18:1349])
+2. Money laundering conspiracy ([18:1349]\(h))
+3. Conspiracy to commit identity theft ([18:1080]\(a)(7) and (f))
+4. Conspiracy to damage a protected computer ([18:371])
+5. Conspiracy to violate the IEEPA ([50:1705]\(a) and (c))
+
+### Yongzhe Xu
+
+Yongzhe Xu is a Chinese citizen living in the United Arab Emirates (UAE) who is alleged to have set up bank and MTS accounts to further the conspiracy.
+
+Facing counts of
+
+1. Conspiracy to Commit Wire Fraud ([18:1349])
+2. Money laundering conspiracy ([18:1349]\(h))
+3. Conspiracy to commit identity theft ([18:1080]\(a)(7) and (f))
+4. Conspiracy to damage a protected computer ([18:371])
+5. Conspiracy to violate the IEEPA ([50:1705]\(a) and (c))
+
+### Ziyou Yuan
+
+Ziyou Yuan is a Chinese citizen in the UAE who is alleged to have registered and paid for multiple online accounts and other infrastructure that were used in furtherance of the conspiracy, including the Hopana Tech, Tony WKJ, and Independent Lab web domains, and an account with an online background check service provider used to conduct searches concerning stolen U.S. person identities.
+
+1. Conspiracy to Commit Wire Fraud ([18:1349])
+2. Money laundering conspiracy ([18:1349]\(h))
+3. Conspiracy to commit identity theft ([18:1080]\(a)(7) and (f))
+
+### Zhenbang Zhou
+
+Zhenbang Zhou is a person living outside the US who is alleged to have set up bank and MTS accounts to further the conspiracy.
+
+Facing counts of
+
+1. Conspiracy to Commit Wire Fraud ([18:1349])
+2. Money laundering conspiracy ([18:1349]\(h))
+3. Conspiracy to commit identity theft ([18:1080]\(a)(7) and (f))
+4. Conspiracy to damage a protected computer ([18:371])
+5. Conspiracy to violate the IEEPA ([50:1705]\(a) and (c))
+
+### Mengting Liu
+
+Enchia Liu resides in Taiwan is also alleged to have set up bank and MTS accounts to further the conspiracy.
+
+Facing a charge of Money laundering conspiracy ([18:1349]\(h))
+
+### Enchia Liu
+
+Enchia Liu resides in Taiwan is also alleged to have set up bank and MTS accounts to further the conspiracy.
+
+Facing a charge of Money laundering conspiracy ([18:1349]\(h))
+
+### Other persons
+
+The incitement also mentions four UA residents who hosted victim company laptops in their homes in exchange for a fee. Individual A, a resident of New York, Individual B, a resident of California who recruited fellow California residents C a D (A sibling of individual B). Individual C was an active-duty member of the US military and Secret clearance holder. A fifth person, Individual E is a Chinese national who directed the conspiracy.  I am trying to locate the court cases for these individuals.
 
 ## What next?
 
@@ -235,8 +360,10 @@ In the meantime, the IT-ISAC recently published a [great article](https://www.it
 [18:1028]: https://www.law.cornell.edu/uscode/text/18/1028
 [18:1028A]: https://www.law.cornell.edu/uscode/text/18/1028A
 [18:1030]: https://www.law.cornell.edu/uscode/text/18/1030
+[18:1080]: https://www.law.cornell.edu/uscode/text/18/1080
 [18:1343]: https://www.law.cornell.edu/uscode/text/18/1343
 [18:1344]: https://www.law.cornell.edu/uscode/text/18/1344
 [18:1349]: https://www.law.cornell.edu/uscode/text/18/1349
 [18:1956]: https://www.law.cornell.edu/uscode/text/18/1956
 [18:1960]: https://www.law.cornell.edu/uscode/text/18/1956
+[50:1705]: https://www.law.cornell.edu/uscode/text/50/1705
