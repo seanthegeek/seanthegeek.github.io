@@ -232,7 +232,7 @@ This is a massive criminal case involving 10 defendants including US and Chinese
 
 The US-based facilitators were paid at least $696,000 for their services. To my knowledge, this is the first legal filing that mentions the use on network KVM devices in addition to remote desktop software.
 
-[Justice Department Press Release](https://www.justice.gov/opa/pr/justice-department-announces-coordinated-nationwide-actions-combat-north-korean-remote)
+[Justice Department Press Release](https://www.justice.gov/opa/pr/justice-department-announces-coordinated-nationwide-actions-combat-north-korean-remote)<br>
 [Docket](https://www.courtlistener.com/docket/70678228/united-states-v-wang/)
 
 ### Keja "Tony" Wang
