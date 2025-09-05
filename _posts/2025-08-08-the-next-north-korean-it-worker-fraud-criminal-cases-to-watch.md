@@ -345,7 +345,7 @@ Facing a charge of Money laundering conspiracy ([18:1349]\(h))
 
 ### Other persons
 
-The incitement also mentions four UA residents who hosted victim company laptops in their homes in exchange for a fee. Individual A, a resident of New York, Individual B, a resident of California who recruited fellow California residents C a D (A sibling of individual B). Individual C was an active-duty member of the US military and Secret clearance holder. A fifth person, Individual E is a Chinese national who directed the conspiracy.  I am trying to locate the court cases for these individuals.
+The incitement also mentions four US residents who hosted victim company laptops in their homes in exchange for a fee. Individual A, a resident of New York, Individual B, a resident of California who recruited fellow California residents C a D (A sibling of individual B). Individual C was an active-duty member of the US military and Secret clearance holder. A fifth person, Individual E is a Chinese national who directed the conspiracy.  I am trying to locate the court cases for these individuals.
 
 ## What next?
 
