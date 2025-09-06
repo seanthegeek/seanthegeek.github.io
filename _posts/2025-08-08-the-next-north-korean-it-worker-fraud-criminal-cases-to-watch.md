@@ -240,7 +240,7 @@ The US-based facilitators were paid at least $696,000 for their services. To my 
 
 Keja "Tony" Wang is a US citizen who set up the front companies Hopana Tech and Tony WKJ to receive funds for the overseas IT workers and receiving laptops from victim companies at his residence, which he distributed to other US-based facilitators. He is said to have met with co-conspirators near the border between China and North Korea in 2023, including codefendants Jing Bin Huang, Tong Yuze, and Baoyu Zhou.
 
-Kejia Wang signed [an agreement](https://storage.courtlistener.com/recap/gov.uscourts.mad.286384/gov.uscourts.mad.286384.11.0.pdf) on May 20, 2025, pleading guilty to:
+Keja Wang signed [an agreement](https://storage.courtlistener.com/recap/gov.uscourts.mad.286384/gov.uscourts.mad.286384.11.0.pdf) on May 20, 2025, pleading guilty to:
 
 1. Conspiracy to Commit Wire and Mail Fraud ([18:1349])
 2. Money Laundering Conspiracy ([18:1956]\(h))
@@ -249,7 +249,7 @@ Kejia Wang signed [an agreement](https://storage.courtlistener.com/recap/gov.usc
 In the plea agreement, the DOJ recommends a sentence of incarceration between 108 months (9 years) and 120 months (10 years), followed by 36 months (3 years) of supervised released, along with the forfeiture of $400,000 that Wang obtained during the conspiracy and a $300 dollar special assessment.
 Wang is currently [scheduled to be sentenced](https://storage.courtlistener.com/recap/gov.uscourts.mad.286384/gov.uscourts.mad.286384.15.0.pdf) on December 16, 2025 at 03:00 PM in courtroom 4.
 
- Although this was unsealed on July, 2 2025, [that docket](https://www.courtlistener.com/docket/70691920/united-states-v-wang/) didn't show up in my RECAP searches and alerts until someone upload [the information](https://storage.courtlistener.com/recap/gov.uscourts.mad.286384/gov.uscourts.mad.286384.1.0.pdf) to RECAP on September 3, 2025. Kejia Wong worked with at four other US persons to assist in North Korean employment fraud or fraud at over 100 US companies using the compromised identities of more than 80 US persons.
+ Although this was unsealed on July, 2 2025, [that docket](https://www.courtlistener.com/docket/70691920/united-states-v-wang/) didn't show up in my RECAP searches and alerts until someone upload [the information](https://storage.courtlistener.com/recap/gov.uscourts.mad.286384/gov.uscourts.mad.286384.1.0.pdf) to RECAP on September 3, 2025. Keja Wong worked with at four other US persons to assist in North Korean employment fraud or fraud at over 100 US companies using the compromised identities of more than 80 US persons.
 
  > The conspiracy perpetrated a massive fraud that impacted more than 100 U.S. companies, compromised the identities of more than 80 U.S. persons, caused false information to be conveyed to DHS, IRS, and SSA on dozens of occasions, generated at least $5 million in revenue for the overseas IT workers, and caused U.S. victim companies to incur legal fees, computer network remediation costs, and other damages and losses of at least $3 million.The victimized U.S. companies spanned multiple industries across much of the United States, including Massachusetts, California, New York, New Jersey, Florida, New Mexico, Georgia, Maryland, Alabama, North Carolina, Illinois, Ohio, South Carolina, Michigan, Texas, Indiana, Arkansas, Missouri, Tennessee, Minnesota, Rhode Island, Wisconsin, Oregon, Pennsylvania, Washington, Utah, Colorado, and the District of Columbia.
 
@@ -266,7 +266,7 @@ Facing counts of
 
 ### Jing Bin Huang
 
-Jing Bin Huang,a Chinese citizen living in China who is alleged to have opened bank accounts and Money Transfer Service (MTS) accounts to receive money from Kaja Wang, Zhenxing Wang, and others.
+Jing Bin Huang,a Chinese citizen living in China who is alleged to have opened bank accounts and Money Transfer Service (MTS) accounts to receive money from Keja Wang, Zhenxing Wang, and others.
 
 Facing counts of
 
@@ -278,7 +278,7 @@ Facing counts of
 
 ### Baoyu Zhou
 
-Baoyu Zhou, a Chinese citizen living in China who is alleged to have opened bank accounts and Money Transfer Service (MTS) accounts to receive money from Kaja Wang, Zhenxing Wang, and others.
+Baoyu Zhou, a Chinese citizen living in China who is alleged to have opened bank accounts and Money Transfer Service (MTS) accounts to receive money from Keja Wang, Zhenxing Wang, and others.
 
 Facing counts of
 
@@ -290,7 +290,7 @@ Facing counts of
 
 ### Tong Yuze
 
-Tong Yuze is a Chinese citizen living in China who is alleged to have opened bank accounts and Money Transfer Service (MTS) accounts to receive money from Kaja Wang, Zhenxing Wang, and others. The Hopana Tech website identified Yuze as a China-based representative of the company.
+Tong Yuze is a Chinese citizen living in China who is alleged to have opened bank accounts and Money Transfer Service (MTS) accounts to receive money from Keja Wang, Zhenxing Wang, and others. The Hopana Tech website identified Yuze as a China-based representative of the company.
 
 Facing counts of
 
