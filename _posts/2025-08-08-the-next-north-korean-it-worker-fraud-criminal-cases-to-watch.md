@@ -12,7 +12,8 @@ categories:
   - Information Security
   - National Security
 tags:
-  - North Korea 
+  - North Korea
+  - China
 date: 2025-08-08 17:41 -0400
 ---
  The government of North Korea, formally known as the Democratic People's Republic of Korea (DPRK) wants to continue its nuclear weapons program despite US and UN sanctions. To do that it needs lots of money, which is difficult to come by if most of the world has you under sanction. To work around this, the DPRK has trained some of its people in IT skills, and then used fake, borrowed, or stolen identities to get them high-paying jobs around the world. The proceeds from these jobs are then laundered and funneled into North Korea's weapons program. To pull this off, they need help from a variety of others. They need someone who can pass an interview and people to help forge identification documents. Once one of their personas are hired, they need people in the US to run laptop farms. These facilitators receive the victim company's laptop, host it at their residence, and configure remote access software (e.g., Anydesk, TeamViewer, or Splashtop Streamer) or hardware such as a KVM over IP device, to allow the DPRK workers to appear to be working in the US.
@@ -95,7 +96,7 @@ The trial for Erick Ntekereze Prince and Emanuel Ashtor is [currently scheduled]
 
 They face counts:
 
-1. Conspiracy to Damage a Protected Computer ([18:731])
+1. Conspiracy to Damage a Protected Computer ([18:371])
 2. Conspiracy to Commit Wire Fraud and Mail Fraud ([18:1349])
 3. Conspiracy to Commit Money Laundering ([18:1956]h)
 4. Conspiracy to Transfer False Identification Documents ([18:1028]\(a)(2) and (f))
@@ -197,7 +198,7 @@ The trial is [currently scheduled](https://storage.courtlistener.com/recap/gov.u
 [Justice Department press release](https://www.justice.gov/usao-mdtn/pr/department-disrupts-north-korean-remote-it-worker-fraud-schemes-through-charges-and)<br>
 [Docket](https://www.courtlistener.com/docket/69026861/united-states-v-knoot/)
 
-## United States v. DIDENKO, 1:24-cr-00261, (D.D.C.)
+## d States v. DIDENKO, 1:24-cr-00261, (D.D.C.)
 
 Olesandr Didenko, also known as Alexander Didenko is a Ukrainian national last known to reside in Kyiv. Didenko is [accused](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.1.1.pdf) of operating a website called UpWorkSell, where users can rent accounts for freelance IT sites belonging to other ideates, as well as credit cards or SIM cards. Users can also buy or rent accounts at Money Service Transmitters (MSTs). In short, UpWorkSell provides all of the services needed to allow its users to conduct IT work fraud.
 
@@ -224,7 +225,7 @@ Facing counts of:
 [Justice Department press release](https://www.justice.gov/usao-dc/pr/charges-and-seizures-brought-fraud-scheme-aimed-denying-revenue-workers-associated-north)<br>
 [Docket](https://www.courtlistener.com/docket/68810724/united-states-v-didenko/)
 
-## United States v. Wang et al (1:25-cr-10273)
+## United States v. Wang, 1:25-cr-10273, (D. Mass.)
 
 This is a massive criminal case involving 10 defendants including US and Chinese citizens [facing various charges](https://storage.courtlistener.com/recap/gov.uscourts.mad.286339/gov.uscourts.mad.286339.1.0.pdf) for their alleged roles in facilitating DPRK IT worker fraud.
 
@@ -333,13 +334,13 @@ Facing counts of
 
 ### Mengting Liu
 
-Enchia Liu resides in Taiwan is also alleged to have set up bank and MTS accounts to further the conspiracy.
+Enchia Liu resides in Taiwan and is also alleged to have set up bank and MTS accounts to further the conspiracy.
 
 Facing a charge of Money laundering conspiracy ([18:1349]\(h))
 
 ### Enchia Liu
 
-Enchia Liu resides in Taiwan is also alleged to have set up bank and MTS accounts to further the conspiracy.
+Enchia Liu resides in Taiwan and is also alleged to have set up bank and MTS accounts to further the conspiracy.
 
 Facing a charge of Money laundering conspiracy ([18:1349]\(h))
 
