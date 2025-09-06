@@ -198,7 +198,7 @@ The trial is [currently scheduled](https://storage.courtlistener.com/recap/gov.u
 [Justice Department press release](https://www.justice.gov/usao-mdtn/pr/department-disrupts-north-korean-remote-it-worker-fraud-schemes-through-charges-and)<br>
 [Docket](https://www.courtlistener.com/docket/69026861/united-states-v-knoot/)
 
-## d States v. DIDENKO, 1:24-cr-00261, (D.D.C.)
+## United States v. DIDENKO, 1:24-cr-00261, (D.D.C.)
 
 Olesandr Didenko, also known as Alexander Didenko is a Ukrainian national last known to reside in Kyiv. Didenko is [accused](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.1.1.pdf) of operating a website called UpWorkSell, where users can rent accounts for freelance IT sites belonging to other ideates, as well as credit cards or SIM cards. Users can also buy or rent accounts at Money Service Transmitters (MSTs). In short, UpWorkSell provides all of the services needed to allow its users to conduct IT work fraud.
 
