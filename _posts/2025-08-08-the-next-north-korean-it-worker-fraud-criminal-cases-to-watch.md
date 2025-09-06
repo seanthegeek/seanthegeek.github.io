@@ -225,7 +225,7 @@ He is facing counts of:
 [Justice Department press release](https://www.justice.gov/usao-dc/pr/charges-and-seizures-brought-fraud-scheme-aimed-denying-revenue-workers-associated-north)<br>
 [Docket](https://www.courtlistener.com/docket/68810724/united-states-v-didenko/)
 
-## United States v. Wang, 1:25-cr-10273, (D. Mass.)
+## United States v. Wang et al, 1:25-cr-10273, (D. Mass.)
 
 This is a massive criminal case involving 10 defendants including US and Chinese citizens [facing various charges](https://storage.courtlistener.com/recap/gov.uscourts.mad.286339/gov.uscourts.mad.286339.1.0.pdf) for their alleged roles in facilitating DPRK IT worker fraud.
 
