@@ -198,13 +198,13 @@ The trial is [currently scheduled](https://storage.courtlistener.com/recap/gov.u
 [Justice Department press release](https://www.justice.gov/usao-mdtn/pr/department-disrupts-north-korean-remote-it-worker-fraud-schemes-through-charges-and)<br>
 [Docket](https://www.courtlistener.com/docket/69026861/united-states-v-knoot/)
 
-## United States v. DIDENKO, 1:24-cr-00261, (D.D.C.)
+## United States v. Didenko, 1:24-cr-00261, (D.D.C.)
 
-Olesandr Didenko, also known as Alexander Didenko is a Ukrainian national last known to reside in Kyiv. Didenko is [accused](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.1.1.pdf) of operating a website called UpWorkSell, where users could rent accounts for freelance IT sites belonging to other ideates, as well as credit cards or SIM cards. Users could also buy or rent accounts at Money Service Transmitters (MSTs). In short, UpWorkSell provides all of the services needed to allow its users to conduct IT work fraud.
+Olesandr Didenko, also known as Alexander Didenko is a Ukrainian national last known to reside in Kyiv. Didenko is [accused](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.1.1.pdf) of operating a website called UpWorkSell, where users could rent accounts for freelance IT sites belonging to other identities, as well as credit cards or SIM cards. Users could also buy or rent accounts at Money Service Transmitters (MSTs). In short, UpWorkSell provided all of the services needed to allow its users to conduct IT work fraud.
 
 > As explained further herein, evidence collected during the investigation reveals that DIDENKO manages as many as approximately 871 proxy identities, provides proxy accounts for 3 freelance IT hiring platforms, and provides proxy accounts for 3 different MSTs. In coordination with co-conspirators, DIDENKO facilitates the operation of at least 3 US.-based “laptop farms” hosting approximately 79 computers. DIDENKO’s 3 MST accounts, which he uses to send and receive funds in furtherance of the scheme, have received approximately $920,000 in U.S.D. payments since July 2018.
 
-The complaint against Didenko includes excerpts of chats, which include mentions of Christina Chapman and North Korea. The complaint mentions other laptop farms, so if Didenko decides to cooperate in a plea deal, (or not) we could see many more arrests.
+The complaint against Didenko includes excerpts of chats, which include mentions of Christina Chapman and North Korea. The complaint mentions other laptop farms, so if Didenko decides to cooperate in a plea deal, (or not) there could be many more arrests.
 
 Didenko was arrested on December 31, 2024. His plea hearing is currently scheduled for September 17, 2025, at 2:00 p.m. in Courtroom 8.
 
