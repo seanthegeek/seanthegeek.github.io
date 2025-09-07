@@ -208,7 +208,7 @@ The complaint against Didenko includes excerpts of chats, which include mentions
 
 Didenko was arrested on December 31, 2024. His plea hearing is currently scheduled for September 17, 2025, at 2:00 p.m. in Courtroom 8.
 
-**Update 09/04/2025**: The government has filed an [unopposed motion](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.23.0.pdf) to reschedule the plea hearing to the week of November t0th or later due to plea negotiations.
+**Update 09/04/2025**: The government has filed an [unopposed motion](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.23.0.pdf) to reschedule the plea hearing to the week of November 10th or later due to plea negotiations.
 
 He is facing counts of:
 
