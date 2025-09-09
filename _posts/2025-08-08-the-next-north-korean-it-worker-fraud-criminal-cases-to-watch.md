@@ -206,9 +206,11 @@ Olesandr Didenko, also known as Alexander Didenko is a Ukrainian national last k
 
 The complaint against Didenko includes excerpts of chats, which include mentions of Christina Chapman and North Korea. The complaint mentions other laptop farms, so if Didenko decides to cooperate in a plea deal, (or not) there could be many more arrests.
 
-Didenko was arrested on December 31, 2024. His plea hearing is currently scheduled for September 17, 2025, at 2:00 p.m. in Courtroom 8.
+Didenko was arrested on December 31, 2024. His plea hearing is currently scheduled for November 10, 2025, at 2:00 p.m. in Courtroom 8.
 
 **Update 09/04/2025**: The government has filed an [unopposed motion](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.23.0.pdf) to reschedule the plea hearing to the week of November 10th or later due to plea negotiations.
+
+**Update 09/09/2025**: The plea hearing is scheduled for November 10.
 
 He is facing counts of:
 
