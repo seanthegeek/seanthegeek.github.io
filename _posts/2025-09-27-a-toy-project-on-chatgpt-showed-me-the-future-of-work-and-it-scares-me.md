@@ -5,6 +5,8 @@ description: In a world where AI can do everything from writing code to creating
 image:
   path: /assets/images/a-b-c-flashcards-example.webp
   alt: A screenshot of alphabet flashcards created using ChatGPT
+category:
+  - AI
 tags:
  - AI
  - ChatGPT
@@ -131,7 +133,7 @@ GTP-5 replied:
 
 > Below is a single, self-contained Python script that takes a folder of your illustration PNGs (e.g., `Apple.png`, `Ice cream.png` / `ice_cream.png`, etc.) and outputs perfectly formatted flashcards as both SVG and PNG with your exact filenames (`A (Apple).svg`, `A (Apple).png`, …). It also zips them for you and sanity-checks for missing/mismatched files.
 
-I chose to proceed.
+I chose to proceed. With that workflow I can change the style of the cards at will, or swap out illustrations myself, while only using ChatGPT's image generator for new illustrations.
 
 ## Pick your ice cream
 
