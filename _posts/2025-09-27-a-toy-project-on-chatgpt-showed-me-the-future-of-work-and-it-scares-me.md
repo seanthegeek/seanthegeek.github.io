@@ -15,7 +15,7 @@ tags:
  - Employment
 date: 2025-09-27 10:39 -0400
 ---
-A few weeks ago my partner showed me this [TikTok video](/assets/videos/tiktok-chatgpt-alphabet.mp4) of someone giving ChatGPT the prompt "Hey ChatPT, can you please make an image of the english [sic] alphabet for kids, and for every letter add an image that starts that starts with that letter." The video proceeds to mock ChatGPT for allegedly thinking for 34 seconds before generating many words and images that didn't match the letter, or even making up letters and generating extra imaged. The video was posted by the account `404mathnotfound` with the description "And they say AI is gonna replace our jobs 🤣🤣 #chatgpt"
+A few weeks ago my partner showed me this [TikTok video](/assets/videos/tiktok-chatgpt-alphabet.mp4) of someone giving ChatGPT the prompt "Hey ChatPT, can you please make an image of the english [sic] alphabet for kids, and for every letter add an image that starts with that letter." The video proceeds to mock ChatGPT for allegedly thinking for 34 seconds before generating many words and images that didn't match the letter, or even making up letters and generating extra imaged. The video was posted by the account `404mathnotfound` with the description "And they say AI is gonna replace our jobs 🤣🤣 #chatgpt"
 
 ![A screenshot of the video description](assets/images/tiktok-gpt-alphabet-video-description.webp)
 
@@ -23,7 +23,7 @@ GPT-5 was released on August 7, 2025. Although the video was posted on August 24
 
 I started with this prompt.
 
-> Generate separate images with each letter of the alphabet along with a with a word that starts with that letter, suitable for use as preschool flashcards.
+> Generate separate images with each letter of the alphabet along with a word that starts with that letter, suitable for use as preschool flashcards.
 
 GPT-5 did correctly create a word matching each letter of the alphabet and included an image matching that word, but sometimes the images would be a different size or style, so after iterating over a few prompts, I came up with this prompt to make everything consistent.
 
@@ -245,7 +245,7 @@ def autocrop_image(
 
 At some point I questioned the use of a serif font for this project.
 
-> I wonder if it would be better to use a serif font. Otherwise a lowercase l and upper case I look alike. Then again, sans serif fonts are use everywhere nowadays, other than formal documents, so san serif is probably what kids see mostly anyway.
+> I wonder if it would be better to use a serif font. Otherwise a lowercase l and upper case I look alike. Then again, sans serif fonts are use[d] everywhere nowadays, other than formal documents, so san serif is probably what kids see mostly anyway.
 
 In response, ChatGPT recommended [Andika](https://software.sil.org/andika/), a font family by SIL designed for literacy use and beginning readers.
 
