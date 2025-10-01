@@ -15,7 +15,7 @@ tags:
  - Employment
 date: 2025-09-27 10:39 -0400
 ---
-A few weeks ago my partner showed me this [TikTok video](/assets/videos/tiktok-chatgpt-alphabet.mp4) of someone giving ChatGPT the prompt "Hey ChatPT, can you please make an image of the english [sic] alphabet for kids, and for every letter add an image that starts with that letter." The video proceeds to mock ChatGPT for allegedly thinking for 34 seconds before generating many words and images that didn't match the letter, or even making up letters and generating extra imaged. The video was posted by the account `404mathnotfound` with the description "And they say AI is gonna replace our jobs 🤣🤣 #chatgpt"
+A few weeks ago my partner showed me this [TikTok video](/assets/videos/tiktok-chatgpt-alphabet.mp4) of someone giving ChatGPT the prompt "Hey ChatPT, can you please make an image of the english [sic] alphabet for kids, and for every letter add an image that starts with that letter." The video proceeds to mock ChatGPT for allegedly thinking for 34 seconds before generating many words and images that didn't match the letter, or even making up letters and generating extra images. The video was posted by the account `404mathnotfound` with the description "And they say AI is gonna replace our jobs 🤣🤣 #chatgpt"
 
 ![A screenshot of the video description](assets/images/tiktok-gpt-alphabet-video-description.webp)
 
