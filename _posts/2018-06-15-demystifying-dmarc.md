@@ -658,45 +658,10 @@ Here is an example DMARC policy DNS record
 
 These tags tell recipients where and how to send reports.
 
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Tag</strong></td>
-      <td>
-        <strong>Value Description</strong>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>v</strong></td>
-      <td>
-        <p>
-          According to the RFC, this tag is recommended but not required, with
-          an implicit default value of DKIM1.
-        </p>
-        <p>
-          <strong
-            >However, in practice, some recipients don’t follow the RFC exactly,
-            and require this tag to be used anyway. This must be the first tag
-            if used.</strong
-          ><strong
-            >Your DKIM public key records should start with v=DKIM1;</strong
-          >
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>n</strong></td>
-      <td>
-        Notes: Human-readable notes for administrators reviewing DNS records
-        <p>
-          <strong
-            >Useful for noting which service uses a selector and key.</strong
-          >
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Tag | Description                      |
+| --- | -------------------------------- |
+| rua   | A comma separated list of email addresses prefixed with `mailto:` fpr receiving aggregate reports. Only the first two are required to be honored|
+| ruf   | A comma separated list of email addresses prefixed with `mailto:` fpr receiving failure/forensic reports. Only the first two are required to be honored                     |
 
 #### Not recommended DMARC policy DNS record tags
 
