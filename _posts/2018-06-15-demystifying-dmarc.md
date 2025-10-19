@@ -660,8 +660,8 @@ These tags tell recipients where and how to send reports.
 
 | Tag | Description                      |
 | --- | -------------------------------- |
-| rua   | A comma separated list of email addresses prefixed with `mailto:` fpr receiving aggregate reports. Only the first two are required to be honored|
-| ruf   | A comma separated list of email addresses prefixed with `mailto:` fpr receiving failure/forensic reports. Only the first two are required to be honored                     |
+| rua   | A comma separated list of email addresses prefixed with `mailto:` for receiving aggregate reports. Only the first two are required to be honored|
+| ruf   | A comma separated list of email addresses prefixed with `mailto:` for receiving failure/forensic reports. Only the first two are required to be honored                     |
 
 #### Not recommended DMARC policy DNS record tags
 
