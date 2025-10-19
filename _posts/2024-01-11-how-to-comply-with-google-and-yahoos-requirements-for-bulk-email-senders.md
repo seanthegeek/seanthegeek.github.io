@@ -83,7 +83,7 @@ signed as the domain you are using in the message from header. With most
 vendors this can be configured by the customer. Other vendors may require a
 support case. Generally, the process works like this:
 
-  1. Tell the vendor the domain you need to DKIM sign as
+  1. Tell the vendor the domain you need them to DKIM sign as
 
   2. The vendor will generate DNS records that need to be added to the domain you are sending as
 
@@ -99,8 +99,7 @@ services.
 
 ## How do I implement one-click unsubscribe for marketing emails?
 
-Your vendor may already have this deployed. To check this, look for a `List-
-Unsubscribe` email header. The user's email service will also show an
+Your vendor may already have this deployed. To check this, look for a `List-Unsubscribe` email header. The user's email service will also show an
 unsubscribe button above the email body. If not, ask your vendor for guidance
 for implementing one-click unsubscribe as defined in
 [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058).
