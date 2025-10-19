@@ -31,12 +31,6 @@ of SPF and DKIM, what DMARC is, how to deploy DMARC properly, and how to
 respond to DMARC reports - **all without the need for an additional vendor** ,
 thanks to open source software!
 
-<iframe style="display: block; margin: 0 auto;" src="https://onedrive.live.com/embed?cid=5BEBF72EB17AB44F&amp;resid=5BEBF72EB17AB44F%2114733&amp;authkey=AOn2p6RPofuA2Gw&amp;em=2&amp;wdAr=1.7777777777777777" width="610px" height="367px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com" rel="noopener noreferrer">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps" rel="noopener noreferrer">Office Online</a>.</iframe>
-
-<div align="center">
-<a href="https://1drv.ms/p/s!Ak-0erEu9-tb8w1gxxh1i0EHAV07">Direct link to presentation</a>
-</div>
-
 Modern email authentication relies on a combination of three standards: SPF,
 DKIM, and DMARC. These standards help ensure that a message came from a server
 related to the domain owner and was not spoofed.
@@ -309,8 +303,8 @@ Here's an example DKIM header
 | d   | The domain where the public key can be found                                          |
 | s   | The selector pointing to the public key at the domain (an arbitrary string)           |
 | h   | A colon separated list of headers to concatenate when validating the header signature |
-| b   | The base64-enoded signature hash of the headers listed in the h tag                   |
-| bh  | The base64-enoded signature hash of the message body                                  |
+| b   | The base64-encoded signature hash of the headers listed in the h tag                   |
+| bh  | The base64-encoded signature hash of the message body                                  |
 
 #### Optional DKIM header tags
 
@@ -837,7 +831,7 @@ fantastic job of explaining exactly what mailing lists should and shouldn't do
 to be fully DMARC compliant. Rather than repeat his fine work, here's a
 summary:
 
-**Do**
+**Do:**
 
 - Retain headers from the original message.
 - Add [RFC 2369](https://tools.ietf.org/html/rfc2369) List-Unsubscribe headers to outgoing messages, instead of adding unsubscribe links to the body.
@@ -851,7 +845,7 @@ summary:
 Modern mail clients and webmail services generate unsubscribe buttons based on
 these headers.
 
-**Do not**
+**Do not:**
 
 - Remove or modify any existing headers from the original message, including From, Date, Subject, etc.
 - Add to or remove content from the message body, **including traditional disclaimers and unsubscribe\*\***footers.\*\*
@@ -872,7 +866,7 @@ Navigate to General Settings, and configure the settings below
 
 | **Setting**                  | **Value** |
 | ---------------------------- | --------- |
-| **subject_prefix**           |
+| **subject_prefix**           |           |
 | **from_is_list**             | No        |
 | **first_strip_reply_to**     | No        |
 | **reply_goes_to_list**       | Poster    |
@@ -884,8 +878,8 @@ Navigate to Non-digest options, and configure the settings below:
 
 | **Setting**         | **Value** |
 | ------------------- | --------- |
-| **msg_header**      |
-| **msg_footer**      |
+| **msg_header**      |           |
+| **msg_footer**      |           |
 | **scrub_nondigest** | No        |
 
 Navigate to Privacy Options> Sending Filters, and configure the settings
@@ -894,7 +888,7 @@ below:
 | **Setting**                            | **Value** |
 | -------------------------------------- | --------- |
 | **dmarc_moderation_action**            | Accept    |
-| **dmarc_quarentine_moderation_action** | Yes       |
+| **dmarc_quarantine_moderation_action** | Yes       |
 | **dmarc_none_moderation_action**       | Yes       |
 
 #### Mailman 3 best practices
@@ -912,7 +906,7 @@ Configure the settings below:
 | **Convert HTML to plaintext**    | No         |
 | **Include RFC2369 headers**      | Yes        |
 | **Include the list post header** | Yes        |
-| **Explicit reply-to address**    |
+| **Explicit reply-to address**    |            |
 | **First strip reply-to**         | No         |
 | **Reply goes to list**           | No munging |
 
@@ -956,7 +950,7 @@ Navigate to Privacy Options> Sending Filters, and configure the settings below
 | **dmarc_quarentine_moderation_action** | Yes        |
 | **dmarc_none_moderation_action**       | Yes        |
 
-**Note**
+**Note:**
 
 Message wrapping could be used as the DMARC mitigation action instead. In that
 case, the original message is added as an attachment to the mailing list
@@ -978,7 +972,7 @@ below:
 | **DMARC mitigation action**        | Replace From: with list address |
 | **DMARC mitigate unconditionally** | No                              |
 
-**Note**
+**Note:**
 
 Message wrapping could be used as the DMARC mitigation action instead. In that
 case, the original message is added as an attachment to the mailing list
@@ -1292,7 +1286,7 @@ Most outbound email notifications in OHM are configured by the customer,
 including the From address they will be sent with. The user(s) should go
 through the screens where they have set them to various customer addresses and
 change them to a generic puresafety.com address, such as
-"DoNotReply@puresafety.com." They should also update the Body of each email
+`DoNotReply@puresafety.com`. They should also update the Body of each email
 template to include appropriate contact information.
 
 ### Volgistics
@@ -1304,7 +1298,7 @@ Volgistics to send email as Volgistics.com:
 1. Choose Setup from the menu in the account
 2. Expand Messages
 3. Click the "Ground Rules" link
-4. In the "From address" section, select the "Use VolunteerMail@volgistics.com as the from address (recommended)" option
+4. In the "From address" section, select the "Use `VolunteerMail@volgistics.com` as the from address (recommended)" option
 5. Click the Save button
 
 ## Bonus steps
