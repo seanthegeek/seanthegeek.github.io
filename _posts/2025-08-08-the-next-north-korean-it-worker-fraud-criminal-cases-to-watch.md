@@ -94,6 +94,8 @@ Ashtor allegedly used a company that he fraudulently created, Vali Tech Inc., to
 
 The trial for Erick Ntekereze Prince and Emanuel Ashtor is [currently scheduled](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.48.0_1.pdf) for October 6, 2025 at 400 North Miami Avenue, Courtroom 11-1, Miami, Florida.
 
+**Update**: on 2025-10-14 the jury trial was cancelled for Erick Ntekereze Prince was cancelled and a Change of Plea hearing is set for 10/30/2025 at 3:00 PM in Fort Lauderdale Division before Magistrate Judge Detra Shaw-Wilder at 299 East Broward Boulevard, Fort Lauderdale, Florida, in Courtroom 203D.
+
 They face counts:
 
 1. Conspiracy to Damage a Protected Computer ([18:371])
