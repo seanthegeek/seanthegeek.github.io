@@ -72,6 +72,8 @@ Two North Korean IT workers, Jin Sung-Il, and Pak Jin-Song, a Mexican citizen na
 
  > During the course of the conspiracy and as a direct result of his participation in the conspiracy, EMANUEL ASHTOR was paid more than $40,000, through Vali Tech Inc. and other means, representing funds obtained or otherwise derived from specified unlawful activity.
 
+**Update** 2025-10-29: A Change of Plea hearing has been scheduled for Emanuel Ashtor  for 11/6/2025 at 10:30 AM in Miami Division before Judge Darrin P. Gayles at the Wilkie D. Ferguson, Jr., U.S. Courthouse, 400 North Miami Avenue, Courtroom 11-1, 11th floor, Miami Florida
+
 To do this, they allegedly created fake identification documents and contracting companies tied to addresses related to Prince or Ashtor, who allegedly received laptops sent by victim companies to the fake personas.
 
 Jin Sung-Il is alleged to have used Ernesto Alonso De Los Reyes' identity with his consent, using a fake non-immigrant United States-Mexico-Canada Agreement ("USMCA") Professional (TN) visa.
