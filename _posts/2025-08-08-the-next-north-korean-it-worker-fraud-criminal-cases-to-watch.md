@@ -72,7 +72,7 @@ Two North Korean IT workers, Jin Sung-Il, and Pak Jin-Song, a Mexican citizen na
 
  > During the course of the conspiracy and as a direct result of his participation in the conspiracy, EMANUEL ASHTOR was paid more than $40,000, through Vali Tech Inc. and other means, representing funds obtained or otherwise derived from specified unlawful activity.
 
-**Update** 2025-11-06: Emanuel Ashtor has pled guilty to conspiracy to commit wire fraud and mail fraud and has agreed [cooperate with prosecutors](https://ecf.flsd.uscourts.gov/doc1/051129092420) and forfeit $89,000 in exchange for all other charges against him in the _United States v. Jin et al_ North Korean IT worker fraud case to be dropped. The United States is recommending a sentencing range of 41 to 51 months (3.4 to 4.25 years). His sentencing hearing is set for 1/7/2026 at 02:30 PM.
+**Update** 2025-11-06: Erik Prince has pled guilty to conspiracy to commit wire fraud and mail fraud and has agreed [cooperate with the government](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.57.0.pdf) and forfeit $89,000 in exchange for all other charges against him in the _United States v. Jin et al_ North Korean IT worker fraud case to be dropped. The United States is recommending a sentencing range of 41 to 51 months (3.4 to 4.25 years). His sentencing hearing is set for 1/7/2026 at 02:30 PM.
 
 To do this, they allegedly created fake identification documents and contracting companies tied to addresses related to Prince or Ashtor, who allegedly received laptops sent by victim companies to the fake personas.
 
