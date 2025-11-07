@@ -88,7 +88,7 @@ Glaus Li was a fake persona allegedly created by Pak, Prince, and Jin to fraudul
 
 ![A photo of a fake Social Security card for Glaus Li](/assets/images/fake-social-security-card-for-glsus-li.webp)
 
-Once victim companies shipped laptops to Li at US addresses of Prince, remote access wad achieved either by installing Anydesk or by shipping the laptop to China.
+Once victim companies shipped laptops to Li at US addresses of Prince, remote access was achieved either by installing Anydesk or by shipping the laptop to China.
 
 Ashtor allegedly used a company that he fraudulently created, Vali Tech Inc., to complete I-9 verification of a fake US passport for Jin, which used the identity K. Bane. Once a laptop addressed to K. bane was received by Ashtor, he allegedly installed Anydesk or Team/Viewer on it.
 
