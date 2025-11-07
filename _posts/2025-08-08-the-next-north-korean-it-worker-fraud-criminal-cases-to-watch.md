@@ -123,7 +123,7 @@ The incitement makes it clear how important US persons were as facilitators of t
 
 > The conspirators pretended to be U.S. persons seeking remote IT work by using  stolen, borrowed, or purchased identities. In some instances, to better hide their identities and  obtain employment, the conspirators paid U.S. persons and others to appear in their place at  interviews and provided direction and guidance to the U.S. persons during the interviews. After  being hired, the conspirators paid U.S. persons and others to receive and maintain laptops that  were provided by U.S. businesses. By using U.S. persons to interview in their place and to host employer-provided laptops, the conspirators created the false appearance that employers had hired  U.S. persons who were performing work from within the United States.
 
-They agreed to pay facilitators handsomely for their help, but end up paying them much less than they agreed to.
+They agreed to pay facilitators handsomely for their help, but ended up paying them much less than they agreed to.
 
 > On or about October 16, 2021 , KIM YE WON and SOK KWANG HYOK agreed to pay A.P. approximately $1 ,000 a week to impersonate M.A., thereby allowing KIM YE WON and SOK KWANG HYOK to regularly work for U.S. Business #1.
 >
