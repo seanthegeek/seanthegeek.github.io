@@ -72,7 +72,7 @@ Two North Korean IT workers, Jin Sung-Il, and Pak Jin-Song, a Mexican citizen na
 
  > During the course of the conspiracy and as a direct result of his participation in the conspiracy, EMANUEL ASHTOR was paid more than $40,000, through Vali Tech Inc. and other means, representing funds obtained or otherwise derived from specified unlawful activity.
 
-**Update** 2025-11-06: Erick Ntekereze Prince has pled guilty to Conspiracy to Commit Wire Fraud and Mail Fraud ([18:1349]) and has agreed to [cooperate with the government](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.57.0.pdf) and forfeit $89,000 in exchange for all other charges against him in the _United States v. Jin et al_ North Korean IT worker fraud case to be dropped. The United States is recommending a sentencing range of 41 to 51 months (3.4 to 4.25 years). His sentencing hearing is set for 1/7/2026 at 02:30 PM.
+**Update** 11/06/2025: Erick Ntekereze Prince has pled guilty to Conspiracy to Commit Wire Fraud and Mail Fraud ([18:1349]) and has agreed to [cooperate with the government](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.57.0.pdf) and forfeit $89,000 in exchange for all other charges against him in the _United States v. Jin et al_ North Korean IT worker fraud case to be dropped. The United States is recommending a sentencing range of 41 to 51 months (3.4 to 4.25 years). His sentencing hearing is set for 1/7/2026 at 02:30 PM.
 
 To do this, they allegedly created fake identification documents and contracting companies tied to addresses related to Prince or Ashtor, who allegedly received laptops sent by victim companies to the fake personas.
 
@@ -160,6 +160,8 @@ They all face counts:
 
 Matthew Isaac Knoot, 38, of Nashville, Tennessee, is accused being a facilitator of North Korean IT workers using the persona Yang Di, who used the stolen identity Andrew M. Knoot allegedly received laptops from victim companies, hosted them at this Tennessee residences, and installed remote access software (namely called Splashtop Streamer) on them, thus building a laptop farm to allow DPRK IT workers to appear to be working from a US location.
 
+**Update:** On 9/29/2025, Matthew Isaac Knoot has signed an [plea agreement](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.119.0.pdf), and pled guilty to Conspiracy to Cause Damage to Protected Computers ([18:371]), in exchange for the other charges to be dropped. His sentencing  is scheduled for 02/02/2026, at 2:00 PM local time. He faces a maximum possible sentence of 5 years in prison.
+
 He was allegedly paid for this work, though apparently not nearly as much as he had expected.
 
 > KNOOT was paid $15,100 for his services, which is substantially less than the $500 per month, per laptop, plus 20 percent of money earned from the remote IT work that he had agreed to.
@@ -206,13 +208,9 @@ Olesandr Didenko, also known as Alexander Didenko is a Ukrainian national last k
 
 > As explained further herein, evidence collected during the investigation reveals that DIDENKO manages as many as approximately 871 proxy identities, provides proxy accounts for 3 freelance IT hiring platforms, and provides proxy accounts for 3 different MSTs. In coordination with co-conspirators, DIDENKO facilitates the operation of at least 3 US.-based “laptop farms” hosting approximately 79 computers. DIDENKO’s 3 MST accounts, which he uses to send and receive funds in furtherance of the scheme, have received approximately $920,000 in U.S.D. payments since July 2018.
 
-The complaint against Didenko includes excerpts of chats, which include mentions of Christina Chapman and North Korea. The complaint mentions other laptop farms, so if Didenko decides to cooperate in a plea deal, (or not) there could be many more arrests.
+The complaint against Didenko includes excerpts of chats, which include mentions of Christina Chapman and North Korea. The complaint mentions other laptop farms, so there could be many more arrests.
 
-Didenko was arrested on December 31, 2024. His plea hearing is currently scheduled for November 10, 2025, at 2:00 p.m. in Courtroom 8.
-
-**Update 09/04/2025**: The government has filed an [unopposed motion](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.23.0.pdf) to reschedule the plea hearing to the week of November 10th or later due to plea negotiations.
-
-**Update 09/09/2025**: The plea hearing is scheduled for November 10.
+**Update**: On 11/10/2025 Olesandr Didenko pled guilty to Conspiracy to Commit Wire Fraud ([18:1343] & [1349][18:1349]) and Aggravated Identity Theft ([18:2] and [1028][18:1028A](a)(1)). His sentencing is set for 2/19/2026 at 10:00 AM.
 
 He is facing counts of:
 
