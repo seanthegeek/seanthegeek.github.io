@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trump Tweets + Analysis = Art?
+title:  2019 Trump Tweets + Analysis = Art?
 description: I created a word cloud from nearly a year Donald Trump's tweets
   in 2019, then forgot to blog about it. Here are the results with a
   five year retrospective.
