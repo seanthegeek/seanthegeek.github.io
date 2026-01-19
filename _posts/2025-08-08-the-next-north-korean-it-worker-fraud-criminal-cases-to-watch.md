@@ -72,7 +72,9 @@ Two North Korean IT workers, Jin Sung-Il, and Pak Jin-Song, a Mexican citizen na
 
  > During the course of the conspiracy and as a direct result of his participation in the conspiracy, EMANUEL ASHTOR was paid more than $40,000, through Vali Tech Inc. and other means, representing funds obtained or otherwise derived from specified unlawful activity.
 
-**Update** 11/06/2025: Erick Ntekereze Prince has pled guilty to Conspiracy to Commit Wire Fraud and Mail Fraud ([18:1349]) and has agreed to [cooperate with the government](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.57.0.pdf) and forfeit $89,000 in exchange for all other charges against him in the _United States v. Jin et al_ North Korean IT worker fraud case to be dropped. The United States is recommending a sentencing range of 41 to 51 months (3.4 to 4.25 years). His sentencing hearing is set for 1/7/2026 at 02:30 PM.
+**Update**: On 01/06/2025 Erick Ntekereze Prince filed an [intent to withdraw his guilty plea](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.73.0.pdf).
+
+**Update**: On 11/06/2025 Erick Ntekereze Prince has pled guilty to Conspiracy to Commit Wire Fraud and Mail Fraud ([18:1349]) and has agreed to [cooperate with the government](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.57.0.pdf) and forfeit $89,000 in exchange for all other charges against him in the _United States v. Jin et al_ North Korean IT worker fraud case to be dropped. The United States is recommending a sentencing range of 41 to 51 months (3.4 to 4.25 years). His sentencing hearing is set for 1/7/2026 at 02:30 PM.
 
 To do this, they allegedly created fake identification documents and contracting companies tied to addresses related to Prince or Ashtor, who allegedly received laptops sent by victim companies to the fake personas.
 
@@ -93,8 +95,6 @@ Once victim companies shipped laptops to Li at US addresses of Prince, remote ac
 Ashtor allegedly used a company that he fraudulently created, Vali Tech Inc., to complete I-9 verification of a fake US passport for Jin, which used the identity K. Bane. Once a laptop addressed to K. bane was received by Ashtor, he allegedly installed Anydesk or TeamViewer on it.
 
 ![A photo of a fake US passport for K.Bane](/assets/images/fake-us-passport-for-k-bane.webp)
-
-The trial for Emanuel Ashtor is [currently scheduled](https://storage.courtlistener.com/recap/gov.uscourts.flsd.682422/gov.uscourts.flsd.682422.48.0_1.pdf) for October 6, 2025 at 400 North Miami Avenue, Courtroom 11-1, Miami, Florida.
 
 He faces counts:
 
