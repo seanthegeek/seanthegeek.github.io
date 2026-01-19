@@ -1,8 +1,7 @@
 ---
 layout: post
 permalink: /234/graphical-linux-applications-bash-ubuntu-windows/
-title: How to run graphical Linux applications on Windows 10 using the Windows Subsystem
-  for Linux (WSL) 1.0
+title: How to Run Linux GUI Apps on Windows 10 with WSL 1.0
 description: A step-by-step guide on installing Bash on Ubuntu on Windows, with additional
   steps for running graphical Linux applications.
 date: 2017-06-11 20:01:53 -0000

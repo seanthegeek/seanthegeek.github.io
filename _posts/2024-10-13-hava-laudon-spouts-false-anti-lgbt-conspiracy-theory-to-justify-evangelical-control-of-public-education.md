@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hava Laudon spouts a false anti-LGBT conspiracy theory to justify evangelical christian control of public education
+title: Hava Laudon spouts a false anti-LGBT conspiracy theory to justify Evangelical Christian control of public education
 description: A candidate for Ohio Board of Education District 5 cites an unspecified "LGBT agenda" while discussing child abuse in a video interview posted to her campaign website
 image:
   path: /assets/images/hava-laudon-politics-drive-trafficking.webp

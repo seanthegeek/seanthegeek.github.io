@@ -1,6 +1,5 @@
 ---
 layout: post
-title: how-to-add-keybase-proof-to-jekyll
 date: 2024-08-19 09:19 -0400
 title: How to add a Keybase proof to a Jekyll static website
 description: Adding a Keybase proof to a Jekyll site is easy once you know how
