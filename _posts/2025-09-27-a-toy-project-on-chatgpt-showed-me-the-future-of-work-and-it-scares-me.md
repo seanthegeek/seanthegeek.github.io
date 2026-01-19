@@ -19,7 +19,7 @@ A few weeks ago my partner showed me this [TikTok video](/assets/videos/tiktok-c
 
 ![A screenshot of the video description](assets/images/tiktok-gpt-alphabet-video-description.webp)
 
-GPT-5 was released on August 7, 2025. Although the video was posted on August 24, 2025, it's not impossible to know when the video was actually recorded or what GPT model was used based on the video. I decided to see if I could get a better result. With no art skills or experience using the [Python Imaging Library (PIL)](https://github.com/python-pillow/Pillow), I was able to collaborate with GPT-5 to create a framework for making image flashcards, which is now including a complete set from A to Z. You can find [the source code](https://github.com/seanthegeek/alphabet-flashcards/) and [the images](https://github.com/seanthegeek/alphabet-flashcards/releases) on GitHub.
+GPT-5 was released on August 7, 2025. Although the video was posted on August 24, 2025, it's not impossible to know when the video was actually recorded or what GPT model was used based on the video. I decided to see if I could get a better result. With no art skills or experience using the [Python Imaging Library (PIL)](https://github.com/python-pillow/Pillow), I was able to collaborate with GPT-5 to create a framework for making image flashcards, including a complete set from A to Z. You can find [the source code](https://github.com/seanthegeek/alphabet-flashcards/) and [the images](https://github.com/seanthegeek/alphabet-flashcards/releases) on GitHub.
 
 I started with this prompt.
 

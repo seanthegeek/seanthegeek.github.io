@@ -186,7 +186,7 @@ sudo systemctl enable openwebui.service
 sudo service openwebui start
 ```
 
-This systend service is designed to pull the latest images every time it starts and restarts, so it might take a few minutes to start or restart. That is normal.
+This systemd service is designed to pull the latest images every time it starts and restarts, so it might take a few minutes to start or restart. That is normal.
 
 ## Install and configure the nginx webserver
 

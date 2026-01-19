@@ -160,7 +160,7 @@ They all face counts:
 
 Matthew Isaac Knoot, 38, of Nashville, Tennessee, is accused being a facilitator of North Korean IT workers using the persona Yang Di, who used the stolen identity Andrew M. Knoot allegedly received laptops from victim companies, hosted them at this Tennessee residences, and installed remote access software (namely called Splashtop Streamer) on them, thus building a laptop farm to allow DPRK IT workers to appear to be working from a US location.
 
-**Update:** On 9/29/2025, Matthew Isaac Knoot has signed an [plea agreement](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.119.0.pdf), and pled guilty to Conspiracy to Cause Damage to Protected Computers ([18:371]), in exchange for the other charges to be dropped. His sentencing  is scheduled for 02/02/2026, at 2:00 PM local time. He faces a maximum possible sentence of 5 years in prison.
+**Update:** On 9/29/2025, Matthew Isaac Knoot has signed an [plea agreement](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.119.0.pdf), and pled guilty to Conspiracy to Cause Damage to Protected Computers ([18:371]), in exchange for the other charges to be dropped. His sentencing is scheduled for 02/02/2026, at 2:00 PM local time. He faces a maximum possible sentence of 5 years in prison.
 
 He was allegedly paid for this work, though apparently not nearly as much as he had expected.
 
@@ -197,8 +197,6 @@ I noticed a couple of items on the Knoot docket that make this case unique from 
 
 **Update 8/08/2025**: The United States has moved for the Court to [exclude the testimony of the defendant's expert witness](https://ecf.tnmd.uscourts.gov/doc1/16906160969?caseid=100565) on the basis of the defendant filing the notice of expert witness two weeks after the deadline to do so had passed.
 
-The trial is [currently scheduled](https://storage.courtlistener.com/recap/gov.uscourts.tnmd.100565/gov.uscourts.tnmd.100565.100.0.pdf) for October 14, 2025, beginning at 9:00 a.m.
-
 [Justice Department press release](https://www.justice.gov/usao-mdtn/pr/department-disrupts-north-korean-remote-it-worker-fraud-schemes-through-charges-and)<br>
 [Docket](https://www.courtlistener.com/docket/69026861/united-states-v-knoot/)
 
@@ -210,7 +208,7 @@ Olesandr Didenko, also known as Alexander Didenko is a Ukrainian national last k
 
 The complaint against Didenko includes excerpts of chats, which include mentions of Christina Chapman and North Korea. The complaint mentions other laptop farms, so there could be many more arrests.
 
-**Update**: On 11/10/2025 Olesandr Didenko pled guilty to Conspiracy to Commit Wire Fraud ([18:1343] & [1349][18:1349]) and Aggravated Identity Theft ([18:2] and [1028][18:1028A](a)(1)). His sentencing is set for 2/19/2026 at 10:00 AM.
+**Update**: On 11/10/2025 Olesandr Didenko [pled guilty](https://storage.courtlistener.com/recap/gov.uscourts.dcd.269128/gov.uscourts.dcd.269128.25.0.pdf) to Conspiracy to Commit Wire Fraud ([18:1343] & [1349][18:1349]) and Aggravated Identity Theft ([18:2] and [1028][18:1028A](a)(1)). His sentencing is set for 2/19/2026 at 10:00 AM.
 
 He is facing counts of:
 
