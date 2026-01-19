@@ -14,11 +14,11 @@ tags:
   - IPMI
 date: 2025-05-20 17:05 -0400
 ---
-I have a used Dell PowerEdge R730xd server in my basement running TrueNAS. The R70XD is a storage server that was originally launched in 2014. I use it mostly for storage and running a few virtual machines. Recently, I decided to add a refurbished Nvidia A5000 GPU so I could play around with LLMs and other AI tech in a VM with the GPU [passed through](/posts/fix-for-vfio-gpu-passthrough-vfio-map-dma-failed-errors-in-truenas-proxmox-unraid-qemu/). As soon as the OS booted all of the fans sped up to 100% even though the system was just idling. A very helpful [YouTube video](https://www.youtube.com/watch?v=8wRFUxs3tPQ) by MadTc Tech explains how to fix this. I'm documenting the steps here on my blog so they are handy for me without needing to watch a 6 minute video, and for safekeeping if that video every disappears.
+I have a used Dell PowerEdge R730xd server in my basement running TrueNAS. The R70XD is a storage server that was originally launched in 2014. I use it mostly for storage and running a few virtual machines. Recently, I decided to add a refurbished Nvidia A5000 GPU so I could play around with LLMs and other AI tech in a VM with the GPU [passed through](/posts/fix-for-vfio-gpu-passthrough-vfio-map-dma-failed-errors-in-truenas-proxmox-unraid-qemu/). As soon as the OS booted all of the fans sped up to 100% even though the system was just idling. A very helpful [YouTube video](https://www.youtube.com/watch?v=8wRFUxs3tPQ) by MadTc Tech explains how to fix this. I'm documenting the steps here on my blog so they are handy for me without needing to watch a 6 minute video, and for safekeeping if that video ever disappears.
 
 ## Ensure IPMI is Enabled in iDRAC
 
-The solution presented by MadTc Tech uses the (Integrated Dell Remote Access Controller (iDRAC))[Integrated Dell Remote Access Controller (iDRAC)](https://www.dell.com/en-us/lp/dt/open-manage-idrac) and [Intelligent Platform Management Interface (IPMI)](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface) to reconfigure the fan profiles.
+The solution presented by MadTc Tech uses the [Integrated Dell Remote Access Controller (iDRAC)](https://www.dell.com/en-us/lp/dt/open-manage-idrac) and [Intelligent Platform Management Interface (IPMI)](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface) to reconfigure the fan profiles.
 
 First, access iDRAC via a web browser at the IP address assigned to the iDRAC network interface of the server. This IP address is displayed at he BIOS startup screen.
 
@@ -28,7 +28,7 @@ Once logged into the iDRAC, navigate to `Network` page, under `Overview> iDRAC S
 
 ## Install the Dell OpenManage BMC Utility
 
-Download the Dell OpenManage BMC Utility, which can be found [here](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=w9nmr&oscode=w12r2&productcode=poweredge-r730xd).
+Download the Dell OpenManage BMC Utility, which can be [found here](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=w9nmr&oscode=w12r2&productcode=poweredge-r730xd).
 
 Install it by launching the exe, selecting a temporary path, and clicking `Unzip`. Navigate to that path in Explorer, and run `BMC.MSI`
 
