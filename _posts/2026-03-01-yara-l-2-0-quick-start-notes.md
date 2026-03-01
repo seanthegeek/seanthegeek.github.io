@@ -22,7 +22,7 @@ As an incident response engineer I have a background in using Splunk and the [Sp
 
 > Create notes on YARA-L in markdown format, with comparisons to both classic YARA and SPL, so that analysts new to SecOps can quickly gain an understanding of how YARA-L is different. Use the Google documentation to ensure that everything you say is accurate. Explain every rule section, both required and optional, how it is used, and when it is required or optional. Give examples of how in all the different ways variables can be used in rules. Include details on all of the modifiers such as nocase. Include at least one example with regex. Add a references section with links to resources at the bottom of the notes.
 
-I only found one major correction to make, and later had it review its own work [in the chat](https://claude.ai/share/ec4654d0-b6d2-4dc9-a240-4300760aee49). I hope the notes below are as useful for you as they are for me. Let me know if you find any other issues that need fixing.
+Even with the bigger model, it took several rounds of me calling out inaccurate information. I hope the notes below are as useful for you as they are for me. Let me know if you find any other issues that need fixing.
 
 ## What Is YARA-L 2.0?
 
@@ -43,7 +43,7 @@ If you're coming from Splunk (SPL) or from writing classic YARA rules for malwar
 | **String modifiers** | `nocase`, `wide`, `ascii`, `fullword`, `xor`, `base64` | N/A (use `lower()` / `upper()` functions) | `nocase` modifier on comparisons and regex |
 | **Regex** | `/regex/` in `strings` section | `\| regex field="..."` command | Inline `/regex/` literals or `re.regex()` function |
 | **Aggregation** | Count of string hits (`#string_name`) | `\| stats count, sum, avg ...` | `outcome` section with `count()`, `sum()`, `min()`, `max()`, `count_distinct()`, `array_distinct()` |
-| **Variables** | `$string_name` in `strings` | Field names directly | `$variable_name` — event, match, and placeholder variables |
+| **Variables** | `$string_name` in `strings` | Field names directly | `$variable_name` — event, match, placeholder, and outcome variables |
 | **Grouping** | N/A | `by` clause in `stats` | `match` section (`$var over <time>`) |
 
 ---
@@ -54,12 +54,12 @@ Every YARA-L rule is wrapped in a `rule <name> { ... }` block. The sections **mu
 
 ```yara-l
 rule <rule_name> {
-    meta:        // (R) - key-value metadata (required for rules; not used in search/dashboards)
-    events:      // (R) - defines event filters, variables, and joins
-    match:       // Optional - grouping keys and time window
-    outcome:     // Optional - computed output fields per detection
-    condition:   // (R)  Boolean logic that triggers the rule
-    options:     // Optional - runtime behavior flags
+    meta:        // (R) – key-value metadata (required for rules; not used in search/dashboards)
+    events:      // (R) – defines event filters, variables, and joins
+    match:       // Optional – grouping keys and time window
+    outcome:     // Optional – computed output fields per detection
+    condition:   // (R) – Boolean logic that triggers the rule
+    options:     // Optional – runtime behavior flags
 }
 ```
 
@@ -163,7 +163,7 @@ outcome:
     $risk_score = if($failed_count > 20, 90, 50)
 ```
 
-Supported aggregate functions include: `count()`, `count_distinct()`, `sum()`, `min()`, `max()`, `array()`, `array_distinct()`.
+Supported aggregate functions include: `count()`, `count_distinct()`, `sum()`, `avg()`, `min()`, `max()`, `stddev()`, `array()`, `array_distinct()`.
 
 You can also use conditional `if()` expressions and reference the outcome variables in the `condition` section.
 
@@ -251,15 +251,15 @@ After a detection fires for a given hostname and user combination, further detec
 
 ## Variables in Depth
 
-YARA-L has three types of variables, all prefixed with `$`.
+YARA-L has four types of variables, all prefixed with `$`: event, match, placeholder, and outcome.
 
 ### Event Variables
 
-Represent one or more events from the data. You access UDM fields through dot-notation chains.
+Represent one or more events or entities from the data. You access fields through dot-notation chains. Event variables have two possible sources: `udm` (normalized events, the default) and `graph` (entity context from the entity graph). If the source is omitted, `udm` is assumed.
 
 ```yara-l
 events:
-    // Single event variable
+    // Single event variable (implicitly udm source)
     $e.metadata.event_type = "PROCESS_LAUNCH"
     $e.principal.hostname = "web-server-01"
 
@@ -267,6 +267,10 @@ events:
     $login.metadata.event_type = "USER_LOGIN"
     $download.metadata.event_type = "FILE_CREATION"
     $login.principal.user.userid = $download.principal.user.userid
+
+    // Event variable with graph source for entity enrichment
+    $context.graph.entity.hostname = $host
+    $context.graph.entity.asset.vulnerabilities.severity = "HIGH"
 ```
 
 When you reference the same event variable across multiple lines, the conditions are implicitly ANDed.
@@ -303,19 +307,22 @@ condition:
     $e1 and $e2 and #src_ip > 1   // user logged in from more than 1 IP
 ```
 
-### Entity Variables (Graph Source)
+### Outcome Variables
 
-Access entity context from the Google SecOps entity graph by specifying the `graph` source:
+Declared in the `outcome` section. They define per-detection output values using aggregations, conditionals, or simple assignments. Outcome variables appear in detection results and can be used in `condition` for threshold logic.
 
 ```yara-l
-events:
-    $e.metadata.event_type = "NETWORK_CONNECTION"
-    $e.principal.hostname = $host
+outcome:
+    $login_count = count($e.metadata.id)
+    $distinct_ips = count_distinct($e.principal.ip)
+    $risk_score = if($login_count > 10, "high", "medium")
+    $sample_target = array_distinct($e.target.user.userid)
 
-    // Enrich with entity data
-    $context.graph.entity.hostname = $host
-    $context.graph.entity.asset.vulnerabilities.severity = "HIGH"
+condition:
+    $e and $login_count > 5
 ```
+
+Outcome variables support aggregate functions (`count`, `count_distinct`, `sum`, `avg`, `min`, `max`, `stddev`, `array`, `array_distinct`), conditional expressions (`if`), and simple field assignments. When an outcome conditional is used in a rule that has a `match` section, the rule is classified as multi-event for quota purposes.
 
 ### Map Access (Struct and Label Fields)
 
@@ -590,7 +597,7 @@ The following are reserved keywords in YARA-L 2.0 and cannot be used as variable
 
 `rule`, `meta`, `match`, `over`, `events`, `condition`, `outcome`, `options`, `and`, `or`, `not`, `nocase`, `in`, `regex`, `cidr`, `before`, `after`, `all`, `any`, `if`, `max`, `min`, `sum`, `array`, `array_distinct`, `count`, `count_distinct`, `is`, `null`
 
-Keywords are **case-insensitive** (`and` and `AND` are equivalent), but variable names must not collide with any keyword (e.g., `$AND` is invalid).
+Keywords are **case-insensitive** (`and` and `AND` are equivalent), but variable names must not collide with any keyword (e.g., `$AND` or `$outcome` are invalid).
 
 ---
 
@@ -598,7 +605,7 @@ Keywords are **case-insensitive** (`and` and `AND` are equivalent), but variable
 
 | Function | Description | Example |
 | --- | --- | --- |
-| `re.regex(field, pattern)` | Regex substring match | `re.regex($e.target.url, .*\.exe$) nocase` |
+| `re.regex(field, pattern)` | Regex substring match (use backtick-quoted patterns) | See regex section above |
 | `net.ip_in_range_cidr(field, cidr)` | Check if IP is within a CIDR range | `net.ip_in_range_cidr($e.principal.ip, "10.0.0.0/8")` |
 | `strings.concat(a, b)` | Concatenate strings | `strings.concat($e.principal.hostname, ".local")` |
 | `timestamp.as_string(ts)` | Convert timestamp to string | `timestamp.as_string($e.metadata.event_timestamp)` |
@@ -618,7 +625,7 @@ Keywords are **case-insensitive** (`and` and `AND` are equivalent), but variable
 
 4. **Use reference lists for tuning.** Instead of hardcoding IP addresses or hostnames in exclusions, use reference lists (`%list_name`) so you can update them without editing the rule.
 
-5. **Use `nocase` liberally on string comparisons.** Log data is inconsistently cased. However, never use `nocase` on enumerated fields like `event_type` (they're always uppercase).
+5. **Use `nocase` liberally on string comparisons.** Log data is inconsistently cased. However, do not use `nocase` on enumerated fields like `event_type` — they are always uppercase and `nocase` will throw a syntax error on these fields.
 
 6. **Google SecOps provides an SPL-to-YARA-L translator** in the Labs section of the platform to help you migrate existing Splunk queries.
 
