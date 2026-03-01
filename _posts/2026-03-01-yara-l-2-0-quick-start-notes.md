@@ -54,12 +54,12 @@ Every YARA-L rule is wrapped in a `rule <name> { ... }` block. The sections **mu
 
 ```yara-l
 rule <rule_name> {
-    meta:        // (R) – key-value metadata (required for rules; not used in search/dashboards)
-    events:      // (R) – defines event filters, variables, and joins
-    match:       // Optional – grouping keys and time window
-    outcome:     // Optional – computed output fields per detection
-    condition:   // (R) – Boolean logic that triggers the rule
-    options:     // Optional – runtime behavior flags
+    meta:        // (R) - key-value metadata (required for rules; not used in search/dashboards)
+    events:      // (R) - defines event filters, variables, and joins
+    match:       // Optional - grouping keys and time window
+    outcome:     // Optional - computed output fields per detection
+    condition:   // (R)  Boolean logic that triggers the rule
+    options:     // Optional - runtime behavior flags
 }
 ```
 
@@ -219,11 +219,11 @@ options:
 | Option | Description |
 | --- | --- |
 | `allow_zero_values` | When `true`, match variables will **not** automatically filter out zero/empty values. Default is `false`. |
-| `suppression_window` | Suppresses duplicate detections for a given `$suppression_key` for the specified duration (e.g., `5m`). Only works for single-event rules without a `match` section. |
+| `suppression_window` | Suppresses duplicate detections for a specified duration after the first match. Works for both single-event and multi-event rules. For single-event rules, define `$suppression_key` in `outcome` as the deduplication key. For multi-event rules, the `match` variables serve as the deduplication key. |
 
-**Suppression example:**
+**Suppression example (single-event rule):**
 
-```yara-l
+```
 outcome:
     $suppression_key = $hostname
 options:
@@ -232,7 +232,18 @@ options:
 
 After a detection fires for a given hostname, further detections for that same hostname are suppressed for five minutes.
 
-**When to use:** When you need to override default zero-value filtering, or when you want to reduce alert noise for high-volume single-event rules.
+**Suppression example (multi-event rule):**
+
+```
+match:
+    $hostname, $user over 1h
+options:
+    suppression_window = 24h
+```
+
+After a detection fires for a given hostname and user combination, further detections for that same combination are suppressed for 24 hours. The `suppression_window` should be greater than or equal to the `match` window size.
+
+**When to use:** When you need to override default zero-value filtering, or when you want to reduce alert noise for high-volume rules.
 
 **SPL comparison / Classic YARA comparison:** Neither has a direct equivalent. In SPL you'd handle deduplication with `dedup` or throttling settings outside the query. Classic YARA has `global` and `private` rule modifiers which are conceptually different.
 
