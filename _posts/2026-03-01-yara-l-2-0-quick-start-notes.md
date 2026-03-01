@@ -567,25 +567,30 @@ rule brute_force_login {
 
 ### Sliding Window Rule with Negation
 
-Detects when a `firewall_1` event is not followed by a `firewall_2` event within 10 minutes:
+Detects when a VPN authentication succeeds but no MFA challenge event follows within 5 minutes, which could indicate MFA bypass or misconfiguration:
 
 ```yara-l
-rule missing_followup_event {
+rule vpn_login_without_mfa {
     meta:
-        author = "analyst@example.com"
-        description = "firewall_1 event without corresponding firewall_2 event"
+        author = "soc-team@example.com"
+        description = "VPN authentication without subsequent MFA challenge"
+        severity = "HIGH"
 
     events:
-        $e1.metadata.product_name = "firewall_1"
-        $e1.principal.hostname = $host
-        $e2.metadata.product_name = "firewall_2"
-        $e2.principal.hostname = $host
+        $vpn.metadata.event_type = "USER_LOGIN"
+        $vpn.metadata.product_name = "Corporate VPN"
+        $vpn.security_result.action = "ALLOW"
+        $vpn.target.user.userid = $user
+
+        $mfa.metadata.event_type = "USER_LOGIN"
+        $mfa.metadata.product_name = "MFA Provider"
+        $mfa.target.user.userid = $user
 
     match:
-        $host over 10m after $e1
+        $user over 5m after $vpn
 
     condition:
-        $e1 and !$e2
+        $vpn and !$mfa
 }
 ```
 
