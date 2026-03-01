@@ -223,7 +223,7 @@ options:
 
 **Suppression example (single-event rule):**
 
-```
+```yara-l
 outcome:
     $suppression_key = $hostname
 options:
@@ -234,7 +234,7 @@ After a detection fires for a given hostname, further detections for that same h
 
 **Suppression example (multi-event rule):**
 
-```
+```yara-l
 match:
     $hostname, $user over 1h
 options:
