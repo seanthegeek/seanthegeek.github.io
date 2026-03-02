@@ -268,6 +268,6 @@ Once I got more specific I got what I wanted.
 
 Based on its performance analyzing Open Source Intelligence (OSINT) I've found Claude to be versatile, insightful, and capable of handling long-running conversations while incorporating data from old and new sources with strong prompt adherence. Exactly the sort of thing that would be highly useful when working to distill insights from a variety of intelligence sources. GPT...not so much. I worry that the Pentagon's illegal actions will not only make businesses less likely to do business with the government, as others have mentioned, but will also potentially put lives at risk by forcing the Intelligence Community to switch an unfamiliar product with little notice. All this seemingly because an company with ethics wouldn't allow Trump and friends to spy on whoever they wanted.
 
-## The Streisand Effect
+## The Streisand effect
 
 The following Monday, Claude [became the top free app](https://www.cnbc.com/2026/03/02/anthropic-claude-ai-outage-apple-pentagon.html) on the Apple app store. The surge in demand was so strong that it [caused an outage in Claude services](https://status.claude.com/incidents/0j8dkb38jymf). If there was a plan to commit corporate murder, the conspirators have clearly never head of the [Streisand effect](https://en.wikipedia.org/wiki/Streisand_effect).
