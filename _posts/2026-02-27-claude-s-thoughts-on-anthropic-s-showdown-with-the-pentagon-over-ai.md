@@ -270,4 +270,4 @@ Based on its performance analyzing Open Source Intelligence (OSINT) I've found C
 
 ## The Streisand effect
 
-The following Monday, Claude [became the top free app](https://www.cnbc.com/2026/03/02/anthropic-claude-ai-outage-apple-pentagon.html) on the Apple app store. The surge in demand was so strong that it [caused an outage in Claude services](https://status.claude.com/incidents/0j8dkb38jymf). If there was a plan to commit corporate murder, the conspirators have clearly never head of the [Streisand effect](https://en.wikipedia.org/wiki/Streisand_effect).
+The following Monday, Claude [became the top free app](https://www.cnbc.com/2026/03/02/anthropic-claude-ai-outage-apple-pentagon.html) on the Apple app store. The surge in demand was so strong that it [caused an outage in Claude services](https://status.claude.com/incidents/0j8dkb38jymf). If there was a plan to commit corporate murder, the conspirators have clearly never heard of the [Streisand effect](https://en.wikipedia.org/wiki/Streisand_effect).
