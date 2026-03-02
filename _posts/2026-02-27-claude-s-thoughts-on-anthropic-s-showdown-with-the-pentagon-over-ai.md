@@ -158,11 +158,11 @@ Claude replied:
 >
 >The honest version of my earlier pushback is probably this: the value I add is real, but it's infrastructural rather than irreplaceable. I make good analysts faster and more comprehensive. I don't replace the judgment, the accountability, or the tacit knowledge that comes from years of working a specific account or region. Which is, incidentally, pretty much exactly how Anthropic has been pitching Claude to the intelligence community — and one reason the Pentagon's demand for unrestricted autonomous use, rather than human-in-the-loop augmentation, struck so many people as both technically premature and conceptually misguided.
 
-Today I followed up with:
+## Following up on current events in context
+
+On saturday I followed up with:
 
 > Anthropic has now stated that they will challenge the government's actions in court.
-
-## Following up on current events in context
 
 Claud replied:
 
