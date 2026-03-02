@@ -266,7 +266,7 @@ Once I got more specific I got what I wanted.
 
 ## Implications for the Intelligence Community
 
-Based on its performance analyzing Open Source Intelligence (OSINT) I've found Claude to be versatile, insightful, and capable of handling long-running conversations while incorporating data from old and new sources with strong prompt adherence. Exactly the sort of thing that would be highly useful when working to distill insights from a variety of intelligence sources. GPT...not so much. I worry that the Pentagon's illegal actions will not only make businesses less likely to do business with the government, as others have mentioned, but will also potentially put lives at risk by forcing the Intelligence Community to switch an unfamiliar product with little notice. All this seemingly because an ethical company with ethics wouldn't allow Trump and friends to spy on whoever they wanted.
+Based on its performance analyzing Open Source Intelligence (OSINT) I've found Claude to be versatile, insightful, and capable of handling long-running conversations while incorporating data from old and new sources with strong prompt adherence. Exactly the sort of thing that would be highly useful when working to distill insights from a variety of intelligence sources. GPT...not so much. I worry that the Pentagon's illegal actions will not only make businesses less likely to do business with the government, as others have mentioned, but will also potentially put lives at risk by forcing the Intelligence Community to switch an unfamiliar product with little notice. All this seemingly because an company with ethics wouldn't allow Trump and friends to spy on whoever they wanted.
 
 ## The Streisand Effect
 
