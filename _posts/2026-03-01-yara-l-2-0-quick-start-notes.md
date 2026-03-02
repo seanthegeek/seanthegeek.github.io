@@ -32,20 +32,23 @@ If you're coming from Splunk (SPL) or from writing classic YARA rules for malwar
 
 ---
 
-## At a Glance: YARA-L vs. Classic YARA vs. SPL
+## At a Glance: Classic YARA vs. SPL vs. YARA-L
+
+<!-- markdownlint-disable MD033 -->
 
 | Aspect | Classic YARA | SPL (Splunk) | YARA-L 2.0 |
 | --- | --- | --- | --- |
 | **Primary purpose** | File/binary pattern matching | Log search, stats, and dashboards | Log search, correlation rules, and dashboards |
 | **Operates on** | Files and memory buffers | Index-time and search-time fields | UDM-normalized events and entity graphs |
-| **Structure** | `strings` + `condition` sections | Pipe-chained commands (`\| search \| stats`) | Declarative sections: `meta`, `events`, `match`, `outcome`, `condition`, `options` |
+| **Structure** | `strings` + `condition` sections | Pipe-chained commands (<code>&#124; search &#124; stats</code>) | Declarative sections: `meta`, `events`, `match`, `outcome`, `condition`, `options` |
 | **Multi-event correlation** | Not supported | Requires subsearches or transactions | Native — join multiple event variables in `events` and set a time window in `match` |
 | **String modifiers** | `nocase`, `wide`, `ascii`, `fullword`, `xor`, `base64` | N/A (use `lower()` / `upper()` functions) | `nocase` modifier on comparisons and regex |
-| **Regex** | `/regex/` in `strings` section | `\| regex field="..."` command | Inline `/regex/` literals or `re.regex()` function |
-| **Aggregation** | Count of string hits (`#string_name`) | `\| stats count, sum, avg ...` | `outcome` section with `count()`, `count_distinct()`, `sum()`, `avg()`, `min()`, `max()`, `stddev()`, `array()`, `array_distinct()` |
+| **Regex** | `/regex/` in `strings` section | <code>&#124; regex field="..."</code> command | Inline `/regex/` literals or `re.regex()` function |
+| **Aggregation** | Count of string hits (`#string_name`) | <code>&#124; stats count, sum, avg ...</code> | `outcome` section with `count()`, `count_distinct()`, `sum()`, `avg()`, `min()`, `max()`, `stddev()`, `array()`, `array_distinct()` |
 | **Variables** | `$string_name` in `strings` | Field names directly | `$variable_name` — event, match, placeholder, and outcome variables |
 | **Grouping** | N/A | `by` clause in `stats` | `match` section (`$var over <time>`) |
 
+<!-- markdownlint-enable MD033 -->
 ---
 
 ## Rule Structure Overview
