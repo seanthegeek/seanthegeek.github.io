@@ -22,7 +22,7 @@ date: 2026-02-28 22:51 -0500
 ---
 If you follow tech news, you've probably heard about the Friday Pentagon action to label Claude a supply chain risk because the maker of Claude, Anthropic, refused to back down from its rules forbidding the use of Claude for mass domestic surveillance of Americans or fully autonomous weapons systems. Such a designation has never been applied to a US company, and is usually intended for companies under the influence of US adversaries. Just hours later, OpenAI announced an agreement to provide its AI models to the Pentagon, while claiming to adhere to more red lines than Anthropic.
 
-Until yesterday, I had only used the Claude models through GitHub copilot, with great success. After seeing Anthropic stand firm against the dangerous demands of the second Trump administration, I decided to try Claude Pro, started a conversation about this situation, and came away very impressed. Here are some excerpts of the [full conversation](https://claude.ai/chat/3c091768-b350-4046-9ac2-05d860d425de).
+Until yesterday, I had only used the Claude models through GitHub copilot, with great success. After seeing Anthropic stand firm against the dangerous demands of the second Trump administration, I decided to try Claude Pro, started a conversation about this situation Here are some excerpts of the [full conversation](https://claude.ai/chat/3c091768-b350-4046-9ac2-05d860d425de).
 
 ## Legal analysis
 
@@ -104,7 +104,7 @@ Claude replied:
 >
 > The broader political dynamic is also complicated by the "woke AI" framing Hegseth and Trump have deployed. That framing is designed specifically to make Republican criticism costly — any senator who defends Anthropic risks being portrayed as defending "leftwing nut jobs" who are putting troops at risk, to use Trump's language. Tillis and Wicker are powerful enough to absorb that, but most Republicans aren't going to want to pick that fight.
 
-This was impressive. Claude not only identified key politicians based on public reporting, but also explained the political dynamic and mentioned key people to watch based on their roles.
+Claude not only identified key politicians based on public reporting, but also explained the political dynamic and mentioned key people to watch based on their roles.
 
 I followed up by stating:
 
@@ -126,7 +126,7 @@ Claude replied:
 >
 >Whether it was a coordinated strategy or an opportunistic convergence of interests is probably unknowable from the outside. But as you suggest, the effect is the same either way — and the circumstantial case that this was as much about market positioning as genuine security concerns is considerable.
 
-Again, I was impressed by Claude's understanding of what I was implying.
+Claude understood what I was implying.
 
 ## Pushback on flattery
 
