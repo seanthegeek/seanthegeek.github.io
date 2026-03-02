@@ -42,7 +42,7 @@ If you're coming from Splunk (SPL) or from writing classic YARA rules for malwar
 | **Multi-event correlation** | Not supported | Requires subsearches or transactions | Native — join multiple event variables in `events` and set a time window in `match` |
 | **String modifiers** | `nocase`, `wide`, `ascii`, `fullword`, `xor`, `base64` | N/A (use `lower()` / `upper()` functions) | `nocase` modifier on comparisons and regex |
 | **Regex** | `/regex/` in `strings` section | `\| regex field="..."` command | Inline `/regex/` literals or `re.regex()` function |
-| **Aggregation** | Count of string hits (`#string_name`) | `\| stats count, sum, avg ...` | `outcome` section with `count()`, `sum()`, `min()`, `max()`, `count_distinct()`, `array_distinct()` |
+| **Aggregation** | Count of string hits (`#string_name`) | `\| stats count, sum, avg ...` | `outcome` section with `count()`, `count_distinct()`, `sum()`, `avg()`, `min()`, `max()`, `stddev()`, `array()`, `array_distinct()` |
 | **Variables** | `$string_name` in `strings` | Field names directly | `$variable_name` — event, match, placeholder, and outcome variables |
 | **Grouping** | N/A | `by` clause in `stats` | `match` section (`$var over <time>`) |
 
@@ -315,14 +315,14 @@ Declared in the `outcome` section. They define per-detection output values using
 outcome:
     $login_count = count($e.metadata.id)
     $distinct_ips = count_distinct($e.principal.ip)
-    $risk_score = if($login_count > 10, "high", "medium")
+    $risk_score = if($login_count > 10, 90, 40)
     $sample_target = array_distinct($e.target.user.userid)
 
 condition:
     $e and $login_count > 5
 ```
 
-Outcome variables support aggregate functions (`count`, `count_distinct`, `sum`, `avg`, `min`, `max`, `stddev`, `array`, `array_distinct`), conditional expressions (`if`), and simple field assignments. When an outcome conditional is used in a rule that has a `match` section, the rule is classified as multi-event for quota purposes.
+Outcome variables support aggregate functions (`count`, `count_distinct`, `sum`, `avg`, `min`, `max`, `stddev`, `array`, `array_distinct`), conditional expressions (`if`), and simple field assignments. The special `$risk_score` variable must be integer or float — its value is displayed on the Alerts and IoCs page (defaults to 40 for alerting rules, 15 for non-alerting). When an outcome conditional is used in a rule that has a `match` section, the rule is classified as multi-event for quota purposes.
 
 ### Map Access (Struct and Label Fields)
 
@@ -348,10 +348,10 @@ events:
     $e.principal.hostname = "WORKSTATION01" nocase
 
     // Case-insensitive regex (inline literal)
-    $e.principal.hostname = /.*host.*/ nocase
+    $e.principal.hostname = /.*workstation.*/ nocase
 
     // Case-insensitive regex (function form)
-    re.regex($e.network.email.from, `.*altostrat\.com`) nocase
+    re.regex($e.principal.process.command_line, `powershell\.exe`) nocase
 ```
 
 **Important:** `nocase` cannot be used on enumerated fields (like `metadata.event_type`) because enumerated values are always uppercase. Attempting it causes a syntax error.
@@ -438,7 +438,7 @@ Pass the field and a regex string (in back quotes for literal interpretation, or
 ```yara-l
 events:
     re.regex($e.principal.process.command_line, `\bsvchost(\.exe)?\b`) nocase
-    re.regex($e.network.email.from, `.*altostrat\.com`) nocase
+    not re.regex($e.principal.process.file.full_path, `\\Windows\\System32\\`) nocase
 ```
 
 The function returns true if any substring matches. You do **not** need `.*` at the start and end unless you're anchoring. Use `^` and `$` anchors for exact matches.
@@ -457,7 +457,7 @@ rule suspicious_svchost_location {
     events:
         $e1.metadata.event_type = "PROCESS_LAUNCH"
         re.regex($e1.principal.process.command_line, `\bsvchost(\.exe)?\b`) nocase
-        not re.regex($e1.principal.process.command_line, `\\Windows\\System32\\`) nocase
+        not re.regex($e1.principal.process.file.full_path, `\\Windows\\System32\\`) nocase
 
     condition:
         $e1
@@ -466,23 +466,26 @@ rule suspicious_svchost_location {
 
 ### Regex with `nocase`, `match`, and `condition`
 
-This rule finds hosts sending more than 10 emails from a specific domain within 10 minutes:
+This rule detects hosts launching PowerShell with encoded commands more than 3 times within 10 minutes:
 
 ```yara-l
-rule regex_email_example {
+rule regex_encoded_powershell {
     meta:
         author = "soc-team@example.com"
+        description = "Multiple encoded PowerShell executions from the same host"
+        severity = "HIGH"
 
     events:
+        $e.metadata.event_type = "PROCESS_LAUNCH"
         $e.principal.hostname = $host
-        $host = /.*host.*/ nocase
-        re.regex($e.network.email.from, `.*altostrat\.com`) nocase
+        re.regex($e.principal.process.command_line, `powershell`) nocase
+        re.regex($e.principal.process.command_line, `\-(enc|encodedcommand)`) nocase
 
     match:
         $host over 10m
 
     condition:
-        #e > 10
+        #e > 3
 }
 ```
 
@@ -496,15 +499,18 @@ rule regex_email_example {
 
 ### Single-Event Rule (No Match Section)
 
-The simplest form. Fires once per matching event.
+The simplest form. Fires once per matching event. This example alerts on any login to a known honeypot host:
 
 ```yara-l
-rule single_event_login {
+rule honeypot_login {
     meta:
-        author = "analyst@example.com"
+        author = "soc-team@example.com"
+        description = "Any login to a honeypot host is suspicious by definition"
+        severity = "HIGH"
 
     events:
         $e.metadata.event_type = "USER_LOGIN"
+        $e.target.hostname in %honeypot_hosts
 
     condition:
         $e
@@ -513,26 +519,29 @@ rule single_event_login {
 
 ### Multi-Event Correlation Rule
 
-Detects a user logging in and then creating a file within 10 minutes:
+Detects a successful user login followed by a sensitive process launch (like PowerShell or cmd) on the same host within 10 minutes, which could indicate post-compromise lateral movement or hands-on-keyboard activity:
 
 ```yara-l
-rule login_then_file_creation {
+rule login_then_suspicious_process {
     meta:
-        author = "analyst@example.com"
-        description = "User login followed by file creation within 10 minutes"
+        author = "soc-team@example.com"
+        description = "Successful login followed by sensitive process launch on the same host"
         severity = "MEDIUM"
 
     events:
         $login.metadata.event_type = "USER_LOGIN"
-        $file.metadata.event_type = "FILE_CREATION"
-        $login.principal.user.userid = $user
-        $file.principal.user.userid = $user
+        $login.security_result.action = "ALLOW"
+        $login.principal.hostname = $host
+
+        $proc.metadata.event_type = "PROCESS_LAUNCH"
+        $proc.principal.hostname = $host
+        re.regex($proc.target.process.command_line, `(powershell|cmd|wmic|psexec|certutil)`) nocase
 
     match:
-        $user over 10m
+        $host over 10m
 
     condition:
-        $login and $file
+        $login and $proc
 }
 ```
 
@@ -612,11 +621,12 @@ Keywords are **case-insensitive** (`and` and `AND` are equivalent), but variable
 | --- | --- | --- |
 | `re.regex(field, pattern)` | Regex substring match (use backtick-quoted patterns) | See regex section above |
 | `net.ip_in_range_cidr(field, cidr)` | Check if IP is within a CIDR range | `net.ip_in_range_cidr($e.principal.ip, "10.0.0.0/8")` |
-| `strings.concat(a, b)` | Concatenate strings | `strings.concat($e.principal.hostname, ".local")` |
-| `timestamp.as_string(ts)` | Convert timestamp to string | `timestamp.as_string($e.metadata.event_timestamp)` |
-| `math.round(n)` | Round a number | `math.round(10.7)` returns `11` |
+| `strings.concat(a, b, ...)` | Concatenate strings, integers, or floats | `strings.concat($e.principal.hostname, ":", $e.principal.port)` |
+| `timestamp.get_date(seconds)` | Convert unix seconds to YYYY-MM-DD string | `timestamp.get_date($e.metadata.event_timestamp.seconds)` |
+| `timestamp.get_timestamp(seconds)` | Convert unix seconds to timestamp | `timestamp.get_timestamp(max($e.metadata.event_timestamp.seconds))` |
 | `arrays.concat(a, b)` | Concatenate arrays | `arrays.concat(["a","b"], ["c"])` |
-| `group(fields...)` | Group similar fields into a placeholder | `group($e.principal.ip, $e.target.ip)` |
+| `math.round(n)` | Round a number (**dashboards/search only**) | `math.round(10.7)` returns `11` |
+| `group(fields...)` | Group similar fields into a placeholder (**dashboards/search only**) | `group($e.principal.ip, $e.target.ip)` |
 
 ---
 
