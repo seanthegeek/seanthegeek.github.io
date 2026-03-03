@@ -13,7 +13,7 @@ tags:
   - Anthropic
   - Pentagon
   - OpenAI
-  - xAi
+  - xAI
   - Musk
   - Trump
   - DoD
@@ -22,7 +22,7 @@ date: 2026-02-28 22:51 -0500
 ---
 If you follow tech news, you've probably heard about the Friday Pentagon action to label Claude a supply chain risk because the maker of Claude, Anthropic, refused to back down from its rules forbidding the use of Claude for mass domestic surveillance of Americans or fully autonomous weapons systems. Such a designation has never been applied to a US company, and is usually intended for companies under the influence of US adversaries. Just hours later, OpenAI announced an agreement to provide its AI models to the Pentagon, while claiming to adhere to more red lines than Anthropic.
 
-Until yesterday, I had only used the Claude models through GitHub copilot, with great success. After seeing Anthropic stand firm against the dangerous demands of the second Trump administration, I decided to try Claude Pro, started a conversation about this situation Here are some excerpts of the [full conversation](https://claude.ai/chat/3c091768-b350-4046-9ac2-05d860d425de).
+Until yesterday, I had only used the Claude models through GitHub copilot, with great success. After seeing Anthropic stand firm against the dangerous demands of the second Trump administration, I decided to try Claude Pro, started a conversation about this situation. Here are some excerpts of the [full conversation](https://claude.ai/chat/3c091768-b350-4046-9ac2-05d860d425de).
 
 ## Legal analysis
 
@@ -160,11 +160,11 @@ Claude replied:
 
 ## Following up on current events in context
 
-On saturday I followed up with:
+On Saturday I followed up with:
 
 > Anthropic has now stated that they will challenge the government's actions in court.
 
-Claud replied:
+Claude replied:
 
 > Let me pull that statement directly.
 >
@@ -248,13 +248,13 @@ Claude replied:
 
 > Yeah, that's a real quality of life difference. ChatGPT hitting a hard wall where it just stops working mid-conversation is pretty frustrating, especially when you've built up a lot of context and now have to either start fresh or manually re-explain everything. The compaction approach is much more graceful — the conversation just keeps going, and while some early detail might get smoothed over in the summary, the thread of the conversation stays intact.
 
-Claude explained the process, and how a developer could implement it, which can be found in the [Claude API documentation](https://platform.claude.com/docs/en/build-with-claude/compaction). Being able to maintain a long chat without losing track of the conversation would be very helpful for someone analyzing a massive data from a massive amount of intelligence.
+Claude explained the process, and how a developer could implement it, which can be found in the [Claude API documentation](https://platform.claude.com/docs/en/build-with-claude/compaction). Being able to maintain a long chat without losing track of the conversation would be very helpful for someone analyzing massive amounts of intelligence data.
 
 Then I decided to give it another task that I could never get ChatGPT to do correctly: Output in unrendered markdown. Chatbots like ChatGPT and Claude output their replies in markdown text, which is rendered into HTML in real time for web browsers. I have noticed that no matter how many times I tried to get ChatGPT to give me a specific bit of data as Markdown text, it would always end up rendering either some or all of the text as HTML. Yes, I know chatbot web interfaces have a copy button that copies an entire reply as markdown. That's not the point. The point is, I should be able to get my data exactly as I asked for it.
 
 My first attempt failed.
 
-> Can you give me a comparison of context windows across major AI models. formatted as a Markdown table?
+> Can you give me a comparison of context windows across major AI models, formatted as a Markdown table?
 
 ![Claude responding to the prompt "Can you give me a comparison of context windows across major  AI models. formatted as a Markdown table?"](/assets/images/claude-rendering-markdown-table.webp)
 
@@ -266,7 +266,7 @@ Once I got more specific I got what I wanted.
 
 ## Implications for the Intelligence Community
 
-Based on its performance analyzing Open Source Intelligence (OSINT) I've found Claude to be versatile, insightful, and capable of handling long-running conversations while incorporating data from old and new sources with strong prompt adherence. Exactly the sort of thing that would be highly useful when working to distill insights from a variety of intelligence sources. GPT...not so much. I worry that the Pentagon's illegal actions will not only make businesses less likely to do business with the government, as others have mentioned, but will also potentially put lives at risk by forcing the Intelligence Community to switch an unfamiliar product with little notice. All this seemingly because an company with ethics wouldn't allow Trump and friends to spy on whoever they wanted.
+Based on its performance analyzing Open Source Intelligence (OSINT) I've found Claude to be versatile, insightful, and capable of handling long-running conversations while incorporating data from old and new sources with strong prompt adherence. Exactly the sort of thing that would be highly useful when working to distill insights from a variety of intelligence sources. GPT...not so much. I worry that the Pentagon's illegal actions will not only make businesses less likely to do business with the government, as others have mentioned, but will also potentially put lives at risk by forcing the Intelligence Community to switch an unfamiliar product with little notice. All this seemingly because n company with ethics wouldn't allow Trump and friends to spy on whoever they wanted.
 
 ## The Streisand effect
 
