@@ -7,7 +7,7 @@
     "*.html": "liquid"
   },
   "[markdown]": {
-    "editor.wordWrap": "bounded",
+    "editor.wordWrap": "bounded"
   },
   // Disable vscode built-in stylelint
   "css.validate": false,
@@ -334,6 +334,7 @@
     "Snoden",
     "softfail",
     "someuser",
+    "sourcetype",
     "spacebar",
     "Splashtop",
     "Stallman",
