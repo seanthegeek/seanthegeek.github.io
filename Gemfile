@@ -16,4 +16,8 @@ gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-redirect-from'
+  gem "rouge-lexer-spl"
+  gem "rouge-lexer-yara"
+  gem "rouge-lexer-yara-l"
 end
+
