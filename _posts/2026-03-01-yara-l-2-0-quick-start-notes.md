@@ -53,15 +53,15 @@ If you're coming from Splunk (SPL) or from writing classic YARA rules for malwar
 
 ## Rule Structure Overview
 
-Every YARA-L rule is wrapped in a `rule <name> { ... }` block. The sections **must** appear in the following order. Required sections are marked with **(R)**.
+Every YARA-L rule is wrapped in a `rule <name> { ... }` block. The sections **must** appear in the following order.
 
 ```yara-l
 rule <rule_name> {
-    meta:        // (R) – key-value metadata (required for rules; not used in search/dashboards)
-    events:      // (R) – defines event filters, variables, and joins
+    meta:        // (Required) – key-value metadata (required for rules; not used in search/dashboards)
+    events:      // (Required) – defines event filters, variables, and joins
     match:       // Optional – grouping keys and time window
     outcome:     // Optional – computed output fields per detection
-    condition:   // (R) – Boolean logic that triggers the rule
+    condition:   // (Required) – Boolean logic that triggers the rule
     options:     // Optional – runtime behavior flags
 }
 ```
@@ -166,9 +166,9 @@ outcome:
     $risk_score = if($failed_count > 20, 90, 50)
 ```
 
-Supported aggregate functions include: `count()`, `count_distinct()`, `sum()`, `avg()`, `min()`, `max()`, `stddev()`, `array()`, `array_distinct()`.
+Supported aggregate functions include: `count`, `count_distinct`, `sum`, `avg`, `min`, `max`, `stddev`, `array`, `array_distinct`.
 
-You can also use conditional `if()` expressions and reference the outcome variables in the `condition` section.
+You can also use conditional `if` expressions and reference the outcome variables in the `condition` section.
 
 **When to use:** Whenever you need to surface extra context in detections or make the `condition` section dependent on aggregated values (e.g., severity thresholds).
 
@@ -245,6 +245,9 @@ options:
 ```
 
 After a detection fires for a given hostname and user combination, further detections for that same combination are suppressed for 24 hours. The `suppression_window` should be greater than or equal to the `match` window size.
+
+> If you don't specify a `suppression_key` for single-event rules, all query instances are suppressed globally during the window — not per any grouping key.
+{: .prompt-info}
 
 **When to use:** When you need to override default zero-value filtering, or when you want to reduce alert noise for high-volume rules.
 
@@ -357,7 +360,8 @@ events:
     re.regex($e.principal.process.command_line, `powershell\.exe`) nocase
 ```
 
-**Important:** `nocase` cannot be used on enumerated fields (like `metadata.event_type`) because enumerated values are always uppercase. Attempting it causes a syntax error.
+> `nocase` cannot be used on enumerated fields (like `metadata.event_type`) because enumerated values are always uppercase. Attempting it causes a syntax error.
+{: .prompt-warning}
 
 **Classic YARA comparison:** Classic YARA also has `nocase`, but it's a modifier on string definitions in the `strings` section (e.g., `$s = "foobar" nocase`). YARA-L uses it on comparison expressions in the `events` section instead.
 
@@ -401,21 +405,26 @@ events:
 
 ### `before` and `after` (Temporal Ordering)
 
-Enforce ordering between event variables within the time window:
+The `before` and `after` keywords are used **only in the `match` section** to create
+sliding windows anchored to a pivot event.
 
-```yara-l
-events:
-    $e1.metadata.event_type = "USER_LOGIN"
-    $e2.metadata.event_type = "FILE_CREATION"
-    $e1.principal.user.userid = $e2.principal.user.userid
-    $e2.metadata.event_timestamp.seconds > $e1.metadata.event_timestamp.seconds
-```
-
-Or use `after` in the `match` section for a sliding window:
+- `after` — the window begins at the pivot event's timestamp and extends forward.
+- `before` — the window ends at the pivot event's timestamp and extends backward.
 
 ```yara-l
 match:
-    $host over 10m after $e1
+    $host over 10m after $login    // 10 minutes forward from $login
+    $host over 5m before $alert    // 5 minutes backward from $alert
+```
+
+Sliding windows are only available for rules, not in search or dashboards.
+They require more processing power than standard windows — only use them when event
+sequencing is critical. If you just need to verify one event happened after another,
+a timestamp comparison in the `events` section is more efficient:
+
+```yara-l
+events:
+    $e2.metadata.event_timestamp.seconds > $e1.metadata.event_timestamp.seconds
 ```
 
 ---
@@ -612,7 +621,7 @@ rule vpn_login_without_mfa {
 
 The following are reserved keywords in YARA-L 2.0 and cannot be used as variable names:
 
-`rule`, `meta`, `match`, `over`, `events`, `condition`, `outcome`, `options`, `and`, `or`, `not`, `nocase`, `in`, `regex`, `cidr`, `before`, `after`, `all`, `any`, `if`, `max`, `min`, `sum`, `array`, `array_distinct`, `count`, `count_distinct`, `is`, `null`
+`rule`, `meta`, `match`, `over`, `events`, `condition`, `outcome`, `options`, `and`, `or`, `not`, `nocase`, `in`, `regex`, `cidr`, `before`, `after`, `all`, `any`, `if`, `max`, `min`, `sum`, `array`, `array_distinct`, `count`, `count_distinct`
 
 Keywords are **case-insensitive** (`and` and `AND` are equivalent), but variable names must not collide with any keyword (e.g., `$AND` or `$outcome` are invalid).
 
@@ -652,7 +661,6 @@ Keywords are **case-insensitive** (`and` and `AND` are equivalent), but variable
 ## References
 
 - [Get Started: YARA-L 2.0 in SecOps](https://docs.cloud.google.com/chronicle/docs/yara-l/getting-started) — Introductory walkthrough
-- [YARA-L 2.0 Language Syntax](https://docs.cloud.google.com/chronicle/docs/detection/yara-l-2-0-syntax) — Full syntax specification (sections, variables, options)
 - [Overview of YARA-L 2.0](https://cloud.google.com/chronicle/docs/detection/yara-l-2-0-overview) — Examples of single-event, multi-event, regex, sliding window, and outcome rules
 - [YARA-L 2.0 Rule Examples](https://docs.cloud.google.com/chronicle/docs/yara-l/yara-l-2-0-examples) — Additional query and rule examples
 - [Transition from SPL to YARA-L 2.0](https://docs.cloud.google.com/chronicle/docs/yara-l/transition_spl_yaral) — Side-by-side SPL and YARA-L comparison
