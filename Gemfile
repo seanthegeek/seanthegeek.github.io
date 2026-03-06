@@ -18,6 +18,6 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem "rouge-lexer-spl"
   gem "rouge-lexer-yara"
-  gem "rouge-lexer-yara-l"
+  gem "rouge-lexer-yara-l", require: "rouge/lexer/yaral"
 end
 
