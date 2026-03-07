@@ -18,3 +18,26 @@
 .embed-video {
   aspect-ratio: auto !important;
 }
+
+
+/* Extend base16.dark with better token differentiation */
+
+html {
+  @media (prefers-color-scheme: light) {
+    &[data-mode='dark'] .highlight {
+      .nf, .fm { color: #7cafc2; }  /* functions - blue */
+      .nb { color: #dc9656; }        /* builtins - orange */
+      .bp { color: #ba8baf; }        /* builtin pseudo - purple */
+      .nc { color: #f7ca88; }        /* class names - yellow */
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    &:not([data-mode]) .highlight,
+    &[data-mode='dark'] .highlight {
+      .nf, .fm { color: #7cafc2; }
+      .nb { color: #dc9656; }
+      .bp { color: #ba8baf; }
+      .nc { color: #f7ca88; }
+    }
+  }
+}
