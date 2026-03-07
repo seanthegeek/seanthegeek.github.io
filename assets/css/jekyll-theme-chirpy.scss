@@ -23,6 +23,7 @@
 
 html:not([data-mode]) .highlight,
 html[data-mode='dark'] .highlight {
+  .k, .kd, .kn, .kp, .kr, .kv { color: #aa759f; }
   .nf, .fm { color: #7cafc2; }
   .nb { color: #dc9656; }
   .bp { color: #ba8baf; }
