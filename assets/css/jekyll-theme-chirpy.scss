@@ -19,6 +19,28 @@
   aspect-ratio: auto !important;
 }
 
+/* Hide the right panel entirely */
+#panel-wrapper {
+  display: none !important;
+}
+
+/* Let main content claim the freed panel space */
+@media (min-width: 1200px) {
+  #main-wrapper main[aria-label="Main Content"],
+  #tail-wrapper {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Let the container fill the viewport so margins become symmetric */
+  #main-wrapper > .container {
+    max-width: none;
+    width: 100%;
+    padding-right: 3rem; /* matches the gap between sidebar and content */
+  }
+}
+
 /* Extend base16.dark with better token differentiation */
 
 html:not([data-mode]) .highlight,
