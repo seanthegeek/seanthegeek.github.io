@@ -4,8 +4,7 @@ import os
 from glob import glob
 import subprocess
 
-file_extensions = [".png", ".jpg", ".jpeg" ".tiff",
-                   ".pbm", ".pgm", ".ppm", ".pnm"]
+file_extensions = [".png", ".jpg", ".jpeg.tiff", ".pbm", ".pgm", ".ppm", ".pnm"]
 
 image_paths = []
 
@@ -17,4 +16,3 @@ for image_path in image_paths:
     output_path = f"{base_filename}.webp"
     if not os.path.exists(output_path):
         subprocess.run(["cwebp", image_path, "-o", output_path])
-
