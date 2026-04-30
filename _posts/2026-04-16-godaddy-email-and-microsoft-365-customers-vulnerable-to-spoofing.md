@@ -41,7 +41,7 @@ Received: from mailer.badguysandco.com ([72.167.42.251])
 
 I used Cloudflare to purchase the domain `examplelaw.com` and host its DNS records. Then, I added the SPF record `v=spf1 include:secureserver.net -all` to simulate someone following GoDaddy's instructions. After that, I created a GoDaddy account using a different email domain. There was nothing tying that GoDaddy account to `examplelaw.com`, and yet GoDaddy let me send an email as that domain without any authentication.
 
-There's no easy fix for GoDaddy because the way this was built.
+There's no easy fix for GoDaddy because of the way their infrastructure was built.
 
 If GoDaddy starts requiring credentials at the relay and tying accounts to verified domain ownership as they should, that instantly breaks email relaying for an untold number of customers accustomed to unauthenticated relaying. And those customers may not even be the people who originally built or configured their site — making fixes harder to coordinate.
 
