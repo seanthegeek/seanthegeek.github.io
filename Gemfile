@@ -17,6 +17,7 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-redirect-from'
   gem "rouge-lexer-spl", "~> 0.2.0"
+  gem "rouge-lexer-spl2", "~> 0.1.0"
   gem "rouge-lexer-yara", "~> 0.2.0"
   gem "rouge-lexer-yara-l", "~> 0.3.2"
   gem "rouge-lexer-graylog", "~> 0.1.0"
