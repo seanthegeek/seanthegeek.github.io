@@ -41,10 +41,10 @@ Received: from mailer.badguysandco.com ([72.167.42.251])
 
 I used Cloudflare to purchase the domain `examplelaw.com` and host its DNS records. Then, I added the SPF record `v=spf1 include:secureserver.net -all` to simulate someone following GoDaddy's instructions. After that, I created a GoDaddy account using a different email domain. There was nothing tying that GoDaddy account to `examplelaw.com`, and yet GoDaddy let me send an email as that domain without any authentication.
 
-There's no easy fix for GoDaddy because they set this up so badly to begin with.
+There's no easy fix for GoDaddy because the way this was built.
 
 If GoDaddy starts requiring credentials at the relay and tying accounts to verified domain ownership as they should, that instantly breaks email relaying for an untold number of customers accustomed to unauthenticated relaying. And those customers may not even be the people who originally built or configured their site — making fixes harder to coordinate.
 
 GoDaddy could simply change their documentation, but that doesn't help the countless domains that already have the risky `include` in their SPF record.
 
-Given this risk, `include:secureserver.net` does not belong in any SPF record. If you are using GoDaddy to relay email from a GoDaddy web server, consider using a different relay like Amazon SES instead. If you are using Microsoft 365, use `include:spf.protection.outlook.com` instead — even if you bought your Microsoft 365 subscription through GoDaddy or use a GoDaddy domain. If you use an email security gateway (e.g., IronPort or Proofpoint) and have your outgoing email routed through that, use their SPF `include`/`a` mechanism instead of either `include:secureserver.net` or `include:spf.protection.outlook.com`. You might also want to look into renewing your Microsoft 365 subscription with another reseller, or even directly through Microsoft.
+Given this risk, `include:secureserver.net` does not belong in any SPF record. If you are using GoDaddy to relay email from a GoDaddy web server, consider using a different relay like Amazon SES instead. If you are using Microsoft 365, use `include:spf.protection.outlook.com` instead — even if you bought your Microsoft 365 subscription through GoDaddy or use a GoDaddy domain. If you use an email security gateway (e.g., IronPort or Proofpoint) and have your outgoing email routed through that, use their SPF `include`/`a` mechanism instead of either `include:secureserver.net` or `include:spf.protection.outlook.com`.
