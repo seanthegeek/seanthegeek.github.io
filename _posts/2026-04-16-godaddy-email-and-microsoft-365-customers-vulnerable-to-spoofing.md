@@ -17,6 +17,9 @@ tags:
 The [GoDaddy documentation](https://web.archive.org/web/20260408164836/https://www.godaddy.com/help/add-an-spf-record-to-my-domain-for-my-email-40499) for email and Microsoft 365 instructs customers to add `include:secureserver.net` to the SPF record of the customer domain. `secureserver.net` wastes an SPF lookup by only including `spf-0.secureserver.net`, instead of including the record data directly. `spf-0.secureserver.net` authorizes the IP addresses of GoDaddy's outbound webmail services and the unauthenticated gateways used by their web hosting customers. It ends with `include:spf.protection.outlook.com` for Microsoft 365 services — the only SPF `include` that Microsoft 365 customers actually need.
 
 ```bash
+dig +short txt @1.1.1.1 secureserver.net | grep spf
+"v=spf1 include:spf-0.secureserver.net -all"
+
 dig +short txt @1.1.1.1 spf-0.secureserver.net
 "v=spf1 ip4:64.202.168.0/24 ip4:97.74.135.0/24 ip4:72.167.238.0/24 ip4:72.167.234.0/24 ip4:72.167.218.0/24 ip4:68.178.252.0/24 ip4:68.178.213.0/24 ip4:216.69.139.0/24 ip4:208.109.80.0/24 ip4:92.204.81.0/24 ip4:198.71.224.0/19 ip4:184.168.224.0/24 ip4:184.1" "68.200.0/24 ip4:184.168.131.0/24 ip4:184.168.128.0/24 ip4:92.204.65.0/28 ip4:182.50.132.0/24 ip4:173.201.192.0/23 ip4:72.167.168.0/24 ip4:92.204.71.0/24 ip4:132.148.124.0/24 ip4:72.167.172.0/24 ip4:188.121.52.0/24 ip4:188.121.53.0/24 ip4:52.89.65.132 ip4:" "54.214.222.76 ip4:54.184.82.65 ip4:52.26.164.15 ip4:68.178.181.0/24 ip4:50.63.8.0/22 ip4:208.109.194.0/24 ip4:80.237.138.192/26 include:spf.protection.outlook.com -all"
 ```
