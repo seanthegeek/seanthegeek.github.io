@@ -210,7 +210,7 @@ The use of Global Device ID (GDID)  tie the attacks to a specific installation o
 >
 > Microsoft records also indicate: (1) the user of the device assigned the GDID accessed multiple sites from Tzulo servers in May 2025, including the `.168` server (the IP address used to create the ngrok account) on May 12, 2025; and (2) the user of the device assigned the GDID, on May 12, 2025 at 22:47 UTC, a little more than three hours after the ngrok account was created, the user visited “`[Company F].com`” from the `.168` proxy server.
 
-Paragraphs 61-62 describes tie the GDID to the IP address activity of Stokes' social media accounts.
+Paragraphs 61-62 tie the GDID to the IP address activity of Stokes' social media accounts.
 
 > As set forth below, there is probable cause that STOKES is the user of the device that set up the ngrok account used to commit the Subject Offenses. More specifically, the GDID assigned to the device that set up the ngrok account has common IP address activity with the Subject Accounts used by STOKES (discussed above).
 
