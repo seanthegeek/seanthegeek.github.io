@@ -60,6 +60,132 @@ As an early warning, organizations should create detections for large volumes of
 
 In their criminal referral, another victim, "Company H" provided logs between Conspirator A and Stokes on Company H's infrastructure, described on paragraph 65.
 
+```text
+STOKES         im in bed lmk if u need anything
+Coconspirator A ok
+Coconspirator A yo
+Coconspirator A accept vcm
+Coconspirator A vm [virtual machine]
+Coconspirator A request
+STOKES         yo
+STOKES         accepted
+STOKES         need anything?
+Coconspirator A n
+STOKES         kk
+Coconspirator A yo
+Coconspirator A can i anydesk [a remote desktop application]
+Coconspirator A you
+Coconspirator A send code
+Coconspirator A i wanna search a [support] ticket
+STOKES         yo
+STOKES         send name
+STOKES         ill search
+….
+Coconspirator A lmk when ur out of shower
+Coconspirator A ill anydesk it
+STOKES         when out
+STOKES         Why
+Coconspirator A cause I wanna look thru
+STOKES         erm ok
+...
+Coconspirator A How
+Coconspirator A do i search
+Coconspirator A Again
+STOKES         Just
+STOKES         put whatever
+STOKES         ui want
+STOKES         in that
+STOKES         Search
+STOKES         Thing
+…
+STOKES         we can term
+STOKES         any acount
+STOKES         u got opps? [opposition]
+... LOL
+Coconspirator A BRO
+STOKES         like not term
+STOKES         disable
+STOKES         haha
+Coconspirator A BRO
+Coconspirator A HOW
+Coconspirator A SHOW ME
+…
+STOKES         the db [database] is full of google urls
+STOKES         lmfao
+STOKES         look
+Coconspirator A oh
+Coconspirator A wtf
+Coconspirator A like
+Coconspirator A fake rpeorts
+…
+Coconspirator A let me try to disable
+STOKES         wait
+Coconspirator A i got a user
+Coconspirator A and discrim
+STOKES         idk
+STOKES         send
+STOKES         think uy need
+Coconspirator A ill put
+STOKES         Email
+Coconspirator A in search
+STOKES         Ok
+STOKES         How
+STOKES         did u get
+STOKES         Advancedsearcghh
+STOKES         Lmfao
+Coconspirator A advanced search
+STOKES         U CAN SEARCH BY CREDIT CARD NUMBER
+STOKES         LOL
+Coconspirator A Nah
+Coconspirator A Via
+STOKES         Oh
+STOKES         i thoguht it was VISA
+STOKES         LMFAO
+STOKES         Are
+STOKES         u trying
+STOKES         to term chris>
+STOKES         ?
+Coconspirator A No
+Coconspirator A Haha
+STOKES         Oh
+STOKES         Haha
+Coconspirator A Should
+Coconspirator A i click
+Coconspirator A Disable
+Coconspirator A LOL
+…
+STOKES         u have 30 mins before i kcik u off btw
+Coconspirator A Ok
+STOKES         i gtg to school
+Coconspirator A Ok
+STOKES         and let this shit dump
+STOKES         Disable
+STOKES         LM FAOL
+Coconspirator A Nah
+STOKES         r u making
+STOKES         disable API [application program interface]?
+STOKES         LOL
+…
+STOKES         idk if u can like disable any account
+STOKES         they have to have ticket
+STOKES         i think
+… go offline
+STOKES
+STOKES         stop disabling
+STOKES         Btw
+STOKES         we dont want
+STOKES         to lose access
+STOKES         Etc
+Coconspirator A Nvm
+Coconspirator A dont work
+STOKES         Arghhh
+STOKES         we should stop disableing
+STOKES         ppl
+Coconspirator A we should
+Coconspirator A not be talking on [abbreviation for Company H]
+STOKES         tg [Telegram]
+```
+
 ## Other tools used
 
 Paragraphs 67-68 describe other tools and services abused by the group, including MEGA file storage, File.io, and RustDesk.
