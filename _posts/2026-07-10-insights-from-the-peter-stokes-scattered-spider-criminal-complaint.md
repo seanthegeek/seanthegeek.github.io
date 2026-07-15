@@ -58,7 +58,7 @@ As an early warning, organizations should create detections for large volumes of
 
 ## Chat on a victim's infrastructure
 
-In their criminal referral, an online-communication platform, "Company H" provided logs of chats between Conspirator A and Stokes on Company H's infrastructure after their support infrastructure was compromised, described on paragraph 65. Coconspirator A was identified because the same IP address was used for an account and the one used to communicate with Stokes, who used an existing account under the name "Bouquet". The Bouquet account contained a post with image of homework bearing the name "Peter William Stokes". Coconspirator A confirmed to the FBI that Stokes used the moniker Bouquet.
+In their criminal referral, an online-communication platform, "Company H" provided logs of chats between Conspirator A and Stokes on Company H's infrastructure after their support system was compromised, described on paragraph 65. Coconspirator A was identified because the same IP address was used for an account used by Coconspirator A and another account used to communicate with Stokes, who used an existing account under the name "Bouquet". The Bouquet account contained a post with image of homework bearing the name "Peter William Stokes". Coconspirator A confirmed to the FBI that Stokes used the moniker Bouquet.
 
 Highlights of the chat include:
 
