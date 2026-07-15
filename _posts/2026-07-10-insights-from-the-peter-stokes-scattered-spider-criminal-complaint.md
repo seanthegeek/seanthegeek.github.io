@@ -12,7 +12,7 @@ image:
 
 I had been looking for the Peter Stokes case to be unsealed ever since the Chicago Tribune [broke the story](https://www.chicagotribune.com/2026/04/27/teen-charged-in-chicago-was-part-of-international-scattered-spider-hacker-group-feds-say/)  way back in April. The case, [United States v. Stokes, 1:25-cr-00812, (N.D. Ill.)](https://www.courtlistener.com/docket/73595564/united-states-v-stokes/)  was finally unsealed July 7th, nearly a week after the Department of Justice [press release](https://www.justice.gov/opa/pr/alleged-member-criminal-cyber-hacking-group-scattered-spider-arrested-finland-and-extradited). In typical fashion, the [Criminal Complaint](https://storage.courtlistener.com/recap/gov.uscourts.ilnd.492131/gov.uscourts.ilnd.492131.1.0.pdf)  has 47 paragraphs of definitions for legal purposes. The details of the activity itself begin in the Probable Cause section, on paragraph 48.
 
-## Microsoft alleges that Stokes became involved with Scattered Spider when he was as young as 15
+## Microsoft alleges that Stokes became involved with Scattered Spider when he was 15
 
 Paragraph 51 of the complaint includes part of Microsoft's criminal referral to the FBI. Octo Tempest is Microsoft's codename for Scattered Spider, which itself is a Crowdstrike codename given to the group. Spencer is Microsoft's codename for Stokes.
 
