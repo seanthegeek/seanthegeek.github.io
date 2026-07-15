@@ -224,7 +224,7 @@ Notably, the complaint **does not** mention how Microsoft obtained the internet 
 
 ## Prior identification by Allison Nixon and others
 
-The publication Zero day [reported that](https://storage.courtlistener.com/recap/gov.uscourts.ilnd.492131/gov.uscourts.ilnd.492131.1.0.pdf) Stokes was identified long before the GDID association.
+The publication Zero day [reported that](https://www.zetter-zeroday.com/tracking-peter-stokes-and-the-com-allison-nixon-and-her-work-unmasking-cybercriminals/) Stokes was identified long before the GDID association.
 
 > There has been a lot of speculation that the GDID was the way Bouquet/Stokes was unmasked. But Nixon says investigators uncovered Bouquet’s real identity years earlier, after he posted a threat against her in a Telegraph channel in September 2022 when he was just 15 years old. “Shoutout to Allison Nixon, hope you get put in a spliff bitch,” Bouquet wrote at the time. She reported the post and Bouquet to her community of security researchers and law enforcement contacts, leading someone to uncover his real identity within months. The Microsoft GDID tracking was simply part of a years-long investigation in the aftermath of this threat to produce a trail of evidence connecting Stokes’ computer to various crimes over the last four years. Some of that evidence went into the indictment that was produced after he became an adult and could be charged with felonies.
 >
