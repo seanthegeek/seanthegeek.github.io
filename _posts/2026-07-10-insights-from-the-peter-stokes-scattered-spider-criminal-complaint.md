@@ -58,7 +58,13 @@ As an early warning, organizations should create detections for large volumes of
 
 ## Chat on a victim's infrastructure
 
-In their criminal referral, another victim, "Company H" provided logs between Conspirator A and Stokes on Company H's infrastructure, described on paragraph 65.
+In their criminal referral, an online-communication platform, "Company H" provided logs of chats between Conspirator A and Stokes on Company H's infrastructure after their support infrastructure was compromised, described on paragraph 65. Coconspirator A was identified because the same IP address was used for an account and the one used to communicate with Stokes, who used an existing account under the name "Bouquet". The Bouquet account contained a post with image of homework bearing the name "Peter William Stokes". Coconspirator A confirmed to the FBI that Stokes used the moniker Bouquet.
+
+Highlights of the chat include:
+
+- Confusing immigration visas with VISA credit cards
+- They tried and failed to disable accounts just to see if they could
+- They only realized their activity was noisy after the fact
 
 ```text
 STOKES         im in bed lmk if u need anything
@@ -215,6 +221,14 @@ Paragraphs 61-62 tie the GDID to the IP address activity of Stokes' social media
 > As set forth below, there is probable cause that STOKES is the user of the device that set up the ngrok account used to commit the Subject Offenses. More specifically, the GDID assigned to the device that set up the ngrok account has common IP address activity with the Subject Accounts used by STOKES (discussed above).
 
 Notably, the complaint **does not** mention how Microsoft obtained the internet traffic information for the specific GDID. It is possible that the Microsoft Edge browser was used by the attacker and that browsing  data was collected. However, the lack of specificity doesn't rule out more invasive collection, raising significant privacy concerns.
+
+## Prior identification by Allison Nixon and others
+
+The publication Zero day [reported that](storage.courtlistener.com/recap/gov.uscourts.ilnd.492131/gov.uscourts.ilnd.492131.1.0.pdf) Stokes was identified long before the GDID association.
+
+> There has been a lot of speculation that the GDID was the way Bouquet/Stokes was unmasked. But Nixon says investigators uncovered Bouquet’s real identity years earlier, after he posted a threat against her in a Telegraph channel in September 2022 when he was just 15 years old. “Shoutout to Allison Nixon, hope you get put in a spliff bitch,” Bouquet wrote at the time. She reported the post and Bouquet to her community of security researchers and law enforcement contacts, leading someone to uncover his real identity within months. The Microsoft GDID tracking was simply part of a years-long investigation in the aftermath of this threat to produce a trail of evidence connecting Stokes’ computer to various crimes over the last four years. Some of that evidence went into the indictment that was produced after he became an adult and could be charged with felonies.
+>
+> Nixon says often the cybercriminals she tracks were never on her radar before they posted a death threat about her. They only became a target of her tracking after threatening her, eventually leading to their arrest.
 
 ## What's next?
 
