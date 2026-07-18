@@ -7,10 +7,10 @@ categories: [Crime, Information Security]
 tags: [Scattered Spider, Ransomware]
 image:
   path: /assets/images/stokes-doj.webp
-  description: Photo of stokes provided by the DOJ
+  description: Photo of Stokes provided by the DOJ
 ---
 
-I had been looking for the Peter Stokes case to be unsealed ever since the Chicago Tribune [broke the story](https://www.chicagotribune.com/2026/04/27/teen-charged-in-chicago-was-part-of-international-scattered-spider-hacker-group-feds-say/)  way back in April. The case, [United States v. Stokes, 1:25-cr-00812, (N.D. Ill.)](https://www.courtlistener.com/docket/73595564/united-states-v-stokes/)  was finally unsealed July 7th, nearly a week after the Department of Justice [press release](https://www.justice.gov/opa/pr/alleged-member-criminal-cyber-hacking-group-scattered-spider-arrested-finland-and-extradited). In typical fashion, the [Criminal Complaint](https://storage.courtlistener.com/recap/gov.uscourts.ilnd.492131/gov.uscourts.ilnd.492131.1.0.pdf)  has 47 paragraphs of definitions for legal purposes. The details of the activity itself begin in the Probable Cause section, on paragraph 48.
+I had been looking for the Peter Stokes case to be unsealed ever since the Chicago Tribune [broke the story](https://www.chicagotribune.com/2026/04/27/teen-charged-in-chicago-was-part-of-international-scattered-spider-hacker-group-feds-say/)  way back in April. The case, [United States v. Stokes, 1:25-cr-00812, (N.D. Ill.)](https://www.courtlistener.com/docket/73595564/united-states-v-stokes/)  was ordered unsealed on June 30th, but the documents did not become publicly available on the docket until July 7th, nearly a week after the Department of Justice [press release](https://www.justice.gov/opa/pr/alleged-member-criminal-cyber-hacking-group-scattered-spider-arrested-finland-and-extradited). In typical fashion, the [Criminal Complaint](https://storage.courtlistener.com/recap/gov.uscourts.ilnd.492131/gov.uscourts.ilnd.492131.1.0.pdf) spends its first 47 paragraphs on introductions, legal definitions, and background on the service providers involved. The details of the activity itself begin in the Probable Cause section, on paragraph 48.
 
 ## Microsoft alleges that Stokes became involved with Scattered Spider when he was 15
 
@@ -24,7 +24,7 @@ Footnote 1 describes Conspirator A.
 
 ## Details of Tactics, Techniques, and Procedures (TTPs)
 
-Starting on paragraph 52, the the Complaint  details the entire kill chain of a ransomware attack on Company F, "multibillion-dollar, luxury-item retailer".
+Starting on paragraph 52, the Complaint details the entire kill chain of a ransomware attack on Company F, a "multibillion-dollar, luxury-item retailer".
 
 ### Vishing a helpdesk took over multiple IT admin accounts within hours
 
@@ -32,7 +32,7 @@ Access was gained by simply calling the helpdesk and getting them to reset the p
 
 > Regarding the intrusion, according to a Company F representative and a review of Company F network logs:
 >
-> a. The intrusion incident began on May 12, 2025, with several phishing calls4 to the Company F informational-technology help desk made by one or more threat actors from two Google Voice phone numbers, one ending in 8777 (the “8777 phone number”) and one ending in 2742 (the “2742 phone number”). The threat actors pretended to be Company F employee-users and requested a reset of their authentication credentials, including the password and mobile device for multi-factor authentication. Using this phishing technique, the threat actors compromised three Company F user accounts within approximately two to three hours.
+> a. The intrusion incident began on May 12, 2025, with several phishing calls to the Company F informational-technology help desk made by one or more threat actors from two Google Voice phone numbers, one ending in 8777 (the “8777 phone number”) and one ending in 2742 (the “2742 phone number”). The threat actors pretended to be Company F employee-users and requested a reset of their authentication credentials, including the password and mobile device for multi-factor authentication. Using this phishing technique, the threat actors compromised three Company F user accounts within approximately two to three hours.
 >
 > b. Two of these compromised user accounts belonged to Company F IT administrators. These users had high-privilege user accounts associated with their standard user accounts. To access their high-privilege accounts, those users would have to authenticate their standard user accounts and then be assigned a temporary password for their high-privilege account. The threat actors thus obtained access to high-privilege accounts for these two IT administrator accounts by using their compromised standard user accounts.
 
@@ -40,9 +40,9 @@ To mitigate this type of voice phishing (vishing) attack, organizations should e
 
 ### The ngrok cloud gateway was abused to bypass network controls
 
-> As part of their malicious activity, the threat actors used a service called ngrok to circumvent Company F network defenses and enable persistent unauthorized access to the Company F data center...ngrok is a service used by web developers and others to securely connect local servers to the Internet, allowing broader access to information or applications hosted on local servers...ngrok is used to create secure tunnels between an Internet-accessible ngrok endpoint (e.g., `https://abc123.ngrok.io`) and a service on called "tunnels"...the Company F server established multiple tunnel connections with several ngrok servers. As described below, ngrok records for the account with the ngrok authentication token showed that the threat actors used these tunnel connections to transfer about 99.5 megabytes of data to the Company F data center and transfer about 1.27 gigabytes of data from the Company F data center.
+> As part of their malicious activity, the threat actors used a service called ngrok to circumvent Company F network defenses and enable persistent unauthorized access to the Company F data center...ngrok is a service used by web developers and others to securely connect local servers to the Internet, allowing broader access to information or applications hosted on local servers...ngrok is used to create secure tunnels between an Internet-accessible ngrok endpoint (e.g., `https://abc123.ngrok.io`) and a service on a server in a local network (e.g., `localhost:3000`)...These secure connections are sometimes called "tunnels"...the Company F server established multiple tunnel connections with several ngrok servers. As described below, ngrok records for the account with the ngrok authentication token showed that the threat actors used these tunnel connections to transfer about 99.5 megabytes of data to the Company F data center and transfer about 1.27 gigabytes of data from the Company F data center.
 
-To mitigate this, organizations should block `*.ngrock.com` if Ngrock is not used in the organization.
+To mitigate this, organizations should block the ngrok domains (`*.ngrok.com`, `*.ngrok.io`, and `*.ngrok-free.app`) if ngrok is not used in the organization.
 
 ### Teleport abused to exfiltrate data to Amazon S3
 
@@ -58,11 +58,11 @@ As an early warning, organizations should create detections for large volumes of
 
 ## Chat on a victim's infrastructure
 
-In their criminal referral, an online-communication platform, "Company H" provided logs of chats between Conspirator A and Stokes on Company H's infrastructure after their support system was compromised, described on paragraph 65. Coconspirator A was identified because the same IP address was used to access an account used Coconspirator A and another account used by Coconspirator A to communicate with Stokes, who used an existing account under the name "Bouquet". The Bouquet account contained a post with an image of homework bearing the name "Peter William Stokes". Coconspirator A confirmed to the FBI that Stokes used the moniker Bouquet.
+In their criminal referral, an online-communication platform, "Company H", provided logs of chats between Coconspirator A and Stokes on Company H's infrastructure after their support system was compromised, described in paragraphs 64-65. Coconspirator A was identified because his personal Company H account used two IP addresses that were also used by the threat actor. Coconspirator A chatted with Stokes using a separate Company H account under his first name, while Stokes used an existing account under the name "Bouquet". The Bouquet account contained a post with an image of homework bearing the name "Peter William Stokes". Coconspirator A confirmed to the FBI that Stokes used the moniker Bouquet.
 
 Highlights of the chat include:
 
-- Confusing immigration visas with VISA credit cards
+- Stokes briefly thought support tickets could be searched by credit card number, misreading a search option labeled "Via" as "VISA"
 - They tried and failed to disable accounts just to see if they could
 - They only realized their activity was noisy after the fact
 
@@ -208,9 +208,9 @@ Paragraphs 55-56 describe the attacker infrastructure.
 
 ## Identification of Stokes via GDID
 
-The use of Global Device ID (GDID)  tie the attacks to a specific installation of Windows is described in paragraphs 57-59.
+The use of a Global Device ID (GDID) to tie the attacks to a specific installation of Windows is described in paragraphs 57-59.
 
-> According to Microsoft records, the ngrok account was set up through Global Device Identifier `g:6755467234350028` (“the GDID”). According to a Microsoft representative, a Global Device Identifier in the Windows ecosystem is a persistent, device-level identifier designed to uniquely identify an installation of a Windows operating system on a device, either a physical device (e.g., a mobile phone or laptop) or virtual machine13, across certain Microsoft services and scenarios. A GDID is a globally unique identifier tied to the installation of Windows on a device. A GDID remains consistent across Windows operating system updates on a device, but a reinstall of Windows, either on the same device or on a different device, will be tied to a new unique GDID. Thus, one Microsoft user could have multiple GDIDs.
+> According to Microsoft records, the ngrok account was set up through Global Device Identifier `g:6755467234350028` (“the GDID”). According to a Microsoft representative, a Global Device Identifier in the Windows ecosystem is a persistent, device-level identifier designed to uniquely identify an installation of a Windows operating system on a device, either a physical device (e.g., a mobile phone or laptop) or virtual machine, across certain Microsoft services and scenarios. A GDID is a globally unique identifier tied to the installation of Windows on a device. A GDID remains consistent across Windows operating system updates on a device, but a reinstall of Windows, either on the same device or on a different device, will be tied to a new unique GDID. \[A footnote adds: "Thus, one Microsoft user could have multiple GDIDs."\]
 >
 > According to Microsoft records, on May 12, 2025, at 19:21 UTC—when, according to ngrok records, the ngrok account was created—the device with the GDID accessed, among other ngrok pages, “`https://dashboard.ngrok.com/signup`,” the ngrok page to set up an ngrok account.
 >
@@ -224,9 +224,9 @@ Notably, the complaint **does not** mention how Microsoft obtained the internet 
 
 ## Prior identification by Allison Nixon and others
 
-The publication Zero day [reported that](https://www.zetter-zeroday.com/tracking-peter-stokes-and-the-com-allison-nixon-and-her-work-unmasking-cybercriminals/) Stokes was identified long before the GDID association.
+In a July 15th report published after this post was originally written, the publication Zero Day [reported that](https://www.zetter-zeroday.com/tracking-peter-stokes-and-the-com-allison-nixon-and-her-work-unmasking-cybercriminals/) Stokes was identified long before the GDID association.
 
-> There has been a lot of speculation that the GDID was the way Bouquet/Stokes was unmasked. But Nixon says investigators uncovered Bouquet’s real identity years earlier, after he posted a threat against her in a Telegraph channel in September 2022 when he was just 15 years old. “Shoutout to Allison Nixon, hope you get put in a spliff bitch,” Bouquet wrote at the time. She reported the post and Bouquet to her community of security researchers and law enforcement contacts, leading someone to uncover his real identity within months. The Microsoft GDID tracking was simply part of a years-long investigation in the aftermath of this threat to produce a trail of evidence connecting Stokes’ computer to various crimes over the last four years. Some of that evidence went into the indictment that was produced after he became an adult and could be charged with felonies.
+> There has been a lot of speculation that the GDID was the way Bouquet/Stokes was unmasked. But Nixon says investigators uncovered Bouquet’s real identity years earlier, after he posted a threat against her in a Telegraph \[sic\] channel in September 2022 when he was just 15 years old. “Shoutout to Allison Nixon, hope you get put in a spliff bitch,” Bouquet wrote at the time. She reported the post and Bouquet to her community of security researchers and law enforcement contacts, leading someone to uncover his real identity within months. The Microsoft GDID tracking was simply part of a years-long investigation in the aftermath of this threat to produce a trail of evidence connecting Stokes’ computer to various crimes over the last four years. Some of that evidence went into the indictment that was produced after he became an adult and could be charged with felonies.
 >
 > Nixon says often the cybercriminals she tracks were never on her radar before they posted a death threat about her. They only became a target of her tracking after threatening her, eventually leading to their arrest.
 
