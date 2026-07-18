@@ -7,7 +7,7 @@ categories: [Crime, Information Security]
 tags: [Scattered Spider, Ransomware]
 image:
   path: /assets/images/stokes-doj.webp
-  description: Photo of Stokes provided by the DOJ
+  alt: Photo of Stokes provided by the DOJ
 ---
 
 I had been looking for the Peter Stokes case to be unsealed ever since the Chicago Tribune [broke the story](https://www.chicagotribune.com/2026/04/27/teen-charged-in-chicago-was-part-of-international-scattered-spider-hacker-group-feds-say/)  way back in April. The case, [United States v. Stokes, 1:25-cr-00812, (N.D. Ill.)](https://www.courtlistener.com/docket/73595564/united-states-v-stokes/)  was ordered unsealed on June 30th, but the documents did not become publicly available on the docket until July 7th, nearly a week after the Department of Justice [press release](https://www.justice.gov/opa/pr/alleged-member-criminal-cyber-hacking-group-scattered-spider-arrested-finland-and-extradited). In typical fashion, the [Criminal Complaint](https://storage.courtlistener.com/recap/gov.uscourts.ilnd.492131/gov.uscourts.ilnd.492131.1.0.pdf) spends its first 47 paragraphs on introductions, legal definitions, and background on the service providers involved. The details of the activity itself begin in the Probable Cause section, on paragraph 48.
