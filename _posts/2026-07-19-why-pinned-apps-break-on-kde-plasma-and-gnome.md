@@ -114,7 +114,9 @@ Every broken case I've examined is the same mismatch for a different reason:
 - **Wrong value — Microsoft Edge.** Edge writes `StartupWMClass=crx__<appid>`
   (a legacy X11 class) into desktop files while its native-Wayland windows
   advertise `app_id` `msedge-_<appid>-Default`. Neither matches the other,
-  nor the filename.
+  nor the filename.  Full analysis and fix in
+  [the Edge post]({% post_url
+  2026-07-19-fixing-edge-pwa-taskbar-grouping-on-kde-plasma-gnome-wayland %})
 - **Missing key — VMware Workstation.** The window's `WM_CLASS` is
   `"vmware", "Vmware"`, the desktop file is `vmware-workstation.desktop`,
   and no `StartupWMClass` exists to bridge them. Worked example below.
