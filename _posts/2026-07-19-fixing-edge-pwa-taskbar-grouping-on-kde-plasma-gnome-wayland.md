@@ -24,7 +24,7 @@ side, and it has a one-line fix per app that you can apply yourself.
 This post covers the symptom, the root cause, a verified workaround, and why
 earlier reports claimed the obvious fix "no longer works."
 
-## The symptom
+## Symptoms
 
 On Plasma, with the Icons-Only Task Manager set to group by program
 name:
@@ -33,9 +33,8 @@ name:
 - Launch a second PWA (say, Microsoft Outlook). Both windows — and every PWA you
   launch afterward — collapse into a single taskbar group under the *first*
   PWA's icon, identified as `msedge`.
-- Pinned PWA launchers never show as running. Pinning a running PWA window
-  produces a generic page icon that launches the bare Edge browser when
-  clicked.
+- Pinned PWA launchers never show as running.
+- Pinning a running PWA window and closing it produces a generic page icon that launches the bare Edge browser when clicked.
 - Launching a PWA from the application menu briefly shows the launcher's
   startup placeholder in the taskbar, which then disappears and is replaced
   by a separate, unassociated entry.
