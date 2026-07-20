@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Fixing Microsoft Edge PWA taskbar grouping on KDE Plasma and GNOME (Wayland)"
+description: A simple fix can make make Microsoft edge PWA launchers work correctly on Linux
 date: 2026-07-19
 categories: [linux]
 tags: [kde, plasma, gnome, wayland, edge, pwa, linux, kubuntu]

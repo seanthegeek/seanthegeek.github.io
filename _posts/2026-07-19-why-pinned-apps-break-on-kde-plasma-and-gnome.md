@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why pinned apps break on KDE Plasma and GNOME, and the two steps that diagnose it"
+description: How to fix broken app launchers and pinned apps on Linux
 date: 2026-07-19
 categories: [linux]
 tags: [kde, plasma, gnome, wayland, x11, vmware, edge, linux, kubuntu]
@@ -113,9 +114,7 @@ Every broken case I've examined is the same mismatch for a different reason:
 - **Wrong value — Microsoft Edge.** Edge writes `StartupWMClass=crx__<appid>`
   (a legacy X11 class) into desktop files while its native-Wayland windows
   advertise `app_id` `msedge-_<appid>-Default`. Neither matches the other,
-  nor the filename. Full analysis and fix in
-  [the Edge post]({% post_url
-  2026-07-19-fixing-edge-pwa-taskbar-grouping-on-kde-plasma-wayland %}).
+  nor the filename.
 - **Missing key — VMware Workstation.** The window's `WM_CLASS` is
   `"vmware", "Vmware"`, the desktop file is `vmware-workstation.desktop`,
   and no `StartupWMClass` exists to bridge them. Worked example below.
