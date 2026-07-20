@@ -161,7 +161,7 @@ won't heal itself), launch VMware from the application menu, and re-pin the
 running entry. The pin now keeps its icon when closed and relaunches
 correctly.
 
-## The control case that proves it's not your desktop
+## The control case that proves the problem isn't your desktop
 
 Here's the interesting part. VMware ships a second desktop file in the same
 package: `vmware-netcfg.desktop`, for the Virtual Network Editor. Its
