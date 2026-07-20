@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "Why pinned apps break on KDE Plasma and GNOME, and the two steps that diagnose it"
+image:
+  path: /assets/images/kde-con-only-task-manager-vmware-workstation.webp
+  alt: A screenshot of VMWare Workstation in a KDE Icon-Only Task Manager 
 description: How to fix broken app launchers and pinned apps on Linux
 date: 2026-07-19
-categories: [linux]
+categories: [Linux]
 tags: [kde, plasma, gnome, wayland, x11, vmware, edge, linux, kubuntu]
 ---
 
