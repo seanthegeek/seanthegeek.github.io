@@ -191,12 +191,12 @@ your SPF record**.
 Mechanisms listed in the SPF record have an implicit pass (i.e. +) qualifier
 in front of them. Possible qualifiers are:
 
-| Modifier | Name     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| \+       | pass     | A "pass" result means the client is authorized to inject mail with the given identity. The domain can now, in the sense of reputation, be considered responsible for sending the message. Further policy checks can now proceed with confidence in the legitimate use of the identity.                                                                                                                                                                                                                                                                                                                                                                                   |
-| ?        | neutral  | A "neutral" result indicates that although a policy for the identity was discovered, there is no definite assertion (positive or negative) about the client. A "neutral" result MUST be treated exactly like the "none" result; the distinction exists only for informational purposes. Treating "neutral" more harshly than "none" would discourage domain managers from testing the use of SPF records. With a "none" result, the SPF verifier has no information at all about the authorization or lack thereof of the client to use the checked identity or identities. The check_host() function completed without errors but was not able to reach any conclusion. |
-| \~       | softfail | A "softfail" result ought to be treated as somewhere between "fail" and "neutral"/"none". The domain manager believes the host is not authorized but is not willing to make a strong policy statement.Receiving software SHOULD NOT reject the message based solely on this result, but MAY subject the message to closer scrutiny than normal.                                                                                                                                                                                                                                                                                                                          |
-| \-       | fail     | A "fail" result is an explicit statement that the client is not authorized to use the domain in the given identity. Disposition of SPF fail messages is a matter of local policy.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Modifier | Name | Description |
+| --- | --- | --- |
+| \+ | pass | A "pass" result means the client is authorized to inject mail with the given identity. The domain can now, in the sense of reputation, be considered responsible for sending the message. Further policy checks can now proceed with confidence in the legitimate use of the identity. |
+| ? | neutral | A "neutral" result indicates that although a policy for the identity was discovered, there is no definite assertion (positive or negative) about the client. A "neutral" result MUST be treated exactly like the "none" result; the distinction exists only for informational purposes. Treating "neutral" more harshly than "none" would discourage domain managers from testing the use of SPF records. With a "none" result, the SPF verifier has no information at all about the authorization or lack thereof of the client to use the checked identity or identities. The check_host() function completed without errors but was not able to reach any conclusion. |
+| \~ | softfail | A "softfail" result ought to be treated as somewhere between "fail" and "neutral"/"none". The domain manager believes the host is not authorized but is not willing to make a strong policy statement.Receiving software SHOULD NOT reject the message based solely on this result, but MAY subject the message to closer scrutiny than normal. |
+| \- | fail | A "fail" result is an explicit statement that the client is not authorized to use the domain in the given identity. Disposition of SPF fail messages is a matter of local policy. |
 
 Most SPF records (except for those that are designed to be included in other
 SPF records) end with an all modifier. The all modifier consists of the word
@@ -296,26 +296,26 @@ Here's an example DKIM header
 
 #### Required DKIM header tags
 
-| Tag | Value Description                                                                     |
-| --- | ------------------------------------------------------------------------------------- |
-| v   | Signature version                                                                     |
-| a   | Signature algorithm (rsa-sha256 should be used)                                       |
-| d   | The domain where the public key can be found                                          |
-| s   | The selector pointing to the public key at the domain (an arbitrary string)           |
-| h   | A colon separated list of headers to concatenate when validating the header signature |
-| b   | The base64-encoded signature hash of the headers listed in the h tag                   |
-| bh  | The base64-encoded signature hash of the message body                                  |
+| Tag | Value Description |
+| --- | --- |
+| v | Signature version |
+| a | Signature algorithm (rsa-sha256 should be used) |
+| d | The domain where the public key can be found |
+| s | The selector pointing to the public key at the domain (an arbitrary string) |
+| h | A colon separated list of headers to concatenate when validating the header signature |
+| b | The base64-encoded signature hash of the headers listed in the h tag |
+| bh | The base64-encoded signature hash of the message body |
 
 #### Optional DKIM header tags
 
-| Tag | Value Description                                                                                                                                                                                                                                                                                                                         |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| t   | Signature timestamp in UNIX timestamp format (i.e. the number of seconds from 00:00:00 on January 1, 1970 in the UTC time zone)                                                                                                                                                                                                           |
-| x   | Signature expiration timestamp in UNIX timestamp format (i.e. the number of seconds from 00:00:00 on January 1, 1970 in the UTC time zone)                                                                                                                                                                                                |
-| c   | canonicalization algorithm: Defines if/how the receiving the receiving mail server should normalize the message to account for slight variations in whitespace and line breaks that could otherwise invalidate the signature. **Relaxed mode is strongly recommended for the header and body canonicalization** (i.e. c=relaxed/relaxed). |
-| i   | Identity/user-agent of the signer                                                                                                                                                                                                                                                                                                         |
-| l   | Number of characters from the beginning of the body to use when calculating the body signature (**not recommended because someone could append malicious content**)                                                                                                                                                                       |
-| z   | Not well defined                                                                                                                                                                                                                                                                                                                          |
+| Tag | Value Description |
+| --- | --- |
+| t | Signature timestamp in UNIX timestamp format (i.e. the number of seconds from 00:00:00 on January 1, 1970 in the UTC time zone) |
+| x | Signature expiration timestamp in UNIX timestamp format (i.e. the number of seconds from 00:00:00 on January 1, 1970 in the UTC time zone) |
+| c | canonicalization algorithm: Defines if/how the receiving the receiving mail server should normalize the message to account for slight variations in whitespace and line breaks that could otherwise invalidate the signature. **Relaxed mode is strongly recommended for the header and body canonicalization** (i.e. c=relaxed/relaxed). |
+| i | Identity/user-agent of the signer |
+| l | Number of characters from the beginning of the body to use when calculating the body signature (**not recommended because someone could append malicious content**) |
+| z | Not well defined |
 
 The receiving mail server uses the selector (`s=`) and domain (`d=`) tags to look
 up the public key as a DNS TXT record at
@@ -342,16 +342,16 @@ lookup tool](https://mxtoolbox.com/dkim.aspx) at MX Toolbox.
 
 #### Recommended DKIM DNS record tags
 
-| **Tag** | **Value Description**                                                                                                                                                                                                                                                                                                       |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **v**   | According to the RFC, this tag is recommended but not required, with an implicit default value of DKIM1. **However, in practice, some recipients don't follow the RFC exactly, and require this tag to be used anyway. This must be the first tag if used.\*\***Your DKIM public key records should start with v=DKIM1;\*\* |
-| **n**   | Notes: Human-readable notes for administrators reviewing DNS records **Useful for noting which service uses a selector and key.**                                                                                                                                                                                           |
+| **Tag** | **Value Description** |
+| --- | --- |
+| **v** | According to the RFC, this tag is recommended but not required, with an implicit default value of DKIM1. **However, in practice, some recipients don't follow the RFC exactly, and require this tag to be used anyway. This must be the first tag if used.\*\***Your DKIM public key records should start with v=DKIM1;\*\* |
+| **n** | Notes: Human-readable notes for administrators reviewing DNS records **Useful for noting which service uses a selector and key.** |
 
 #### Required DKIM DNS record tags
 
-| **Tag** | **Value Description**                                                                                                  |
-| ------- | ---------------------------------------------------------------------------------------------------------------------- |
-| **p**   | Public key data encoded in base64. **Keys must be at least 1024 bytes long. 2048 bit length is strongly recommended.** |
+| **Tag** | **Value Description** |
+| --- | --- |
+| **p** | Public key data encoded in base64. **Keys must be at least 1024 bytes long. 2048 bit length is strongly recommended.** |
 
 #### Optional DKIM record tags
 
@@ -552,10 +552,10 @@ and at least send back aggregate reports if requested by the domain owner.
 A message passes a DMARC check by passing DKIM **or** SPF, **as long as the
 related indicators are also in alignment with the message's from address**.
 
-| DKIM      | SPF                                                                                                                                              |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| Passing   | The signature in the DKIM header is validated using a public key that is published as a DNS record of the domain name specified in the signature | The mail server's IP address is listed in the SPF record of the domain in the SMTP envelope's mail from header. |
-| Alignment | The signing domain aligns with the base domain in the message from header.                                                                       | The domain in the SMTP envelope's mail from header aligns with the base domain in the message's from header.    |
+| | DKIM | SPF |
+| --- | --- | --- |
+| Passing | The signature in the DKIM header is validated using a public key that is published as a DNS record of the domain name specified in the signature | The mail server's IP address is listed in the SPF record of the domain in the SMTP envelope's mail from header. |
+| Alignment | The signing domain aligns with the base domain in the message from header. | The domain in the SMTP envelope's mail from header aligns with the base domain in the message's from header. |
 
 DKIM alignment is more important than SPF, because only DKIM remains aligned
 when a message is forwarded via a mailbox rule.
@@ -568,10 +568,10 @@ addresses listed in the domain's DMARC record. There reports contain very
 useful information for debugging message alignment and identifying malicious
 spoofing campaigns.
 
-| Report type            | Description                                                                                                                                                                                                                                                                                                                                                           |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Aggregate (rua)        | Compressed XML files sent at least once per day by recipient domains to the URIs listed in the rua DMARC tag. Records number of messages sent from an IP address, and the SPF and DKIM status. These reports are sent regardless of a success or failure, so that domain owners have a view of all mail authentication of messages appearing to be from their domain. |
-| Failure/Forensic (ruf) | An email with an email that failed the DMARC check attached (RFC 822/.eml format) sent to the URIs listed in the ruf DMARC tag. These can be very useful for DMARC troubleshooting and phishing investigations. However, **most email recipients do not send forensic reports, or may only supply the message headers for privacy\*\***reasons.\*\*                   |
+| Report type | Description |
+| --- | --- |
+| Aggregate (rua) | Compressed XML files sent at least once per day by recipient domains to the URIs listed in the rua DMARC tag. Records number of messages sent from an IP address, and the SPF and DKIM status. These reports are sent regardless of a success or failure, so that domain owners have a view of all mail authentication of messages appearing to be from their domain. |
+| Failure/Forensic (ruf) | An email with an email that failed the DMARC check attached (RFC 822/.eml format) sent to the URIs listed in the ruf DMARC tag. These can be very useful for DMARC troubleshooting and phishing investigations. However, **most email recipients do not send forensic reports, or may only supply the message headers for privacy\*\***reasons.\*\* |
 
 ### DMARC policies
 
@@ -580,11 +580,11 @@ This policy tells recipients how they should react to an email that appears to
 come from that domain based on the message from header but does not pass DMARC
 alignment.
 
-| Policy     | Description                                                                                                                                                                                                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| none       | The Domain Owner requests no specific action be taken regarding delivery of messages. Use this first to ensure your messages are DMARC compliant before switching to quarantine or reject.                                                                                              |
+| Policy | Description |
+| --- | --- |
+| none | The Domain Owner requests no specific action be taken regarding delivery of messages. Use this first to ensure your messages are DMARC compliant before switching to quarantine or reject. |
 | quarantine | The Domain Owner wishes to have email that fails the DMARC mechanism check be treated by Mail Receivers as suspicious. Depending on the capabilities of the Mail Receiver, this can mean "place into spam folder", "scrutinize with additional intensity", and/or "flag as suspicious". |
-| reject     | The Domain Owner wishes for Mail Receivers to reject email that fails the DMARC mechanism check. Rejection SHOULD occur during the SMTP transaction.                                                                                                                                    |
+| reject | The Domain Owner wishes for Mail Receivers to reject email that fails the DMARC mechanism check. Rejection SHOULD occur during the SMTP transaction. |
 
 Even if a domain has a DMARC policy set to p=none, mail services may still
 display warnings to their users in the event of a DMARC failure, as shown in
@@ -649,30 +649,30 @@ Here is an example DMARC policy DNS record
 
 #### Required DMARC policy DNS record tags
 
-| Tag | Description                      |
-| --- | -------------------------------- |
-| v   | DMARC version (e.g., `v=DMARC1`) |
-| p   | DMARC policy                     |
+| Tag | Description |
+| --- | --- |
+| v | DMARC version (e.g., `v=DMARC1`) |
+| p | DMARC policy |
 
 #### Recommended DMARC policy DNS record tags
 
 These tags tell recipients where and how to send reports.
 
-| Tag | Description                      |
-| --- | -------------------------------- |
-| rua   | A comma separated list of email addresses prefixed with `mailto:` for receiving aggregate reports. Only the first two are required to be honored|
-| ruf   | A comma separated list of email addresses prefixed with `mailto:` for receiving failure/forensic reports. Only the first two are required to be honored                     |
+| Tag | Description |
+| --- | --- |
+| rua | A comma separated list of email addresses prefixed with `mailto:` for receiving aggregate reports. Only the first two are required to be honored |
+| ruf | A comma separated list of email addresses prefixed with `mailto:` for receiving failure/forensic reports. Only the first two are required to be honored |
 
 #### Not recommended DMARC policy DNS record tags
 
-| Tag   | Description                                                                                                                                                                                                                                                                                                                                                                  |
-| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| sp    | **Default mirrors the p tag's value** Sets the policy for all subdomains. Setting this tag could allow the spoofing of any arbitrary subdomain. **Add a separate policy record for each subdomain as needed instead.**                                                                                                                                                       |
-| pct   | **Default is 100** Sets the percentage of mail to apply the DMARC policy to. Set p=none when testing instead to ensure all mail is treated equally                                                                                                                                                                                                                           |
-| adkim | **Default is relaxed (r)** In relaxed mode, the Organizational Domains of both the DKIM-authenticated signing domain (taken from the value of the "d=" tag in the signature) and that of the RFC 5322 From domain must be equal if the identifiers are to be considered aligned.                                                                                             |
-| aspf  | **Default is relaxed (r)** In relaxed mode, the SPF-authenticated domain and RFC5322 From domain must have the same Organizational Domain. In strict mode, only an exact DNS domain match is considered to produce Identifier Alignment.                                                                                                                                     |
-| rf    | A list separated by colons of one or more report formats as requested by the Domain Owner to be used when a message fails both SPF and DKIM tests to report details of the individual failure. Only "afrf" (the auth-failure report type) is currently supported in the DMARC standard.                                                                                      |
-| ri    | **Default is 86400** Indicates a request to Receivers to generate aggregate reports separated by no more than the requested number of seconds. DMARC implementations MUST be able to provide daily reports and SHOULD be able to provide hourly reports when requested. However, anything other than a daily report is understood to be accommodated on a best-effort basis. |
+| Tag | Description |
+| --- | --- |
+| sp | **Default mirrors the p tag's value** Sets the policy for all subdomains. Setting this tag could allow the spoofing of any arbitrary subdomain. **Add a separate policy record for each subdomain as needed instead.** |
+| pct | **Default is 100** Sets the percentage of mail to apply the DMARC policy to. Set p=none when testing instead to ensure all mail is treated equally |
+| adkim | **Default is relaxed (r)** In relaxed mode, the Organizational Domains of both the DKIM-authenticated signing domain (taken from the value of the "d=" tag in the signature) and that of the RFC 5322 From domain must be equal if the identifiers are to be considered aligned. |
+| aspf | **Default is relaxed (r)** In relaxed mode, the SPF-authenticated domain and RFC5322 From domain must have the same Organizational Domain. In strict mode, only an exact DNS domain match is considered to produce Identifier Alignment. |
+| rf | A list separated by colons of one or more report formats as requested by the Domain Owner to be used when a message fails both SPF and DKIM tests to report details of the individual failure. Only "afrf" (the auth-failure report type) is currently supported in the DMARC standard. |
+| ri | **Default is 86400** Indicates a request to Receivers to generate aggregate reports separated by no more than the requested number of seconds. DMARC implementations MUST be able to provide daily reports and SHOULD be able to provide hourly reports when requested. However, anything other than a daily report is understood to be accommodated on a best-effort basis. |
 
 ### DMARC authorization DNS records
 
@@ -829,32 +829,32 @@ Configuration steps for common mailing list platforms are listed below.
 
 Navigate to General Settings, and configure the settings below
 
-| **Setting**                  | **Value** |
-| ---------------------------- | --------- |
-| **subject_prefix**           |           |
-| **from_is_list**             | No        |
-| **first_strip_reply_to**     | No        |
-| **reply_goes_to_list**       | Poster    |
-| **include_rfc2369_headers**  | Yes       |
-| **include_list_post_header** | Yes       |
-| **include_sender_header**    | No        |
+| **Setting** | **Value** |
+| --- | --- |
+| **subject_prefix** | |
+| **from_is_list** | No |
+| **first_strip_reply_to** | No |
+| **reply_goes_to_list** | Poster |
+| **include_rfc2369_headers** | Yes |
+| **include_list_post_header** | Yes |
+| **include_sender_header** | No |
 
 Navigate to Non-digest options, and configure the settings below:
 
-| **Setting**         | **Value** |
-| ------------------- | --------- |
-| **msg_header**      |           |
-| **msg_footer**      |           |
-| **scrub_nondigest** | No        |
+| **Setting** | **Value** |
+| --- | --- |
+| **msg_header** | |
+| **msg_footer** | |
+| **scrub_nondigest** | No |
 
 Navigate to Privacy Options> Sending Filters, and configure the settings
 below:
 
-| **Setting**                            | **Value** |
-| -------------------------------------- | --------- |
-| **dmarc_moderation_action**            | Accept    |
-| **dmarc_quarantine_moderation_action** | Yes       |
-| **dmarc_none_moderation_action**       | Yes       |
+| **Setting** | **Value** |
+| --- | --- |
+| **dmarc_moderation_action** | Accept |
+| **dmarc_quarantine_moderation_action** | Yes |
+| **dmarc_none_moderation_action** | Yes |
 
 #### Mailman 3 best practices
 
@@ -866,23 +866,23 @@ Navigate to Settings> Alter Messages
 
 Configure the settings below:
 
-| **Setting**                      | **Value**  |
-| -------------------------------- | ---------- |
-| **Convert HTML to plaintext**    | No         |
-| **Include RFC2369 headers**      | Yes        |
-| **Include the list post header** | Yes        |
-| **Explicit reply-to address**    |            |
-| **First strip reply-to**         | No         |
-| **Reply goes to list**           | No munging |
+| **Setting** | **Value** |
+| --- | --- |
+| **Convert HTML to plaintext** | No |
+| **Include RFC2369 headers** | Yes |
+| **Include the list post header** | Yes |
+| **Explicit reply-to address** | |
+| **First strip reply-to** | No |
+| **Reply goes to list** | No munging |
 
 Navigate to Settings> DMARC Mitigation
 
 Configure the settings below
 
-| **Setting**                        | **Value**            |
-| ---------------------------------- | -------------------- |
-| **DMARC mitigation action**        | No DMARC mitigations |
-| **DMARC mitigate unconditionally** | No                   |
+| **Setting** | **Value** |
+| --- | --- |
+| **DMARC mitigation action** | No DMARC mitigations |
+| **DMARC mitigate unconditionally** | No |
 
 Create a blank footer template for your mailing list to remove the message
 footer. Unfortunately, the Postorius mailing list admin UI will not allow you
@@ -909,11 +909,11 @@ Configuration steps for common mailing list platforms are listed below.
 
 Navigate to Privacy Options> Sending Filters, and configure the settings below
 
-| **Setting**                            | **Value**  |
-| -------------------------------------- | ---------- |
-| **dmarc_moderation_action**            | Munge From |
-| **dmarc_quarentine_moderation_action** | Yes        |
-| **dmarc_none_moderation_action**       | Yes        |
+| **Setting** | **Value** |
+| --- | --- |
+| **dmarc_moderation_action** | Munge From |
+| **dmarc_quarentine_moderation_action** | Yes |
+| **dmarc_none_moderation_action** | Yes |
 
 **Note:**
 
@@ -932,10 +932,10 @@ Choose the option that best fits your community.
 In the DMARC Mitigations tab of the Settings page, configure the settings
 below:
 
-| **Setting**                        | **Value**                       |
-| ---------------------------------- | ------------------------------- |
-| **DMARC mitigation action**        | Replace From: with list address |
-| **DMARC mitigate unconditionally** | No                              |
+| **Setting** | **Value** |
+| --- | --- |
+| **DMARC mitigation action** | Replace From: with list address |
+| **DMARC mitigate unconditionally** | No |
 
 **Note:**
 

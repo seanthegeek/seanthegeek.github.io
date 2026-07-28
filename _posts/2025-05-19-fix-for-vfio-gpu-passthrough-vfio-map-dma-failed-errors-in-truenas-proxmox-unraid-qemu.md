@@ -48,11 +48,11 @@ vm.nr_hugepages = (Desired RAM in MB) / 2
 ```
 
 | Memory to Reserve | Hugepages Needed |
-| ----------------- | ---------------- |
-| 1 GB (1024 MB)    | 512              |
-| 2 GB              | 1024             |
-| 4 GB              | 2048             |
-| 8 GB              | 4096             |
+| --- | --- |
+| 1 GB (1024 MB) | 512 |
+| 2 GB | 1024 |
+| 4 GB | 2048 |
+| 8 GB | 4096 |
 
 And so on.
 

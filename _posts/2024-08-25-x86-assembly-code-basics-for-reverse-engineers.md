@@ -91,11 +91,11 @@ are enclosed in square brackets. For example:
 MOV EAX, [0x410230]
 ```
 
-| **Example**       | **Description**                                                            |
-| ----------------- | -------------------------------------------------------------------------- |
-| [EAX]             | Access dynamically allocated memory (base)                                 |
-| [EBP + 0x10]      | Access data on the stack (base + displacement)                             |
-| [EAX + EBX * 8]   | Access an array with 8-byte structures (base + index \* scale)             |
+| **Example** | **Description** |
+| --- | --- |
+| [EAX] | Access dynamically allocated memory (base) |
+| [EBP + 0x10] | Access data on the stack (base + displacement) |
+| [EAX + EBX * 8] | Access an array with 8-byte structures (base + index \* scale) |
 | [EAX + EBX + 0xC] | Access a two-dimensional array of structures (base + index + displacement) |
 
 ## Common patterns
@@ -130,11 +130,11 @@ RET
 
 ## Unconditional jumps
 
-| **Name** | **Description**                        |
-| -------- | -------------------------------------- |
-| JMP      | Jump directly to a memory address      |
-| CALL     | Call a function                        |
-| RET      | Return a value to the calling function |
+| **Name** | **Description** |
+| --- | --- |
+| JMP | Jump directly to a memory address |
+| CALL | Call a function |
+| RET | Return a value to the calling function |
 
 ## Conditional jumps
 
