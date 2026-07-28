@@ -926,7 +926,7 @@ footer. Unfortunately, the Postorius mailing list admin UI will not allow you
 to create an empty template, so you'll have to create one using the system's
 command line instead, for example:
 
-```text
+```bash
  touch var/templates/lists/list.example.com/en/list:member:regular:footer
  ```
 
