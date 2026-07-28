@@ -679,8 +679,8 @@ These tags tell recipients where and how to send reports.
 If an email address in rua or ruf has a different base domain than the domain
 of the policy record, an authorization record must be added to the base domain
 of the email address to indicate that it accepts reports about that domain.
-For example, if `dmarc@example.com` also needed to accept reports for
-example.net, the poly record for example.net would look like this:
+For example, if `dmarc@example.com` needed to accept reports for
+example.net, the authorization record for example.net would look like this:
 
     _dmarc.example.net TXT "v=DMARC1; p=none; rua=mailto:dmarc@example.com; ruf=mailto:dmarc@example.com"
 
