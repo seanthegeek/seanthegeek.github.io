@@ -249,7 +249,9 @@ the ?all modifier to ~all.**
 
 #### SPF record for domains that send emails from their incoming gateways and are missing SPF records
 
-    v=spf1 mx ?all
+```text
+v=spf1 mx ?all
+```
 
 This record explicitly authorized any servers listed in the domain's MX
 record, while treating all others as neutral. This is a good temporary SPF
@@ -260,19 +262,27 @@ Here are some good examples of SPF records for common cloud email providers:
 
 #### Office 365
 
-    v=spf1 include:spf.protection.outlook.com ?all
+```text
+v=spf1 include:spf.protection.outlook.com ?all
+```
 
 #### G-Suite
 
-    v=spf1 include:_spf.google.com ?all
+```text
+v=spf1 include:_spf.google.com ?all
+```
 
 #### Proofpoint Essentials
 
-    v=spf1 a:dispatch-us.ppe-hosted.com a:dispatch-eu.ppe-hosted.com ?all
+```text
+v=spf1 a:dispatch-us.ppe-hosted.com a:dispatch-eu.ppe-hosted.com ?all
+```
 
 #### SPF record for domains that do not send email (e.g. parked domains)
 
-    v=spf1 -all
+```text
+v=spf1 -all
+```
 
 This record explicitly states that no mail servers are authorized to send
 email as this domain.
@@ -292,7 +302,9 @@ a mailbox rule).
 
 Here's an example DKIM header
 
-    DKIM-Signature: v=1; a=rsa-sha256; d=example.com; s=s1; c=relaxed/simple; l=1234; t=1117574938; x=1118006938; h=from:to:subject:date; bh=MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTI=;b=dzdVyOfAKCdLXdJOc9G2q8LoXSlEniSbav+yuU4zGeeruD00lszZVoG4ZHRNiYzR
+```email
+DKIM-Signature: v=1; a=rsa-sha256; d=example.com; s=s1; c=relaxed/simple; l=1234; t=1117574938; x=1118006938; h=from:to:subject:date; bh=MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTI=;b=dzdVyOfAKCdLXdJOc9G2q8LoXSlEniSbav+yuU4zGeeruD00lszZVoG4ZHRNiYzR
+```
 
 #### Required DKIM header tags
 
@@ -320,18 +332,24 @@ Here's an example DKIM header
 The receiving mail server uses the selector (`s=`) and domain (`d=`) tags to look
 up the public key as a DNS TXT record at
 
-    ._domainkey.
+```text
+._domainkey.
+```
 
 In the above signature example, the receiving server would look for the DKIM
 key at:
 
-    TXT s1._domainkey.example.com
+```text
+TXT s1._domainkey.example.com
+```
 
 ### DKIM DNS records
 
 DKIM DNS records are formatted as:
 
-    v=DKIM1; k=rsa; p=;
+```text
+v=DKIM1; k=rsa; p=;
+```
 
 **Lines in DNS TXT records are truncated at 256 characters. If the record is
 longer, it must be split into separate lines in the same record in order to be
@@ -475,11 +493,15 @@ used by which vendor as you audit your DNS records.
 For example, if "matketingco" asked you to publish the following DKIM TXT
 record:
 
-    randomselector._domainkey.example.com TXT "p=base64Key"
+```text
+randomselector._domainkey.example.com TXT "p=base64Key"
+```
 
 You should create the record this way instead:
 
-    randomselector._domainkey.example.com TXT "v=DKIM1; n=marketingco; k=rsa; p=base64Key"
+```text
+randomselector._domainkey.example.com TXT "v=DKIM1; n=marketingco; k=rsa; p=base64Key"
+```
 
 ### DKIM key rotation
 
@@ -496,13 +518,17 @@ domain**.
 You should create two key pairs, and store the public keys under two different
 selectors, for example:
 
-    s1._domainkey.example.com TXT "v=DKIM1; k=rsa; p=<public key>;"
-    s2._domainkey.example.com TXT "v=DKIM1; k=rsa; p=<a different public key>;"
+```text
+s1._domainkey.example.com TXT "v=DKIM1; k=rsa; p=<public key>;"
+s2._domainkey.example.com TXT "v=DKIM1; k=rsa; p=<a different public key>;"
+  ```
 
 With CNAME records, your other domains can use the same selectors and keys:
 
-    s1._domainkey.example.net CNAME s1._domainkey.example.com.
-    s2._domainkey.example.net CNAME s2._domainkey.example.com.
+```text
+s1._domainkey.example.net CNAME s1._domainkey.example.com.
+s2._domainkey.example.net CNAME s2._domainkey.example.com.
+```
 
 Third party services will often have you authorize their DKIM keys on your
 domains using CNAME records and will then validate that those records exist
@@ -603,11 +629,12 @@ Authentication headers to the email. Users and administrators can use these
 headers to determine which checks passed or failed, and why.
 
 In the example above, the mail server mail17i.protonmail.ch added the
-following headers to the email:
 
-    Authentication-Results: mail17i.protonmail.ch; dmarc=fail (p=none dis=none) header.from=[redacted].com
-    Authentication-Results: mail17i.protonmail.ch; spf=pass smtp.mailfrom=noreply_[redacted]_portal=[redacted].com__0-28eb251z589s1s@zihu5s1p6odwjt9p.s3cycftqbacrhjk9.hf76qay.3-1ffzneao.na45.bnc.salesforce.com
-    Authentication-Results: mail17i.protonmail.ch; dkim=none
+```email
+Authentication-Results: mail17i.protonmail.ch; dmarc=fail (p=none dis=none) header.from=[redacted].com
+Authentication-Results: mail17i.protonmail.ch; spf=pass smtp.mailfrom=noreply_[redacted]_portal=[redacted].com__0-28eb251z589s1s@zihu5s1p6odwjt9p.s3cycftqbacrhjk9.hf76qay.3-1ffzneao.na45.bnc.salesforce.com
+Authentication-Results: mail17i.protonmail.ch; dkim=none
+```
 
 Email headers are added and read from the bottom to the top.
 
@@ -645,7 +672,9 @@ record, **or** they can have their own record at their own_dmarc subdomain.
 
 Here is an example DMARC policy DNS record
 
-    _dmarc.example.com TXT "v=DMARC1; p=none; rua=mailto:dmarc@example.com; ruf=mailto:dmarc@example.com"
+```text
+_dmarc.example.com TXT "v=DMARC1; p=none; rua=mailto:dmarc@example.com; ruf=mailto:dmarc@example.com"
+```
 
 #### Required DMARC policy DNS record tags
 
@@ -682,13 +711,17 @@ of the email address to indicate that it accepts reports about that domain.
 For example, if `dmarc@example.com` needed to accept reports for
 example.net, the authorization record for example.net would look like this:
 
-    _dmarc.example.net TXT "v=DMARC1; p=none; rua=mailto:dmarc@example.com; ruf=mailto:dmarc@example.com"
+```text
+_dmarc.example.net TXT "v=DMARC1; p=none; rua=mailto:dmarc@example.com; ruf=mailto:dmarc@example.com"
+```
 
 Because example.net is a different base domain than example.com, the following
 record needs to be added to example.com to indicate that it accepts reports
 about example.com:
 
-    example.net._report._dmarc.example.com TXT "v=DMARC1"
+```text
+example.net._report._dmarc.example.com TXT "v=DMARC1"
+```
 
 ## DMARC deployment steps
 
@@ -801,11 +834,15 @@ summary:
 - Retain headers from the original message.
 - Add [RFC 2369](https://tools.ietf.org/html/rfc2369) List-Unsubscribe headers to outgoing messages, instead of adding unsubscribe links to the body.
 
-        List-Unsubscribe:
+  ```email
+   List-Unsubscribe:
+   ```
 
 - Add [RFC 2919](https://tools.ietf.org/html/rfc2919) List-Id headers instead of modifying the subject.
 
-        List-Id: Example Mailing List
+  ```email
+  List-Id: Example Mailing List
+   ```
 
 Modern mail clients and webmail services generate unsubscribe buttons based on
 these headers.
@@ -889,7 +926,9 @@ footer. Unfortunately, the Postorius mailing list admin UI will not allow you
 to create an empty template, so you'll have to create one using the system's
 command line instead, for example:
 
-    touch var/templates/lists/list.example.com/en/list:member:regular:footer
+```text
+ touch var/templates/lists/list.example.com/en/list:member:regular:footer
+ ```
 
 Where `list.example.com` the list ID, and `en` is the language.
 
