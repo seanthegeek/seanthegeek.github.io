@@ -6,7 +6,7 @@ image:
   path: assets/images/caddy.webp
   alt: The Caddy logo
 category: Guides
-tags: Caddy, Caddyfile NGINX, certbot, Let's Encrypt
+tags: Caddy, Caddyfile NGINX, certbot, "Let's Encrypt"
 date: 2026-09-03 16:33 -0400
 ---
 Caddy is a [web server written in Go](https://caddyserver.com/) that obtains and maintains Let's Encrypt TLS certificates automatically. It also has excellent reverse proxy configuration defaults, so much so that I was able to replace [NGINX and `certbot`](https://seanthegeek.net/posts/how-to-run-multiple-web-services-behind-one-public-ip-address/) and multiple large configuration files with a single, simple Caddyfile.
