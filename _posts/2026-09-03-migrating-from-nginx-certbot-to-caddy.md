@@ -72,7 +72,6 @@ nextcloud.example.net {
         import cloudflare_tls
         reverse_proxy https://nextcloud.example.net
 }
-
 ```
 
 For comparison, here is the same reverse proxy NGINX configuration with Certbot for just **one** of those sites.
