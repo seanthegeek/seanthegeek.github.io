@@ -24,7 +24,7 @@ http:// {
 # importable config snippet keeps the config nice and DRY
 
 # Proxy ACME HTTP-01 challenges for internal and public-facing apps
-(acme_relay) {
+(proxy_acme) {
         handle /.well-known/acme-challenge/* {
                 reverse_proxy {args[0]}:80
         }
@@ -32,27 +32,27 @@ http:// {
 }
 
 http://gateway.example.net {
-        import acme_relay gateway.example.net
+        import proxy_acme gateway.example.net
 }
 
 http://pbx.example.net {
-        import acme_relay pbx.example.net
+        import proxy_acme pbx.example.net
 }
 
 http://unifi.example.net {
-        import acme_relay unifi.example.net
+        import proxy_acme unifi.example.net
 }
 
 http://graylog.example.net {
-        import acme_relay graylog.example.net
+        import proxy_acme graylog.example.net
 }
 
 http://sandbox.example.net {
-        import acme_relay sandbox.example.net
+        import proxy_acme sandbox.example.net
 }
 
 http://nextcloud.example.net {
-        import acme_relay nextcloud.example.net
+        import proxy_acme nextcloud.example.net
 }
 
 # Proxy public-facing apps
