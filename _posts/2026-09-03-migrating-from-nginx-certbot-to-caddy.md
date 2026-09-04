@@ -21,7 +21,7 @@ http:// {
         respond 404
 }
 
-# importable config snippet keeps the config nice and DRY
+# Importable config snippet keeps the config nice and DRY
 
 # Proxy ACME HTTP-01 challenges for internal and public-facing apps
 (proxy_acme) {
