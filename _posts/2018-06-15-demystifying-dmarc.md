@@ -753,7 +753,7 @@ message will not be delivered, because DMARC does not allow an unauthorized
 mail server (i.e., the forwarding mail server) to send an email as the
 organizer's domain.
 
-This is a [known problem](https://office365.uservoice.com/forums/264636-general/suggestions/34012756-forwarding-of-calendar-appointments-from-a-dmarc-p)
+This is a [known problem](https://learn.microsoft.com/en-us/answers/questions/335985/issues-forwarding-meetings)
 with Outlook that Microsoft has so
 far not addressed. In the meantime, tell anyone who wants to forward calendar
 events to do so by clicking on the three dots, and clicking Forward as
@@ -1014,7 +1014,7 @@ Some additional steps are needed for Linux hosts.
 - [DMARC Guide for 3rd Party Senders - Dmarcian](https://space.dmarcian.com/how-to-send-dmarc-compliant-email-on-behalf-of-others/)
 - [Solutions to common problems - Dmarcian](https://dmarcian.com/category/deployment/)
 - [Reference library by OnDMARC](https://knowledge.ondmarc.com/)
-- [SPF Deployment Guide - MSDN](https://blogs.msdn.com/b/tzink/archive/2013/04/24/how-to-set-up-your-spf-records-if-you-are-outsourcing-some-or-all-of-your-email.aspx)
+- [SPF Deployment Guide - MSDN](https://learn.microsoft.com/en-us/archive/blogs/tzink/how-to-set-up-your-spf-records-if-you-are-outsourcing-some-or-all-of-your-email)
 - [RFC 7489](https://tools.ietf.org/html/rfc7489)
 
 ## SPF and DMARC record validators
@@ -1027,15 +1027,16 @@ Some additional steps are needed for Linux hosts.
 
 - [Agari](https://www.agari.com/dmarc/) - Most popular provider to federal agencies, partners with ISACs and others - "Contact us" pricing
 - [Dmarcian](https://dmarcian.com/) - Public, [straightforward pricing](https://dmarcian.com/pricing/), free public [reference](https://space.dmarcian.com/deployment/)[guides](https://space.dmarcian.com/deployment/)
-- [OnDMARC](https://ondmarc.com/) - [Low cost](https://ondmarc.com/pricing) services, extensive free public [reference guides](https://knowledge.ondmarc.com/)
+- [OnDMARC](https://redsift.com/pulse-platform/ondmarc) - [Public pricing](https://redsift.com/pulse-platform/ondmarc/pricing), extensive free public [reference guides](https://knowledge.ondmarc.redsift.com/en/)
 - [Proofpoint Email Fraud Defense](https://www.proofpoint.com/us/products/email-fraud-defense) - "Contact us" pricing; most useful for current Proofpoint customers
 - [Valimail](https://www.valimail.com/) - Offers [automated SPF/DKIM/DMARC DNS record generation](https://www.valimail.com/why-valimail/#automate-dmarc-enforcement)
+- [Suped](https://www.suped.com/) - DMARC monitoring with a free plan for one domain
 - [parsedmarc](https://domainaware.github.io/parsedmarc/) - Open source self-hosted DMARC report processing and analytics
 
 ## DMARC adoption
 
 - [Email Authentication Policy and Deployment Strategy for Financial Services Firms](https://www.fsroundtable.org/wp-content/uploads/2015/05/BITSEmailAuthenticationFeb2013.pdf) (BITS/The Financial Services Roundtable - Feb. 2013)
-- [DHS Binding Operational Directive (BOD) 18-01](https://cyber.dhs.gov/bod/18-01/) (Oct. 2017)
+- [DHS Binding Operational Directive (BOD) 18-01](https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security) (Oct. 2017)
 - [Fifty-Seven Percent of Email "From" Healthcare Industry is Fraudulent](https://nhisac.org/announcements/fifty-seven-percent-email-healthcare-industry-fraudulent/) (H-ISAC - Nov. 2017)
 
 ## DMARC compliant services
@@ -1071,7 +1072,7 @@ set up DKIM signing as your domain.
 ### Emma
 
 - <https://myemma.com/pricing>
-- <https://support.e2ma.net/Resource_Center/Account_how-to/deliverability-best-practices#5._Authenticate_your_sending_domain>
+- <https://support.myemma.com/s/article/Starting-Off-Strong-with-Deliverability-Best-Practices>
 
 ### Elastic Email
 
@@ -1080,7 +1081,7 @@ Reasonably priced, fully DMARC compliant marketing and transactional email.
 - <https://elasticemail.com/pricing/>
 - <https://elasticemail.com/marketing-features/>
 - <https://elasticemail.com/transactional/>
-- <https://elasticemail.com/resources/settings/spf-dkim-tracking-faq/>
+- <https://help.elasticemail.com/en/articles/4934400-how-to-verify-your-domain#h_f5cedbde69>
 
 ### GlobalCert SecureMail Gateway
 
@@ -1115,8 +1116,8 @@ Add `include:jangomail.com` to your SPF record.
 
 - <https://jangomail.com/features/>
 - <https://jangomail.com/pricing/>
-- <https://jangomail.com/send-email-via-api/>
-- <https://jangomail.com/domainkeysdkim/>
+- <https://support.jangomail.com/hc/en-us/articles/221075047-Sending-Email-via-API>
+- <https://support.jangomail.com/hc/en-us/articles/360039011254-DKIM-Explained>
 
 ### JangoSMTP
 
@@ -1155,8 +1156,8 @@ A MailChimp add-on service for transitional email
 
 Email and SMS marketing.
 
-- [https](https://www.mailjet.com/pricing/)[://www.mailjet.com/pricing/](https://www.mailjet.com/pricing/)
-- <https://www.mailjet.com/docs/spf-dkim-guide>
+- <https://www.mailjet.com/pricing/>
+- <https://documentation.mailjet.com/hc/en-us/articles/360049641733-Authenticating-Domains-with-SPF-and-DKIM-A-Complete-Guide>
 
 ### Net-Results
 
